@@ -1,0 +1,21 @@
+.individualProjecting {
+  padding-bottom: 91px;
+  flex: 1;
+
+  &__container {
+    display: flex;
+    gap: 60px;
+  }
+  & h1 {
+    color: #222;
+    font-size: 64px;
+
+    line-height: normal;
+    letter-spacing: -0.64px;
+  }
+  &__content {
+    display: flex;
+    gap: 27px;
+    flex-wrap: wrap;
+  }
+}

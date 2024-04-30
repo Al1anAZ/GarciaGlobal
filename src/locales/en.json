@@ -1,0 +1,220 @@
+{
+    "home": {
+        "landingTitle" : "Construction in Marbella",
+        "landingTitleP" : "Building Your Future on a Foundation of Excellence",
+        "landingConstruction": "Construction",
+        "landingInteriorDesign" : "Interior Design",
+        "landingText": "In Garcia Global Construction we turn vision into reality. Specializing in high-quality construction services, we pride ourselves on creating spaces that not only meet but exceed our clients' expectations. From groundbreaking commercial projects to luxurious residential homes, our commitment to excellence and innovation has made us a leader in the construction industry.",
+        "ourServiceTitel": "Our services",
+        "ourSerivceText": "Our mission is to deliver exceptional construction services by adhering to the highest standards of workmanship, safety, and sustainability. We aim to build long-lasting relationships with our clients, suppliers, and communities, contributing to their growth and prosperity.",
+         "ourServiceItemTitle1": "Construction of cottages and villas",
+         "ourServiceItemText1" : "Our mission is to deliver exceptional constructiuion services by adhering to the highest standards of workmanship",
+         "ourServiceItemTitle2": "Flat Interior Design",
+         "ourServiceItemText2" : "Our mission is to deliver exceptional constructiuion services by adhering to the highest standards of workmanship",
+         "ourServiceItemTitle3": "Individual Projecting",
+         "ourServiceItemText3" : "Our mission is to deliver exceptional construction services by adhering.",
+         "ourServiceItemTitle4": "Renovation of Cottages and Villas",
+         "ourServiceItemText4" : "Our mission is to deliver exceptional construction services by adhering to the.",
+         "ourServiceItemTitle5": "House Interior Design",
+         "ourServiceItemText5" : "Our mission is to deliver exceptional construction services by adhering to the highest  of workmanship.",
+         "aboutUs": "About Us",
+         "aboutUsTitle": "Building Dreams, Crafting Realities",
+         "aboutUsText": "Garcia Global Construction began as a humble construction firm with a vision to create exceptional living spaces that stand the test of time. Over the years, we've expanded our services to include not just construction but also individual projecting, interior design, renovation, and more, making us a full-service firm dedicated to comprehensive luxury living solutions. Our projects, spanning from Marbella to Estepona, showcase our versatility and expertise in creating homes that are not just structures but sanctuaries.",
+         "aboutUsItemTitle1": "3 COUNTRIES",
+         "aboutUsItemText1" : "In three countries, our projects stand as testaments to our adaptability and quality. From [Country 1] to [Country 3], we've tailored each project to blend with local landscapes while maintaining our high standards.",
+         "aboutUsItemTitle2": "10 years",
+         "aboutUsItemText2" : "The past ten years have shaped us into leaders in construction, driving innovation and delivering spaces that inspire. This journey has been built on trust, collaboration, and a relentless pursuit of excellence.",
+         "aboutUsItemTitle3": "3 COUNTRIES",
+         "aboutUsItemText3" : "With more than 60 projects across various sectors, we've proven our ability to meet diverse challenges and client needs. Each project is a reflection of our commitment to deliver excellence and satisfaction.",
+         "findUs": "FIND US",
+         "interirDesignTitle" : "Interior Design Mastery",
+         "interirDesignText" : "Transforming interiors into masterpieces of comfort and style, we craft spaces that reflect the perfect balance between functionality and aesthetic appeal. Our expertise in interior design spans various environments, from luxurious homes to dynamic commercial spaces, ensuring each project not only meets but exceeds our clients' visions.",
+         "seeMore": "See more"
+     },
+    "footer" : {
+        "home" : "Home",
+        "services": "Services",
+        "projects" : "Projects",
+        "interiorDesign": "Interior Design",
+        "aboutUs":"About Us",
+        "allRightsReserved": "All rights reserved"
+    },
+    "map": {
+        "mapProjectFind":"PROJECTS FOUND",
+        "mapOurProjects" :"our projects"
+    },
+    "projectGlobal" : {
+        "luxuryTailored" : "Luxury Tailored",
+        "toYou" : "to You",
+        "1" : {
+            "title": "Townhouse Valencia",
+            "underTitle": "Fully renovated penthouse on Albacete, Spain 2019",
+            "text": "A testament to transformative design and bespoke elegance. We reimagined a traditional space into a modern haven, seamlessly integrating cutting-edge features while maintaining the warmth of home."
+        },
+        "2" : {
+            "title": "Townhouse Valencia",
+            "underTitle": "Fully renovated penthouse on Albacete, Spain 2019",
+            "text": "A testament to transformative design and bespoke elegance. We reimagined a traditional space into a modern haven, seamlessly integrating cutting-edge features while maintaining the warmth of home."
+        },
+        "3" : {
+            "title": "Townhouse Valencia",
+            "underTitle": "Fully renovated penthouse on Albacete, Spain 2019",
+            "text": "A testament to transformative design and bespoke elegance. We reimagined a traditional space into a modern haven, seamlessly integrating cutting-edge features while maintaining the warmth of home."
+        }
+    },
+    "individualProjecting": {
+        "title": "INDIVIDUAL PROJECTING",
+        "itemTitle1": "MEETING WITH THE ARCHITECT",
+        "itemText1": "In order to define the task during the meeting, we will jointly form a detailed specification based on your lifestyle and wishes.",
+        "itemTitle2": "CONCEPTUALISATION",
+        "itemText2": "In order to define the task during the meeting, we will jointly form a detailed specification based on your lifestyle and wishes.",
+        "itemTitle3": "PROJECT DEVELOPMENT",
+        "itemText3": "After agreeing on the concept, we proceed with the development of the architectural and structural design.",
+        "itemTitle4": "BEGINNING OF CONSTRUCTION",
+        "itemText4": "During the meeting we will jointly form a detailed technical specification based on your lifestyle and wishes."
+    },
+    "houseInteriorDesign":{
+        "title": "HOUSE INTERIOR DESIGN",
+        "text" : "A unique interior of a private cottage is a `visiting` card that your guests will immediately see. Thanks to modern technologies it is possible to beautifully and presentably design a large house, making it a real mansion, which will be unrivalled in design.   GARCIA DLOBAL specialists are professionals who create real masterpieces. You can order a villa project with a non-standard layout, interior design in a specific style or according to individual requirements. All calculations will be carried out within the declared norms and submitted for approval",
+        "viewFullGallery" : "View full gallery"
+    },
+    "backToHome":{
+          "back" : "back to home page"
+    },
+    "videos": {
+        "videoTitle1": "Penthouse Valencia",
+         "videoSubTitle1" : "Fully renovated penthouse on Albacete, Spain 2019",
+         "videoText1": "Take a step into a modern townhouse that pairs comfort with clean design. The spacious dining area opens up to a serene terrace, thanks to smooth sliding doors, inviting both light and leisure into your home. Natural wood surfaces and subtle lighting ensure the space feels warm and welcoming. Each piece of furniture is chosen for both its style and comfort, creating perfect spots for both rest and gatherings. This townhouse is designed with an eye for elegance and a focus on living well.",
+         "videoAdvantage1": "Open-plan living and dining area",
+         "videoAdvantage2": "Warm wood finishes and neutral color",
+         "videoAdvantage3": "Comfortable, functional spaces for relaxation and entertainment",
+         "videoAdvantage4": "Terrace with privacy features for outdoor enjoyment",
+         "videoTitle2": "Kyiv Lake House",
+         "videoSubTitle2" : "Turnkey interior renovation",
+         "videoText2": "Take a step into a modern townhouse that pairs comfort with clean design. The spacious dining area opens up to a serene terrace, thanks to smooth sliding doors, inviting both light and leisure into your home. Natural wood surfaces and subtle lighting ensure the space feels warm and welcoming. Each piece of furniture is chosen for both its style and comfort, creating perfect spots for both rest and gatherings. This townhouse is designed with an eye for elegance and a focus on living well."
+    },
+    "projectItemAdv":{
+        "kitchen" : "Kitchen",
+        "bathroom" : "Bathroom",
+        "bedroom" : "Bedroom",
+        "hallway" : "Hallway",
+        "dinner" : "Dinner"
+    },
+    "penthouseValencia":{
+         "kitchen" : "Open Kitchen Dining",
+         "kitchenDescr" : "The open-plan kitchen and dining area blend functionality with sociable space. The clean lines of the cabinetry and uncluttered surfaces reflect a modern lifestyle, while the central dining table promises communal culinary experiences.",
+         "living" : "Living Room",
+         "livingDescr" : "Elegance meets minimalism in this living room entry. The open doorway extends a warm invitation, revealing a space of calm neutrality, punctuated by thoughtful lighting and a glimpse of nature beyond the threshold.",
+         "terrace" : "Terrace",
+         "terraceDescr" : "This terrace is a personal oasis, with a wooden screen providing a natural texture that complements the modern outdoor furnishings. It's an intimate corner for relaxation, illuminated by a soft glow that enhances the ambiance of peaceful solitude."
+    },
+    "flatInteriorDesign": {
+        "title": "FLAT INTERIOR DESIGN",
+        "kitchen" : "Kitchen",
+        "kitchenDescr": "A sleek and functional space dominated by dark, matte cabinetry and state-of-the-art appliances. The kitchen balances a modern aesthetic with practicality, featuring a clean, uncluttered countertop and subtle, integrated lighting that creates a warm glow. It’s a culinary workshop designed for efficiency and style.",
+        "bathroom" : "Bathroom",
+        "bathroomDescr": "Minimalist in design with a focus on clean lines and unadorned surfaces. The bathroom likely includes a walk-in shower, accented with either glass panels or discreet tiling, complemented by a simple, modern sink and vanity. The lighting is soft, ensuring a space that is both bright and inviting.",
+        "bedroom" : "Bedroom",
+        "bedroomDescr" : "A sanctuary of rest, the bedroom exudes calm with a muted color palette and minimal furnishings. The focus is a comfortable bed with plush linens, set against a backdrop of tranquil art or texture. Functional bedside lighting and storage solutions are present, keeping the space neat and serene.",
+        "hallway" : "Hallway",
+        "hallwayDescr" : "The hallway serves as a connector between rooms, characterized by its streamlined appearance. It may feature warm wood or cool tile flooring and is lit by a series of strategically placed lights that provide a welcoming path through the home.",
+        "diningArea" : "Dining Area",
+        "diningAreaDescr" : "A gathering space that marries form and function, the dining area is likely home to a simple yet elegant table flanked by modern chairs. Overhead lighting, possibly a statement piece, centers the room, while the surrounding space remains uncluttered to keep the focus on the social experience of dining together."
+    },
+    "constructionOfCottagesAndVillas" : {
+        "title" : "CONSTRUCTION COTTAGES AND VILLAS",
+        "text" : "“Good buildings come from good people, and all problems are solved by good design.” – Stephen Gardiner",
+        "getHelp" : "Get Help",
+        "generalContractor": {
+            "title": "General contractor",
+            "text": "As a general contractor, we manage construction projects from inception to completion, handling technical documentation, budgeting, scheduling, and subcontractor coordination. Our expertise ensures efficient project execution while prioritizing budget optimization, work safety, and client satisfaction.",
+            "item1" : "Development of technical documentation and budgeting",
+            "item2" : "Approval of the work schedule",
+            "item3" : "Coordination and control of subcontractors",
+            "item4" : "Preparation of estimates and financing plan",
+            "item5" : "Tendering",
+            "item6" : "Construction site organisation",
+            "item7" : "Work safety",
+            "item8" : "Optimising project solutions to budget",
+            "item9" : "Commissioning",
+            "item10" : "Preparation of estimates and financing plan",
+            "item11" : "Optimising project solutions to budget",
+            "item12" : "Integrated project management"
+        },
+        "geodeticWorks" : {
+            "title": "Geodetic works",
+            "item1" : "Development of technical documentation and budgeting",
+            "item2" : "Approval of the work schedule",
+            "item3" : "Coordination and control of subcontractors"
+        },
+        "earthwork" : {
+            "title" : "Earthwork",
+            "item1" : "Development of excavations for foundations",
+            "item2" : "Backfilling of excavations and trenches",
+            "item3" : "Laying of engineering communications"
+        },
+        "monolithicWorks" : {
+            "title" : "Monolithic works",
+            "item1" : "Zero-cycle works, as well as pile foundations",
+            "item2" : "Pouring of concrete industrial floor and trenches",
+            "item3" : "Pouring of foundations of any complexity and type"
+        },
+        "capitalConstruction" : {
+            "title" : "Capital Construction",
+            "item1" : "Preparation and obtaining of all permits for site development and construction, co-ordination with state authorities",
+            "item2" : "Site development - demolition of old buildings, rubbish removal, clearing for future construction",
+            "item3" : "Foundation pouring, erection of walls and floors, internal partitions, roof installation",
+            "item4" : "Cleaning in the premises and on the site, removal of construction waste from the territory of the facility",
+            "item5" : "Installation of all internal communications (heat, hydro, noise insulation, electricity, supply of engineering systems to the building)",
+            "item6" : "Exterior finishing of the house and landscaping of the site, commissioning, window and door installation"
+        },
+        "renovation" : {
+            "title" : "Renovation",
+            "item1" : "General construction and finishing works",
+            "item2" : "Replacement of water supply, sewerage and heating",
+            "item3" : "Electrical networks and lighting",
+            "item4" : "Installation of ventilation and air conditioning systems",
+            "item5" : "Installation of fire safety system, facade works, roofing works",
+            "item6" : "Installation of SCS, ACS, video surveillance"
+        },
+        "finishingWorks" : {
+           "title" : "Finishing works",
+           "item1" : "Screed, levelling, polymer poured floors, 'topping'",
+           "item2" : "Linoleum, PVC tiles, carpet, carpet tiles",
+           "item3" : "Parquet, parquet flooring, laminate flooring",
+           "item4" : "Arrangement of tiles, granite, marble, porcelain tiles, mosaics",
+           "item5" : "Ceramic, built-in, aluminium, MDF, MDF, PVC, carpet skirting boards",
+           "item6" : "Installation of brick and block partitions",
+           "item7" : "Installation of plasterboard constructions (partitions, false walls, boxes)",
+           "item8" : "Machine plastering cement, cement-lime, gypsum plastering",
+           "item9" : "Tiling, Filling openings (doors, windows, sliding systems)",
+           "item10" : "Machine and manual painting, decorative plaster",
+           "item11" : "Decorative panel installation, sandless plaster (putty)",
+           "item12" : "Plaster, Sandless plaster (putty)",
+           "item13" : "Modular ceilings (Armstrong, Grillato) Slatted ceilings, Plasterboard ceiling"
+        },
+        "engineeringSystems" : {
+            "title": "Engineering systems",
+            "item1" : "Ventilation and air conditioning",
+            "item2" : "Laying of power and low-current cables",
+            "item3" : "Installation of fire safety systems",
+            "item4" : "SCS, ACS, video surveillance systems",
+            "item5" : "Water supply, sewerage and heating",
+            "item6" : "Installation of lamps and chandeliers",
+            "item7" : "Laying of power and low-current cables",
+            "item8" : "Drilling and installation of sub-sockets",
+            "item9" : "Assembly installation of power board",
+            "item10" : "Installation of sockets and switches",
+            "item11" : "Installation of power connectors"
+        },
+        "siteImprovement" : {
+            "title": "Site improvement",
+            "item1" : "Drainage system, drainage",
+            "item2" : "Landscape design, garden paths",
+            "item3" : "Artificial ponds",
+            "item4" : "Car parks, Lighting",
+            "item5" : "Fences, swimming pools",
+            "item6" : "Leisure areas"
+        }
+    }
+}

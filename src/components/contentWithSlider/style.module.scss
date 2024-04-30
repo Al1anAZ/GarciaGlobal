@@ -1,0 +1,28 @@
+.contentWithSlider {
+  display: flex;
+  flex-direction: column;
+  &__sliderImg {
+    width: 100%;
+    height: 554px;
+    object-fit: cover;
+  }
+  &__titleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    & > h2 {
+      font-size: 48px;
+
+      font-weight: 300;
+      line-height: normal;
+    }
+    & > p {
+      font-size: 14px;
+      width: 350px;
+      font-weight: 300;
+      line-height: 18px;
+      letter-spacing: 0.28px;
+    }
+  }
+}

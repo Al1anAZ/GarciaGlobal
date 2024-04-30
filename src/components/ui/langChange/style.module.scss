@@ -1,0 +1,53 @@
+.changeLanguage {
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  border: 1px solid rgba(241, 241, 241, 0.17);
+  backdrop-filter: blur(11px);
+
+  &__container {
+    position: relative;
+  }
+  & > span {
+    color: #fff;
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    text-transform: uppercase;
+  }
+  &__dropDown {
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: all 0.2s;
+
+    color: #fff;
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    text-transform: uppercase;
+
+    padding: 6px 0;
+
+    border-radius: 2px;
+    border: 1px solid rgba(241, 241, 241, 0.17);
+    backdrop-filter: blur(11px);
+
+    &__active {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+[{
+    "id"  : "penthouseValencia",
+    "mainImg" : "/assets/projects/1/slider_1.webp",
+    "kitchen" : ["/assets/projects/1/slider_2.webp","/assets/projects/1/kitchen/slider_2.webp","/assets/projects/1/kitchen/slider_3.webp"],
+    "living" : ["/assets/projects/1/living/slider_1.webp","/assets/projects/1/living/slider_2.webp","/assets/projects/1/living/slider_3.webp"],
+    "terrace" : ["/assets/projects/1/terrace/slider_1.webp","/assets/projects/1/terrace/slider_2.webp","/assets/projects/1/slider_3.webp"]
+}]

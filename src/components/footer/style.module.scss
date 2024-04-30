@@ -1,0 +1,65 @@
+.footer {
+  position: relative;
+
+  background: #0e0e0e;
+  padding: {
+    top: 49px;
+    bottom: 20px;
+  }
+  &__imgBg {
+    pointer-events: none;
+    position: absolute;
+    background: url("/assets/ui/blockBg.webp");
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 7%;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+  }
+  &__topContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 51px;
+  }
+  &__middleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    & > div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      & > p {
+        color: white;
+        letter-spacing: 0.32px;
+        max-width: 331px;
+      }
+      & > div {
+        display: flex;
+        gap: 16px;
+      }
+    }
+  }
+  &__nav {
+    & > ul {
+      display: flex;
+      gap: 60px;
+      & a {
+        font-size: 14px;
+        color: white;
+      }
+    }
+  }
+  &__allRightsReserved {
+    & > p {
+      text-align: center;
+      color: white;
+      letter-spacing: 0.32px;
+    }
+  }
+}

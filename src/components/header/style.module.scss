@@ -1,0 +1,38 @@
+.header {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__nav {
+    & > ul {
+      display: flex;
+      gap: 60px;
+      & a {
+        color: white;
+        font-size: 14px;
+      }
+    }
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    & > p {
+      color: white;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+}
+.headerWhite {
+  padding: 32px 0;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

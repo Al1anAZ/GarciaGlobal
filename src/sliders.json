@@ -1,0 +1,14 @@
+{
+    "1" : {
+        "previewSlider" : ["/assets/projects/1/slider_1.webp","/assets/projects/1/slider_2.webp","/assets/projects/1/slider_3.webp"],
+        "smallImg": "/assets/projects/1/smallImg.webp"
+    },
+    "2" : {
+        "previewSlider" : ["/assets/projects/2/slider_1.webp","/assets/projects/2/slider_2.webp","/assets/projects/2/slider_3.webp"],
+        "smallImg": "/assets/projects/2/smallImg.webp"
+    },
+    "3" : {
+        "previewSlider" : ["/assets/projects/3/slider_1.webp","/assets/projects/3/slider_2.webp","/assets/projects/3/slider_3.webp"],
+        "smallImg": "/assets/projects/3/smallImg.webp"
+    }
+}
