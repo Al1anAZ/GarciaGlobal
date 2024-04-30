@@ -56,8 +56,8 @@ export default async function InteriorAll({ params: { locale } }) {
             </div>
           </div>
           {Array.from({ length: 3 }).map((_, index) => (
-            <section>
-              <ProjectItem key={index} id={index + 1} locale={locale} />
+            <section key={index}>
+              <ProjectItem id={index + 1} locale={locale} />
             </section>
           ))}
         </Container>
