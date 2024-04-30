@@ -28,13 +28,13 @@ export default async function ConstructionOfCottagesAndVillas({
         <div
           className={styles.constructionOfCottagesAndVillas__contentContainer}
         >
-          <div
+          <section
             className={styles.constructionOfCottagesAndVillas__titleContainer}
           >
             <h1>{t("title")}</h1>
             <p className={squarePeg.className}>{t("text")}</p>
-          </div>
-          <div
+          </section>
+          <section
             className={styles.constructionOfCottagesAndVillas__itemContainer}
           >
             <div
@@ -72,8 +72,8 @@ export default async function ConstructionOfCottagesAndVillas({
             >
               {t("getHelp")}
             </Link>
-          </div>
-          <div
+          </section>
+          <section
             className={styles.constructionOfCottagesAndVillas__itemContainer}
           >
             <div
@@ -110,8 +110,15 @@ export default async function ConstructionOfCottagesAndVillas({
             >
               {t("getHelp")}
             </Link>
-          </div>
-          <div
+            <img
+              src="/assets/ui/bearBg.svg"
+              alt="bearBgIcon"
+              width={650}
+              height={754}
+              className={styles.constructionOfCottagesAndVillas__itemBgImg}
+            />
+          </section>
+          <section
             className={styles.constructionOfCottagesAndVillas__itemContainer}
           >
             <div
@@ -148,8 +155,8 @@ export default async function ConstructionOfCottagesAndVillas({
             >
               {t("getHelp")}
             </Link>
-          </div>
-          <div
+          </section>
+          <section
             className={styles.constructionOfCottagesAndVillas__itemContainer}
           >
             <div
@@ -186,8 +193,8 @@ export default async function ConstructionOfCottagesAndVillas({
             >
               {t("getHelp")}
             </Link>
-          </div>
-          <div
+          </section>
+          <section
             className={styles.constructionOfCottagesAndVillas__itemContainer}
           >
             <div
@@ -227,8 +234,8 @@ export default async function ConstructionOfCottagesAndVillas({
             >
               {t("getHelp")}
             </Link>
-          </div>
-          <div
+          </section>
+          <section
             className={styles.constructionOfCottagesAndVillas__itemContainer}
           >
             <div
@@ -265,8 +272,8 @@ export default async function ConstructionOfCottagesAndVillas({
             >
               {t("getHelp")}
             </Link>
-          </div>
-          <div
+          </section>
+          <section
             className={styles.constructionOfCottagesAndVillas__itemContainer}
           >
             <div
@@ -369,8 +376,15 @@ export default async function ConstructionOfCottagesAndVillas({
             >
               {t("getHelp")}
             </Link>
-          </div>
-          <div
+            <img
+              src="/assets/ui/bearBg.svg"
+              alt="bearBgIcon"
+              width={650}
+              height={754}
+              className={styles.constructionOfCottagesAndVillas__itemBgImg}
+            />
+          </section>
+          <section
             className={styles.constructionOfCottagesAndVillas__itemContainer}
           >
             <div
@@ -407,8 +421,8 @@ export default async function ConstructionOfCottagesAndVillas({
             >
               {t("getHelp")}
             </Link>
-          </div>
-          <div
+          </section>
+          <section
             className={styles.constructionOfCottagesAndVillas__itemContainer}
           >
             <div
@@ -445,7 +459,7 @@ export default async function ConstructionOfCottagesAndVillas({
             >
               {t("getHelp")}
             </Link>
-          </div>
+          </section>
         </div>
         <div className={styles.constructionOfCottagesAndVillas__imgsContainer}>
           {Array.from({ length: 5 }).map((_, index) => (
