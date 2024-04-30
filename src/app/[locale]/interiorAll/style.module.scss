@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     gap: 155px;
-    & > div {
+    & > div:first-child {
       display: flex;
       flex-direction: column;
       gap: 36px;
@@ -54,7 +54,7 @@
     display: flex;
 
     padding: 15px 13px;
-
+    justify-content: space-between;
     gap: 20px;
 
     border-radius: 2px;
@@ -85,10 +85,10 @@
     flex-direction: column;
     gap: 20px;
     & > p,
-    h2 {
+    h1 {
       color: white;
     }
-    & > h2 {
+    & > h1 {
       color: #fff;
 
       font-size: 64px;
@@ -108,9 +108,77 @@
       letter-spacing: 0.28px;
     }
   }
-  &__content {
+  &__tabletContent,
+  &__phoneContent {
+    display: none;
+  }
+  &__content,
+  &__desktopContent {
     display: flex;
     flex-direction: column;
     gap: 155px;
+  }
+}
+@media screen and (max-width: 1409px) {
+  .interiorDesing {
+    padding-top: 30px;
+    &__titleContainer {
+      flex-direction: column;
+      gap: 40px;
+    }
+    &__textTitleBox {
+      & h1 {
+        font-size: 44px;
+      }
+    }
+    &__projectsContainer {
+      align-items: flex-start;
+    }
+    &__desktopContent {
+      display: none;
+    }
+    &__tabletContent {
+      display: flex;
+      flex-direction: column;
+      gap: 100px;
+    }
+  }
+  .interiorAll {
+    &__container {
+      gap: 28px;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .interiorDesing {
+    &__titleContainer {
+      gap: 24px;
+    }
+    &__textTitleBox {
+      & h1 {
+        font-size: 40px;
+      }
+    }
+    &__projectsContainer {
+      align-items: flex-start;
+    }
+    &__tabletContent {
+      display: none;
+    }
+    &__phoneContent {
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+    }
+    &__projectsContainer {
+      & > div {
+        flex-direction: column;
+      }
+    }
+  }
+  .interiorAll {
+    &__container {
+      gap: 39px;
+    }
   }
 }

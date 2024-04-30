@@ -8,6 +8,34 @@
     height: 100%;
     object-fit: cover;
   }
+  &__sliderPhone {
+    & > div {
+      & > div:last-child {
+        display: none;
+      }
+    }
+  }
+  &__titlePhone {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    & > h2 {
+      color: #fff;
+
+      font-size: 24px;
+
+      font-weight: 300;
+    }
+    & > p {
+      color: #717171;
+
+      font-size: 14px;
+
+      font-weight: 300;
+      line-height: normal;
+      letter-spacing: 0.28px;
+    }
+  }
   &__contentContainer {
     flex: 60%;
     display: flex;
@@ -17,14 +45,27 @@
     &__top {
       display: flex;
       justify-content: space-between;
-
-      & img {
-        height: 328px;
-        max-width: none;
-        object-fit: cover;
-        z-index: 1;
-      }
     }
+    &__imgMain {
+      height: 328px;
+      max-width: none;
+      object-fit: cover;
+      z-index: 1;
+    }
+    &__greyPtext {
+      width: 561px;
+      align-self: flex-end;
+      padding-right: 153px;
+
+      color: #717171;
+
+      font-size: 14px;
+
+      font-weight: 300;
+      line-height: normal;
+      letter-spacing: 0.28px;
+    }
+
     &__middle {
       display: flex;
       justify-content: space-between;
@@ -39,6 +80,13 @@
         border-radius: 50%;
         width: 92px;
         height: 92px;
+      }
+      & > h2 {
+        color: #fff;
+
+        font-size: 36px;
+
+        font-weight: 300;
       }
       & > p {
         color: #717171;
@@ -104,6 +152,28 @@
       font-size: 14px;
     }
   }
+  &__phoneTextBox {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    & > div:first-child {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      & > p:first-child {
+        color: #fff;
+        font-size: 24px;
+      }
+      & > p:nth-child(2) {
+        color: #717171;
+
+        font-size: 14px;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0.28px;
+      }
+    }
+  }
   &__sliderBoxStyle {
     display: flex;
     gap: 22px;
@@ -122,6 +192,31 @@
       font-style: normal;
       font-weight: 300;
       line-height: normal;
+    }
+  }
+}
+@media screen and (max-width: 1409px) {
+  .projectItem {
+    gap: 36px;
+    flex-direction: column;
+    & > div {
+      & > div:first-child {
+        & > div {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .projectItem {
+    gap: 10px;
+    &__contentContainer {
+      gap: 0;
+      &__middle {
+        padding-right: 0;
+        gap: 0;
+      }
     }
   }
 }

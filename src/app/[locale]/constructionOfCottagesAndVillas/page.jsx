@@ -471,6 +471,15 @@ export default async function ConstructionOfCottagesAndVillas({
               key={index}
             />
           ))}
+          {Array.from({ length: 5 }).map((_, index) => (
+            <img
+              src={`/assets/constructionOfCottagesAndVillas/${index + 1}.webp`}
+              alt={`img${index + 1}`}
+              width={780}
+              height={691}
+              key={index}
+            />
+          ))}
         </div>
       </main>
       <Footer locale={locale} />

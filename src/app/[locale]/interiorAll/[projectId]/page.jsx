@@ -11,6 +11,7 @@ import { BackToHome } from "@/components/backToHome";
 import { MyButton } from "@/components/ui/myButton";
 import { ProjectItemAdv } from "@/components/projectItem";
 import { ContentWithSlider } from "@/components/contentWithSlider";
+import { Gallery } from "@/components/gallery";
 
 export async function generateMetadata({ params: { locale, projectId } }) {
   const project = sliders.find((item) => item.id === projectId);
@@ -37,6 +38,7 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
         <Container className={styles.project__container}>
           <div className={styles.project__topContainer}>
             <BackToHome locale={locale} />
+            <h1 className={styles.project__titleTablet}>Penthouse Valencia</h1>
             <div className={styles.project__topContent}>
               <div className={styles.project__leftSide}>
                 <div className={styles.project__leftSideContent}>
@@ -63,9 +65,22 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
                     tranquil environment for living and working.
                   </p>
                 </div>
-                <MyButton className={styles.project__fullGalleryBtn}>
-                  View full gallery
-                </MyButton>
+                <Gallery
+                  img={[
+                    {
+                      id: "1",
+                      src: "/assets/projects/2/slider_1.webp",
+                    },
+                    {
+                      id: "2",
+                      src: "/assets/projects/2/slider_2.webp",
+                    },
+                    {
+                      id: "3",
+                      src: "/assets/projects/2/slider_3.webp",
+                    },
+                  ]}
+                />
               </div>
               <img
                 src={project.mainImg}
@@ -74,6 +89,52 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
                 width={512}
                 className={styles.project__mainImg}
               />
+            </div>
+            <div className={styles.project__topContentPhone}>
+              <div className={styles.project__topTextContainerPhone}>
+                <div className={styles.project__topTextPhone}>
+                  <p>Location: Valencia, Spain Design Style: Contemporary</p>
+                  <p>Minimalism Architectural Fusion: Industrial-Traditional</p>
+                  <p>Blend Ambience: Biophilic Light-Filled Spaces</p>
+                </div>
+                <div className={styles.project__topImgNAdvContainerPhone}>
+                  <ProjectItemAdv locale={locale} flex="start" />
+                  <img
+                    src={project.mainImg}
+                    alt="mainImg"
+                    height={773}
+                    width={512}
+                    className={styles.project__mainImg}
+                  />
+                </div>
+              </div>
+              <div className={styles.project__topGalleryNTextContainerPhone}>
+                <p>
+                  This space is characterized by its clean, modern design, which
+                  seamlessly integrates elements of historical architecture. The
+                  emphasis is on simplicity and openness, with large windows
+                  inviting ample natural light that enhances the fusion of
+                  industrial and traditional materials. The overall feel is one
+                  of calm and clarity, offering a tranquil environment for
+                  living and working.
+                </p>
+                <Gallery
+                  img={[
+                    {
+                      id: "1",
+                      src: "/assets/projects/2/slider_1.webp",
+                    },
+                    {
+                      id: "2",
+                      src: "/assets/projects/2/slider_2.webp",
+                    },
+                    {
+                      id: "3",
+                      src: "/assets/projects/2/slider_3.webp",
+                    },
+                  ]}
+                />
+              </div>
             </div>
           </div>
           {advantages.map((item, index) => (

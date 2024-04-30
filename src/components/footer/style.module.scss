@@ -63,3 +63,45 @@
     }
   }
 }
+@media screen and (max-width: 1409px) {
+  .footer {
+    &__container {
+      gap: 50px;
+    }
+    &__topContainer {
+      flex-wrap: wrap;
+      gap: 48px;
+      height: auto;
+    }
+    &__nav {
+      order: 3;
+      flex: 100%;
+      & > ul {
+        justify-content: space-between;
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer {
+    &__nav {
+      & > ul {
+        flex-direction: column;
+        gap: 12px;
+        & a {
+          font-size: 20px;
+        }
+      }
+    }
+    &__middleContainer {
+      & > div {
+        gap: 15px;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+      & p {
+        font-size: 14px;
+      }
+    }
+  }
+}

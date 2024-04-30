@@ -61,3 +61,47 @@
     }
   }
 }
+@media screen and (max-width: 1409px) {
+  .videos {
+    padding: 40px 0;
+    &__item {
+      flex-direction: column;
+      & > iframe {
+        flex: auto;
+      }
+
+      & > div {
+        gap: 22px;
+
+        & > p {
+          color: #717171;
+
+          font-size: 14px;
+          line-height: normal;
+          letter-spacing: 0.28px;
+
+          padding-right: 10px;
+        }
+      }
+    }
+    &__container {
+      gap: 60px;
+    }
+    &__titleContainer {
+      & > h2 {
+        font-size: 44px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .videos {
+    &__item {
+      gap: 26px;
+      & > iframe {
+        flex: auto;
+        height: 209px;
+      }
+    }
+  }
+}

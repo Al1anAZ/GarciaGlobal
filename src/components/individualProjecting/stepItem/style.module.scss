@@ -36,3 +36,17 @@
     background: black;
   }
 }
+@media screen and (max-width: 1409px) {
+  .stepItem {
+    & h2 {
+      font-size: 22px;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .individualProjecting {
+    &__container {
+      gap: 8px;
+    }
+  }
+}

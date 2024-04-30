@@ -20,7 +20,7 @@ export const Map = async ({ locale }) => {
       </Container>
       <MapIcon className={styles.map__section} />
       <MapItem
-        top={80}
+        top={10}
         left={18}
         bgColor="white"
         line={{ right: -163, top: 33 }}

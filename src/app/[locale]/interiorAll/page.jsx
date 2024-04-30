@@ -1,6 +1,10 @@
 import initTranslations from "@/app/i18n";
 import { TranslationsProvider } from "@/helper/translationProvider";
-import { ProjectItem } from "@/components/projectItem";
+import {
+  ProjectItem,
+  ProjectItemTablet,
+  ProjectItemPhone,
+} from "@/components/projectItem";
 import { Container } from "@/components/ui/container";
 import styles from "./style.module.scss";
 import Link from "next/link";
@@ -28,7 +32,7 @@ export default async function InteriorAll({ params: { locale } }) {
             <BackToHome locale={locale} />
             <div className={styles.interiorDesing__titleContainer}>
               <div className={styles.interiorDesing__textTitleBox}>
-                <h2>{t("interirDesignTitle")}</h2>
+                <h1>{t("interirDesignTitle")}</h1>
                 <p>{t("interirDesignText")}</p>
               </div>
               <div className={styles.interiorDesing__projectsContainer}>
@@ -55,11 +59,27 @@ export default async function InteriorAll({ params: { locale } }) {
               </div>
             </div>
           </div>
-          {Array.from({ length: 3 }).map((_, index) => (
-            <section key={index}>
-              <ProjectItem id={index + 1} locale={locale} />
-            </section>
-          ))}
+          <div className={styles.interiorDesing__desktopContent}>
+            {Array.from({ length: 3 }).map((_, index) => (
+              <section key={index}>
+                <ProjectItem id={index + 1} locale={locale} />
+              </section>
+            ))}
+          </div>
+          <div className={styles.interiorDesing__tabletContent}>
+            {Array.from({ length: 3 }).map((_, index) => (
+              <section key={index}>
+                <ProjectItemTablet id={index + 1} locale={locale} />
+              </section>
+            ))}
+          </div>
+          <div className={styles.interiorDesing__phoneContent}>
+            {Array.from({ length: 3 }).map((_, index) => (
+              <section key={index}>
+                <ProjectItemPhone id={index + 1} locale={locale} />
+              </section>
+            ))}
+          </div>
         </Container>
         <div className={styles.interiorDesing__imgBg} />
       </main>

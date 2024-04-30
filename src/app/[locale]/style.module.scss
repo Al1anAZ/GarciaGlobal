@@ -254,6 +254,7 @@
       letter-spacing: 0.32px;
     }
   }
+
   &__projectsContainer {
     flex: 56%;
     display: flex;
@@ -295,10 +296,17 @@
       letter-spacing: 0.28px;
     }
   }
-  &__content {
+
+  &__contentDesktop,
+  &__contentTablet,
+  &__contentPhone {
     display: flex;
     flex-direction: column;
     gap: 155px;
+  }
+  &__contentTablet,
+  &__contentPhone {
+    display: none;
   }
 }
 .findUs {
@@ -357,5 +365,227 @@
     position: absolute;
     top: 70px;
     z-index: -1;
+  }
+}
+
+@media screen and (max-width: 1409px) {
+  .landingSection {
+    padding-bottom: 20px;
+    padding-top: 116px;
+    height: 435px;
+    &__titleText {
+      & > h1 {
+        font-size: 40px;
+      }
+      & > p {
+        font-size: 20px;
+      }
+    }
+    &__bottomText {
+      font-size: 12px;
+      width: 537px;
+    }
+    &__consNdesignContainer {
+      padding-left: 81px;
+    }
+  }
+  .ourServices {
+    padding-top: 30px;
+    &__container {
+      gap: 50px;
+      align-items: flex-start;
+    }
+    &__itemsContainer {
+      justify-content: flex-end;
+      gap: 13px;
+    }
+    &__item {
+      margin-top: 20px;
+    }
+  }
+  .aboutUs {
+    &__top {
+      gap: 32px;
+      flex-direction: column;
+    }
+    &__titleContainer {
+      gap: 31px;
+      & h2 {
+        font-size: 44px;
+      }
+    }
+    &__villaBlock {
+      flex: auto;
+      height: 323px;
+    }
+    &__bottom {
+      flex-wrap: wrap;
+    }
+    &__item {
+      flex: 40%;
+      &:last-child {
+        padding-right: 380px;
+      }
+    }
+  }
+  .interiorDesing {
+    &__titleContainer {
+      flex-direction: column;
+      gap: 40px;
+    }
+    &__textTitleBox {
+      & h2 {
+        font-size: 44px;
+      }
+    }
+    &__projectsContainer {
+      align-items: flex-start;
+    }
+    &__contentDesktop,
+    &__contentPhone {
+      display: none;
+    }
+    &__contentTablet {
+      display: flex;
+    }
+  }
+  .findUs {
+    padding-bottom: 100px;
+    &__container {
+      gap: 57px;
+      height: 273px;
+    }
+    &__titleContainer {
+      & > span {
+        font-size: 16px;
+      }
+      & > h2 {
+        font-size: 40px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .landingSection {
+    padding-bottom: 20px;
+    padding-top: 17px;
+    height: 223px;
+    &__titleText {
+      & > h1 {
+        font-size: 40px;
+      }
+      & > p {
+        font-size: 20px;
+      }
+    }
+    &__bottomText {
+      display: none;
+    }
+    &__container {
+      & > div {
+        gap: 20px;
+      }
+    }
+    &__consNdesignContainer {
+      align-items: flex-end;
+      padding: 0;
+      padding-right: 100px;
+      & > p {
+        &::before {
+          left: auto;
+          right: -130px;
+        }
+      }
+    }
+  }
+  .ourServices {
+    padding-top: 40px;
+    padding-bottom: 24px;
+    &__container {
+      flex-direction: column;
+      gap: 24px;
+      align-items: flex-start;
+    }
+    &__itemsContainer {
+      & > a {
+        flex: 100%;
+      }
+    }
+    &__item {
+      margin-top: 0;
+      max-width: none;
+      & > h2 {
+        font-size: 30px;
+      }
+    }
+  }
+  .aboutUs {
+    padding-bottom: 67px;
+    &__item {
+      flex: 100%;
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+    &__titleContainer {
+      gap: 5px;
+      & h2 {
+        font-size: 30px;
+        width: 221px;
+      }
+    }
+    &__titleContainer {
+      & > p {
+        padding-right: 0;
+      }
+    }
+    &__top {
+      gap: 5px;
+    }
+    &__villaBlock {
+      height: 175px;
+    }
+    &__container {
+      gap: 24px;
+    }
+    &__bottom {
+      gap: 12px;
+    }
+  }
+  .interiorDesing {
+    padding: 40px 0;
+    &__textTitleBox {
+      gap: 8px;
+      & h2 {
+        font-size: 30px;
+      }
+    }
+    &__projectsContainer {
+      align-items: flex-start;
+      & > div {
+        flex-direction: column;
+      }
+    }
+    &__container {
+      gap: 42px;
+    }
+    &__contentPhone {
+      display: flex;
+      gap: 36px;
+    }
+    &__contentTablet {
+      display: none;
+    }
+  }
+  .findUs {
+    padding-bottom: 60px;
+    &__container {
+      flex-direction: column;
+      gap: 40px;
+      height: auto;
+    }
+    &__textBlock {
+      gap: 36px;
+    }
   }
 }

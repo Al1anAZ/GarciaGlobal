@@ -19,6 +19,9 @@
     & > img:first-child {
       border-radius: 8px 0px 0px 0px;
     }
+    & > img:nth-child(n + 6):nth-child(-n + 10) {
+      display: none;
+    }
   }
   &__contentContainer {
     width: 494px;
@@ -152,5 +155,55 @@
   &__itemGetHelp {
     align-self: flex-end;
     padding-right: 71px;
+  }
+}
+@media screen and (max-width: 1409px) {
+  .constructionOfCottagesAndVillas {
+    padding-left: 35px;
+    gap: 29px;
+    &__titleContainer {
+      & h1 {
+        font-size: 40px;
+      }
+    }
+    &__contentContainer {
+      gap: 18px;
+    }
+    &__imgsContainer {
+      padding-top: 269px;
+      flex: 50%;
+      gap: 27px;
+      & > img {
+        height: 306px;
+      }
+      & > img:nth-child(n + 6):nth-child(-n + 10) {
+        display: block;
+      }
+    }
+    &__itemFeaturesContainer {
+      gap: 10px;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .constructionOfCottagesAndVillas {
+    padding: 0 12px;
+    &__imgsContainer {
+      display: none;
+    }
+    &__itemContainer {
+      padding-right: 15px;
+    }
+    &__itemFeaturesContainer {
+      padding-right: 0;
+    }
+    &__itemFirstTopContainer {
+      padding-right: 15px;
+    }
+    &__contentContainer {
+      & p {
+        padding-right: 13px;
+      }
+    }
   }
 }

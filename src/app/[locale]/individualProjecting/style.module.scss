@@ -19,3 +19,26 @@
     flex-wrap: wrap;
   }
 }
+@media screen and (max-width: 1409px) {
+  .individualProjecting {
+    padding-bottom: 40px;
+    &__container {
+      flex-direction: column;
+      gap: 13px;
+    }
+    &__content {
+      gap: 12px;
+    }
+    & h1 {
+      font-size: 40px;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .individualProjecting {
+    &__container,
+    &__content {
+      gap: 8px;
+    }
+  }
+}

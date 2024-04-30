@@ -16,7 +16,7 @@ export const MapItem = ({
     <div
       className={styles.mapItem}
       style={{
-        top: top,
+        top: top + "%",
         left: left + "%",
         right: right + "%",
         bottom: bottom + "%",

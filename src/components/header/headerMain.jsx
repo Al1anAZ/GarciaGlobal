@@ -3,6 +3,7 @@ import { Container } from "../ui/container";
 import { LangChange } from "../ui/langChange";
 import styles from "./style.module.scss";
 import Link from "next/link";
+import { Phone } from "../ui/icons/phone";
 
 const i18nNamespaces = ["footer"];
 
@@ -33,6 +34,7 @@ export const HeaderMain = async ({ locale }) => {
         </nav>
         <div className={styles.header__right}>
           <p>+34 695 049 104</p>
+          <Phone color="white" width={24} height={24} />
           <LangChange padding="6px 8px 6px 12px" gap={3} />
         </div>
       </Container>

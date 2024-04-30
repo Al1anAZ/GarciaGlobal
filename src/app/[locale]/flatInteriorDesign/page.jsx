@@ -1,7 +1,8 @@
 import initTranslations from "@/app/i18n";
 import { TranslationsProvider } from "@/helper/translationProvider";
 import flat from "../../../projects/flat.json";
-
+import Link from "next/link";
+import { ArrowPrjct } from "@/components/ui/icons/arrowPrjct";
 import styles from "./style.module.scss";
 
 import { HeaderWhite } from "@/components/header/headerWhite";
@@ -37,6 +38,28 @@ export default async function FlatInteriorDesign({ params: { locale } }) {
         <Container className={styles.flat__container}>
           <div className={styles.flat__titleContainer}>
             <h1>{t("title")}</h1>
+            <div className={styles.flat__projectsContainer}>
+              <Link href={"#"}>
+                <div className={styles.flat__projectItem}>
+                  <span>Mynysterkiy</span>
+                  <ArrowPrjct color="black" width={20} height={20} />
+                </div>
+              </Link>
+              <div className="">
+                <Link href={"#"}>
+                  <div className={styles.flat__projectItem}>
+                    <span>Villa Cartagena</span>
+                    <ArrowPrjct color="black" width={20} height={20} />
+                  </div>
+                </Link>
+                <Link href={"#"}>
+                  <div className={styles.flat__projectItem}>
+                    <span>Townhouse Albacete</span>
+                    <ArrowPrjct color="black" width={20} height={20} />
+                  </div>
+                </Link>
+              </div>
+            </div>
           </div>
           <div className={styles.flat__content}>
             {advantages.map((item, index) => (

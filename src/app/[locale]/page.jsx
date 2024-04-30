@@ -16,7 +16,11 @@ import { Telegram } from "@/components/ui/icons/telegram";
 import { Facebook } from "@/components/ui/icons/facebook";
 import Link from "next/link";
 import { ArrowPrjct } from "@/components/ui/icons/arrowPrjct";
-import { ProjectItem } from "@/components/projectItem";
+import {
+  ProjectItem,
+  ProjectItemPhone,
+  ProjectItemTablet,
+} from "@/components/projectItem";
 import { Videos } from "@/components/videos";
 
 const i18nNamespaces = ["home"];
@@ -29,7 +33,7 @@ export default async function Home({ params: { locale } }) {
       locale={locale}
       resources={resources}
     >
-      <HeaderMain locale={locale} />
+      {/* <HeaderMain locale={locale} /> */}
       <main>
         <section className={styles.landingSection}>
           <Container className={styles.landingSection__container}>
@@ -132,9 +136,17 @@ export default async function Home({ params: { locale } }) {
                 </div>
               </div>
             </div>
-            <div className={styles.interiorDesing__content}>
+            <div className={styles.interiorDesing__contentDesktop}>
               <ProjectItem id={1} locale={locale} />
               <ProjectItem id={2} locale={locale} />
+            </div>
+            <div className={styles.interiorDesing__contentTablet}>
+              <ProjectItemTablet id={1} locale={locale} />
+              <ProjectItemTablet id={2} locale={locale} />
+            </div>
+            <div className={styles.interiorDesing__contentPhone}>
+              <ProjectItemPhone id={1} locale={locale} />
+              <ProjectItemPhone id={2} locale={locale} />
             </div>
           </Container>
           <Link
