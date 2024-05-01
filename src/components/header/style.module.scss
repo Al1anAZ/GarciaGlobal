@@ -39,11 +39,103 @@
     align-items: center;
   }
 }
+
+.hamburger_menu {
+  display: none;
+}
+.menu {
+  &__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 2;
+    & > span,
+    & > span::before,
+    & > span::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: white;
+      transition-duration: 0.25s;
+    }
+    & > span::before {
+      content: "";
+      top: -8px;
+    }
+    & > span::after {
+      content: "";
+      top: 8px;
+    }
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    height: 100%;
+    margin: 0;
+    padding-top: 5px;
+    list-style: none;
+    text-align: center;
+    background-color: #1d1d1d;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    z-index: 1;
+    transition: all 0.25s;
+    & > li {
+      align-self: flex-end;
+    }
+  }
+  &__item {
+    display: block;
+    padding: 12px 24px;
+    color: #ffffff;
+
+    font-size: 32px;
+    font-weight: 500;
+  }
+}
+
+#menu__toggle {
+  opacity: 0;
+  &:checked ~ .menu__btn {
+    position: fixed;
+    top: 20px;
+  }
+  &:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  &:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  &:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  &:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+  }
+}
+
 @media screen and (max-width: 1409px) {
   .header {
-    & img {
-      width: 143px;
-      height: 38px;
+    &__container {
+      & > img {
+        width: 143px;
+        height: 38px;
+      }
     }
     &__right {
       & > p {
@@ -62,4 +154,18 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .header {
+    &__right,
+    &__nav {
+      display: none;
+    }
+    &__container {
+      & > img {
+        display: none;
+      }
+    }
+  }
+  .hamburger_menu {
+    display: block;
+  }
 }

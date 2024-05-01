@@ -33,7 +33,7 @@ export default async function Home({ params: { locale } }) {
       locale={locale}
       resources={resources}
     >
-      {/* <HeaderMain locale={locale} /> */}
+      <HeaderMain locale={locale} />
       <main>
         <section className={styles.landingSection}>
           <Container className={styles.landingSection__container}>
@@ -105,7 +105,7 @@ export default async function Home({ params: { locale } }) {
             </div>
           </Container>
         </section>
-        <Map locale={locale} />
+        {/* <Map locale={locale} /> */}
         <section className={styles.interiorDesing}>
           <Container className={styles.interiorDesing__container}>
             <div className={styles.interiorDesing__titleContainer}>

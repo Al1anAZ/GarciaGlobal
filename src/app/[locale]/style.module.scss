@@ -11,6 +11,8 @@
     linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
     url("/assets/homeP/landing.webp") lightgray -46.308px 0px / 106.432% 100% no-repeat;
 
+  background-position: 100%;
+  overflow: hidden;
   padding: {
     top: 163px;
     bottom: 42px;

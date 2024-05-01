@@ -60,7 +60,7 @@ export default async function HouseInteriorDesign({ params: { locale } }) {
           </div>
         </section>
         <Videos locale={locale} />
-        <Map locale={locale} />
+        {/* <Map locale={locale} /> */}
       </main>
       <Footer locale={locale} />
     </TranslationsProvider>
