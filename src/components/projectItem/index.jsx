@@ -5,11 +5,12 @@ import { squarePeg } from "@/fonts";
 import { MyButton } from "../ui/myButton";
 import { ArrowPrjct } from "../ui/icons/arrowPrjct";
 import Link from "next/link";
-import sliders from "@/sliders.json";
+import sliders from "@/projects/sliders.json";
 
 const i18nNamespaces = ["projectGlobal"];
 export const ProjectItem = async ({ id, locale }) => {
   const { t } = await initTranslations(locale, i18nNamespaces);
+  const project = sliders.find((item) => item.id === id);
 
   return (
     <div className={styles.projectItem}>
@@ -19,7 +20,7 @@ export const ProjectItem = async ({ id, locale }) => {
         boxStyle={styles.projectItem__sliderBoxStyle}
         totalItems={3}
       >
-        {sliders[id].previewSlider.map((item, index) => (
+        {project.previewSlider.map((item, index) => (
           <VerticalSlide key={index} spaceBetween={50}>
             <img
               src={item}
@@ -41,7 +42,7 @@ export const ProjectItem = async ({ id, locale }) => {
               <p className={squarePeg.className}>{t("toYou")}</p>
             </div>
             <img
-              src={sliders[id].smallImg}
+              src={project.smallImg}
               alt="smallImg"
               width={216}
               height={328}
@@ -52,7 +53,7 @@ export const ProjectItem = async ({ id, locale }) => {
         </div>
         <div className={styles.projectItem__contentContainer__middle}>
           <p>{t(`${id}.text`)}</p>
-          <Link href={"/interiorAll/"}>
+          <Link href={`/interiorAll/${id}`}>
             <MyButton>
               <ArrowPrjct color="white" width={20} height={20} />
             </MyButton>
@@ -68,6 +69,7 @@ export const ProjectItem = async ({ id, locale }) => {
 };
 export const ProjectItemTablet = async ({ id, locale }) => {
   const { t } = await initTranslations(locale, i18nNamespaces);
+  const project = sliders.find((item) => item.id === id);
   return (
     <div className={styles.projectItem}>
       <div
@@ -79,7 +81,7 @@ export const ProjectItemTablet = async ({ id, locale }) => {
           boxStyle={styles.projectItem__sliderBoxStyle}
           totalItems={3}
         >
-          {sliders[id].previewSlider.map((item, index) => (
+          {project.previewSlider.map((item, index) => (
             <VerticalSlide key={index} spaceBetween={50}>
               <img
                 src={item}
@@ -107,7 +109,7 @@ export const ProjectItemTablet = async ({ id, locale }) => {
         </p>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <img
-            src={sliders[id].smallImg}
+            src={project.smallImg}
             alt="smallImg"
             width={216}
             height={328}
@@ -139,7 +141,7 @@ export const ProjectItemTablet = async ({ id, locale }) => {
 };
 export const ProjectItemPhone = async ({ id, locale }) => {
   const { t } = await initTranslations(locale, i18nNamespaces);
-
+  const project = sliders.find((item) => item.id === id);
   return (
     <div className={styles.projectItem}>
       <div className={styles.projectItem__titlePhone}>
@@ -153,7 +155,7 @@ export const ProjectItemPhone = async ({ id, locale }) => {
           boxStyle={styles.projectItem__sliderBoxStyle}
           totalItems={3}
         >
-          {sliders[id].previewSlider.map((item, index) => (
+          {project.previewSlider.map((item, index) => (
             <VerticalSlide key={index} spaceBetween={50}>
               <img
                 src={item}
@@ -178,7 +180,7 @@ export const ProjectItemPhone = async ({ id, locale }) => {
         </div>
         <div className={styles.projectItem__contentContainer__middle}>
           <img
-            src={sliders[id].smallImg}
+            src={project.smallImg}
             alt="smallImg"
             width={216}
             height={328}

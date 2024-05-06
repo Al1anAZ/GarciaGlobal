@@ -1,4 +1,5 @@
 .mapBox {
+  overflow: hidden;
   & > div:last-child {
     display: none;
   }

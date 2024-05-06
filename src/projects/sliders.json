@@ -1,7 +1,48 @@
 [{
     "id"  : "penthouseValencia",
-    "mainImg" : "/assets/projects/1/slider_1.webp",
-    "kitchen" : ["/assets/projects/1/slider_2.webp","/assets/projects/1/kitchen/slider_2.webp","/assets/projects/1/kitchen/slider_3.webp"],
-    "living" : ["/assets/projects/1/living/slider_1.webp","/assets/projects/1/living/slider_2.webp","/assets/projects/1/living/slider_3.webp"],
-    "terrace" : ["/assets/projects/1/terrace/slider_1.webp","/assets/projects/1/terrace/slider_2.webp","/assets/projects/1/slider_3.webp"]
+    "previewSlider": ["/assets/projects/penthouseValencia/main.webp","/assets/projects/penthouseValencia/terrace/slider_2.webp","/assets/projects/penthouseValencia/living/slider_1.webp"],
+    "smallImg": "/assets/projects/penthouseValencia/living/slider_2.webp",
+    "mainImg" : "/assets/projects/penthouseValencia/main.webp",
+    "kitchen" : ["/assets/projects/penthouseValencia/kitchen/slider_1.webp","/assets/projects/penthouseValencia/kitchen/slider_2.webp","/assets/projects/penthouseValencia/kitchen/slider_3.webp"],
+    "living" : ["/assets/projects/penthouseValencia/living/slider_1.webp","/assets/projects/penthouseValencia/living/slider_2.webp","/assets/projects/penthouseValencia/living/slider_3.webp"],
+    "terrace" : ["/assets/projects/penthouseValencia/terrace/slider_1.webp","/assets/projects/penthouseValencia/terrace/slider_2.webp","/assets/projects/penthouseValencia/terrace/slider_3.webp"],
+    "allImgs" : [{"id": 1, "src": "/assets/projects/penthouseValencia/slider_1.webp"},{"id": 2, "src": "/assets/projects/penthouseValencia/slider_2.webp"},{"id": 3, "src": "/assets/projects/penthouseValencia/kitchen/slider_2.webp"},{"id": 4, "src": "/assets/projects/penthouseValencia/kitchen/slider_3.webp"},{"id": 5, "src": "/assets/projects/penthouseValencia/living/slider_1.webp"},{"id": 6, "src": "/assets/projects/penthouseValencia/living/slider_2.webp"},{"id": 7, "src": "/assets/projects/penthouseValencia/living/slider_3.webp"},{"id": 8, "src": "/assets/projects/penthouseValencia/terrace/slider_1.webp"},{"id": 9, "src": "/assets/projects/penthouseValencia/terrace/slider_2.webp"},{"id": 10, "src": "/assets/projects/penthouseValencia/slider_3.webp"}]
+    
+},
+{
+    "id"  : "tranquilModernity",
+    "previewSlider": ["/assets/projects/tranquilModernity/main.webp","/assets/projects/tranquilModernity/terrace/slider_2.webp","/assets/projects/tranquilModernity/living/slider_1.webp"],
+    "smallImg": "/assets/projects/tranquilModernity/living/slider_2.webp",
+    "mainImg" : "/assets/projects/tranquilModernity/main.webp",
+    "kitchen" : ["/assets/projects/tranquilModernity/kitchen/slider_1.webp","/assets/projects/tranquilModernity/kitchen/slider_2.webp"],
+    "living" : ["/assets/projects/tranquilModernity/living/slider_1.webp","/assets/projects/tranquilModernity/living/slider_2.webp","/assets/projects/tranquilModernity/living/slider_3.webp"],
+    "terrace" : ["/assets/projects/tranquilModernity/terrace/slider_1.webp","/assets/projects/tranquilModernity/terrace/slider_2.webp"],
+    "allImgs" : [
+    {"id": 1, "src": "/assets/projects/tranquilModernity/main.webp"},
+    {"id": 2, "src": "/assets/projects/tranquilModernity/kitchen/slider_1.webp"},
+    {"id": 3, "src": "/assets/projects/tranquilModernity/kitchen/slider_2.webp"},
+    {"id": 4, "src": "/assets/projects/tranquilModernity/living/slider_1.webp"},
+    {"id": 5, "src": "/assets/projects/tranquilModernity/living/slider_2.webp"},
+    {"id": 6, "src": "/assets/projects/tranquilModernity/living/slider_3.webp"},
+    {"id": 7, "src": "/assets/projects/tranquilModernity/terrace/slider_1.webp"},
+    {"id": 8, "src": "/assets/projects/tranquilModernity/terrace/slider_2.webp"}]
+},{
+    "id" : "projectLoftLivingRoom",
+    "previewSlider": ["/assets/projects/projectLoftLivingRoom/main.webp","/assets/projects/projectLoftLivingRoom/theUrbanLounge/slider_3.webp","/assets/projects/projectLoftLivingRoom/theIndustrialChicBar/slider_1.webp"],
+    "smallImg": "/assets/projects/projectLoftLivingRoom/theContemporaryCommons/slider_1.webp",
+    "mainImg" : "/assets/projects/projectLoftLivingRoom/main.webp",
+    "kitchen" : ["/assets/projects/projectLoftLivingRoom/theUrbanLounge/slider_1.webp","/assets/projects/projectLoftLivingRoom/theUrbanLounge/slider_2.webp","/assets/projects/projectLoftLivingRoom/theUrbanLounge/slider_3.webp"],
+    "living" : ["/assets/projects/projectLoftLivingRoom/theIndustrialChicBar/slider_1.webp","/assets/projects/projectLoftLivingRoom/theIndustrialChicBar/slider_2.webp","/assets/projects/projectLoftLivingRoom/theIndustrialChicBar/slider_3.webp"],
+    "terrace" : ["/assets/projects/projectLoftLivingRoom/theContemporaryCommons/slider_1.webp","/assets/projects/projectLoftLivingRoom/theContemporaryCommons/slider_2.webp","/assets/projects/projectLoftLivingRoom/theContemporaryCommons/slider_3.webp"],
+    "allImgs" : [
+    {"id": 1, "src": "/assets/projects/projectLoftLivingRoom/main.webp"},
+    {"id": 2, "src": "/assets/projects/projectLoftLivingRoom/theUrbanLounge/slider_1.webp"},
+    {"id": 3, "src": "/assets/projects/projectLoftLivingRoom/theUrbanLounge/slider_2.webp"},
+    {"id": 4, "src": "/assets/projects/projectLoftLivingRoom/theUrbanLounge/slider_3.webp"},
+    {"id": 5, "src": "/assets/projects/projectLoftLivingRoom/theIndustrialChicBar/slider_1.webp"},
+    {"id": 6, "src": "/assets/projects/projectLoftLivingRoom/theIndustrialChicBar/slider_2.webp"},
+    {"id": 7, "src": "/assets/projects/projectLoftLivingRoom/theIndustrialChicBar/slider_3.webp"},
+    {"id": 8, "src": "/assets/projects/projectLoftLivingRoom/theContemporaryCommons/slider_1.webp"},
+    {"id": 9, "src": "/assets/projects/projectLoftLivingRoom/theContemporaryCommons/slider_2.webp"},
+    {"id": 10, "src": "/assets/projects/projectLoftLivingRoom/theContemporaryCommons/slider_3.webp"}]
 }]

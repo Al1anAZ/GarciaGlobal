@@ -46,20 +46,20 @@
     "projectGlobal" : {
         "luxuryTailored" : "Luxury Tailored",
         "toYou" : "to You",
-        "1" : {
-            "title": "Townhouse Valencia",
-            "underTitle": "Fully renovated penthouse on Albacete, Spain 2019",
-            "text": "A testament to transformative design and bespoke elegance. We reimagined a traditional space into a modern haven, seamlessly integrating cutting-edge features while maintaining the warmth of home."
+        "penthouseValencia" : {
+            "title": "Penthouse Valencia",
+            "underTitle": "Fully renovated penthouse on Valencia, Spain",
+            "text": "This space is characterized by its clean, modern design, which seamlessly integrates elements of historical architecture. The emphasis is on simplicity and openness, with large windows inviting ample natural light that enhances the fusion of industrial and traditional materials. The overall feel is one of calm and clarity, offering a tranquil environment for living and working."
         },
-        "2" : {
-            "title": "Townhouse Valencia",
-            "underTitle": "Fully renovated penthouse on Albacete, Spain 2019",
-            "text": "A testament to transformative design and bespoke elegance. We reimagined a traditional space into a modern haven, seamlessly integrating cutting-edge features while maintaining the warmth of home."
+        "projectLoftLivingRoom" : {
+            "title": "Project Loft Living Room",
+            "underTitle": "Elegantly Redesigned Loft in Spain",
+            "text": "From the cozy nooks of The Urban Lounge to the lively buzz of The Industrial Chic Bar, and the adaptable layout of The Contemporary Commons, each area is thoughtfully designed to enhance your experience. Explore the dynamic blend of rustic charm and modern elegance in our establishment, where every corner is a testament to innovative design and meticulous attention to detail. Come in, and discover a place where every moment is worth savoring."
         },
-        "3" : {
-            "title": "Townhouse Valencia",
-            "underTitle": "Fully renovated penthouse on Albacete, Spain 2019",
-            "text": "A testament to transformative design and bespoke elegance. We reimagined a traditional space into a modern haven, seamlessly integrating cutting-edge features while maintaining the warmth of home."
+        "tranquilModernity" : {
+            "title": "Tranquil Modernity",
+            "underTitle": "Discover a sanctuary where modern design meets unmatched functionality",
+            "text": "This living room blends modern design elements with functional technology, showcasing a seamless integration of media and comfort. The strategic use of space and built-in storage solutions emphasizes a clutter-free environment that champions modern living. Ambience: The ambience is one of calm and collected sophistication, with soft lighting and neutral colors promoting a relaxing and inviting space that encourages leisure and conversation"
         }
     },
     "individualProjecting": {
@@ -101,12 +101,43 @@
         "dinner" : "Dinner"
     },
     "penthouseValencia":{
+        "location" : "Location: Valencia, Spain",
+        "designStyle" : "Design Style: Contemporary Minimalism",
+        "architecturalFusion" : "Architectural Fusion: Architectural Fusion",
+        "ambience" : "Blend Ambience: Biophilic Light-Filled Spaces",
+        "descr" : "This space is characterized by its clean, modern design, which seamlessly integrates elements of historical architecture. The emphasis is on simplicity and openness, with large windows inviting ample natural light that enhances the fusion of industrial and traditional materials. The overall feel is one of calm and clarity, offering a tranquil environment for living and working.",
          "kitchen" : "Open Kitchen Dining",
          "kitchenDescr" : "The open-plan kitchen and dining area blend functionality with sociable space. The clean lines of the cabinetry and uncluttered surfaces reflect a modern lifestyle, while the central dining table promises communal culinary experiences.",
          "living" : "Living Room",
          "livingDescr" : "Elegance meets minimalism in this living room entry. The open doorway extends a warm invitation, revealing a space of calm neutrality, punctuated by thoughtful lighting and a glimpse of nature beyond the threshold.",
          "terrace" : "Terrace",
          "terraceDescr" : "This terrace is a personal oasis, with a wooden screen providing a natural texture that complements the modern outdoor furnishings. It's an intimate corner for relaxation, illuminated by a soft glow that enhances the ambiance of peaceful solitude."
+    },
+    "tranquilModernity": {
+        "location" : "Location: Spain",
+        "designStyle" : "Design Style: Contemporary Minimalism",
+        "architecturalFusion" : "Architectural Fusion: Industrial-Traditional Blend",
+        "ambience" : "Ambience: Calm and collected sophistication",
+        "descr" : "This living room blends modern design elements with functional technology, showcasing a seamless integration of media and comfort. The strategic use of space and built-in storage solutions emphasizes a clutter-free environment that champions modern living. Ambience: The ambience is one of calm and collected sophistication, with soft lighting and neutral colors promoting a relaxing and inviting space that encourages leisure and conversation",
+         "kitchen" : "Kitchen",
+         "kitchenDescr" : "The kitchen is designed with a focus on functionality and style, featuring a clean, open layout. It boasts state-of-the-art appliances integrated seamlessly into the cabinetry, maintaining the space's streamlined look. The long kitchen island doubles as a preparation area and a casual dining spot, complete with chic, upholstered stools. Overhead, elegant pendant lights illuminate the workspace, while the subtle tones of the cabinetry and countertops create a calm, inviting atmosphere.",
+         "living" : "Living Room",
+         "livingDescr" : "The living room exudes a sleek, modern aesthetic characterized by its minimalist design and neutral color palette. Anchored by a plush, light gray sectional sofa, the space invites relaxation and socializing. Strategic lighting highlights architectural features and artwork, adding depth and warmth. A large, wall-mounted television serves as a focal point, while contemporary furnishings, including a stylish white chair and a compact coffee table, complement the room's sophisticated ambiance.",
+         "terrace" : "Terrace",
+         "terraceDescr" : "This bathroom combines luxury and simplicity, creating a serene retreat. The vanity is modern and minimalistic, with under-cabinet lighting that provides a soft glow, enhancing the room’s tranquil feel. Above the sleek, rectangular sink, a large mirror spans the width of the vanity, reflecting light and visually expanding the space. Recessed shelves offer practical storage solutions without disrupting the bathroom's clean lines, making it not only beautiful but also highly functional."
+    },
+    "projectLoftLivingRoom": {
+        "location" : "Location: Spain",
+        "designStyle" : "Design Style: Industrial Modern",
+        "architecturalFusion" : "Architectural Fusion: historical textures intertwined & comfort.",
+        "ambience" : "Ambience: welcoming atmosphere where natural elements soften urban edges",
+        "descr" : "From the cozy nooks of The Urban Lounge to the lively buzz of The Industrial Chic Bar, and the adaptable layout of The Contemporary Commons, each area is thoughtfully designed to enhance your experience. Explore the dynamic blend of rustic charm and modern elegance in our establishment, where every corner is a testament to innovative design and meticulous attention to detail. Come in, and discover a place where every moment is worth savoring.",
+        "kitchen" : "The Urban Lounge",
+         "kitchenDescr" : "The Urban Lounge combines the rustic charm of exposed brick walls with modern design elements to create a welcoming space. Comfortable blue sofas and lush green plants make this an ideal spot for casual meetings or relaxing after work. The incorporation of large windows floods the area with natural light, enhancing the warm ambiance.",
+         "living" : "The Industrial Chic Bar",
+         "livingDescr" : "This module features a stylish bar set against a backdrop of a luminous liquor display and exposed brick, embodying an industrial chic aesthetic. The long communal table, accented with modern bar stools, invites social interaction and serves as the social heart of the space. Strategic lighting above the bar highlights its sleek design and creates a vibrant atmosphere perfect for evening gatherings.",
+         "terrace" : "The Contemporary Commons",
+         "terraceDescr" : "The Contemporary Commons area is marked by its minimalist style and versatile seating arrangements, suitable for both work and leisure. The space is defined by clean lines, subdued colors, and functional furniture, making it perfect for client meetings or team collaborations. The presence of greenery adds a touch of freshness to the urban interior, while the expansive windows provide panoramic views of the urban surroundings."
     },
     "flatInteriorDesign": {
         "title": "FLAT INTERIOR DESIGN",

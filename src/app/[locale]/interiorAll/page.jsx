@@ -10,6 +10,7 @@ import styles from "./style.module.scss";
 import Link from "next/link";
 import { ArrowPrjct } from "@/components/ui/icons/arrowPrjct";
 import { BackToHome } from "@/components/backToHome";
+import sliders from "@/projects/sliders.json";
 
 const i18nNamespaces = ["home"];
 
@@ -60,23 +61,23 @@ export default async function InteriorAll({ params: { locale } }) {
             </div>
           </div>
           <div className={styles.interiorDesing__desktopContent}>
-            {Array.from({ length: 3 }).map((_, index) => (
+            {sliders.map((item, index) => (
               <section key={index}>
-                <ProjectItem id={index + 1} locale={locale} />
+                <ProjectItem id={item.id} locale={locale} />
               </section>
             ))}
           </div>
           <div className={styles.interiorDesing__tabletContent}>
-            {Array.from({ length: 3 }).map((_, index) => (
+            {sliders.map((item, index) => (
               <section key={index}>
-                <ProjectItemTablet id={index + 1} locale={locale} />
+                <ProjectItemTablet id={item.id} locale={locale} />
               </section>
             ))}
           </div>
           <div className={styles.interiorDesing__phoneContent}>
-            {Array.from({ length: 3 }).map((_, index) => (
+            {sliders.map((item, index) => (
               <section key={index}>
-                <ProjectItemPhone id={index + 1} locale={locale} />
+                <ProjectItemPhone id={item.id} locale={locale} />
               </section>
             ))}
           </div>

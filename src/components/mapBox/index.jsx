@@ -1,10 +1,10 @@
 "use client";
 import mapboxgl from "mapbox-gl";
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import styles from "./style.module.scss";
+import "mapbox-gl/dist/mapbox-gl.css";
 
 export const MapBox = () => {
-  const [map, setMap] = useState();
   const mapNode = useRef(null);
   useEffect(() => {
     const node = mapNode.current;
@@ -14,13 +14,18 @@ export const MapBox = () => {
     const mapboxMap = new mapboxgl.Map({
       container: node,
       accessToken: process.env.NEXT_PUBLIC_MAPBOX_TOKEN,
-      style: "mapbox://styles/mapbox/streets-v11",
-      center: [-74.5, 40],
-      zoom: 9,
+      style: "mapbox://styles/abiespana/cltantp6a00ut01pj4v9h0srk",
+      center: [-4.989546, 36.487223],
+      zoom: 12,
     });
-
-    setMap(mapboxMap);
-
+    mapboxMap.on("load", function () {
+      new mapboxgl.Marker({
+        color: "black",
+        anchor: "bottom",
+      })
+        .setLngLat([-4.989546, 36.487223])
+        .addTo(mapboxMap);
+    });
     return () => {
       mapboxMap.remove();
     };
