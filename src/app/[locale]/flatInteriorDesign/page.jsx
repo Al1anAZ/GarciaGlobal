@@ -39,22 +39,22 @@ export default async function FlatInteriorDesign({ params: { locale } }) {
           <div className={styles.flat__titleContainer}>
             <h1>{t("title")}</h1>
             <div className={styles.flat__projectsContainer}>
-              <Link href={"#"}>
+              <Link href={"/interiorAll/penthouseValencia"}>
                 <div className={styles.flat__projectItem}>
-                  <span>Mynysterkiy</span>
+                  <span>Penthouse Valencia</span>
                   <ArrowPrjct color="black" width={20} height={20} />
                 </div>
               </Link>
               <div className="">
-                <Link href={"#"}>
+                <Link href={"/interiorAll/tranquilModernity"}>
                   <div className={styles.flat__projectItem}>
-                    <span>Villa Cartagena</span>
+                    <span>Tranquil Modernity</span>
                     <ArrowPrjct color="black" width={20} height={20} />
                   </div>
                 </Link>
-                <Link href={"#"}>
+                <Link href={"/interiorAll/projectLoftLivingRoom"}>
                   <div className={styles.flat__projectItem}>
-                    <span>Townhouse Albacete</span>
+                    <span>Project Loft Living Room</span>
                     <ArrowPrjct color="black" width={20} height={20} />
                   </div>
                 </Link>

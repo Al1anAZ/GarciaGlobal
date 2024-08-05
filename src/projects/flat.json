@@ -1,7 +1,27 @@
 {
-    "kitchen" : ["/assets/projects/1/slider_2.webp","/assets/projects/1/slider_2.webp","/assets/projects/1/slider_2.webp"],
-    "bathroom" : ["/assets/projects/1/slider_2.webp","/assets/projects/1/slider_2.webp","/assets/projects/1/slider_2.webp"],
-    "bedroom" : ["/assets/projects/1/slider_2.webp","/assets/projects/1/slider_2.webp","/assets/projects/1/slider_2.webp"],
-    "hallway" : ["/assets/projects/1/slider_2.webp","/assets/projects/1/slider_2.webp","/assets/projects/1/slider_2.webp"],
-    "diningArea" : ["/assets/projects/1/slider_2.webp","/assets/projects/1/slider_2.webp","/assets/projects/1/slider_2.webp"]
+  "kitchen": [
+    "/assets/projects/penthouseValencia/kitchen/slider_1.webp",
+    "/assets/projects/penthouseValencia/kitchen/slider_2.webp",
+    "/assets/projects/penthouseValencia/kitchen/slider_3.webp"
+  ],
+  "bathroom": [
+    "/assets/projects/flat/bathroom/slider_1.webp",
+    "/assets/projects/flat/bathroom/slider_2.webp",
+    "/assets/projects/flat/bathroom/slider_3.webp"
+  ],
+  "bedroom": [
+    "/assets/projects/tranquilModernity/living/slider_1.webp",
+    "/assets/projects/tranquilModernity/living/slider_2.webp",
+    "/assets/projects/tranquilModernity/living/slider_3.webp"
+  ],
+  "hallway": [
+    "/assets/projects/flat/hallway/slider_1.webp",
+    "/assets/projects/flat/hallway/slider_2.webp",
+    "/assets/projects/flat/hallway/slider_3.webp"
+  ],
+  "diningArea": [
+    "/assets/projects/penthouseValencia/living/slider_1.webp",
+    "/assets/projects/penthouseValencia/living/slider_2.webp",
+    "/assets/projects/penthouseValencia/living/slider_3.webp"
+  ]
 }

@@ -37,22 +37,22 @@ export default async function InteriorAll({ params: { locale } }) {
                 <p>{t("interirDesignText")}</p>
               </div>
               <div className={styles.interiorDesing__projectsContainer}>
-                <Link href={"#"}>
+                <Link href={"/interiorAll/penthouseValencia"}>
                   <div className={styles.interiorDesing__projectItem}>
-                    <span>Mynysterkiy</span>
+                    <span>Penthouse Valencia</span>
                     <ArrowPrjct color="white" width={20} height={20} />
                   </div>
                 </Link>
                 <div className="">
-                  <Link href={"#"}>
+                  <Link href={"/interiorAll/tranquilModernity"}>
                     <div className={styles.interiorDesing__projectItem}>
-                      <span>Villa Cartagena</span>
+                      <span>Tranquil Modernity</span>
                       <ArrowPrjct color="white" width={20} height={20} />
                     </div>
                   </Link>
-                  <Link href={"#"}>
+                  <Link href={"/interiorAll/projectLoftLivingRoom"}>
                     <div className={styles.interiorDesing__projectItem}>
-                      <span>Townhouse Albacete</span>
+                      <span>Project Loft Living Room</span>
                       <ArrowPrjct color="white" width={20} height={20} />
                     </div>
                   </Link>

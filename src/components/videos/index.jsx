@@ -13,7 +13,7 @@ export const Videos = async ({ locale }) => {
         <div className={styles.videos__item}>
           <iframe
             height={395}
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=ahcrMbph_Th9JYHS&amp;controls=0"
+            src="https://www.youtube.com/embed/-i0mmJkm-ic?si=X_0gFpLcqkYCOQlN"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -39,7 +39,7 @@ export const Videos = async ({ locale }) => {
         <div className={styles.videos__item}>
           <iframe
             height={395}
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=ahcrMbph_Th9JYHS&amp;controls=0"
+            src="https://www.youtube.com/embed/T5FappTABUw?si=xG4bPkTupZyR19M-"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

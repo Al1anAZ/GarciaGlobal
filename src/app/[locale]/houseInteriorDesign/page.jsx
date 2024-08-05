@@ -30,22 +30,22 @@ export default async function HouseInteriorDesign({ params: { locale } }) {
           <Container className={styles.topSection__top}>
             <h1>{t("title")}</h1>
             <div className={styles.topSection__projectsContainer}>
-              <Link href={"#"}>
+              <Link href={"/interiorAll/penthouseValencia"}>
                 <div className={styles.topSection__projectItem}>
-                  <span>Mynysterkiy</span>
+                  <span>Penthouse Valencia</span>
                   <ArrowPrjct color="black" width={20} height={20} />
                 </div>
               </Link>
               <div className="">
-                <Link href={"#"}>
+                <Link href={"/interiorAll/tranquilModernity"}>
                   <div className={styles.topSection__projectItem}>
-                    <span>Villa Cartagena</span>
+                    <span>Tranquil Modernity</span>
                     <ArrowPrjct color="black" width={20} height={20} />
                   </div>
                 </Link>
-                <Link href={"#"}>
+                <Link href={"/interiorAll/projectLoftLivingRoom"}>
                   <div className={styles.topSection__projectItem}>
-                    <span>Townhouse Albacete</span>
+                    <span>Project Loft Living Room</span>
                     <ArrowPrjct color="black" width={20} height={20} />
                   </div>
                 </Link>

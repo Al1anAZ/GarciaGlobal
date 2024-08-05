@@ -52,7 +52,7 @@ export default async function Home({ params: { locale } }) {
             </p>
           </Container>
         </section>
-        <section className={styles.ourServices}>
+        <section className={styles.ourServices} id="ourService">
           <Container className={styles.ourServices__container}>
             <div className={styles.ourServices__item}>
               <h2>{t("ourServiceTitel")}</h2>
@@ -106,7 +106,7 @@ export default async function Home({ params: { locale } }) {
           </Container>
         </section>
         {/* <Map locale={locale} /> */}
-        <section className={styles.interiorDesing}>
+        <section className={styles.interiorDesing} id="interiorDesing">
           <Container className={styles.interiorDesing__container}>
             <div className={styles.interiorDesing__titleContainer}>
               <div className={styles.interiorDesing__textTitleBox}>
@@ -114,22 +114,22 @@ export default async function Home({ params: { locale } }) {
                 <p>{t("interirDesignText")}</p>
               </div>
               <div className={styles.interiorDesing__projectsContainer}>
-                <Link href={"/interiorAll/"}>
+                <Link href={"/interiorAll/penthouseValencia"}>
                   <div className={styles.interiorDesing__projectItem}>
-                    <span>Mynysterkiy</span>
+                    <span>Penthouse Valencia</span>
                     <ArrowPrjct color="white" width={20} height={20} />
                   </div>
                 </Link>
                 <div className="">
-                  <Link href={"/interiorAll/"}>
+                  <Link href={"/interiorAll/tranquilModernity"}>
                     <div className={styles.interiorDesing__projectItem}>
-                      <span>Townhouse Valencia</span>
+                      <span>Tranquil Modernity</span>
                       <ArrowPrjct color="white" width={20} height={20} />
                     </div>
                   </Link>
-                  <Link href={"/interiorAll/"}>
+                  <Link href={"/interiorAll/projectLoftLivingRoom"}>
                     <div className={styles.interiorDesing__projectItem}>
-                      <span>Townhouse Valencia</span>
+                      <span>Project Loft Living Room</span>
                       <ArrowPrjct color="white" width={20} height={20} />
                     </div>
                   </Link>
@@ -158,7 +158,7 @@ export default async function Home({ params: { locale } }) {
           <div className={styles.interiorDesing__imgBg} />
         </section>
         <Videos locale={locale} />
-        <section className={styles.findUs}>
+        <section className={styles.findUs} id="aboutUs">
           <Container className={styles.findUs__container}>
             <div className={styles.findUs__textBlock}>
               <span className={styles.findUs__titleContainer}>
