@@ -20,19 +20,19 @@ export const Footer = async ({ locale }) => {
           <nav className={styles.footer__nav}>
             <ul>
               <li>
-                <Link href={"/interiorAll"}>{t("home")}</Link>
+                <Link href={"#"}>{t("home")}</Link>
               </li>
               <li>
-                <Link href={"#"}>{t("services")}</Link>
+                <Link href={"#ourService"}>{t("services")}</Link>
               </li>
               <li>
-                <Link href={"#"}>{t("projects")}</Link>
+                <Link href={"#projects"}>{t("projects")}</Link>
               </li>
               <li>
-                <Link href={"#"}>{t("interiorDesign")}</Link>
+                <Link href={"#interiorDesing"}>{t("interiorDesign")}</Link>
               </li>
               <li>
-                <Link href={"#"}>{t("aboutUs")}</Link>
+                <Link href={"#aboutUs"}>{t("aboutUs")}</Link>
               </li>
             </ul>
           </nav>
@@ -42,16 +42,16 @@ export const Footer = async ({ locale }) => {
           <div>
             <p>hello@garcia-global.com</p>
             <div className="">
-              <Link href={"#"}>
+              <Link href={"#"} target="__blank">
                 <Instagram width={24} height={24} color="white" />
               </Link>
-              <Link href={"#"}>
+              <Link href={"https://wa.me/34695049104"} target="__blank">
                 <WatsApp width={24} height={24} color="white" />
               </Link>
-              <Link href={"#"}>
+              <Link href={"https://t.me/+34695049104"} target="__blank">
                 <Telegram width={24} height={24} color="white" />
               </Link>
-              <Link href={"#"}>
+              <Link href={"#"} target="__blank">
                 <Facebook width={24} height={24} color="white" />
               </Link>
             </div>

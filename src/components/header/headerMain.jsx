@@ -22,7 +22,7 @@ export const HeaderMain = async ({ locale }) => {
               <Link href={"#ourService"}>{t("services")}</Link>
             </li>
             <li>
-              <Link href={"/interiorAll"}>{t("projects")}</Link>
+              <Link href={"#projects"}>{t("projects")}</Link>
             </li>
             <li>
               <Link href={"#interiorDesing"}>{t("interiorDesign")}</Link>
