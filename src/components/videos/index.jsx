@@ -62,6 +62,32 @@ export const Videos = async ({ locale }) => {
             </div>
           </div>
         </div>
+        <div className={styles.videos__item}>
+          <iframe
+            height={395}
+            src="https://www.youtube.com/embed/kl9u-364KK8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <div>
+            <span className={styles.videos__titleContainer}>
+              <h2>{t("videoTitle3")}</h2>
+              <h3>{t("videoSubTitle3")}</h3>
+            </span>
+            <p>{t("videoText3")}</p>
+            <div className={styles.videos__advantageContainer}>
+              {Array.from({ length: 4 }).map((_, index) => (
+                <AdvantageItem
+                  key={index}
+                  text={t(`videoAdvantage${index + 1}`)}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
       </Container>
     </section>
   );
