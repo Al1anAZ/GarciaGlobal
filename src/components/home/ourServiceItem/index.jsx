@@ -5,14 +5,13 @@ import Link from "next/link";
 import styles from "./style.module.scss";
 
 export const OurServiceItem = ({ title, text, btn = false }) => {
+ 
+  if (camelize(title) === "renovationOfCottagesAndVillas") {
+    return null;  
+  }
+
   return (
-    <Link
-      href={
-        camelize(title) === "renovationOfCottagesAndVillas"
-          ? "#"
-          : camelize(title)
-      }
-    >
+    <Link href={camelize(title)}>
       <div className={styles.ourServiceItem}>
         <h3>{title}</h3>
         <p>{text}</p>

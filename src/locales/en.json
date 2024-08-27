@@ -27,7 +27,7 @@
     "aboutUsItemTitle3": "3 COUNTRIES",
     "aboutUsItemText3": "With more than 60 projects across various sectors, we've proven our ability to meet diverse challenges and client needs. Each project is a reflection of our commitment to deliver excellence and satisfaction.",
     "findUs": "FIND US",
-    "interirDesignTitle": "Interior Design Mastery",
+    "interirDesignTitle": "Projects",
     "interirDesignText": "Transforming interiors into masterpieces of comfort and style, we craft spaces that reflect the perfect balance between functionality and aesthetic appeal. Our expertise in interior design spans various environments, from luxurious homes to dynamic commercial spaces, ensuring each project not only meets but exceeds our clients' visions.",
     "seeMore": "See more"
   },
@@ -59,7 +59,57 @@
     "tranquilModernity": {
       "title": "Tranquil Modernity",
       "underTitle": "Discover a sanctuary where modern design meets unmatched functionality",
-      "text": "This living room blends modern design elements with functional technology, showcasing a seamless integration of media and comfort. The strategic use of space and built-in storage solutions emphasizes a clutter-free environment that champions modern living. Ambience: The ambience is one of calm and collected sophistication, with soft lighting and neutral colors promoting a relaxing and inviting space that encourages leisure and conversation"
+      "text": "This living room blends modern design elements with functional technology, showcasing a seamless integration of media and comfort. The strategic use of space and built-in storage solutions emphasizes a clutter-free environment that champions modern living.Ambience: The ambience is one of calm and collected sophistication, with soft lighting and neutral colors promoting a relaxing and inviting space that encourages leisure and conversation"
+    }, 
+    "NTR2": {
+      "title": "NTR2",
+      "underTitle": "Modern Minimalism Meets Cozy Sophistication",
+      "text": "The overall atmosphere is calm and sophisticated. The minimalist approach creates a sense of spaciousness and serenity, while the warm tones and subtle lighting make the spaces feel inviting rather than stark. The design carefully balances modern simplicity with touches of warmth and texture for a refined, comfortable living environment."
+    },
+    "NTR1": {
+      "title": "NTR1",
+      "underTitle": "Silent elegance: where simplicity meets luxury",
+      "text": "This design embodies a minimalist modern style, characterized by a sleek, uncluttered aesthetic. The architecture uses simple geometric forms, smooth surfaces, and a restrained color palette dominated by neutral tones. Materials such as matte finishes and soft textures are used sparingly to add warmth and subtle sophistication."
+    },
+    "TRN32": {
+      "title": "TRN32",
+      "underTitle": "Minimalism and industrial style in harmony",
+      "text": "The interior shown in the image is a dark, moody kitchen and dining area that exudes a modern minimalist vibe with an industrial touch. The space is dominated by deep, rich wood tones and subtle lighting, which accentuates the clean lines and minimalistic furniture. The kitchen features sleek, integrated appliances and a seamless design, with hidden storage adding to the uncluttered look. The dining area, with its simple table and chairs, continues the theme of minimalism, while the entire space is unified by the consistent use of dark, muted tones and the absence of unnecessary decoration."
+    }, 
+    "TRN3": {
+      "title": "TRN3",
+      "underTitle": "Modern Minimalism Meets Natural Elegance",
+      "text": "The interior captures a perfect balance between minimalism and coziness. The large windows allow natural light to filter in, highlighting the light wooden panels that dominate the walls, ceiling, and cabinetry. The kitchen island, with its sleek black countertop and minimalist bar stools, adds a subtle contrast to the otherwise warm tones of the space. The soft, low-slung seating area invites comfort, while the sparse yet thoughtful decor underscores the room’s minimalist aesthetic. The overall design is both functional and aesthetically pleasing, offering a tranquil and modern living space."
+    },
+    "ATR2": {
+      "title": "ATR2",
+      "underTitle": "Elegance and comfort in minimalism",
+      "text": "This modern interior features a minimalist design that emphasizes elegance and comfort. The space is decorated in dark blue and gray shades, which creates a calm and stylish atmosphere."
+    },
+    "ATR1": {
+      "title": "ATR1",
+      "underTitle": "Modern elegance in every detail",
+      "text": "This apartment impresses with its simplicity and elegance. Every design element is thought out, and every corner reflects a modern lifestyle. All forms are marked by straight lines, and the color scheme is marked by shades of gray and white. It creates an impression of space and lightness."
+    }, 
+    "MTH2": {
+      "title": "MTH2",
+      "underTitle": "A Harmonious Blend of Industrial and Cozy Elements",
+      "text": "This room is made in a modern style with a minimalist design. The main color scheme consists of shades of gray, which creates a calm and restrained atmosphere. Natural wooden accents add warmth and coziness to the space. The raw concrete ceiling gives the interior an industrial look, which is harmoniously combined with the clean and clear lines of the design."
+    },
+    "MTH1": {
+      "title": "MTH1",
+      "underTitle": "Sleek Simplicity: The Essence of Modern Design",
+      "text": "This modern design is characterized by clean lines, minimalism and functionality. The main idea is to create a space that is both aesthetically pleasing and practical. Using neutral colors such as white, gray and black creates a sense of space and calm. Accent colors such as red or blueadd dynamics and individuality to the interior."
+    },
+    "LTH1": {
+      "title": "LTH1",
+      "underTitle": "A Calm and Elegant Space for Relaxation",
+      "text": "The room is made in a modern style with an emphasis on minimalism. The main colors are neutral, such as white, gray and beige, which creates a calm and harmonious atmosphere. The furniture has simple, clean lines and a functional design. In general, the design of the room emphasizes simplicity, functionality and elegance, creating a pleasant place to relax and spend time."
+    },
+    "NT1H2": {
+      "title": "NT1H2",
+      "underTitle": "Monochrome Minimalism: A Futuristic and Geometric Interior Design",
+      "text": "The room has a modern minimalist design with a monochrome color scheme that includes shades of black, white and gray. The main emphasis is on clean lines and geometric shapes. Lighting plays an important role in the design, with LED strips outlining the perimeter of the ceiling and floor, creating a futuristic atmosphere. A large window provides natural light, which is complemented by artificial light."
     }
   },
   "individualProjecting": {
@@ -75,7 +125,7 @@
   },
   "houseInteriorDesign": {
     "title": "HOUSE INTERIOR DESIGN",
-    "text": "A unique interior of a private cottage is a `visiting` card that your guests will immediately see. Thanks to modern technologies it is possible to beautifully and presentably design a large house, making it a real mansion, which will be unrivalled in design.   GARCIA DLOBAL specialists are professionals who create real masterpieces. You can order a villa project with a non-standard layout, interior design in a specific style or according to individual requirements. All calculations will be carried out within the declared norms and submitted for approval",
+    "text": "A unique interior of a private cottage is a `visiting` card that your guests will immediately see. Thanks to modern technologies it is possible to beautifully and presentably design a large house, making it a real mansion, which will be unrivalled in design. GARCIA DLOBAL specialists are professionals who create real masterpieces. You can order a villa project with a non-standard layout, interior design in a specific style or according to individual requirements. All calculations will be carried out within the declared norms and submitted for approval",
     "viewFullGallery": "View full gallery"
   },
   "backToHome": {
@@ -91,10 +141,7 @@
     "videoAdvantage4": "Terrace with privacy features for outdoor enjoyment",
     "videoTitle2": "Complejo residencial 'Ministersky'",
     "videoSubTitle2": "Video of a duplex apartment",
-    "videoText2": "Take a step into a modern townhouse that pairs comfort with clean design. The spacious dining area opens up to a serene terrace, thanks to smooth sliding doors, inviting both light and leisure into your home. Natural wood surfaces and subtle lighting ensure the space feels warm and welcoming. Each piece of furniture is chosen for both its style and comfort, creating perfect spots for both rest and gatherings. This townhouse is designed with an eye for elegance and a focus on living well.",
-    "videoTitle3": "Apartment in 'Tetris Hall', Kyiv, Ukraine",
-    "videoSubTitle3": "Explore a luxurious urban living space in Kyiv",
-    "videoText3": "This apartment in 'Tetris Hall' represents the epitome of modern urban living. The interior features a sophisticated blend of contemporary design elements, with an emphasis on functionality and comfort. Large panoramic windows offer stunning views of the city skyline, filling the space with natural light throughout the day. High-end materials and custom finishes add a touch of luxury to every corner, while the open-plan layout maximizes space and flow. Whether you are looking to relax or entertain, this apartment provides the perfect backdrop for a stylish and comfortable lifestyle."
+    "videoText2": "Take a step into a modern townhouse that pairs comfort with clean design. The spacious dining area opens up to a serene terrace, thanks to smooth sliding doors, inviting both light and leisure into your home. Natural wood surfaces and subtle lighting ensure the space feels warm and welcoming. Each piece of furniture is chosen for both its style and comfort, creating perfect spots for both rest and gatherings. This townhouse is designed with an eye for elegance and a focus on living well."
   },
   "projectItemAdv": {
     "kitchen": "Kitchen",
@@ -116,12 +163,142 @@
     "terrace": "Terrace",
     "terraceDescr": "This terrace is a personal oasis, with a wooden screen providing a natural texture that complements the modern outdoor furnishings. It's an intimate corner for relaxation, illuminated by a soft glow that enhances the ambiance of peaceful solitude."
   },
+  "NTR2": {
+    "location": "Location: Spain",
+    "designStyle": "Design Style: Minimalist and modern",
+    "architecturalFusion": "Architectural Fusion: Contemporary elements with subtle warmth",
+    "ambience": "Blend Ambience: Calm and sophisticated",
+    "descr": "The overall atmosphere is calm and sophisticated. The minimalist approach creates a sense of spaciousness and serenity, while the warm tones and subtle lighting make the spaces feel inviting rather than stark. The design carefully balances modern simplicity with touches of warmth and texture for a refined, comfortable living environment.",
+    "kitchen": "Kitchen",
+    "kitchenDescr": "This kitchen has a modern and minimalist design, where the focus is on simplicity and functionality. A feature of the interior is a perforated wall made of red brick, which adds texture and visual interest to the space, creating a partial separation between different areas of the room.",
+    "living": "Living Room",
+    "livingDescr": "Elegance meets minimalism in this living room, where clean lines and subtle textures create a space of understated sophistication. The soft, neutral tones of the furniture blend seamlessly with the textured walls, offering a serene backdrop for relaxation.  ",
+    "terrace": "Bathroom ",
+    "terraceDescr": "Elegance meets minimalism in this bathroom, where simplicity and serenity converge. Smooth surfaces and soft lighting create a calming atmosphere, while the subtle tones of the tiles and fixtures offer a soothing backdrop."
+  },
+  "NTR1": {
+    "location": "Location: Spain",
+    "designStyle": "Design Style: Minimalist and modern",
+    "architecturalFusion": "Architectural Fusion: The space integrates minimalist",
+    "ambience": "Blend Ambience: Serene and calming",
+    "descr": "This design embodies a minimalist modern style, characterized by a sleek, uncluttered aesthetic. The architecture uses simple geometric forms, smooth surfaces, and a restrained color palette dominated by neutral tones. Materials such as matte finishes and soft textures are used sparingly to add warmth and subtle sophistication.",
+    "kitchen": "Kitchen",
+    "kitchenDescr": "The kitchen is made in the style of minimalism with modern elements. It is characterized by strict lines and functionality, which is emphasized by the use of neutral shades and smooth surfaces.",
+    "living": "Living Room",
+    "livingDescr": "The living room reflects the calm and simplicity of the minimalist design. Every element of the interior is carefully selected to create a space where harmony and order prevail. The absence of unnecessary details allows you to focus on the main thing - comfort and aesthetics. ",
+    "terrace": "Bathroom ",
+    "terraceDescr": "The overall impression is an elegant, restrained and functional space with an emphasis on simplicity and clean lines. The monochrome color scheme with shades of gray and white creates a calm and relaxing atmosphere."
+  },
+  "TRN32": {
+    "location": "Location: Spain",
+    "designStyle": "Design Style: Modern Minimalism.",
+    "architecturalFusion": "Architectural Fusion: The space exhibits an Industrial-Modern Fusion",
+    "ambience": "Blend Ambience: This is a space that prioritizes both form and function",
+    "descr": "The interior shown in the image is a dark, moody kitchen and dining area that exudes a modern minimalist vibe with an industrial touch. The space is dominated by deep, rich wood tones and subtle lighting, which accentuates the clean lines and minimalistic furniture. The kitchen features sleek, integrated appliances and a seamless design, with hidden storage adding to the uncluttered look. The dining area, with its simple table and chairs, continues the theme of minimalism, while the entire space is unified by the consistent use of dark, muted tones and the absence of unnecessary decoration.",
+    "kitchen": "Kitchen",
+    "kitchenDescr": "The kitchen is decorated in the style of Modern minimalism. It is characterized by clean lines, a restrained color scheme and an emphasis on functionality and simplicity. The use of dark wooden materials and the absence of unnecessary decor create an elegant and restrained interior.",
+    "living": "Living Room",
+    "livingDescr": "The living room is decorated in a modern minimalist style with an emphasis on comfort and aesthetics. Smooth surfaces, a minimum of furniture and natural materials emphasize the restraint and simplicity of the interior.",
+    "terrace": "Bathroom ",
+    "terraceDescr": "The bathroom is made in the style of Modern minimalism, where the main emphasis is on simplicity of forms, clean lines and functionality. The use of natural materials such as stone and wood creates a feeling of unity with nature."
+  },
+  "TRN3": {
+    "location": "Location: Spain",
+    "designStyle": "Design Style: Minimalist and modern",
+    "architecturalFusion": "Architectural Fusion: The space seamlessly blends contemporary",
+    "ambience": "Blend Ambience: The rooms exude a calm and serene atmosphere",
+    "descr": "The interior captures a perfect balance between minimalism and coziness. The large windows allow natural light to filter in, highlighting the light wooden panels that dominate the walls, ceiling, and cabinetry. The kitchen island, with its sleek black countertop and minimalist bar stools, adds a subtle contrast to the otherwise warm tones of the space. The soft, low-slung seating area invites comfort, while the sparse yet thoughtful decor underscores the room’s minimalist aesthetic. The overall design is both functional and aesthetically pleasing, offering a tranquil and modern living space.",
+    "kitchen": "Kitchen",
+    "kitchenDescr": "At the center of the composition is a streamlined kitchen island with a black countertop that contrasts beautifully with the lighter wood. The black countertop extends slightly, offering a functional space that could be used for meal preparation or casual dining. Three wooden bar stools with a simple, elegant design sit in front of the island, adding to the room's minimalist charm while maintaining its natural theme.",
+    "living": "Living Room",
+    "livingDescr": "The living room exudes a warm, modern minimalist aesthetic with a strong emphasis on natural materials and clean lines. The space is dominated by a striking wall made of light wood, featuring a unique grid-like pattern that adds texture and visual interest. This design element not only serves as a focal point but also enhances the room's architectural character, reflecting a refined approach to minimalism.",
+    "terrace": "Bathroom ",
+    "terraceDescr": "The bathroom embodies a minimalist design ethos, emphasizing simplicity, functionality, and the use of natural materials. The walls and floors are likely covered in light wood or tiles that mimic the warm, organic tones of natural wood, creating a cohesive flow with the rest of the home. This choice of material adds warmth and texture, fostering a sense of tranquility and spa-like calmness."
+  }, 
+  "ATR2": {
+    "location": "Location: Spain",
+    "designStyle": "Design Style: contemporary and minimalist",
+    "architecturalFusion": "Architectural Fusion: integration of lighting within the shelving units",
+    "ambience": "Blend Ambience: ambient lighting that highlights the geometric lines",
+    "descr": "This modern interior features a minimalist design that emphasizes elegance and comfort. The space is decorated in dark blue and gray shades, which creates a calm and stylish atmosphere.",
+    "kitchen": "Kitchen",
+    "kitchenDescr": "This modern kitchen interior is ideal for those who value minimalism and clean lines. The color scheme of exclusively medium shades of gray creates an impression of peace and harmony.",
+    "living": "Living Room",
+    "livingDescr": "This living room is a real place for relaxation and meetings with loved ones. The design impresses with its simplicity and elegance, and each detail is thought out. A minimalist style with clean lines and a monochrome color scheme gives the living room a modern look.",
+    "terrace": "Bathroom ",
+    "terraceDescr": "This bathroom impresses with its simplicity and style. Main features: In the center of the bathroom is a built-in white bathtub with a sleek design. The absence of visible classic faucets or handles gives it a modern look. On the left side there is a narrow shelf on which two dark bottles are placed - it is not only functional, but also adds a spectacular accent."
+  },
+  "ATR1": {
+    "location": "Location: Spain",
+    "designStyle": "Design Style: Minimalism",
+    "architecturalFusion": "Architectural Fusion: combination of straight lines and color palette",
+    "ambience": "Blend Ambience: Calm and modern",
+    "descr": "This apartment impresses with its simplicity and elegance. Every design element is thought out, and every corner reflects a modern lifestyle. All forms are marked by straight lines, and the color scheme is marked by shades of gray and white. It creates an impression of space and lightness.",
+    "kitchen": "Kitchen",
+    "kitchenDescr": "In the center of the room there is a yellow kitchen island, which looks like an expressive accent among the monochrome background. It is not only functional, but also adds welcome and sophistication. Clean lines and a minimalist approach to the design of walls and furniture create an impression of space and lightness. Natural light entering through the large window, makes the room brighter and cozier. All details are thought out to the smallest detail to ensure convenience and practicality.",
+    "living": "Living Room",
+    "livingDescr": "The design of the living room is made in a modern minimalist style, which emphasizes simplicity and functionality. The main color accent is made on neutral gray shades that create a calm and elegant atmosphere. The central element of the room is a large textured gray sofa with numerous pillows, which provides comfort and coziness. There is a glass partition in front of the sofa, which adds lightness and transparency to the space.",
+    "terrace": "Bathroom ",
+    "terraceDescr": "The design of the bathroom is made in a modern minimalist style, which emphasizes elegance and functionality. The main element of the room is a rectangular bath, built into a raised platform, which creates an integrated look with the surrounding floor."
+  },
+  "MTH2": {
+    "location": "Location: Spain",
+    "designStyle": "Design Style: modern minimalism",
+    "architecturalFusion": "Architectural Fusion: blending industrial and contemporary elements",
+    "ambience": "Blend Ambience: blend of calm and sophistication",
+    "descr": "The main color scheme consists of shades of gray, which creates a calm and restrained atmosphere. Natural wooden accents add warmth and coziness to the space. The raw concrete ceiling gives the interior an industrial look, which is harmoniously combined with the clean and clear lines of the design.",
+    "kitchen": "Kitchen",
+    "kitchenDescr": "The kitchen is made in a modern minimalist style that emphasizes simplicity and functionality. The main color scheme consists of cool shades, with concrete-like textures on the walls and floor. Wooden cabinets add natural warmth to the space, creating a cozy atmosphere.",
+    "living": "Living Room",
+    "livingDescr": "The living room is made in a modern minimalist style. In the center of the room there is a large gray sofa, which is very comfortable. Behind the sofa is a small dining area with a white table top and two high chairs. The color scheme of the room is neutral, with a predominance of gray tones, complemented by white and light wooden accents. Large windows let in lots of natural light.",
+    "terrace": "Bathroom ",
+    "terraceDescr": "The bathroom is made in a modern minimalist style. The color scheme is monochrome, with different shades of gray, which creates an elegant and sophisticated look. A thin light source adds warmth to the space, emphasizing a calm atmosphere. The shower area includes a wall shower and an additional hand shower located lower on the wall. The overall atmosphere of the bathroom is calm and cozy, with an emphasis on functionality and aesthetics."
+  },
+  "MTH1": {
+    "location": "Location: Spain",
+    "designStyle": "Design Style: Modern and minimalist",
+    "architecturalFusion": "Architectural Fusion: Clean lines, palette with bold accents",
+    "ambience": "Blend Ambience: Sophisticated and calm",
+    "descr": "This modern design is characterized by clean lines, minimalism and functionality. The main idea is to create a space that is both aesthetically pleasing and practical. Using neutral colors such as white, gray and black creates a sense of space and calm. Accent colors such as red or blueadd dynamics and individuality to the interior.",
+    "kitchen": "Kitchen",
+    "kitchenDescr": "The photo shows a modern kitchen with a minimalist design. The kitchen cabinets have smooth, flat panels in dark gray or charcoal without visible handles, giving them a discreet and stylish look. Lighting is installed under the cabinets, which adds warm light and emphasizes the cooking area.",
+    "living": "Living Room",
+    "livingDescr": "The photo shows a living room with a modern minimalist design and a monochrome color scheme dominated by neutral tones. The centerpiece is a large, soft, burgundy sectional sofa that provides plenty of seating. In the center of this area is a round black coffee table with several books on it, which indicates the functionality of the space for relaxation or communic",
+    "terrace": "Bathroom ",
+    "terraceDescr": "The photo shows a modern bathroom with a minimalist design. The color scheme is monochrome, with different shades of gray dominating the space. The lighting is hidden and unobtrusive, which enhances the elegant and modern look of the design."
+  },
+  "LTH1": {
+    "location": "Location: Spain",
+    "designStyle": "Design Style: Modern Minimalism",
+    "architecturalFusion": "Architectural Fusion: Contemporary with subtle geometric accents",
+    "ambience": "Blend Ambience: Serene and sophisticated, with a focus on clean lines",
+    "descr": "The room is made in a modern style with an emphasis on minimalism. The main colors are neutral, such as white, gray and beige, which creates a calm and harmonious atmosphere. The furniture has simple, clean lines and a functional design. In general, the design of the room emphasizes simplicity, functionality and elegance, creating a pleasant place to relax and spend time.",
+    "kitchen": "Kitchen",
+    "kitchenDescr": "This kitchen is made in a minimalist style. A long worktop with a built-in sink and cooking surface creates a functional space for cooking. The color palette consists of neutral tones: the cabinets and drawers are white, and the tabletop is black, which creates a contrast.",
+    "living": "Living Room",
+    "livingDescr": "This living room is made in a minimalist style with a neutral color palette, mainly shades of gray and white. A large window opens a view of a calm natural landscape, which creates a feeling of coziness and harmony.",
+    "terrace": "Bathroom ",
+    "terraceDescr": "Bathroom has a modern minimalist design with neutral tones, mostly white and gray. It looks very clean and spacious thanks to clear lines and the absence of unnecessary details. There is a large mirror on the wall that reflects light and visually increases the space."
+  },
+  "NT1H2": {
+    "location": "Location: Spain",
+    "designStyle": "Design Style:  Modern Minimalism",
+    "architecturalFusion": "Architectural Fusion: blends contemporary elements with futuristic touches",
+    "ambience": "Blend Ambience: Sleek and inviting",
+    "descr": "The room has a modern minimalist design with a monochrome color scheme that includes shades of black, white and gray. The main emphasis is on clean lines and geometric shapes. Lighting plays an important role in the design, with LED strips outlining the perimeter of the ceiling and floor, creating a futuristic atmosphere. A large window provides natural light, which is complemented by artificial light.",
+    "kitchen": "Kitchen",
+    "kitchenDescr": "The kitchen has a modern minimalist design with dominant black and white tones. Kitchen cabinets have smooth facades without visible handles, which emphasizes the clean lines of the space. The ceiling is equipped with built-in lighting that complements the natural light, creating a bright and airy atmosphere.",
+    "living": "Living Room",
+    "livingDescr": "The living room has a modern minimalist design with a monochrome color scheme that includes various shades of gray and black. Track lighting is installed on the ceiling, which provides directional lighting of individual areas of the room. The overall design exudes minimalism and clean lines, creating an elegant and modern space",
+    "terrace": "Bathroom ",
+    "terraceDescr": "The bathroom has a modern design with a shower cubicle with a clear glass door, beige wall tiles and a stylish white wash basin. The ceiling and shower area are illuminated with warm LED strips, which adds elegance to the space. A large mirror is located above the wash basin, which enhances the brightness and feeling of space in the room. The overall design is minimalistic and clean, with an emphasis on straight lines and uncluttered surfaces."
+  },
   "tranquilModernity": {
     "location": "Location: Spain",
     "designStyle": "Design Style: Contemporary Minimalism",
     "architecturalFusion": "Architectural Fusion: Industrial-Traditional Blend",
     "ambience": "Ambience: Calm and collected sophistication",
-    "descr": "This living room blends modern design elements with functional technology, showcasing a seamless integration of media and comfort. The strategic use of space and built-in storage solutions emphasizes a clutter-free environment that champions modern living. Ambience: The ambience is one of calm and collected sophistication, with soft lighting and neutral colors promoting a relaxing and inviting space that encourages leisure and conversation",
+    "descr": "This living room blends modern design elements with functional technology, showcasing a seamless integration of media and comfort. The strategic use of space and built-in storage solutions emphasizes a clutter-free environment that champions modern living.Ambience: The ambience is one of calm and collected sophistication, with soft lighting and neutral colors promoting a relaxing and inviting space that encourages leisure and conversation",
     "kitchen": "Kitchen",
     "kitchenDescr": "The kitchen is designed with a focus on functionality and style, featuring a clean, open layout. It boasts state-of-the-art appliances integrated seamlessly into the cabinetry, maintaining the space's streamlined look. The long kitchen island doubles as a preparation area and a casual dining spot, complete with chic, upholstered stools. Overhead, elegant pendant lights illuminate the workspace, while the subtle tones of the cabinetry and countertops create a calm, inviting atmosphere.",
     "living": "Living Room",
@@ -156,7 +333,7 @@
     "diningAreaDescr": "A gathering space that marries form and function, the dining area is likely home to a simple yet elegant table flanked by modern chairs. Overhead lighting, possibly a statement piece, centers the room, while the surrounding space remains uncluttered to keep the focus on the social experience of dining together."
   },
   "constructionOfCottagesAndVillas": {
-    "title": "CONSTRUCTION COTTAGES AND VILLAS",
+    "title": "CONSTRUCTIONCOTTAGES AND VILLAS",
     "text": "“Good buildings come from good people, and all problems are solved by good design.” – Stephen Gardiner",
     "getHelp": "Get Help",
     "generalContractor": {
