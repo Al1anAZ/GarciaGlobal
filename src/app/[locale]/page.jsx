@@ -173,16 +173,16 @@ export default async function Home({ params: { locale } }) {
                   Alcantara, Malaga
                 </p>
                 <div>
-                  <Link href={"#"}>
+                  <Link href={"#"} target="__blank">
                     <Instagram color="#DBA77B" width={24} height={24} />
                   </Link>
-                  <Link href={"#"}>
+                  <Link href={"https://wa.me/34695049104"} target="__blank">
                     <WatsApp color="#DBA77B" width={24} height={24} />
                   </Link>
-                  <Link href={"#"}>
+                  <Link href={"https://t.me/+34695049104"} target="__blank">
                     <Telegram color="#DBA77B" width={24} height={24} />
                   </Link>
-                  <Link href={"#"}>
+                  <Link href={"#"} target="__blank">
                     <Facebook color="#DBA77B" width={24} height={24} />
                   </Link>
                 </div>
