@@ -20,9 +20,15 @@ export const LangChange = ({ gap, padding }) => {
 
   showDropDown && dropDownStyle.push(styles.changeLanguage__dropDown__active);
 
-  const handleChange = (e) => {
+  const languages = [
+    { code: "en", label: "EN" },
+    { code: "ua", label: "UA" },
+    { code: "es", label: "ES" },
+    // { code: "ru", label: "RU" },
+  ];
+
+  const handleChange = (newLocale) => {
     setShowDropDown(false);
-    const newLocale = e;
 
     const days = 30;
     const date = new Date();
@@ -51,7 +57,7 @@ export const LangChange = ({ gap, padding }) => {
         style={{ gap: gap, padding: padding }}
         handler={() => setShowDropDown(!showDropDown)}
       >
-        <span>{currentLocale}</span>
+        <span>{currentLocale.toUpperCase()}</span>
         <ArrowDropDown
           color="white"
           width={24}
@@ -59,12 +65,21 @@ export const LangChange = ({ gap, padding }) => {
           rotation={showDropDown ? "180" : "0"}
         />
       </MyButton>
-      <MyButton
-        className={dropDownStyle.join(" ")}
-        handler={() => handleChange(currentLocale === "en" ? "ua" : "en")}
-      >
-        {currentLocale === "en" ? "ua" : "en"}
-      </MyButton>
+      {showDropDown && (
+        <div className={dropDownStyle.join(" ")}>
+          {languages
+            .filter((lang) => lang.code !== currentLocale)
+            .map((lang) => (
+              <MyButton
+                key={lang.code}
+                handler={() => handleChange(lang.code)}
+                className={styles.changeLanguage__option}
+              >
+                {lang.label}
+              </MyButton>
+            ))}
+        </div>
+      )}
     </div>
   );
 };

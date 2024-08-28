@@ -2,6 +2,7 @@ import { createInstance } from "i18next";
 import { initReactI18next } from "react-i18next/initReactI18next";
 import en from "../locales/en.json";
 import ua from "../locales/ua.json";
+import es from "../locales/es.json";
 
 export default async function initTranslations(
   locale,
@@ -17,14 +18,15 @@ export default async function initTranslations(
     await i18nInstance.init({
       lng: locale,
       fallbackLng: "en",
-      supportedLngs: ["en", "ua"],
+      supportedLngs: ["en", "ua", "es"],
       defaultNS: namespaces[0],
       fallbackNS: namespaces[0],
       ns: namespaces,
-      preload: resources ? [] : ["en", "ua"],
+      preload: resources ? [] : ["en", "ua", "es"],
       resources: {
         en,
         ua,
+        es,
       },
     });
   } else {
@@ -32,11 +34,11 @@ export default async function initTranslations(
       lng: locale,
       resources,
       fallbackLng: "en",
-      supportedLngs: ["en", "ua"],
+      supportedLngs: ["en", "ua", "es"],
       defaultNS: namespaces[0],
       fallbackNS: namespaces[0],
       ns: namespaces,
-      preload: resources ? [] : ["en", "ua"],
+      preload: resources ? [] : ["en", "ua", "es"],
     });
   }
 
