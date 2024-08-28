@@ -42,17 +42,11 @@ export const Footer = async ({ locale }) => {
           <div>
             <p>hello@garcia-global.com</p>
             <div className="">
-              <Link href={"#"} target="__blank">
-                <Instagram width={24} height={24} color="white" />
-              </Link>
               <Link href={"https://wa.me/34695049104"} target="__blank">
                 <WatsApp width={24} height={24} color="white" />
               </Link>
               <Link href={"https://t.me/+34695049104"} target="__blank">
                 <Telegram width={24} height={24} color="white" />
-              </Link>
-              <Link href={"#"} target="__blank">
-                <Facebook width={24} height={24} color="white" />
               </Link>
             </div>
           </div>
