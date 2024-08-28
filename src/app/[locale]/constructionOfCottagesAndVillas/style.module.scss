@@ -36,7 +36,7 @@
     & > h1 {
       color: #222;
 
-      font-size: 64px;
+      font-size: 40px;
 
       font-weight: 600;
       line-height: normal;
@@ -188,6 +188,11 @@
 @media screen and (max-width: 767px) {
   .constructionOfCottagesAndVillas {
     padding: 0 12px;
+    &__titleContainer {
+      & h1 {
+        font-size: 24px;
+      }
+    }
     &__imgsContainer {
       display: none;
     }
