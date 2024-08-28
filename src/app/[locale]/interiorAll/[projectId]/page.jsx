@@ -67,10 +67,10 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
             </div>
             <div className={styles.project__topContentPhone}>
               <div className={styles.project__topTextContainerPhone}>
-                <div className={styles.project__topTextPhone}>
+                <div className={styles.project__topTextPhone}> 
                   <p>Location: Valencia, Spain Design Style: Contemporary</p>
                   <p>Minimalism Architectural Fusion: Industrial-Traditional</p>
-                  <p>Blend Ambience: Biophilic Light-Filled Spaces</p>
+                  <p>Blend Ambience: Biophilic Light-Filled Spaces</p> 
                 </div>
                 <div className={styles.project__topImgNAdvContainerPhone}>
                   <ProjectItemAdv locale={locale} flex="start" />
@@ -93,7 +93,7 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
                   of calm and clarity, offering a tranquil environment for
                   living and working.
                 </p>
-                <Gallery img={project["allImgs"]} />
+                <Gallery img={project["allImgs"]} /> 
               </div>
             </div>
           </div>

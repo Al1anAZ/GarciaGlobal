@@ -126,7 +126,8 @@ export const ProjectItemTablet = async ({ id, locale }) => {
             }}
             className={styles.projectItem__contentContainer__middle}
           >
-            <Link href={"/interiorAll/"}>
+              
+             <Link href={`/interiorAll/${id}`}>
               <MyButton>
                 <ArrowPrjct color="white" width={20} height={20} />
               </MyButton>
@@ -186,7 +187,8 @@ export const ProjectItemPhone = async ({ id, locale }) => {
             height={328}
             className={styles.projectItem__contentContainer__imgMain}
           />
-          <Link href={"/interiorAll/"}>
+           
+           <Link href={`/interiorAll/${id}`}>
             <MyButton>
               <ArrowPrjct color="white" width={20} height={20} />
             </MyButton>

@@ -59,7 +59,7 @@ export default async function Home({ params: { locale } }) {
               <p>{t("ourSerivceText")}</p>
             </div>
             <div className={styles.ourServices__itemsContainer}>
-              {Array.from({ length: 5 }).map((_, index) => (
+              {Array.from({ length: 4 }).map((_, index) => (
                 <OurServiceItem
                   key={index}
                   title={t(`ourServiceItemTitle${index + 1}`)}

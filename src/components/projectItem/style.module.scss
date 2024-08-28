@@ -11,7 +11,7 @@
   &__sliderPhone {
     & > div {
       & > div:last-child {
-        display: none;
+        display: none; 
       }
     }
   }
@@ -30,7 +30,7 @@
       color: #717171;
 
       font-size: 14px;
-
+      padding-bottom: 20px;
       font-weight: 300;
       line-height: normal;
       letter-spacing: 0.28px;
@@ -210,9 +210,9 @@
 }
 @media screen and (max-width: 767px) {
   .projectItem {
-    gap: 10px;
+    gap: 20px;
     &__contentContainer {
-      gap: 0;
+      gap: 20px;
       &__middle {
         padding-right: 0;
         gap: 0;

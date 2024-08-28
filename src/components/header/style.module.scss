@@ -1,7 +1,7 @@
 .header {
   position: absolute;
   top: 20px;
-  width: 100%;
+  width: 100%; 
   &__container {
     display: flex;
     justify-content: space-between;
@@ -142,7 +142,7 @@
         display: none;
       }
       & > svg {
-        display: block;
+        display: block; 
       }
     }
     &__nav {
@@ -161,7 +161,7 @@
     }
     &__container {
       & > img {
-        display: none;
+      display: none; 
       }
     }
   }
