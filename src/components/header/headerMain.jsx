@@ -1,14 +1,24 @@
+import React from 'react';
 import initTranslations from "@/app/i18n";
 import { Container } from "../ui/container";
 import { LangChange } from "../ui/langChange";
 import styles from "./style.module.scss";
-import Link from "next/link";
 import { Phone } from "../ui/icons/phone";
+import { ClientSideNav } from './clientSideNav';
 
 const i18nNamespaces = ["footer"];
 
 export const HeaderMain = async ({ locale }) => {
   const { t } = await initTranslations(locale, i18nNamespaces);
+
+  const translations = {
+    home: t("home"),
+    services: t("services"),
+    projects: t("projects"),
+    interiorDesign: t("interiorDesign"),
+    aboutUs: t("aboutUs"),
+  };
+
   return (
     <header className={styles.header}>
       <Container className={styles.header__container}>
@@ -16,19 +26,19 @@ export const HeaderMain = async ({ locale }) => {
         <nav className={styles.header__nav}>
           <ul>
             <li>
-              <Link href={"#"}>{t("home")}</Link>
+              <a href="#">{translations.home}</a>
             </li>
             <li>
-              <Link href={"#ourService"}>{t("services")}</Link>
+              <a href="#ourService">{translations.services}</a>
             </li>
             <li>
-              <Link href={"interiorAll"}>{t("projects")}</Link>
+              <a href="/interiorAll">{translations.projects}</a>
             </li>
             <li>
-              <Link href={"#interiorDesing"}>{t("interiorDesign")}</Link>
+              <a href="#interiorDesing">{translations.interiorDesign}</a>
             </li>
             <li>
-              <Link href={"#aboutUs"}>{t("aboutUs")}</Link>
+              <a href="#aboutUs">{translations.aboutUs}</a>
             </li>
           </ul>
         </nav>
@@ -37,56 +47,7 @@ export const HeaderMain = async ({ locale }) => {
           <Phone color="white" width={24} height={24} />
           <LangChange padding="6px 8px 6px 12px" gap={3} />
         </div>
-        <nav className={styles.hamburger_menu}>
-          <input id={styles.menu__toggle} type="checkbox" />
-          <label className={styles.menu__btn} htmlFor={styles.menu__toggle}>
-            <span></span>
-          </label>
-          <ul className={styles.menu__box}>
-            <div
-              className=""
-              style={{
-                marginLeft: 20,
-                marginRight: 20,
-                borderBottom: "1px solid #363636",
-                paddingBottom: 20,
-                marginBottom: 36,
-              }}
-            >
-              <img
-                src="/assets/ui/logo.webp"
-                alt="logo"
-                width={192}
-                height={51}
-              />
-            </div>
-            <li>
-              <Link href={"#"} className={styles.menu__item}>
-                {t("home")}
-              </Link>
-            </li>
-            <li>
-              <Link href={"#ourService"} className={styles.menu__item}>
-                {t("services")}
-              </Link>
-            </li>
-            <li>
-              <Link href={"/interiorAll"} className={styles.menu__item}>
-                {t("projects")}
-              </Link>
-            </li>
-            <li>
-              <Link href={"#interiorDesing"} className={styles.menu__item}>
-                {t("interiorDesign")}
-              </Link>
-            </li>
-            <li>
-              <Link href={"#aboutUs"} className={styles.menu__item}>
-                {t("aboutUs")}
-              </Link>
-            </li>
-          </ul>
-        </nav>
+        <ClientSideNav translations={translations} />
       </Container>
     </header>
   );

@@ -116,6 +116,9 @@
 }
 @media screen and (max-width: 1409px) {
   .project {
+    &__topTextPhone{
+      padding-bottom: 15px;
+    }
     &__topContainer {
       gap: 18px;
     }
