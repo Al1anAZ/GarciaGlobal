@@ -103,5 +103,10 @@
         height: 209px;
       }
     }
+    &__titleContainer {
+      & > h2 {
+        font-size: 34px;
+      }
+    }
   }
 }

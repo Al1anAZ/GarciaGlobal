@@ -11,7 +11,7 @@
   &__sliderPhone {
     & > div {
       & > div:last-child {
-        display: none; 
+        display: none;
       }
     }
   }
@@ -216,6 +216,21 @@
       &__middle {
         padding-right: 0;
         gap: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .projectItem {
+    &__contentContainer {
+      &__middle {
+        flex-direction: column;
+        gap: 30px;
+
+        img {
+          width: 100%;
+        }
       }
     }
   }
