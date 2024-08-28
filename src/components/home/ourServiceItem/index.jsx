@@ -4,14 +4,18 @@ import { camelize } from "@/util/cameCase";
 import Link from "next/link";
 import styles from "./style.module.scss";
 
+const serviceSlugs = {
+  "Будівництво котеджів і дач": "constructionOfCottagesAndVillas",
+  "Плоский дизайн інтер'єру": "flatInteriorDesign",
+  "Індивідуальне проектування": "individualProjecting",
+  "Дизайн інтер'єру будинків": "houseInteriorDesign",
+};
+
 export const OurServiceItem = ({ title, text, btn = false }) => {
- 
-  if (camelize(title) === "renovationOfCottagesAndVillas") {
-    return null;  
-  }
+  const slug = serviceSlugs[title] || camelize(title);
 
   return (
-    <Link href={camelize(title)}>
+    <Link href={`/${slug}`}>
       <div className={styles.ourServiceItem}>
         <h3>{title}</h3>
         <p>{text}</p>

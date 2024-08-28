@@ -61,27 +61,27 @@ export const HeaderMain = async ({ locale }) => {
               />
             </div>
             <li>
-              <Link href={"/interiorAll"} className={styles.menu__item}>
+              <Link href={"#"} className={styles.menu__item}>
                 {t("home")}
               </Link>
             </li>
             <li>
-              <Link href={"#"} className={styles.menu__item}>
+              <Link href={"#ourService"} className={styles.menu__item}>
                 {t("services")}
               </Link>
             </li>
             <li>
-              <Link href={"#"} className={styles.menu__item}>
+              <Link href={"/interiorAll"} className={styles.menu__item}>
                 {t("projects")}
               </Link>
             </li>
             <li>
-              <Link href={"#"} className={styles.menu__item}>
+              <Link href={"#interiorDesing"} className={styles.menu__item}>
                 {t("interiorDesign")}
               </Link>
             </li>
             <li>
-              <Link href={"#"} className={styles.menu__item}>
+              <Link href={"#aboutUs"} className={styles.menu__item}>
                 {t("aboutUs")}
               </Link>
             </li>
