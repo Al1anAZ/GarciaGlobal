@@ -114,8 +114,7 @@
   opacity: 0; 
   &:checked ~ .menu__btn {
     position: fixed;
-    top: 20px; 
-    z-index: 3;
+    top: 20px;  
   }
   &:checked ~ .menu__btn > span {
     transform: rotate(45deg);
