@@ -1,11 +1,12 @@
 'use client';
 
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import Link from "next/link";
 import styles from "./style.module.scss";
 
 export const ClientSideNav = ({ translations }) => {
   const menuToggleRef = useRef(null);
+  const menuBoxRef = useRef(null);
 
   const closeMenu = () => {
     if (menuToggleRef.current) {
@@ -13,13 +14,27 @@ export const ClientSideNav = ({ translations }) => {
     }
   };
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (menuBoxRef.current && !menuBoxRef.current.contains(event.target) && 
+          !event.target.closest(`.${styles.menu__btn}`)) {
+        closeMenu();
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
   return (
     <nav className={styles.hamburger_menu}>
       <input id={styles.menu__toggle} type="checkbox" ref={menuToggleRef} />
       <label className={styles.menu__btn} htmlFor={styles.menu__toggle}>
         <span></span>
       </label>
-      <ul className={styles.menu__box}>
+      <ul className={styles.menu__box} ref={menuBoxRef}>
         <div
           className=""
           style={{

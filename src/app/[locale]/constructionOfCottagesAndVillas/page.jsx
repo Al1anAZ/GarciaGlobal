@@ -4,9 +4,12 @@ import { squarePeg } from "@/fonts";
 import styles from "./style.module.scss";
 import { HeaderWhite } from "@/components/header/headerWhite";
 import { Footer } from "@/components/footer";
-import Link from "next/link";
+import GetHelpButton from '@/components/сontactUsModal/GetHelpButton';
+ 
+
 
 const i18nNamespaces = ["constructionOfCottagesAndVillas"];
+ 
 
 export const metadata = {
   title: "Construction of Cottages and Villas - Garcia Global",
@@ -15,13 +18,20 @@ export const metadata = {
 
 export default async function ConstructionOfCottagesAndVillas({
   params: { locale },
-}) {
+}) { 
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
+ 
+
+  const translations = {};
+  Object.keys(resources[locale][i18nNamespaces[0]]).forEach(key => {
+    translations[key] = t(key);
+  });
   return (
     <TranslationsProvider
       namespaces={i18nNamespaces}
       locale={locale}
       resources={resources}
+      
     >
       <HeaderWhite />
       <main className={styles.constructionOfCottagesAndVillas}>
@@ -66,12 +76,12 @@ export default async function ConstructionOfCottagesAndVillas({
                 </div>
               ))}
             </div>
-            <Link
-              href={"#"}
+            <div
+              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-              {t("getHelp")}
-            </Link>
+             <GetHelpButton locale={locale} />
+            </div>
           </section>
           <section
             className={styles.constructionOfCottagesAndVillas__itemContainer}
@@ -104,12 +114,12 @@ export default async function ConstructionOfCottagesAndVillas({
                 </div>
               ))}
             </div>
-            <Link
-              href={"#"}
+            <div
+              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-              {t("getHelp")}
-            </Link>
+             <GetHelpButton locale={locale} />
+            </div>
             <img
               src="/assets/ui/bearBg.svg"
               alt="bearBgIcon"
@@ -149,12 +159,12 @@ export default async function ConstructionOfCottagesAndVillas({
                 </div>
               ))}
             </div>
-            <Link
-              href={"#"}
+            <div
+              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-              {t("getHelp")}
-            </Link>
+             <GetHelpButton locale={locale} />
+            </div>
           </section>
           <section
             className={styles.constructionOfCottagesAndVillas__itemContainer}
@@ -187,12 +197,12 @@ export default async function ConstructionOfCottagesAndVillas({
                 </div>
               ))}
             </div>
-            <Link
-              href={"#"}
+            <div
+              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-              {t("getHelp")}
-            </Link>
+             <GetHelpButton locale={locale} />
+            </div>
           </section>
           <section
             className={styles.constructionOfCottagesAndVillas__itemContainer}
@@ -228,12 +238,12 @@ export default async function ConstructionOfCottagesAndVillas({
                 </div>
               ))}
             </div>
-            <Link
-              href={"#"}
+            <div
+              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-              {t("getHelp")}
-            </Link>
+             <GetHelpButton locale={locale} />
+            </div>
           </section>
           <section
             className={styles.constructionOfCottagesAndVillas__itemContainer}
@@ -266,12 +276,12 @@ export default async function ConstructionOfCottagesAndVillas({
                 </div>
               ))}
             </div>
-            <Link
-              href={"#"}
+            <div
+              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-              {t("getHelp")}
-            </Link>
+             <GetHelpButton locale={locale} />
+            </div>
           </section>
           <section
             className={styles.constructionOfCottagesAndVillas__itemContainer}
@@ -370,12 +380,12 @@ export default async function ConstructionOfCottagesAndVillas({
                 ))}
               </div>
             </div>
-            <Link
-              href={"#"}
+            <div
+              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-              {t("getHelp")}
-            </Link>
+             <GetHelpButton locale={locale} />
+            </div>
             <img
               src="/assets/ui/bearBg.svg"
               alt="bearBgIcon"
@@ -415,12 +425,12 @@ export default async function ConstructionOfCottagesAndVillas({
                 </div>
               ))}
             </div>
-            <Link
-              href={"#"}
+            <div
+              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-              {t("getHelp")}
-            </Link>
+             <GetHelpButton locale={locale} />
+            </div>
           </section>
           <section
             className={styles.constructionOfCottagesAndVillas__itemContainer}
@@ -453,12 +463,12 @@ export default async function ConstructionOfCottagesAndVillas({
                 </div>
               ))}
             </div>
-            <Link
-              href={"#"}
+            <div
+              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-              {t("getHelp")}
-            </Link>
+             <GetHelpButton locale={locale} />
+            </div>
           </section>
         </div>
         <div className={styles.constructionOfCottagesAndVillas__imgsContainer}>
@@ -482,7 +492,7 @@ export default async function ConstructionOfCottagesAndVillas({
           ))}
         </div>
       </main>
-      <Footer locale={locale} />
+      <Footer locale={locale} /> 
     </TranslationsProvider>
   );
 }

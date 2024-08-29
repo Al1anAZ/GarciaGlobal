@@ -352,10 +352,18 @@
     "diningArea": "Dining Area",
     "diningAreaDescr": "A gathering space that marries form and function, the dining area is likely home to a simple yet elegant table flanked by modern chairs. Overhead lighting, possibly a statement piece, centers the room, while the surrounding space remains uncluttered to keep the focus on the social experience of dining together."
   },
+  "contactUs": {
+    "getInTouch": "GET IN TOUCH",
+    "contactDescription": "Our expert will contact you during 5 minutes. Calculate cost of your project, learn about materials and process with 303 Design!",
+    "yourName": "Your name",
+    "phoneNumber": "Phone number",
+    "getInTouchNow": "Get in touch now",
+     "getHelp": "Get Help"
+  },
   "constructionOfCottagesAndVillas": {
-    "title": "CONSTRUCTIONCOTTAGES AND VILLAS",
+    "title": "CONSTRUCTION COTTAGES AND VILLAS",
     "text": "“Good buildings come from good people, and all problems are solved by good design.” – Stephen Gardiner",
-    "getHelp": "Get Help",
+    
     "generalContractor": {
       "title": "General contractor",
       "text": "As a general contractor, we manage construction projects from inception to completion, handling technical documentation, budgeting, scheduling, and subcontractor coordination. Our expertise ensures efficient project execution while prioritizing budget optimization, work safety, and client satisfaction.",
@@ -371,7 +379,7 @@
       "item10": "Preparation of estimates and financing plan",
       "item11": "Optimising project solutions to budget",
       "item12": "Integrated project management"
-    },
+    },  
     "geodeticWorks": {
       "title": "Geodetic works",
       "item1": "Development of technical documentation and budgeting",
@@ -446,6 +454,6 @@
       "item4": "Car parks, Lighting",
       "item5": "Fences, swimming pools",
       "item6": "Leisure areas"
-    }
+    } 
   }
 }
