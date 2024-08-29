@@ -13,12 +13,13 @@
 
     font-size: 14px;
 
-    font-weight: 400;
+    font-weiht: 400;
 
     text-transform: uppercase;
   }
   &__dropDown {
     position: absolute;
+    top: 38px;
 
     display: flex;
     align-items: center;

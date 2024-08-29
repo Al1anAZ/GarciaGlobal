@@ -1,8 +1,10 @@
-'use client';
+"use client";
 
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect } from "react";
 import Link from "next/link";
 import styles from "./style.module.scss";
+
+import { LangChange } from "../ui/langChange";
 
 export const ClientSideNav = ({ translations }) => {
   const menuToggleRef = useRef(null);
@@ -14,17 +16,20 @@ export const ClientSideNav = ({ translations }) => {
     }
   };
 
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (menuBoxRef.current && !menuBoxRef.current.contains(event.target) && 
-          !event.target.closest(`.${styles.menu__btn}`)) {
-        closeMenu();
-      }
-    };
+  const handleClickOutside = (event) => {
+    if (
+      menuBoxRef.current &&
+      !menuBoxRef.current.contains(event.target) &&
+      menuToggleRef.current.checked
+    ) {
+      closeMenu();
+    }
+  };
 
-    document.addEventListener('mousedown', handleClickOutside);
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 
@@ -36,21 +41,18 @@ export const ClientSideNav = ({ translations }) => {
       </label>
       <ul className={styles.menu__box} ref={menuBoxRef}>
         <div
-          className=""
+          className={styles.menu__box__inner}
           style={{
             marginLeft: 20,
             marginRight: 20,
             borderBottom: "1px solid #363636",
-            paddingBottom: 20, 
+            paddingBottom: 20,
+            paddingTop: 10,
             marginBottom: 36,
           }}
         >
-          <img
-            src="/assets/ui/logo.webp"
-            alt="logo"
-            width={192}
-            height={51}
-          />
+          <img src="/assets/ui/logo.webp" alt="logo" width={192} height={51} />
+          <LangChange padding="6px 8px 6px 12px" gap={3} />
         </div>
         <li>
           <Link href={"#"} className={styles.menu__item} onClick={closeMenu}>
@@ -58,22 +60,38 @@ export const ClientSideNav = ({ translations }) => {
           </Link>
         </li>
         <li>
-          <Link href={"#ourService"} className={styles.menu__item} onClick={closeMenu}>
+          <Link
+            href={"#ourService"}
+            className={styles.menu__item}
+            onClick={closeMenu}
+          >
             {translations.services}
           </Link>
         </li>
         <li>
-          <Link href={"/interiorAll"} className={styles.menu__item} onClick={closeMenu}>
+          <Link
+            href={"/interiorAll"}
+            className={styles.menu__item}
+            onClick={closeMenu}
+          >
             {translations.projects}
           </Link>
         </li>
         <li>
-          <Link href={"#interiorDesing"} className={styles.menu__item} onClick={closeMenu}>
+          <Link
+            href={"#interiorDesing"}
+            className={styles.menu__item}
+            onClick={closeMenu}
+          >
             {translations.interiorDesign}
           </Link>
         </li>
         <li>
-          <Link href={"#aboutUs"} className={styles.menu__item} onClick={closeMenu}>
+          <Link
+            href={"#aboutUs"}
+            className={styles.menu__item}
+            onClick={closeMenu}
+          >
             {translations.aboutUs}
           </Link>
         </li>

@@ -12,7 +12,7 @@
     "ourServiceItemTitle2": "Flat Interior Design",
     "ourServiceItemText2": "Our mission is to deliver exceptional constructiuion services by adhering to the highest standards of workmanship",
     "ourServiceItemTitle3": "Individual Projecting",
-    "ourServiceItemText3": "Our mission is to deliver exceptional construction services by adhering.", 
+    "ourServiceItemText3": "Our mission is to deliver exceptional construction services by adhering.",
     "ourServiceItemTitle4": "House Interior Design",
     "ourServiceItemText4": "Our mission is to deliver exceptional construction services by adhering to the highest  of workmanship.",
     "aboutUs": "About Us",
@@ -109,7 +109,6 @@
       "underTitle": "Monochrome Minimalism: A Futuristic and Geometric Interior Design",
       "text": "The room has a modern minimalist design with a monochrome color scheme that includes shades of black, white and gray. The main emphasis is on clean lines and geometric shapes. Lighting plays an important role in the design, with LED strips outlining the perimeter of the ceiling and floor, creating a futuristic atmosphere. A large window provides natural light, which is complemented by artificial light."
     },
-    
     "villarenovation": {
       "title": "Villa Renovation",
       "underTitle": "Space, light and luxury in every detail",
@@ -286,7 +285,7 @@
     "livingDescr": "This living room is made in a minimalist style with a neutral color palette, mainly shades of gray and white. A large window opens a view of a calm natural landscape, which creates a feeling of coziness and harmony.",
     "terrace": "Bathroom ",
     "terraceDescr": "Bathroom has a modern minimalist design with neutral tones, mostly white and gray. It looks very clean and spacious thanks to clear lines and the absence of unnecessary details. There is a large mirror on the wall that reflects light and visually increases the space."
-  }, 
+  },
   "NT1H2": {
     "location": "Location: Spain",
     "designStyle": "Design Style:  Modern Minimalism",

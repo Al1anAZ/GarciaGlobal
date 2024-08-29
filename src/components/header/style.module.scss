@@ -52,7 +52,7 @@
     right: 10px;
     width: 26px;
     height: 26px;
-    cursor: pointer; 
+    cursor: pointer;
     & > span,
     & > span::before,
     & > span::after {
@@ -93,6 +93,11 @@
     transition: right 0.25s ease-in-out, visibility 0.25s ease-in-out;
     & > li {
       align-self: flex-end;
+    }
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
   }
   &__item {
@@ -169,6 +174,28 @@
   .menu {
     &__item {
       font-size: 30px;
+    }
+  }
+}
+@media screen and (max-width: 414px) {
+  .menu {
+    &__box {
+      div {
+        flex-direction: column;
+        align-items: end;
+        gap: 10px 0;
+      }
+    }
+
+    &__item {
+      font-size: 24px;
+    }
+  }
+}
+@media screen and (max-width: 346px) {
+  .menu {
+    &__item {
+      font-size: 20px;
     }
   }
 }
