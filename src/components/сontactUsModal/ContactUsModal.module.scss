@@ -1,0 +1,79 @@
+.modalOverlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+  }
+  
+  .modalContent {
+    background-color: #0E0E0E;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    max-width: 440px;
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 33px!important;
+    font-weight: 300;
+    font-family: Roboto;
+    color: #DCDCDC !important;
+    letter-spacing: 1.12px;
+    margin-bottom: 40px; 
+    display: grid;
+    place-items: center;
+    text-align: center;  
+  }
+  
+  .underline {
+    height: 2px;
+    width: 12rem;
+    background-color: #3B82F6;
+    margin-top: 0.25rem; 
+  }
+  
+  .description {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-family: Roboto;
+    color: #F1F1F1;
+    margin-bottom: 16px;
+  }
+  
+  .input {
+    width: 100%;
+    height: 50px;
+    padding: 8px 13px;
+    background-color: transparent;
+    border: 1px solid #374151;
+    color: white;
+    border-radius: 0.25rem;
+    margin-bottom: 12px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  
+  .button {
+    width: 100%;
+    background-color: #1F2937;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto;
+    cursor: pointer;
+  }
+  
+  .buttonArrow {
+    font-size: 1.25rem;
+  }

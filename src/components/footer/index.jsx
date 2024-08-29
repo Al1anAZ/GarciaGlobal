@@ -20,19 +20,19 @@ export const Footer = async ({ locale }) => {
           <nav className={styles.footer__nav}>
             <ul>
               <li>
-                <Link href={"#"}>{t("home")}</Link>
+                <Link href={"/#"}>{t("home")}</Link>
               </li>
               <li>
-                <Link href={"#ourService"}>{t("services")}</Link>
+                <Link href={"/#ourService"}>{t("services")}</Link>
               </li>
               <li>
                 <Link href={"interiorAll"}>{t("projects")}</Link>
               </li>
               <li>
-                <Link href={"#interiorDesing"}>{t("interiorDesign")}</Link>
+                <Link href={"/#interiorDesing"}>{t("interiorDesign")}</Link>
               </li>
               <li>
-                <Link href={"#aboutUs"}>{t("aboutUs")}</Link>
+                <Link href={"/#aboutUs"}>{t("aboutUs")}</Link>
               </li>
             </ul>
           </nav>

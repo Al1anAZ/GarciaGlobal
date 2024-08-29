@@ -111,10 +111,10 @@
 }
 
 #menu__toggle {
-  opacity: 0;
+  opacity: 0; 
   &:checked ~ .menu__btn {
     position: fixed;
-    top: 20px;
+    top: 20px;  
   }
   &:checked ~ .menu__btn > span {
     transform: rotate(45deg);

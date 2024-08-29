@@ -351,6 +351,14 @@
     "diningArea": "Área de Comedor",
     "diningAreaDescr": "Un espacio de reunión que combina forma y función, el área de comedor probablemente alberga una mesa simple pero elegante flanqueada por sillas modernas. La iluminación superior, posiblemente una pieza destacada, centra la habitación, mientras que el espacio circundante permanece despejado para mantener el enfoque en la experiencia social de comer juntos."
   },
+  "contactUs": {
+  "getInTouch": "PÓNTENOS EN CONTACTO",
+  "contactDescription": "Nuestro experto se pondrá en contacto contigo en 5 minutos. Calcula el costo de tu proyecto, conoce los materiales y el proceso con 303 Design.",
+  "yourName": "Tu nombre",
+  "phoneNumber": "Número de teléfono",
+  "getInTouchNow": "Contacta ahora",
+  "getHelp": "Obtener ayuda"
+  },
   "constructionOfCottagesAndVillas": {
     "title": "CONSTRUCCIÓN DE COTTAGES Y VILLAS",
     "text": "“Los buenos edificios provienen de buenas personas, y todos los problemas se resuelven con un buen diseño.” – Stephen Gardiner",
