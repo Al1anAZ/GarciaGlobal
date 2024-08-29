@@ -126,8 +126,7 @@ export const ProjectItemTablet = async ({ id, locale }) => {
             }}
             className={styles.projectItem__contentContainer__middle}
           >
-              
-             <Link href={`/interiorAll/${id}`}>
+            <Link href={`/interiorAll/${id}`}>
               <MyButton>
                 <ArrowPrjct color="white" width={20} height={20} />
               </MyButton>
@@ -140,6 +139,9 @@ export const ProjectItemTablet = async ({ id, locale }) => {
     </div>
   );
 };
+//
+//
+//
 export const ProjectItemPhone = async ({ id, locale }) => {
   const { t } = await initTranslations(locale, i18nNamespaces);
   const project = sliders.find((item) => item.id === id);
@@ -151,10 +153,13 @@ export const ProjectItemPhone = async ({ id, locale }) => {
       </div>
       <div className={styles.projectItem__sliderPhone}>
         <VerticalSlider
-          direction={"vertical"}
+          direction={"horizontal"}
           className={styles.projectItem__sliderContainer}
           boxStyle={styles.projectItem__sliderBoxStyle}
           totalItems={3}
+          pagination={{
+            clickable: true,
+          }}
         >
           {project.previewSlider.map((item, index) => (
             <VerticalSlide key={index} spaceBetween={50}>
@@ -187,8 +192,8 @@ export const ProjectItemPhone = async ({ id, locale }) => {
             height={328}
             className={styles.projectItem__contentContainer__imgMain}
           />
-           
-           <Link href={`/interiorAll/${id}`}>
+
+          <Link href={`/interiorAll/${id}`}>
             <MyButton>
               <ArrowPrjct color="white" width={20} height={20} />
             </MyButton>
