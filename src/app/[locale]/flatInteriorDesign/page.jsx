@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowPrjct } from "@/components/ui/icons/arrowPrjct";
 import styles from "./style.module.scss";
 
-import { HeaderWhite } from "@/components/header/headerWhite";
+import { HeaderBlack } from "@/components/header/headerBlack";
 import { Container } from "@/components/ui/container";
 
 import { Footer } from "@/components/footer";
@@ -33,7 +33,10 @@ export default async function FlatInteriorDesign({ params: { locale } }) {
       locale={locale}
       resources={resources}
     >
-      <HeaderWhite />
+       <div className={styles.flat__header}>  
+     <HeaderBlack locale={locale} />
+     </div>
+
       <main className={styles.flat}>
         <Container className={styles.flat__container}>
           <div className={styles.flat__titleContainer}>
@@ -58,6 +61,7 @@ export default async function FlatInteriorDesign({ params: { locale } }) {
                     <ArrowPrjct color="black" width={20} height={20} />
                   </div>
                 </Link>
+                
               </div>
             </div>
           </div>

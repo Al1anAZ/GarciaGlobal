@@ -1,6 +1,6 @@
 {
   "home": {
-    "landingTitle": "Construcción en Marbella",
+    "landingTitle": "Construction in Marbella",
     "landingTitleP": "Construyendo tu futuro sobre una base de excelencia",
     "landingConstruction": "Construcción",
     "landingInteriorDesign": "Diseño de interiores",
@@ -109,10 +109,15 @@
       "underTitle": "Minimalismo monocromático: un diseño de interiores futurista y geométrico",
       "text": "La habitación tiene un diseño moderno minimalista con una paleta de colores monocromática que incluye tonos de negro, blanco y gris. El énfasis principal está en líneas limpias y formas geométricas. La iluminación juega un papel importante en el diseño, con tiras de LED delineando el perímetro del techo y el suelo, creando una atmósfera futurista. Una gran ventana proporciona luz natural, complementada por luz artificial."
     },
-    "villarenovation": {
+    "villa Renovation": {
       "title": "Renovación de Villa",
       "underTitle": "Espacio, luz y lujo en cada detalle",
       "text": "La imagen muestra el interior de una casa moderna, hecha en un estilo minimalista con elementos de arquitectura moderna. El espacio se caracteriza por líneas claras, formas minimalistas y un predominio de colores claros. El color blanco de las paredes y los muebles crea un efecto de espacio y luz, enfatizando la limpieza y simplicidad del interior. La barandilla de vidrio de las escaleras añade transparencia y ligereza, mientras que el uso de mármol oscuro en las escaleras añade lujo y contraste."
+    },
+    "goodlifepark": {
+      "title": " GoodLife Park",
+      "underTitle": "Space, light and luxury in every detail",
+      "text": "The image shows the interior of a modern house, made in the style of minimalism with elements of modern architecture. The space is characterized by clear lines, minimalist shapes and a predominance of light colors. The white color of the walls and furniture creates the effect of space and light, emphasizing the cleanliness and simplicity of the interior. The glass balustrade of the stairs adds transparency and lightness, while the use of dark marble on the stairs adds luxury and contrast."
     }
   },
   "individualProjecting": {

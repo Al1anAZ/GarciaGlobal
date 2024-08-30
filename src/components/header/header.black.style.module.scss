@@ -10,10 +10,12 @@
   &__nav {
     & > ul {
       display: flex;
+       
       gap: 60px;
       & a {
         color: rgb(0, 0, 0);
         font-size: 14px;
+        font-weight: 400;
       }
     }
   }

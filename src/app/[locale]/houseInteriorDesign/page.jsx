@@ -1,6 +1,6 @@
 import styles from "./style.module.scss";
 import { Footer } from "@/components/footer";
-import { HeaderWhite } from "@/components/header/headerWhite";
+import { HeaderBlack } from "@/components/header/headerBlack";
 import initTranslations from "@/app/i18n";
 import { TranslationsProvider } from "@/helper/translationProvider";
 import { Map } from "@/components/map";
@@ -24,7 +24,10 @@ export default async function HouseInteriorDesign({ params: { locale } }) {
       locale={locale}
       resources={resources}
     >
-      <HeaderWhite />
+         <div className={styles.houseInteriorDesign__header}>  
+     <HeaderBlack locale={locale} />
+     </div>
+
       <main className={styles.houseInteriorDesign}>
         <section className={styles.topSection}>
           <Container className={styles.topSection__top}>
@@ -49,6 +52,8 @@ export default async function HouseInteriorDesign({ params: { locale } }) {
                     <ArrowPrjct color="black" width={20} height={20} />
                   </div>
                 </Link>
+
+                
               </div>
             </div>
           </Container>

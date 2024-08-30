@@ -155,16 +155,26 @@
   &__itemGetHelp {
     align-self: flex-end;
     padding-right: 71px;
+    color:  #d3d3d3;  
+    font-size: 12px;
+    border-bottom: 1px solid #d3d3d3;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;  
+    transition: color 0.3s ease;  
   }
 
   &__header {
     display: flex;
     position: relative;
     margin-bottom: 100px; 
+    font-weight: bold;
   }
 
  
 }
+
 
 
 @media screen and (max-width: 1409px) {

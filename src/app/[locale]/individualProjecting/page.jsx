@@ -3,7 +3,7 @@ import { TranslationsProvider } from "@/helper/translationProvider";
 
 import styles from "./style.module.scss";
 
-import { HeaderWhite } from "@/components/header/headerWhite";
+import { HeaderBlack } from "@/components/header/headerBlack";
 import { Container } from "@/components/ui/container";
 import { StepItem } from "@/components/individualProjecting/stepItem";
 import { Footer } from "@/components/footer";
@@ -23,7 +23,9 @@ export default async function IndividualProjecting({ params: { locale } }) {
       locale={locale}
       resources={resources}
     >
-      <HeaderWhite />
+     <div className={styles.individualProjecting__header}>  
+     <HeaderBlack locale={locale} />
+     </div>
       <main className={styles.individualProjecting}>
         <Container className={styles.individualProjecting__container}>
           <h1>{t("title")}</h1>

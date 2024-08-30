@@ -112,29 +112,7 @@ export default async function Home({ params: { locale } }) {
               <div className={styles.interiorDesing__textTitleBox}>
                 <h2>{t("interirDesignTitle")}</h2>
                 <p>{t("interirDesignText")}</p>
-              </div>
-              <div className={styles.interiorDesing__projectsContainer}>
-                <Link href={"/interiorAll/penthouseValencia"}>
-                  <div className={styles.interiorDesing__projectItem}>
-                    <span>Penthouse Valencia</span>
-                    <ArrowPrjct color="white" width={20} height={20} />
-                  </div>
-                </Link>
-                <div className="">
-                  <Link href={"/interiorAll/tranquilModernity"}>
-                    <div className={styles.interiorDesing__projectItem}>
-                      <span>Tranquil Modernity</span>
-                      <ArrowPrjct color="white" width={20} height={20} />
-                    </div>
-                  </Link>
-                  <Link href={"/interiorAll/projectLoftLivingRoom"}>
-                    <div className={styles.interiorDesing__projectItem}>
-                      <span>Project Loft Living Room</span>
-                      <ArrowPrjct color="white" width={20} height={20} />
-                    </div>
-                  </Link>
-                </div>
-              </div>
+              </div> 
             </div>
             <div className={styles.interiorDesing__contentDesktop}>
               <ProjectItem id={"projectLoftLivingRoom"} locale={locale} />
@@ -142,6 +120,35 @@ export default async function Home({ params: { locale } }) {
             </div>
             <div className={styles.interiorDesing__contentTablet}>
               <ProjectItemTablet id={"projectLoftLivingRoom"} locale={locale} />
+              <ProjectItemTablet id={"tranquilModernity"} locale={locale} />
+            </div>
+            <div className={styles.interiorDesing__contentPhone}>
+              <ProjectItemPhone id={"projectLoftLivingRoom"} locale={locale} />
+              <ProjectItemPhone id={"tranquilModernity"} locale={locale} />
+            </div>
+          </Container>
+          {/* <Link
+            className={styles.interiorDesing__seeMore}
+            href={"/#"}
+          >
+            {t("seeMore")}
+          </Link> */}
+          <div className={styles.interiorDesing__imgBg} />
+        </section>
+        <section className={styles.interiorDesing} id="interiorDesing">
+          <Container className={styles.interiorDesing__container}>
+            <div className={styles.interiorDesing__titleContainer}>
+              <div className={styles.interiorDesing__textTitleBox}>
+                <h2>{t("ProjectTitle")}</h2>
+                <p>{t("interirDesignText")}</p>
+              </div> 
+            </div>
+            <div className={styles.interiorDesing__contentDesktop}>
+              <ProjectItem id={"villarenovation"} locale={locale} />
+              <ProjectItem id={"goodlifepark"} locale={locale} />
+            </div>
+            <div className={styles.interiorDesing__contentTablet}>
+              <ProjectItemTablet id={"goodlifepark"} locale={locale} />
               <ProjectItemTablet id={"tranquilModernity"} locale={locale} />
             </div>
             <div className={styles.interiorDesing__contentPhone}>

@@ -812,5 +812,63 @@
       },
       { "id": 10, "src": "/assets/projects/villarenovation/terrace/slider_3.webp" }
     ] 
-  }  
+  },
+  {
+    "id": "goodlifepark",
+    "previewSlider": [
+      "/assets/projects/goodlifepark/main.webp",
+      "/assets/projects/goodlifepark/terrace/slider_2.webp",
+      "/assets/projects/goodlifepark/living/slider_1.webp"
+    ],
+    "smallImg": "/assets/projects/goodlifepark/living/slider_2.webp",
+    "mainImg": "/assets/projects/goodlifepark/main.webp",
+    "kitchen": [
+      "/assets/projects/goodlifepark/kitchen/slider_1.webp",
+      "/assets/projects/goodlifepark/kitchen/slider_2.webp",
+      "/assets/projects/goodlifepark/kitchen/slider_3.webp"
+    ],
+    "living": [
+      "/assets/projects/goodlifepark/living/slider_1.webp",
+      "/assets/projects/goodlifepark/living/slider_2.webp",
+      "/assets/projects/goodlifepark/living/slider_3.webp"
+    ],
+    "terrace": [
+      "/assets/projects/goodlifepark/terrace/slider_1.webp",
+      "/assets/projects/goodlifepark/terrace/slider_2.webp",
+      "/assets/projects/goodlifepark/terrace/slider_3.webp"
+    ],
+    "allImgs": [
+      { "id": 1, "src": "/assets/projects/goodlifepark/main.webp" },
+      { "id": 2, "src": "/assets/projects/goodlifepark/kitchen/slider_1.webp" },
+      {
+        "id": 3,
+        "src": "/assets/projects/goodlifepark/kitchen/slider_2.webp"
+      },
+      {
+        "id": 4,
+        "src": "/assets/projects/goodlifepark/kitchen/slider_3.webp"
+      },
+      {
+        "id": 5,
+        "src": "/assets/projects/goodlifepark/living/slider_1.webp"
+      },
+      {
+        "id": 6,
+        "src": "/assets/projects/goodlifepark/living/slider_2.webp"
+      },
+      {
+        "id": 7,
+        "src": "/assets/projects/goodlifepark/living/slider_3.webp"
+      },
+      {
+        "id": 8,
+        "src": "/assets/projects/goodlifepark/terrace/slider_1.webp"
+      },
+      {
+        "id": 9,
+        "src": "/assets/projects/goodlifepark/terrace/slider_2.webp"
+      },
+      { "id": 10, "src": "/assets/projects/goodlifepark/terrace/slider_3.webp" }
+    ] 
+  }   
 ]

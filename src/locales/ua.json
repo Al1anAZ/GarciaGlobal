@@ -1,6 +1,6 @@
 {
 	"home": {
-		"landingTitle": "Будівництво в Марбельї",
+		"landingTitle": "Construction in Marbella",
 		"landingTitleP": "Будуємо Ваше Майбутнє на Основі Вершинної Якості",
 		"landingConstruction": "Будівництво",
 		"landingInteriorDesign": "Дизайн Інтер'єру",
@@ -109,10 +109,15 @@
   "underTitle": "Монохромний мінімалізм: футуристичний та геометричний інтер'єрний дизайн",
   "text": "Кімната має сучасний мінімалістичний дизайн з монохромною кольоровою схемою, що включає відтінки чорного, білого та сірого. Основний акцент зроблено на чистих лініях та геометричних формах. Освітлення відіграє важливу роль у дизайні, з LED-стрічками, що окреслюють периметр стелі та підлоги, створюючи футуристичну атмосферу. Велике вікно забезпечує природне освітлення, яке доповнюється штучним світлом."
 }, 
-"villarenovation": {
+"villa Renovation": {
 	"title": "Реновація вілли",
 	"underTitle": "Простір, світло та розкіш у кожній деталі",
 	"text": "Зображення показує інтер'єр сучасного будинку, виконаного в стилі мінімалізму з елементами сучасної архітектури. Простір характеризується чіткими лініями, мінімалістичними формами та переважанням світлих кольорів. Білий колір стін і меблів створює ефект простору і світла, підкреслюючи чистоту і простоту інтер'єру. Скляне огородження сходів додає прозорості і легкості, тоді як використання темного мармуру на сходах додає розкоші та контрасту."
+},
+"goodlifepark": {
+  "title": " GoodLife Park",
+  "underTitle": "Space, light and luxury in every detail",
+  "text": "The image shows the interior of a modern house, made in the style of minimalism with elements of modern architecture. The space is characterized by clear lines, minimalist shapes and a predominance of light colors. The white color of the walls and furniture creates the effect of space and light, emphasizing the cleanliness and simplicity of the interior. The glass balustrade of the stairs adds transparency and lightness, while the use of dark marble on the stairs adds luxury and contrast."
 }
 	},
 	"individualProjecting": {

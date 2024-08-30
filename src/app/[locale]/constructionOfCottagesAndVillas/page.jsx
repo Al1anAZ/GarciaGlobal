@@ -4,8 +4,7 @@ import { squarePeg } from "@/fonts";
 import styles from "./style.module.scss";
 import { HeaderBlack } from "@/components/header/headerBlack";
 import { Footer } from "@/components/footer";
-import GetHelpButton from '@/components/сontactUsModal/GetHelpButton';
-import { HeaderMain } from '@/components/header/headerMain';
+import GetHelpButton from '@/components/сontactUsModal/GetHelpButton'; 
 
 
 const i18nNamespaces = ["constructionOfCottagesAndVillas"];

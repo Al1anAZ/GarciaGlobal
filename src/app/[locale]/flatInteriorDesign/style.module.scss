@@ -41,7 +41,7 @@
     & > h1 {
       color: #222;
 
-      font-size: 64px;
+      font-size: 40px;
 
       font-weight: 600;
       line-height: normal;
@@ -53,6 +53,13 @@
     flex-direction: column;
     gap: 100px;
   }
+  &__header {
+    display: flex;
+    position: relative;
+    margin-bottom: 100px; 
+    font-weight: bold;
+  }
+
 }
 @media screen and (max-width: 1409px) {
   .flat {

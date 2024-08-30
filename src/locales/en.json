@@ -109,9 +109,14 @@
       "title": "NT1H2",
       "underTitle": "Monochrome Minimalism: A Futuristic and Geometric Interior Design",
       "text": "The room has a modern minimalist design with a monochrome color scheme that includes shades of black, white and gray. The main emphasis is on clean lines and geometric shapes. Lighting plays an important role in the design, with LED strips outlining the perimeter of the ceiling and floor, creating a futuristic atmosphere. A large window provides natural light, which is complemented by artificial light."
-    },
+    }, 
     "villarenovation": {
       "title": "Villa Renovation",
+      "underTitle": "Space, light and luxury in every detail",
+      "text": "The image shows the interior of a modern house, made in the style of minimalism with elements of modern architecture. The space is characterized by clear lines, minimalist shapes and a predominance of light colors. The white color of the walls and furniture creates the effect of space and light, emphasizing the cleanliness and simplicity of the interior. The glass balustrade of the stairs adds transparency and lightness, while the use of dark marble on the stairs adds luxury and contrast."
+    },
+    "goodlifepark": {
+      "title": " GoodLife Park",
       "underTitle": "Space, light and luxury in every detail",
       "text": "The image shows the interior of a modern house, made in the style of minimalism with elements of modern architecture. The space is characterized by clear lines, minimalist shapes and a predominance of light colors. The white color of the walls and furniture creates the effect of space and light, emphasizing the cleanliness and simplicity of the interior. The glass balustrade of the stairs adds transparency and lightness, while the use of dark marble on the stairs adds luxury and contrast."
     }
