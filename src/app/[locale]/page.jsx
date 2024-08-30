@@ -43,8 +43,16 @@ export default async function Home({ params: { locale } }) {
                 <p className={squarePeg.className}>{t("landingTitleP")}</p>
               </div>
               <div className={styles.landingSection__consNdesignContainer}>
-                <p>{t("landingConstruction")}</p>
-                <p>{t("landingInteriorDesign")}</p>
+                <p> 
+              <Link  href={"/constructionOfCottagesAndVillas"} className={styles.landingSection__link}>
+            <span>{t("landingConstruction")}</span>
+          </Link>
+          </p>
+          <p>  
+          <Link href={"/#interiorDesing"} className={styles.landingSection__link}>
+            <span>{t("landingInteriorDesign")}</span>
+          </Link>
+          </p>
               </div>
             </div>
             <p className={styles.landingSection__bottomText}>
@@ -148,12 +156,12 @@ export default async function Home({ params: { locale } }) {
               <ProjectItem id={"goodlifepark"} locale={locale} />
             </div>
             <div className={styles.interiorDesing__contentTablet}>
+              <ProjectItemTablet id={"villarenovation"} locale={locale} />
               <ProjectItemTablet id={"goodlifepark"} locale={locale} />
-              <ProjectItemTablet id={"tranquilModernity"} locale={locale} />
             </div>
             <div className={styles.interiorDesing__contentPhone}>
-              <ProjectItemPhone id={"projectLoftLivingRoom"} locale={locale} />
-              <ProjectItemPhone id={"tranquilModernity"} locale={locale} />
+              <ProjectItemPhone id={"villarenovation"} locale={locale} />
+              <ProjectItemPhone id={"goodlifepark"} locale={locale} />
             </div>
           </Container>
           <Link

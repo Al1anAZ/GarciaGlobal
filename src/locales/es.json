@@ -25,7 +25,8 @@
     "aboutUsItemTitle3": "3 PAÍSES",
     "aboutUsItemText3": "Con más de 60 proyectos en diversos sectores, hemos demostrado nuestra capacidad para enfrentar desafíos y satisfacer las necesidades de nuestros clientes. Cada proyecto es un reflejo de nuestro compromiso con la excelencia y la satisfacción.",
     "findUs": "ENCUÉNTRANOS",
-    "interirDesignTitle": "Proyectos",
+    "interirDesignTitle": "Diseño de interiores",
+    "ProjectTitle": "Proyectos",
     "interirDesignText": "Transformando interiores en obras maestras de confort y estilo, creamos espacios que reflejan el equilibrio perfecto entre funcionalidad y atractivo estético. Nuestra experiencia en diseño de interiores abarca diversos entornos, desde lujosos hogares hasta dinámicos espacios comerciales, asegurando que cada proyecto no solo cumpla, sino que supere las visiones de nuestros clientes.",
     "seeMore": "Ver más"
   },
@@ -152,7 +153,10 @@
     "videoText2": "Adéntrate en una casa moderna que combina comodidad con diseño limpio. El espacioso comedor se abre a una serena terraza, gracias a las suaves puertas deslizantes, invitando tanto a la luz como al ocio a tu hogar. Las superficies de madera natural y la iluminación sutil aseguran que el espacio se sienta cálido y acogedor. Cada pieza de mobiliario se elige tanto por su estilo como por su comodidad, creando lugares perfectos tanto para descansar como para reunirse. Esta casa adosada está diseñada con un ojo para la elegancia y un enfoque en vivir bien.",
     "videoTitle3": "Apartamento en 'Tetris Hall', Kiev, Ukraine",
     "videoSubTitle3": "Resumen de un lujoso espacio de vida urbana en Kiev",
-    "videoText3": "Este apartamento en 'Tetris Hall' es el epicentro de la vida moderna en la ciudad. El interior es una combinación sofisticada de elementos de diseño moderno con énfasis en la funcionalidad y el confort. Las grandes ventanas panorámicas ofrecen vistas impresionantes del paisaje urbano, llenando el espacio con luz natural durante el día. Los materiales caros y los acabados personalizados añaden lujo a cada rincón, mientras que un plano abierto maximiza el uso del espacio y el movimiento. Ya sea que busques un lugar para relajarte o entretener, este apartamento proporcionará el ambiente perfecto para vivir con estilo y comodidad."
+    "videoText3": "Este apartamento en 'Tetris Hall' es el epicentro de la vida moderna en la ciudad. El interior es una combinación sofisticada de elementos de diseño moderno con énfasis en la funcionalidad y el confort. Las grandes ventanas panorámicas ofrecen vistas impresionantes del paisaje urbano, llenando el espacio con luz natural durante el día. Los materiales caros y los acabados personalizados añaden lujo a cada rincón, mientras que un plano abierto maximiza el uso del espacio y el movimiento. Ya sea que busques un lugar para relajarte o entretener, este apartamento proporcionará el ambiente perfecto para vivir con estilo y comodidad.",
+    "videoTitle4": "Kiev, distrito de Obolon",
+    "videoSubTitle4": "Revisión de un elegante apartamento de dos habitaciones",
+    "videoText4": "Adéntrate en este elegante apartamento de dos habitaciones en el vibrante distrito de Obolon en Kiev. Con su diseño moderno, distribución espaciosa y lujosas comodidades, este hogar ofrece la combinación perfecta de confort y elegancia. Ideal para quienes buscan experimentar lo mejor de la vida urbana."
   },
   "projectItemAdv": {
     "kitchen": "Kitchen", 
