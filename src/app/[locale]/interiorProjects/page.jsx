@@ -1,14 +1,14 @@
-import initTranslations from "@/app/i18n";
-import { TranslationsProvider } from "@/helper/translationProvider";
+import initTranslations from "../../i18n";
+import { TranslationsProvider } from "../../../helper/translationProvider/index";
 import {
   ProjectItem,
   ProjectItemTablet,
   ProjectItemPhone,
-} from "@/components/projectItem";
-import { Container } from "@/components/ui/container";
+} from "../../../components/projectItem/index";
+import { Container } from "../../../components/ui/container/index";
 import styles from "../interiorAll/style.module.scss"; 
-import { BackToHome } from "@/components/backToHome";
-import sliders from "@/projects/sliders.json";
+import { BackToHome } from "../../../components/backToHome/index";
+import sliders from "../../../projects/sliders.json";
 
 const i18nNamespaces = ["home"];
 

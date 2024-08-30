@@ -1,5 +1,5 @@
 import React from "react";
-import initTranslations from "@/app/i18n";
+import initTranslations from "../../app/i18n";
 import Link from "next/link";
 import styles from "./style.module.scss";
 import { ArrowBack } from "../ui/icons/arrowBack";
