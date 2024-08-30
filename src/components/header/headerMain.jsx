@@ -1,5 +1,5 @@
 import React from 'react';
-import initTranslations from "@/app/i18n";
+import initTranslations from "../../app/i18n";
 import { Container } from "../ui/container";
 import { LangChange } from "../ui/langChange";
 import styles from "./style.module.scss";

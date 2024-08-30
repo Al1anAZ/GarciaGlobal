@@ -1,7 +1,7 @@
 import styles from "./style.module.scss";
 import { Container } from "../ui/container";
 import { AdvantageItem } from "../home";
-import initTranslations from "@/app/i18n";
+import initTranslations from "../../app/i18n";
 
 const i18nNamespaces = ["videos"];
 

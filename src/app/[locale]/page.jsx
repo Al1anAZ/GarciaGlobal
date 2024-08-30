@@ -1,27 +1,24 @@
-import { Footer } from "@/components/footer";
+import { Footer } from "../../components/footer/index";
 import initTranslations from "../i18n";
-import { TranslationsProvider } from "@/helper/translationProvider";
-import { HeaderMain } from "@/components/header/headerMain";
+import { TranslationsProvider } from "../../helper/translationProvider/index";
+import { HeaderMain } from "../../components/header/headerMain";
 import styles from "./style.module.scss";
-import { Container } from "@/components/ui/container";
-import { squarePeg } from "@/fonts";
-import { OurServiceItem } from "@/components/home";
+import { Container } from "../../components/ui/container/index";
+import { squarePeg } from "../../fonts/index";
+import { OurServiceItem } from "../../components/home/ourServiceItem/index";
 
-import { Map } from "@/components/map";
+ 
 
-import { MapBox } from "@/components/mapBox";
-import { Instagram } from "@/components/ui/icons/instagram";
-import { WatsApp } from "@/components/ui/icons/watsApp";
-import { Telegram } from "@/components/ui/icons/telegram";
-import { Facebook } from "@/components/ui/icons/facebook";
-import Link from "next/link";
-import { ArrowPrjct } from "@/components/ui/icons/arrowPrjct";
+import { MapBox } from "../../components/mapBox/index"; 
+import { WatsApp } from "../../components/ui/icons/watsApp";
+import { Telegram } from "../../components/ui/icons/telegram"; 
+import Link from "next/link"; 
 import {
   ProjectItem,
   ProjectItemPhone,
   ProjectItemTablet,
-} from "@/components/projectItem";
-import { Videos } from "@/components/videos";
+} from "../../components/projectItem";
+import { Videos } from "../../components/videos/index";
 
 const i18nNamespaces = ["home"];
 

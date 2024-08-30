@@ -1,5 +1,5 @@
 import { MyButton } from "../../ui/myButton";
-import { camelize } from "@/util/cameCase";
+import { camelize } from "../../../util/cameCase/index";
 import Link from "next/link";
 import styles from "./style.module.scss";
 

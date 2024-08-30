@@ -1,6 +1,6 @@
 import { dir } from "i18next";
 import i18nConfig from "../../../i18nConfig";
-import { roboto } from "@/fonts";
+import { roboto } from "../../fonts/index";
 import "./default.scss";
 
 export const metadata = {

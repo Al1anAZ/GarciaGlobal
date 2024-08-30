@@ -1,7 +1,7 @@
 import { VerticalSlide, VerticalSlider } from "../ui/sliders";
-import initTranslations from "@/app/i18n";
+import initTranslations from "../../app/i18n";
 import styles from "./style.module.scss";
-import { squarePeg } from "@/fonts";
+import { squarePeg } from "../../fonts/index";
 import { MyButton } from "../ui/myButton";
 import { ArrowPrjct } from "../ui/icons/arrowPrjct";
 import Link from "next/link";

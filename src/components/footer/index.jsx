@@ -2,9 +2,7 @@ import Link from "next/link";
 import { Container } from "../ui/container";
 import { LangChange } from "../ui/langChange";
 import styles from "./style.module.scss";
-import initTranslations from "@/app/i18n";
-import { Facebook } from "../ui/icons/facebook";
-import { Instagram } from "../ui/icons/instagram";
+import initTranslations from "../../app/i18n"; 
 import { WatsApp } from "../ui/icons/watsApp";
 import { Telegram } from "../ui/icons/telegram";
 
