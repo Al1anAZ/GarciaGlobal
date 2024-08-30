@@ -1,0 +1,246 @@
+[33mcommit 5e1c0bdc7502c6b3d7d1d1f44285a0c0505f50c8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: madach121212 <maxik.dach212121@gmail.com>
+Date:   Fri Aug 30 14:01:21 2024 +0200
+
+    add nav for CONSTRUCTION COTTAGES AND VILLAS
+
+[33mcommit 16ba0360e48dad12d6358d6ea5d7a606c64ceb03[m
+Merge: e09c0c6 0add602
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Thu Aug 29 23:10:27 2024 +0300
+
+    Merge branch 'main' of https://github.com/Al1anAZ/GarciaGlobal
+
+[33mcommit e09c0c6c5d5cac9954cfdced76e6b1cf0b67ea4b[m
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Thu Aug 29 23:10:13 2024 +0300
+
+    made the slider horizontal on the mobile version and added pagination
+
+[33mcommit 0add602a474540e6e4ccbef5d2dd5f2102746f85[m
+Author: madach121212 <maxik.dach212121@gmail.com>
+Date:   Thu Aug 29 20:50:44 2024 +0200
+
+    fix bag in style for sidenav
+
+[33mcommit 4f94b99f4661456df105f3439db4579b0f135f9b[m
+Merge: 24f0db6 fe2c188
+Author: madach121212 <maxik.dach212121@gmail.com>
+Date:   Thu Aug 29 20:45:45 2024 +0200
+
+    conflict resolution with Sidenav
+
+[33mcommit 24f0db6be64ff875588820e66077a0b97d4af61c[m
+Author: madach121212 <maxik.dach212121@gmail.com>
+Date:   Thu Aug 29 20:37:11 2024 +0200
+
+    add contact modal and fix bags
+
+[33mcommit fe2c18823dc2e13a8d91506ee617f61038922836[m
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Thu Aug 29 13:40:38 2024 +0300
+
+    added a choice of langs to the burger meny, fixed closing the menu on the mobile version and fixed errors in the burger menu on the Spanish version
+
+[33mcommit 5c09cab903e0c4436df850949204dbf29c016262[m
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Thu Aug 29 12:47:14 2024 +0300
+
+    corrected an error in the text
+
+[33mcommit 411542fdb272e4d77deea04aa5b1bb94b39ab497[m
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Thu Aug 29 12:44:01 2024 +0300
+
+    removed the arrow
+
+[33mcommit 1a6fdf6ee0d46a017570328822e100189cad6ad1[m
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Wed Aug 28 23:22:49 2024 +0300
+
+    added spanish translation and fixed some bugs
+
+[33mcommit 6cb8af5a2651f5e555b7b625cb37355549afab69[m
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Wed Aug 28 22:13:49 2024 +0300
+
+    fixed bug with logo
+
+[33mcommit d6818a04822def7d82680f7243dbd3f2c42243b8[m
+Author: madach121212 <maxik.dach212121@gmail.com>
+Date:   Wed Aug 28 19:11:37 2024 +0200
+
+    fix problems with nav
+
+[33mcommit a5e92996491b5b65a038b452efd6ff9154f285c6[m
+Merge: 7db115c 6d0de84
+Author: madach121212 <maxik.dach212121@gmail.com>
+Date:   Wed Aug 28 18:31:55 2024 +0200
+
+    Merge branch 'main' of https://github.com/Al1anAZ/GarciaGlobal
+
+[33mcommit 7db115c3c0249f15a4f293587624db91724c0623[m
+Author: madach121212 <maxik.dach212121@gmail.com>
+Date:   Wed Aug 28 18:31:42 2024 +0200
+
+    added one more project
+
+[33mcommit 6d0de84f3e730ff42b3540527db5bbdb89a85ae2[m
+Merge: bc66773 9e59a12
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Wed Aug 28 17:24:09 2024 +0300
+
+    Merge branch 'main' of https://github.com/Al1anAZ/GarciaGlobal
+
+[33mcommit bc66773bb3d1040d919a2a0b3b1213709ef0f19d[m
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Wed Aug 28 17:24:03 2024 +0300
+
+    fixed responsible design everywhere
+
+[33mcommit 9e59a120fac7cd6bafd58e90266db9358abc6b7e[m
+Merge: 62f7fbe 86dfaf6
+Author: madach121212 <maxik.dach212121@gmail.com>
+Date:   Wed Aug 28 15:37:15 2024 +0200
+
+    Merge branch 'main' of https://github.com/Al1anAZ/GarciaGlobal
+
+[33mcommit 62f7fbe52e43556964eedc9707bf789b22861281[m
+Author: madach121212 <maxik.dach212121@gmail.com>
+Date:   Wed Aug 28 15:37:10 2024 +0200
+
+    change grap
+
+[33mcommit 86dfaf64a6859e00fa1b9a81e9c4b096fae29fac[m
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Wed Aug 28 16:28:54 2024 +0300
+
+    added a logo for resposible design
+
+[33mcommit b1be12ebcfd89bed384e41e72ddaee86094cc333[m
+Merge: 1cc9872 897d76d
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Wed Aug 28 16:09:25 2024 +0300
+
+    Merge branch 'main' of https://github.com/Al1anAZ/GarciaGlobal
+
+[33mcommit 1cc98725c3f1099b33d51048e3e14c580513589c[m
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Wed Aug 28 16:09:11 2024 +0300
+
+    removed instagram and facebook link
+
+[33mcommit 897d76d8bce129215bf4562636a68070313b7ff7[m
+Merge: 2c72a31 418cde8
+Author: madach121212 <maxik.dach212121@gmail.com>
+Date:   Wed Aug 28 14:58:13 2024 +0200
+
+    Merge branch 'main' of https://github.com/Al1anAZ/GarciaGlobal
+
+[33mcommit 2c72a31a270851c516828397885283399ef5cf42[m
+Author: madach121212 <maxik.dach212121@gmail.com>
+Date:   Wed Aug 28 14:58:08 2024 +0200
+
+    fix pudding between texts
+
+[33mcommit 418cde8ac732efa40595aa4c3ed0f2483da69a50[m
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Wed Aug 28 09:47:58 2024 +0300
+
+    fixed problem with video
+
+[33mcommit a0714a2fc4afb9e558dd21a0a33d398466bc854f[m
+Author: madach121212 <maxik.dach212121@gmail.com>
+Date:   Wed Aug 28 01:41:07 2024 +0200
+
+    add ua lang in new projects
+
+[33mcommit 5a51cb033edf50170c6479b07002f377b1b4e1e3[m[33m ([m[1;31mmyfork/main[m[33m)[m
+Author: madach121212 <maxik.dach212121@gmail.com>
+Date:   Wed Aug 28 01:15:21 2024 +0200
+
+    add projects
+
+[33mcommit 3056f00e4497eb5b1de1daa422264f7e8e62cb53[m
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Tue Aug 27 16:05:37 2024 +0300
+
+    added Ukrainian language
+
+[33mcommit 25b1faa74d63947d17cd28dadf99ee59383eec35[m
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Tue Aug 27 16:04:36 2024 +0300
+
+    added a third video with title and description
+
+[33mcommit d723492aa244e079ffaaaef791af0c8bc4cb353b[m
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Tue Aug 27 16:02:47 2024 +0300
+
+    fixed links in the findUs component
+
+[33mcommit b006bcbed030cc0bdde561a553fd7d5119926a99[m
+Author: Matvey Zhigalka <mzhigalka@gmail.com>
+Date:   Tue Aug 27 15:59:24 2024 +0300
+
+    changed links in header and footer components (made a transition)
+
+[33mcommit 52a544562da10f0eb2f0b674a2a9a09529d8bbe2[m
+Author: Artem <artemzagovora@gmail.com>
+Date:   Mon Aug 5 18:51:56 2024 +0300
+
+    fixes
+
+[33mcommit 1d37d48e32128c88a48d32c91ebb957a5c013117[m
+Author: Artem <artemzagovora@gmail.com>
+Date:   Mon Aug 5 18:47:23 2024 +0300
+
+    fixes
+
+[33mcommit bc8ffec514304bd734e9761ba668afd3c6bc44ec[m
+Author: Artem <artemzagovora@gmail.com>
+Date:   Mon May 6 17:57:28 2024 +0300
+
+    prjcts
+
+[33mcommit 1e3e15167b61f6aea78c93fe1c91c9f7bfa7b353[m
+Author: Artem <artemzagovora@gmail.com>
+Date:   Wed May 1 16:10:26 2024 +0300
+
+    added burger menue
+
+[33mcommit 7d901bbb041316d0fdd66e2efa2d6f7defa33c1a[m
+Author: Artem <artemzagovora@gmail.com>
+Date:   Tue Apr 30 22:03:51 2024 +0300
+
+    added adaptive
+
+[33mcommit f6d257ee08baca20ce4d1c7f126f5c67ed9e6c45[m
+Author: Artem <artemzagovora@gmail.com>
+Date:   Tue Apr 30 12:26:44 2024 +0300
+
+    first commit
+
+[33mcommit b2ab8e07ec1123435cd9c236a793433644d0f56d[m
+Author: Artem <artemzagovora@gmail.com>
+Date:   Tue Apr 30 12:13:58 2024 +0300
+
+    first commit
+
+[33mcommit 4ccdbac77f0a97650f85dd09d91f28b02fd06dae[m
+Author: Artem <artemzagovora@gmail.com>
+Date:   Tue Apr 30 12:03:32 2024 +0300
+
+    first commit
+
+[33mcommit e552c2b06a0b45fcf733f7d447b0229a424458b4[m
+Author: Artem <artemzagovora@gmail.com>
+Date:   Tue Apr 30 11:58:05 2024 +0300
+
+    first commit
+
+[33mcommit c6806fbe1b8f2baacc5895b2f810dbfed7adc79a[m
+Author: Artem <artemzagovora@gmail.com>
+Date:   Tue Apr 23 18:56:40 2024 +0300
+
+    Initial commit from Create Next App
