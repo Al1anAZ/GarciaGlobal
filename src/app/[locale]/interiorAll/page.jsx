@@ -55,16 +55,6 @@ export default async function InteriorAll({ params: { locale } }) {
                       <span>Project Loft Living Room</span>
                       <ArrowPrjct color="white" width={20} height={20} />
                     </div>
-                  </Link>
-
-
-
-
-                  <Link href={"/interiorAll/villarenovation"}>
-                    <div className={styles.interiorDesing__projectItem}>
-                      <span>Villa Renovation</span>
-                      <ArrowPrjct color="white" width={20} height={20} />
-                    </div>
                   </Link> 
                 </div>
               </div>

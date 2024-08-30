@@ -1,10 +1,10 @@
-import initTranslations from "@/app/i18n";
-import { TranslationsProvider } from "@/helper/translationProvider";
-import { squarePeg } from "@/fonts";
+import initTranslations from "../../i18n";
+import { TranslationsProvider } from "../../../helper/translationProvider/index";
+import { squarePeg } from "../../../fonts/index";
 import styles from "./style.module.scss";
-import { HeaderBlack } from "@/components/header/headerBlack";
-import { Footer } from "@/components/footer";
-import GetHelpButton from '@/components/сontactUsModal/GetHelpButton'; 
+import { HeaderBlack } from "../../../components/header/headerBlack";
+import { Footer } from "../../../components/footer/index";
+import GetHelpButton from '../../../components/сontactUsModal/GetHelpButton'; 
 
 
 const i18nNamespaces = ["constructionOfCottagesAndVillas"];

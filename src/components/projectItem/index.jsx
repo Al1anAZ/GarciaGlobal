@@ -59,6 +59,11 @@ export const ProjectItem = async ({ id, locale }) => {
               <ArrowPrjct color="white" width={20} height={20} />
             </MyButton>
           </Link>
+          <Link href={`/interiorProjects/${id}`}>
+            <MyButton>
+              <ArrowPrjct color="white" width={20} height={20} />
+            </MyButton>
+          </Link>
         </div>
         <div className={styles.projectItem__contentContainer__bottom}>
           <h2>{t(`${id}.title`)}</h2>
@@ -134,6 +139,12 @@ export const ProjectItemTablet = async ({ id, locale }) => {
                 <ArrowPrjct color="white" width={20} height={20} />
               </MyButton>
             </Link>
+
+            <Link href={`/interiorProjects/${id}`}>
+              <MyButton>
+                <ArrowPrjct color="white" width={20} height={20} />
+              </MyButton>
+            </Link>
             <h2>{t(`${id}.title`)}</h2>
             <p>{t(`${id}.underTitle`)}</p>
           </div>
@@ -201,6 +212,12 @@ export const ProjectItemPhone = async ({ id, locale }) => {
               <ArrowPrjct color="white" width={20} height={20} />
             </MyButton>
           </Link>
+
+          <Link href={`/interiorProjects/${id}`}>
+            <MyButton>
+              <ArrowPrjct color="white" width={20} height={20} />
+            </MyButton>
+          </Link>
         </div>
       </div>
     </div>
@@ -221,7 +238,15 @@ export const ProjectItemAdv = async ({ locale, flex, projectId }) => {
           className={styles.projectItem__contentContainer__advantageItem}
         >
           {t(section)}
-        </Link>
+        </Link>,
+           <Link
+           key={section}
+           href={`/interiorProjects/${projectId}#${section}`}  
+           className={styles.projectItem__contentContainer__advantageItem}
+         >
+           {t(section)}
+         </Link>
+        
       ))}
     </div>
   );

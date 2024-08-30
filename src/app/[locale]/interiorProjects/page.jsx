@@ -6,9 +6,7 @@ import {
   ProjectItemPhone,
 } from "@/components/projectItem";
 import { Container } from "@/components/ui/container";
-import styles from "./style.module.scss";
-import Link from "next/link";
-import { ArrowPrjct } from "@/components/ui/icons/arrowPrjct";
+import styles from "./style.module.scss"; 
 import { BackToHome } from "@/components/backToHome";
 import sliders from "@/projects/sliders.json";
 
@@ -22,7 +20,7 @@ export const metadata = {
 export default async function InteriorProject({ params: { locale } }) {
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
 
-  // Фільтруємо слідуючи id
+ 
   const filteredSliders = sliders.filter(item =>
     ["villarenovation", "goodlifepark"].includes(item.id)
   );
