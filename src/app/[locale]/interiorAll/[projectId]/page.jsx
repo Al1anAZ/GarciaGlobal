@@ -1,16 +1,16 @@
 import React from "react";
-import { TranslationsProvider } from "@/helper/translationProvider";
-import initTranslations from "@/app/i18n";
+import { TranslationsProvider } from "../../../../helper/translationProvider/index";
+import initTranslations from "../../../i18n";
 import styles from "./style.module.scss";
-import { Footer } from "@/components/footer";
+import { Footer } from "../../../../components/footer/index";
 import { redirect } from "next/navigation";
-import { camelCaseToWords } from "@/util/cameCase";
-import { Container } from "@/components/ui/container";
+import { camelCaseToWords } from "../../../../util/cameCase/index";
+import { Container } from "../../../../components/ui/container/index";
 import sliders from "../../../../projects/sliders.json";
-import { BackToHome } from "@/components/backToHome";
-import { ProjectItemAdv } from "@/components/projectItem";
-import { ContentWithSlider } from "@/components/contentWithSlider";
-import { Gallery } from "@/components/gallery";
+import { BackToHome } from "../../../../components/backToHome/index";
+import { ProjectItemAdv } from "../../../../components/projectItem/index";
+import { ContentWithSlider } from "../../../../components/contentWithSlider/index";
+import { Gallery } from "../../../../components/gallery/index";
 
 export async function generateMetadata({ params: { locale, projectId } }) {
   const project = sliders.find((item) => item.id === projectId);

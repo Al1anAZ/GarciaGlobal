@@ -1,15 +1,15 @@
-import initTranslations from "@/app/i18n";
-import { TranslationsProvider } from "@/helper/translationProvider";
+import initTranslations from "../../i18n";
+import { TranslationsProvider } from "../../../helper/translationProvider/index";
 import flat from "../../../projects/flat.json";
 import Link from "next/link";
-import { ArrowPrjct } from "@/components/ui/icons/arrowPrjct";
+import { ArrowPrjct } from "../../../components/ui/icons/arrowPrjct";
 import styles from "./style.module.scss";
 
-import { HeaderBlack } from "@/components/header/headerBlack";
-import { Container } from "@/components/ui/container";
+import { HeaderBlack } from "../../../components/header/headerBlack";
+import { Container } from "../../../components/ui/container/index";
 
-import { Footer } from "@/components/footer";
-import { ContentWithSlider } from "@/components/contentWithSlider";
+import { Footer } from "../../../components/footer/index";
+import { ContentWithSlider } from "../../../components/contentWithSlider/index";
 
 const i18nNamespaces = ["flatInteriorDesign"];
 

@@ -1,8 +1,8 @@
  "use client";
 
-import initTranslations from "@/app/i18n";  
+import initTranslations from "../../app/i18n";  
 import React, { useState, useEffect, useRef } from "react";
-import { TranslationsProvider } from "@/helper/translationProvider";
+import { TranslationsProvider } from "../../helper/translationProvider/index";
 import styles from "./ContactUsModal.module.scss";
 
  

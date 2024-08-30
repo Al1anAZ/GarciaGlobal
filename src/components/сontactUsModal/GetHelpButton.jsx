@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import ContactUsModal from './ContactUsModal';
-import initTranslations from "@/app/i18n";
+import initTranslations from "../../app/i18n";
 
 const i18nNamespaces = ["contactUs"];
 

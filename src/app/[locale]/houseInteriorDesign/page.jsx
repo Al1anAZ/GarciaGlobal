@@ -1,13 +1,12 @@
 import styles from "./style.module.scss";
-import { Footer } from "@/components/footer";
-import { HeaderBlack } from "@/components/header/headerBlack";
-import initTranslations from "@/app/i18n";
-import { TranslationsProvider } from "@/helper/translationProvider";
-import { Map } from "@/components/map";
-import { Videos } from "@/components/videos";
-import { Container } from "@/components/ui/container";
+import { Footer } from "../../../components/footer/index";
+import { HeaderBlack } from "../../../components/header/headerBlack";
+import initTranslations from "../../i18n";
+import { TranslationsProvider } from "../../../helper/translationProvider/index"; 
+import { Videos } from "../../../components/videos";
+import { Container } from "../../../components/ui/container/index";
 import Link from "next/link";
-import { ArrowPrjct } from "@/components/ui/icons/arrowPrjct";
+import { ArrowPrjct } from "../../../components/ui/icons/arrowPrjct";
 
 const i18nNamespaces = ["houseInteriorDesign"];
 

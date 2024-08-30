@@ -1,12 +1,12 @@
-import initTranslations from "@/app/i18n";
-import { TranslationsProvider } from "@/helper/translationProvider";
+import initTranslations from "../../i18n";
+import { TranslationsProvider } from "../../../helper/translationProvider";
 
 import styles from "./style.module.scss";
 
-import { HeaderBlack } from "@/components/header/headerBlack";
-import { Container } from "@/components/ui/container";
-import { StepItem } from "@/components/individualProjecting/stepItem";
-import { Footer } from "@/components/footer";
+import { HeaderBlack } from "../../../components/header/headerBlack";
+import { Container } from "../../../components/ui/container/index";
+import { StepItem } from "../../../components/individualProjecting/stepItem/index";
+import { Footer } from "../../../components/footer/index";
 
 const i18nNamespaces = ["individualProjecting"];
 
