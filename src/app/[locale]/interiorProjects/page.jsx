@@ -6,7 +6,7 @@ import {
   ProjectItemPhone,
 } from "@/components/projectItem";
 import { Container } from "@/components/ui/container";
-import styles from "./style.module.scss"; 
+import styles from "../interiorAll/style.module.scss"; 
 import { BackToHome } from "@/components/backToHome";
 import sliders from "@/projects/sliders.json";
 
