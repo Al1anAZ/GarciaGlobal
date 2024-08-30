@@ -135,12 +135,12 @@ export default async function Home({ params: { locale } }) {
               <ProjectItemPhone id={"tranquilModernity"} locale={locale} />
             </div>
           </Container>
-          {/* <Link
+          <Link
             className={styles.interiorDesing__seeMore}
-            href={"/#"}
+            href={"/interiorAll"}
           >
             {t("seeMore")}
-          </Link> */}
+          </Link>
           <div className={styles.interiorDesing__imgBg} />
         </section>
         <section className={styles.interiorDesing} id="interiorDesing">
@@ -166,7 +166,7 @@ export default async function Home({ params: { locale } }) {
           </Container>
           <Link
             className={styles.interiorDesing__seeMore}
-            href={"/interiorAll"}
+            href={"/interiorProjects"}
           >
             {t("seeMore")}
           </Link>

@@ -36,10 +36,10 @@ export const HeaderBlack  = async ({ locale }) => {
               <a href="#ourService">{translations.services}</a>
             </li>
             <li>
-              <a href="/interiorAll">{translations.projects}</a>
+              <a href="/interiorProjects">{translations.projects}</a>
             </li>
             <li>
-              <a href="#interiorDesing">{translations.interiorDesign}</a>
+              <a href="/interiorAll">{translations.interiorDesign}</a>
             </li>
             <li>
               <a href="#aboutUs">{translations.aboutUs}</a>

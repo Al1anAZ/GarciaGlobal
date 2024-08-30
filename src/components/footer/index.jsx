@@ -26,10 +26,10 @@ export const Footer = async ({ locale }) => {
                 <Link href={"/#ourService"}>{t("services")}</Link>
               </li>
               <li>
-                <Link href={"interiorAll"}>{t("projects")}</Link>
+                <Link href={"/interiorProjects"}>{t("projects")}</Link>
               </li>
               <li>
-                <Link href={"/#interiorDesing"}>{t("interiorDesign")}</Link>
+                <Link href={"/interiorAll"}>{t("interiorDesign")}</Link>
               </li>
               <li>
                 <Link href={"/#aboutUs"}>{t("aboutUs")}</Link>

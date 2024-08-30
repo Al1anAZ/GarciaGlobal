@@ -71,7 +71,7 @@ export const ClientSideNav = ({ translations }) => {
         </li>
         <li>
           <Link
-            href={"/interiorAll"}
+            href={"/interiorProjects"}
             className={styles.menu__item}
             onClick={closeMenu}
           >
@@ -80,7 +80,7 @@ export const ClientSideNav = ({ translations }) => {
         </li>
         <li>
           <Link
-            href={"/#interiorDesing"}
+            href={"/interiorAll"}
             className={styles.menu__item}
             onClick={closeMenu}
           >
