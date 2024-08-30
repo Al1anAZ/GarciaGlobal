@@ -37,12 +37,15 @@ const GetHelpButton = ({ locale }) => {
 
   return (
     <>
-      <button
+  <span
         onClick={openModal}
         className="constructionOfCottagesAndVillas__itemGetHelp"
+        role="button"
+        tabIndex={0}
+        onKeyPress={(e) => e.key === 'Enter' && openModal()}
       >
         {getTranslation("getHelp", "Get Help")}
-      </button>
+      </span>
       <ContactUsModal isOpen={isModalOpen} onClose={closeModal} locale={locale} />
     </>
   );
