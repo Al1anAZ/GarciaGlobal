@@ -2,10 +2,10 @@ import initTranslations from "@/app/i18n";
 import { TranslationsProvider } from "@/helper/translationProvider";
 import { squarePeg } from "@/fonts";
 import styles from "./style.module.scss";
-import { HeaderWhite } from "@/components/header/headerWhite";
+import { HeaderBlack } from "@/components/header/headerBlack";
 import { Footer } from "@/components/footer";
 import GetHelpButton from '@/components/сontactUsModal/GetHelpButton';
- 
+import { HeaderMain } from '@/components/header/headerMain';
 
 
 const i18nNamespaces = ["constructionOfCottagesAndVillas"];
@@ -33,11 +33,15 @@ export default async function ConstructionOfCottagesAndVillas({
       resources={resources}
       
     >
-      <HeaderWhite />
+    <div className={styles.constructionOfCottagesAndVillas__header}>  
+     <HeaderBlack locale={locale} />
+     </div>
       <main className={styles.constructionOfCottagesAndVillas}>
+        
         <div
           className={styles.constructionOfCottagesAndVillas__contentContainer}
         >
+          
           <section
             className={styles.constructionOfCottagesAndVillas__titleContainer}
           >
@@ -472,7 +476,7 @@ export default async function ConstructionOfCottagesAndVillas({
           </section>
         </div>
         <div className={styles.constructionOfCottagesAndVillas__imgsContainer}>
-          {Array.from({ length: 5 }).map((_, index) => (
+          {Array.from({ length: 9 }).map((_, index) => (
             <img
               src={`/assets/constructionOfCottagesAndVillas/${index + 1}.webp`}
               alt={`img${index + 1}`}
@@ -480,16 +484,7 @@ export default async function ConstructionOfCottagesAndVillas({
               height={691}
               key={index}
             />
-          ))}
-          {Array.from({ length: 5 }).map((_, index) => (
-            <img
-              src={`/assets/constructionOfCottagesAndVillas/${index + 1}.webp`}
-              alt={`img${index + 1}`}
-              width={780}
-              height={691}
-              key={index}
-            />
-          ))}
+          ))} 
         </div>
       </main>
       <Footer locale={locale} /> 

@@ -2,11 +2,11 @@
 
 import React, { useRef, useEffect } from "react";
 import Link from "next/link"; 
-import styles from "./style.module.scss";
+import styles from "./header.black.style.module.scss";
 
 import { LangChange } from "../ui/langChange";
 
-export const ClientSideNav = ({ translations }) => {
+export const ClientSideNavBlack = ({ translations }) => {
   const menuToggleRef = useRef(null);
   const menuBoxRef = useRef(null);
 

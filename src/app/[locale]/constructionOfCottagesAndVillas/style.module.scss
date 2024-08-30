@@ -156,7 +156,17 @@
     align-self: flex-end;
     padding-right: 71px;
   }
+
+  &__header {
+    display: flex;
+    position: relative;
+    margin-bottom: 100px; 
+  }
+
+ 
 }
+
+
 @media screen and (max-width: 1409px) {
   .constructionOfCottagesAndVillas {
     padding-left: 35px;

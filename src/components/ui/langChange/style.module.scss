@@ -4,6 +4,7 @@
   border-radius: 2px;
   border: 1px solid rgba(241, 241, 241, 0.17);
   backdrop-filter: blur(11px);
+  
 
   &__container {
     position: relative;
@@ -51,6 +52,7 @@
     }
 
     &__active {
+      
       opacity: 1;
       visibility: visible;
     }

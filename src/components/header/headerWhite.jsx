@@ -9,13 +9,14 @@ export const HeaderWhite = () => {
       <Container className={styles.headerWhite__container}>
         <Link href="/">
           <ArrowBack width={17} height={13} color="black" />
-        </Link>
+        
         <img
           src="/assets/ui/logoGrey.webp"
           alt="logo"
           width={192}
           height={51}
         />
+         </Link>
       </Container>
     </header>
   );
