@@ -4,7 +4,7 @@ import { Container } from "../ui/container";
 import { LangChange } from "../ui/langChange";
 import styles from "./header.black.style.module.scss";
 import { Phone } from "../ui/icons/phone";
-import { ClientSideNavBlack } from './сlientSideNavBlack';
+import { ClientSideNavBlack } from './clientSideNavBlack';
 import Link from "next/link";
 const i18nNamespaces = ["footer"];
 
