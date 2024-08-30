@@ -25,7 +25,8 @@
     "aboutUsItemTitle3": "3 COUNTRIES",
     "aboutUsItemText3": "With more than 60 projects across various sectors, we've proven our ability to meet diverse challenges and client needs. Each project is a reflection of our commitment to deliver excellence and satisfaction.",
     "findUs": "FIND US",
-    "interirDesignTitle": "Projects",
+    "interirDesignTitle": "Interior Design",
+    "ProjectTitle": "Projects",
     "interirDesignText": "Transforming interiors into masterpieces of comfort and style, we craft spaces that reflect the perfect balance between functionality and aesthetic appeal. Our expertise in interior design spans various environments, from luxurious homes to dynamic commercial spaces, ensuring each project not only meets but exceeds our clients' visions.",
     "seeMore": "See more"
   },
@@ -361,8 +362,7 @@
   },
   "constructionOfCottagesAndVillas": {
     "title": "CONSTRUCTION COTTAGES AND VILLAS",
-    "text": "“Good buildings come from good people, and all problems are solved by good design.” – Stephen Gardiner",
-    
+    "text": "“Good buildings come from good people, and all problems are solved by good design.” – Stephen Gardiner",  
     "generalContractor": {
       "title": "General contractor",
       "text": "As a general contractor, we manage construction projects from inception to completion, handling technical documentation, budgeting, scheduling, and subcontractor coordination. Our expertise ensures efficient project execution while prioritizing budget optimization, work safety, and client satisfaction.",

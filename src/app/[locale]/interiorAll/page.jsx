@@ -33,7 +33,7 @@ export default async function InteriorAll({ params: { locale } }) {
             <BackToHome locale={locale} />
             <div className={styles.interiorDesing__titleContainer}>
               <div className={styles.interiorDesing__textTitleBox}>
-                <h1>{t("interirDesignTitle")}</h1>
+                <h1>{t("ProjectTitle")}</h1>
                 <p>{t("interirDesignText")}</p>
               </div>
               <div className={styles.interiorDesing__projectsContainer}>
