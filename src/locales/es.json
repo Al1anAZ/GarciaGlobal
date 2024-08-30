@@ -109,16 +109,16 @@
       "underTitle": "Minimalismo monocromático: un diseño de interiores futurista y geométrico",
       "text": "La habitación tiene un diseño moderno minimalista con una paleta de colores monocromática que incluye tonos de negro, blanco y gris. El énfasis principal está en líneas limpias y formas geométricas. La iluminación juega un papel importante en el diseño, con tiras de LED delineando el perímetro del techo y el suelo, creando una atmósfera futurista. Una gran ventana proporciona luz natural, complementada por luz artificial."
     },
-    "villa Renovation": {
+    "villarenovation": {
       "title": "Renovación de Villa",
       "underTitle": "Espacio, luz y lujo en cada detalle",
       "text": "La imagen muestra el interior de una casa moderna, hecha en un estilo minimalista con elementos de arquitectura moderna. El espacio se caracteriza por líneas claras, formas minimalistas y un predominio de colores claros. El color blanco de las paredes y los muebles crea un efecto de espacio y luz, enfatizando la limpieza y simplicidad del interior. La barandilla de vidrio de las escaleras añade transparencia y ligereza, mientras que el uso de mármol oscuro en las escaleras añade lujo y contraste."
     },
-    "goodlifepark": {
-      "title": " GoodLife Park",
-      "underTitle": "Space, light and luxury in every detail",
-      "text": "The image shows the interior of a modern house, made in the style of minimalism with elements of modern architecture. The space is characterized by clear lines, minimalist shapes and a predominance of light colors. The white color of the walls and furniture creates the effect of space and light, emphasizing the cleanliness and simplicity of the interior. The glass balustrade of the stairs adds transparency and lightness, while the use of dark marble on the stairs adds luxury and contrast."
-    }
+  "goodlifepark": {
+  "title": "GoodLife Park",
+  "underTitle": "Espacio, luz y lujo en cada detalle",
+  "text": "La imagen muestra el interior de una casa moderna, realizada en un estilo minimalista con elementos de arquitectura moderna. El espacio se caracteriza por líneas claras, formas minimalistas y un predominio de colores claros. El color blanco de las paredes y los muebles crea un efecto de espacio y luz, enfatizando la limpieza y la simplicidad del interior. La barandilla de vidrio de las escaleras añade transparencia y ligereza, mientras que el uso de mármol oscuro en las escaleras aporta lujo y contraste."
+}
   },
   "individualProjecting": {
     "title": "PROYECTO INDIVIDUAL",
@@ -155,11 +155,9 @@
     "videoText3": "Este apartamento en 'Tetris Hall' es el epicentro de la vida moderna en la ciudad. El interior es una combinación sofisticada de elementos de diseño moderno con énfasis en la funcionalidad y el confort. Las grandes ventanas panorámicas ofrecen vistas impresionantes del paisaje urbano, llenando el espacio con luz natural durante el día. Los materiales caros y los acabados personalizados añaden lujo a cada rincón, mientras que un plano abierto maximiza el uso del espacio y el movimiento. Ya sea que busques un lugar para relajarte o entretener, este apartamento proporcionará el ambiente perfecto para vivir con estilo y comodidad."
   },
   "projectItemAdv": {
-    "kitchen": "Cocina",
-    "bathroom": "Baño",
-    "bedroom": "Dormitorio",
-    "hallway": "Pasillo",
-    "dinner": "Cena"
+    "kitchen": "Kitchen", 
+    "livingroom": "Living Room",
+    "bathroom": "Bathroom" 
   },
   "penthouseValencia": {
     "location": "Ubicación: Valencia, España",
@@ -317,6 +315,19 @@
     "terrace": "Baño",
     "terraceDescr": "Este diseño de baño combina líneas limpias, colores contrastantes y diferentes texturas para crear una atmósfera moderna y estéticamente agradable. Las paredes de vidrio de la cabina de ducha crean una sensación de espacio y modernidad. Los azulejos grises en las paredes y el suelo añaden elegancia y sobriedad. Un gran espejo sobre el lavabo aumenta visualmente el espacio y añade luz."
   },
+ "goodlifepark": {
+  "location": "Ubicación: España",
+  "designStyle": "Estilo de Diseño: Moderno Contemporáneo",
+  "architecturalFusion": "Fusión Arquitectónica: materiales naturales e industriales",
+  "ambience": "Ambiente Combinado: mezcla armoniosa entre la estructura construida y el entorno natural",
+  "descr": "Esta casa moderna se integra perfectamente con su entorno boscoso mientras mantiene una estética contemporánea distintiva. La estructura presenta una mezcla de tonos cálidos de madera y metal gris frío, creando un interés visual a través de materiales y colores contrastantes. Un simple camino de concreto conduce a la entrada, enfatizando las líneas limpias del diseño general. Las grandes ventanas permiten abundante luz natural y ofrecen vistas de la vegetación circundante, difuminando la línea entre los espacios interiores y exteriores.",
+  "kitchen": "Cocina",
+  "kitchenDescr": "",
+  "living": "Sala de Estar",
+  "livingDescr": "",
+  "terrace": "Baño",
+  "terraceDescr": ""
+},
   "tranquilModernity": {
     "location": "Ubicación: España",
     "designStyle": "Estilo de Diseño: Minimalismo Contemporáneo",

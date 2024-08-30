@@ -5,12 +5,13 @@ import { squarePeg } from "@/fonts";
 import { MyButton } from "../ui/myButton";
 import { ArrowPrjct } from "../ui/icons/arrowPrjct";
 import Link from "next/link";
-import sliders from "@/projects/sliders.json";
+import sliders from "../../projects/sliders.json";
 
 const i18nNamespaces = ["projectGlobal"];
 export const ProjectItem = async ({ id, locale }) => {
   const { t } = await initTranslations(locale, i18nNamespaces);
   const project = sliders.find((item) => item.id === id);
+  if (!project) return <p>Проєкт не знайдено</p>;
 
   return (
     <div className={styles.projectItem}>
@@ -48,7 +49,7 @@ export const ProjectItem = async ({ id, locale }) => {
               height={328}
               className={styles.projectItem__contentContainer__imgMain}
             />
-            <ProjectItemAdv locale={locale} flex="end" />
+         <ProjectItemAdv locale={locale} flex="end" projectId={id} />
           </div>
         </div>
         <div className={styles.projectItem__contentContainer__middle}>
@@ -70,6 +71,8 @@ export const ProjectItem = async ({ id, locale }) => {
 export const ProjectItemTablet = async ({ id, locale }) => {
   const { t } = await initTranslations(locale, i18nNamespaces);
   const project = sliders.find((item) => item.id === id);
+
+  
   return (
     <div className={styles.projectItem}>
       <div
@@ -100,7 +103,7 @@ export const ProjectItemTablet = async ({ id, locale }) => {
             <p className={squarePeg.className}>{t("luxuryTailored")}</p>
             <p className={squarePeg.className}>{t("toYou")}</p>
           </div>
-          <ProjectItemAdv locale={locale} flex="end" />
+          <ProjectItemAdv locale={locale} flex="end" projectId={id} />
         </div>
       </div>
       <div className={styles.projectItem__contentContainer}>
@@ -182,7 +185,7 @@ export const ProjectItemPhone = async ({ id, locale }) => {
             </p>
             <p>{t(`${id}.text`)}</p>
           </div>
-          <ProjectItemAdv locale={locale} flex="end" />
+          <ProjectItemAdv locale={locale} flex="end" projectId={id} />
         </div>
         <div className={styles.projectItem__contentContainer__middle}>
           <img
@@ -203,28 +206,24 @@ export const ProjectItemPhone = async ({ id, locale }) => {
     </div>
   );
 };
-export const ProjectItemAdv = async ({ locale, flex }) => {
+export const ProjectItemAdv = async ({ locale, flex, projectId }) => {
   const { t } = await initTranslations(locale, ["projectItemAdv"]);
+  const sections = ["kitchen", "livingroom", "bathroom"]; 
   return (
     <div
       className={styles.projectItem__contentContainer__advantageContainer}
       style={{ alignItems: `flex-${flex}` }}
     >
-      <div className={styles.projectItem__contentContainer__advantageItem}>
-        {t("kitchen")}
-      </div>
-      <div className={styles.projectItem__contentContainer__advantageItem}>
-        {t("bathroom")}
-      </div>
-      <div className={styles.projectItem__contentContainer__advantageItem}>
-        {t("bedroom")}
-      </div>
-      <div className={styles.projectItem__contentContainer__advantageItem}>
-        {t("hallway")}
-      </div>
-      <div className={styles.projectItem__contentContainer__advantageItem}>
-        {t("dinner")}
-      </div>
+      {sections.map((section) => (
+        <Link
+          key={section}
+          href={`/interiorAll/${projectId}#${section}`}  
+          className={styles.projectItem__contentContainer__advantageItem}
+        >
+          {t(section)}
+        </Link>
+      ))}
     </div>
   );
 };
+ 

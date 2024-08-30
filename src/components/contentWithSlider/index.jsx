@@ -2,14 +2,15 @@ import React from "react";
 import styles from "./style.module.scss";
 import { HorizontalSlide, HorizontalSlider } from "../ui/sliders";
 export const ContentWithSlider = ({
+  id,
   title,
   text,
   imgs,
   arrowColor,
   textColor,
-}) => {
+}) => { 
   return (
-    <div className={styles.contentWithSlider}>
+    <div id={id} className={styles.contentWithSlider}>
       <div className={styles.contentWithSlider__titleContainer}>
         <h2 style={{ color: textColor }}>{title}</h2>
         <p style={{ color: textColor }}>{text}</p>
@@ -33,5 +34,5 @@ export const ContentWithSlider = ({
         ))}
       </HorizontalSlider>
     </div>
-  );
+  ); 
 };

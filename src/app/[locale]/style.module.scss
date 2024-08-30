@@ -257,6 +257,14 @@
     }
   }
 
+  :target::before {
+    content: "";
+    display: block;
+    height: 80px; 
+    margin-top: -80px;
+    visibility: hidden;
+  }
+
   &__projectsContainer {
     flex: 56%;
     display: flex;

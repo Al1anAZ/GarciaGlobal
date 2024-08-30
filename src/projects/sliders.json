@@ -13,12 +13,12 @@
       "/assets/projects/penthouseValencia/kitchen/slider_2.webp",
       "/assets/projects/penthouseValencia/kitchen/slider_3.webp"
     ],
-    "living": [
+    "livingroom": [
       "/assets/projects/penthouseValencia/living/slider_1.webp",
       "/assets/projects/penthouseValencia/living/slider_2.webp",
       "/assets/projects/penthouseValencia/living/slider_3.webp"
     ],
-    "terrace": [
+    "bathroom": [
       "/assets/projects/penthouseValencia/terrace/slider_1.webp",
       "/assets/projects/penthouseValencia/terrace/slider_2.webp",
       "/assets/projects/penthouseValencia/terrace/slider_3.webp"
@@ -70,12 +70,12 @@
       "/assets/projects/tranquilModernity/kitchen/slider_1.webp",
       "/assets/projects/tranquilModernity/kitchen/slider_2.webp"
     ],
-    "living": [
+    "livingroom": [
       "/assets/projects/tranquilModernity/living/slider_1.webp",
       "/assets/projects/tranquilModernity/living/slider_2.webp",
       "/assets/projects/tranquilModernity/living/slider_3.webp"
     ],
-    "terrace": [
+    "bathroom": [
       "/assets/projects/tranquilModernity/terrace/slider_1.webp",
       "/assets/projects/tranquilModernity/terrace/slider_2.webp"
     ],
@@ -125,12 +125,12 @@
       "/assets/projects/projectLoftLivingRoom/theUrbanLounge/slider_2.webp",
       "/assets/projects/projectLoftLivingRoom/theUrbanLounge/slider_3.webp"
     ],
-    "living": [
+    "livingroom": [
       "/assets/projects/projectLoftLivingRoom/theIndustrialChicBar/slider_1.webp",
       "/assets/projects/projectLoftLivingRoom/theIndustrialChicBar/slider_2.webp",
       "/assets/projects/projectLoftLivingRoom/theIndustrialChicBar/slider_3.webp"
     ],
-    "terrace": [
+    "bathroom": [
       "/assets/projects/projectLoftLivingRoom/theContemporaryCommons/slider_1.webp",
       "/assets/projects/projectLoftLivingRoom/theContemporaryCommons/slider_2.webp",
       "/assets/projects/projectLoftLivingRoom/theContemporaryCommons/slider_3.webp"
@@ -189,12 +189,12 @@
       "/assets/projects/NTR2/kitchen/slider_2.webp",
       "/assets/projects/NTR2/kitchen/slider_3.webp"
     ],
-    "living": [
+    "livingroom": [
       "/assets/projects/NTR2/living/slider_1.webp",
       "/assets/projects/NTR2/living/slider_2.webp",
       "/assets/projects/NTR2/living/slider_3.webp"
     ],
-    "terrace": [
+    "bathroom": [
       "/assets/projects/NTR2/terrace/slider_1.webp",
       "/assets/projects/NTR2/terrace/slider_2.webp",
       "/assets/projects/NTR2/terrace/slider_3.webp"
@@ -247,12 +247,12 @@
       "/assets/projects/NTR1/kitchen/slider_2.webp",
       "/assets/projects/NTR1/kitchen/slider_3.webp"
     ],
-    "living": [
+    "livingroom": [
       "/assets/projects/NTR1/living/slider_1.webp",
       "/assets/projects/NTR1/living/slider_2.webp",
       "/assets/projects/NTR1/living/slider_3.webp"
     ],
-    "terrace": [
+    "bathroom": [
       "/assets/projects/NTR1/terrace/slider_1.webp",
       "/assets/projects/NTR1/terrace/slider_2.webp",
       "/assets/projects/NTR1/terrace/slider_3.webp"
@@ -305,12 +305,12 @@
       "/assets/projects/TRN32/kitchen/slider_2.webp",
       "/assets/projects/TRN32/kitchen/slider_3.webp"
     ],
-    "living": [
+    "livingroom": [
       "/assets/projects/TRN32/living/slider_1.webp",
       "/assets/projects/TRN32/living/slider_2.webp",
       "/assets/projects/TRN32/living/slider_3.webp"
     ],
-    "terrace": [
+    "bathroom": [
       "/assets/projects/TRN32/terrace/slider_1.webp",
       "/assets/projects/TRN32/terrace/slider_2.webp",
       "/assets/projects/TRN32/terrace/slider_3.webp"
@@ -363,12 +363,12 @@
       "/assets/projects/TRN3/kitchen/slider_2.webp",
       "/assets/projects/TRN3/kitchen/slider_3.webp"
     ],
-    "living": [
+    "livingroom": [
       "/assets/projects/TRN3/living/slider_1.webp",
       "/assets/projects/TRN3/living/slider_2.webp",
       "/assets/projects/TRN3/living/slider_3.webp"
     ],
-    "terrace": [
+    "bathroom": [
       "/assets/projects/TRN3/terrace/slider_1.webp",
       "/assets/projects/TRN3/terrace/slider_2.webp",
       "/assets/projects/TRN3/terrace/slider_3.webp"
@@ -421,12 +421,12 @@
       "/assets/projects/ATR2/kitchen/slider_2.webp",
       "/assets/projects/ATR2/kitchen/slider_3.webp"
     ],
-    "living": [
+    "livingroom": [
       "/assets/projects/ATR2/living/slider_1.webp",
       "/assets/projects/ATR2/living/slider_2.webp",
       "/assets/projects/ATR2/living/slider_3.webp"
     ],
-    "terrace": [
+    "bathroom": [
       "/assets/projects/ATR2/terrace/slider_1.webp",
       "/assets/projects/ATR2/terrace/slider_2.webp",
       "/assets/projects/ATR2/terrace/slider_3.webp"
@@ -479,12 +479,12 @@
       "/assets/projects/ATR1/kitchen/slider_2.webp",
       "/assets/projects/ATR1/kitchen/slider_3.webp"
     ],
-    "living": [
+    "livingroom": [
       "/assets/projects/ATR1/living/slider_1.webp",
       "/assets/projects/ATR1/living/slider_2.webp",
       "/assets/projects/ATR1/living/slider_3.webp"
     ],
-    "terrace": [
+    "bathroom": [
       "/assets/projects/ATR1/terrace/slider_1.webp",
       "/assets/projects/ATR1/terrace/slider_2.webp",
       "/assets/projects/ATR1/terrace/slider_3.webp"
@@ -537,12 +537,12 @@
       "/assets/projects/MTH2/kitchen/slider_2.webp",
       "/assets/projects/MTH2/kitchen/slider_3.webp"
     ],
-    "living": [
+    "livingroom": [
       "/assets/projects/MTH2/living/slider_1.webp",
       "/assets/projects/MTH2/living/slider_2.webp",
       "/assets/projects/MTH2/living/slider_3.webp"
     ],
-    "terrace": [
+    "bathroom": [
       "/assets/projects/MTH2/terrace/slider_1.webp",
       "/assets/projects/MTH2/terrace/slider_2.webp",
       "/assets/projects/MTH2/terrace/slider_3.webp"
@@ -595,12 +595,12 @@
       "/assets/projects/MTH1/kitchen/slider_2.webp",
       "/assets/projects/MTH1/kitchen/slider_3.webp"
     ],
-    "living": [
+    "livingroom": [
       "/assets/projects/MTH1/living/slider_1.webp",
       "/assets/projects/MTH1/living/slider_2.webp",
       "/assets/projects/MTH1/living/slider_3.webp"
     ],
-    "terrace": [
+    "bathroom": [
       "/assets/projects/MTH1/terrace/slider_1.webp",
       "/assets/projects/MTH1/terrace/slider_2.webp",
       "/assets/projects/MTH1/terrace/slider_3.webp"
@@ -653,12 +653,12 @@
       "/assets/projects/LTH1/kitchen/slider_2.webp",
       "/assets/projects/LTH1/kitchen/slider_3.webp"
     ],
-    "living": [
+    "livingroom": [
       "/assets/projects/LTH1/living/slider_1.webp",
       "/assets/projects/LTH1/living/slider_2.webp",
       "/assets/projects/LTH1/living/slider_3.webp"
     ],
-    "terrace": [
+    "bathroom": [
       "/assets/projects/LTH1/terrace/slider_1.webp",
       "/assets/projects/LTH1/terrace/slider_2.webp",
       "/assets/projects/LTH1/terrace/slider_3.webp"
@@ -711,12 +711,12 @@
       "/assets/projects/NT1H2/kitchen/slider_2.webp",
       "/assets/projects/NT1H2/kitchen/slider_3.webp"
     ],
-    "living": [
+    "livingroom": [
       "/assets/projects/NT1H2/living/slider_1.webp",
       "/assets/projects/NT1H2/living/slider_2.webp",
       "/assets/projects/NT1H2/living/slider_3.webp"
     ],
-    "terrace": [
+    "bathroom": [
       "/assets/projects/NT1H2/terrace/slider_1.webp",
       "/assets/projects/NT1H2/terrace/slider_2.webp",
       "/assets/projects/NT1H2/terrace/slider_3.webp"
@@ -769,12 +769,12 @@
       "/assets/projects/villarenovation/kitchen/slider_2.webp",
       "/assets/projects/villarenovation/kitchen/slider_3.webp"
     ],
-    "living": [
+    "livingroom": [
       "/assets/projects/villarenovation/living/slider_1.webp",
       "/assets/projects/villarenovation/living/slider_2.webp",
       "/assets/projects/villarenovation/living/slider_3.webp"
     ],
-    "terrace": [
+    "bathroom": [
       "/assets/projects/villarenovation/terrace/slider_1.webp",
       "/assets/projects/villarenovation/terrace/slider_2.webp",
       "/assets/projects/villarenovation/terrace/slider_3.webp"
@@ -827,12 +827,12 @@
       "/assets/projects/goodlifepark/kitchen/slider_2.webp",
       "/assets/projects/goodlifepark/kitchen/slider_3.webp"
     ],
-    "living": [
+    "livingroom": [
       "/assets/projects/goodlifepark/living/slider_1.webp",
       "/assets/projects/goodlifepark/living/slider_2.webp",
       "/assets/projects/goodlifepark/living/slider_3.webp"
     ],
-    "terrace": [
+    "bathroom": [
       "/assets/projects/goodlifepark/terrace/slider_1.webp",
       "/assets/projects/goodlifepark/terrace/slider_2.webp",
       "/assets/projects/goodlifepark/terrace/slider_3.webp"

@@ -22,7 +22,7 @@ export async function generateMetadata({ params: { locale, projectId } }) {
 
 export default async function ProjectPage({ params: { locale, projectId } }) {
   const project = sliders.find((item) => item.id === projectId);
-  const advantages = ["kitchen", "living", "terrace"];
+  let advantages = ["kitchen", "livingroom", "bathroom"];
   if (!project) redirect("/");
   const i18nNamespaces = [projectId];
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
@@ -52,7 +52,7 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
                       <p>{t("ambience")}</p>
                     </div>
                   </div>
-                  <ProjectItemAdv locale={locale} flex="start" />
+                  <ProjectItemAdv locale={locale} flex="start" projectId={projectId} />
                   <p>{t("descr")}</p>
                 </div>
                 <Gallery img={project["allImgs"]} />
@@ -73,7 +73,7 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
                   <p>Blend Ambience: Biophilic Light-Filled Spaces</p> 
                 </div>
                 <div className={styles.project__topImgNAdvContainerPhone}>
-                  <ProjectItemAdv locale={locale} flex="start" />
+                <ProjectItemAdv locale={locale} flex="start" projectId={projectId} />
                   <img
                     src={project.mainImg}
                     alt="mainImg"
@@ -100,6 +100,7 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
           {advantages.map((item, index) => (
             <ContentWithSlider
               key={index}
+              id={item}
               title={t(item)}
               text={t(item + "Descr")}
               imgs={project[item]}

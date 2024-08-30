@@ -69,6 +69,7 @@ export default async function FlatInteriorDesign({ params: { locale } }) {
             {advantages.map((item, index) => (
               <ContentWithSlider
                 title={t(item)}
+                id={item}
                 text={t(item + "Descr")}
                 key={index}
                 imgs={flat[item]}
