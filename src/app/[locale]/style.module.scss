@@ -17,7 +17,7 @@
     top: 163px;
     bottom: 42px;
   }
-  & p,
+  & p, span,
   h1 {
     color: white;
   }
@@ -37,18 +37,20 @@
   &__consNdesignContainer {
     display: flex;
     flex-direction: column;
+    justify-content: center; 
     gap: 20px;
-    & > p {
-      position: relative;
+    & > p{
+      position: relative;  
       font-size: 14px;
-      letter-spacing: 0.28px;
+      letter-spacing: 0.28px; 
+      
       &::before {
         position: absolute;
         content: "";
         width: 119px;
         height: 0.5px;
         left: -124px;
-        top: 5px;
+        top: 10px;
         background-color: white;
       }
     }

@@ -35,29 +35,7 @@ export default async function InteriorAll({ params: { locale } }) {
               <div className={styles.interiorDesing__textTitleBox}>
                 <h1>{t("interirDesignTitle")}</h1>
                 <p>{t("interirDesignText")}</p>
-              </div>
-              <div className={styles.interiorDesing__projectsContainer}>
-                <Link href={"/interiorAll/penthouseValencia"}>
-                  <div className={styles.interiorDesing__projectItem}>
-                    <span>Penthouse Valencia</span>
-                    <ArrowPrjct color="white" width={20} height={20} />
-                  </div>
-                </Link>
-                <div className="">
-                  <Link href={"/interiorAll/tranquilModernity"}>
-                    <div className={styles.interiorDesing__projectItem}>
-                      <span>Tranquil Modernity</span>
-                      <ArrowPrjct color="white" width={20} height={20} />
-                    </div>
-                  </Link>
-                  <Link href={"/interiorAll/projectLoftLivingRoom"}>
-                    <div className={styles.interiorDesing__projectItem}>
-                      <span>Project Loft Living Room</span>
-                      <ArrowPrjct color="white" width={20} height={20} />
-                    </div>
-                  </Link> 
-                </div>
-              </div>
+              </div> 
             </div>
           </div>
           <div className={styles.interiorDesing__desktopContent}>

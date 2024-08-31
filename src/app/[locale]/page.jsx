@@ -46,7 +46,7 @@ export default async function Home({ params: { locale } }) {
           </Link>
           </p>
           <p>  
-          <Link href={"/#interiorDesing"} className={styles.landingSection__link}>
+          <Link href={"/interiorAll"} className={styles.landingSection__link}>
             <span>{t("landingInteriorDesign")}</span>
           </Link>
           </p>
