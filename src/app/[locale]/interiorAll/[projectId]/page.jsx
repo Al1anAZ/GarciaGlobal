@@ -38,13 +38,15 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
           <div className={styles.project__topContainer}>
             <BackToHome locale={locale} />
             <h1 className={styles.project__titleTablet}>
-              {camelCaseToWords(projectId)}
+              {/* {camelCaseToWords(projectId)} */}
+              {t("name")}
             </h1>
             <div className={styles.project__topContent}>
               <div className={styles.project__leftSide}>
                 <div className={styles.project__leftSideContent}>
                   <div className={styles.project__leftSideTitleContainer}>
-                    <h1>{camelCaseToWords(projectId)}</h1>
+                    {/* <h1>{camelCaseToWords(projectId)}</h1> */}
+                    <h1>{t("name")}</h1>
                     <div className="">
                       <p>{t("location")}</p>
                       <p>{t("designStyle")}</p>

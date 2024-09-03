@@ -11,7 +11,7 @@ const i18nNamespaces = ["projectGlobal"];
 export const ProjectItem = async ({ id, locale }) => {
   const { t } = await initTranslations(locale, i18nNamespaces);
   const project = sliders.find((item) => item.id === id);
-  if (!project) return <p>Проєкт не знайдено</p>;
+  if (!project) return <p>Проект не знайдено</p>;
 
   return (
     <div className={styles.projectItem}>
@@ -49,7 +49,7 @@ export const ProjectItem = async ({ id, locale }) => {
               height={328}
               className={styles.projectItem__contentContainer__imgMain}
             />
-         <ProjectItemAdv locale={locale} flex="end" projectId={id} />
+            <ProjectItemAdv locale={locale} flex="end" projectId={id} />
           </div>
         </div>
         <div className={styles.projectItem__contentContainer__middle}>
@@ -72,7 +72,6 @@ export const ProjectItemTablet = async ({ id, locale }) => {
   const { t } = await initTranslations(locale, i18nNamespaces);
   const project = sliders.find((item) => item.id === id);
 
-  
   return (
     <div className={styles.projectItem}>
       <div
@@ -208,7 +207,7 @@ export const ProjectItemPhone = async ({ id, locale }) => {
 };
 export const ProjectItemAdv = async ({ locale, flex, projectId }) => {
   const { t } = await initTranslations(locale, ["projectItemAdv"]);
-  const sections = ["kitchen", "livingroom", "bathroom"]; 
+  const sections = ["kitchen", "livingroom", "bathroom"];
   return (
     <div
       className={styles.projectItem__contentContainer__advantageContainer}
@@ -217,7 +216,7 @@ export const ProjectItemAdv = async ({ locale, flex, projectId }) => {
       {sections.map((section) => (
         <Link
           key={section}
-          href={`/interiorAll/${projectId}#${section}`}  
+          href={`/interiorAll/${projectId}#${section}`}
           className={styles.projectItem__contentContainer__advantageItem}
         >
           {t(section)}
@@ -226,4 +225,3 @@ export const ProjectItemAdv = async ({ locale, flex, projectId }) => {
     </div>
   );
 };
- 

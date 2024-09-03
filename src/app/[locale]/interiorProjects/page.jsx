@@ -54,7 +54,7 @@ export default async function InteriorProject({ params: { locale } }) {
           <div className={styles.interiorDesing__desktopContent}>
             {filteredSliders.map((item, index) => (
               <section key={index}>
-                <ProjectItem id={item.id} locale={locale} />
+                <ProjectItem id={item.id} locale={locale} name={item.name} />
               </section>
             ))}
           </div>

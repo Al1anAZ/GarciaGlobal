@@ -116,7 +116,7 @@
       "text": "The image shows the interior of a modern house, made in the style of minimalism with elements of modern architecture. The space is characterized by clear lines, minimalist shapes and a predominance of light colors. The white color of the walls and furniture creates the effect of space and light, emphasizing the cleanliness and simplicity of the interior. The glass balustrade of the stairs adds transparency and lightness, while the use of dark marble on the stairs adds luxury and contrast."
     },
     "goodlifepark": {
-      "title": " GoodLife Park",
+      "title": "GoodLife Park",
       "underTitle": "Harmonia Moderna na Floresta",
       "text": "This modern house seamlessly integrates with its forested surroundings while maintaining a distinct contemporary aesthetic. The structure features a mix of warm wood tones and cool gray metal, creating visual interest through contrasting materials and colors. A simple concrete path leads to the entrance, emphasizing the clean lines of the overall design. Large windows allow ample natural light and provide views of the surrounding greenery, blurring the line between indoor and outdoor spaces."
     },
@@ -342,6 +342,7 @@
     "bathroomDescr": "The bathroom has a modern design with a shower cubicle with a clear glass door, beige wall tiles and a stylish white wash basin. The ceiling and shower area are illuminated with warm LED strips, which adds elegance to the space. A large mirror is located above the wash basin, which enhances the brightness and feeling of space in the room. The overall design is minimalistic and clean, with an emphasis on straight lines and uncluttered surfaces."
   },
   "villarenovation": {
+    "name": "Villa Renovation",
     "location": "Location: Spain",
     "designStyle": "Design Style:  Modern Minimalism",
     "architecturalFusion": "Architectural Fusion: combines modern elements with an industrial touch",
@@ -355,6 +356,7 @@
     "bathroomDescr": "This bathroom design combines clean lines, contrasting colors and different textures to create a modern and aesthetically pleasing atmosphere. The glass walls of the shower cabin create a sense of space and modernity. Gray tiles on the walls and floor add elegance and restraint. A large mirror above the table visually increases the space and adds light."
   },
   "goodlifepark": {
+    "name": "GoodLife Park",
     "location": "Location: Spain",
     "designStyle": "Design Style:  Contemporary Modern",
     "architecturalFusion": "Architectural Fusion: natural and industrial materials",
@@ -368,6 +370,7 @@
     "bathroomDescr": ""
   },
   "villacartagena": {
+    "name": "Villa Cartagena",
     "location": "Location: Spain",
     "designStyle": "Design Style: Traditional Spanish with Modern Touches",
     "architecturalFusion": "Architectural Fusion: Merges classic stonework with contemporary glass elements",
@@ -381,6 +384,7 @@
     "bathroomDescr": "The bathroom is designed with a mix of rustic and modern elements. A stone sink sits atop a wooden vanity, while the walk-in shower features glass walls and modern fixtures. Natural stone tiles on the floor and walls add texture and warmth, creating a spa-like atmosphere."
   },
   "townhousealbacete": {
+    "name": "Townhouse Albacete",
     "location": "Location: Albacete, Spain",
     "designStyle": "Design Style: Urban Contemporary",
     "architecturalFusion": "Architectural Fusion: Combines modern lines with traditional urban materials",
@@ -390,10 +394,11 @@
     "kitchenDescr": "The kitchen in this townhouse is designed with an urban chic aesthetic. Sleek black cabinets are paired with white countertops, creating a striking contrast. Stainless steel appliances are integrated seamlessly into the design, and a large island provides ample workspace and storage. The kitchen opens up to the living area, enhancing the open-plan layout.",
     "livingroom": "Living Room",
     "livingroomDescr": "The living room is a cozy yet stylish space, featuring modern furniture and a neutral color palette. Large windows allow natural light to flood the room, while sliding doors open to a private garden. The polished concrete floor and minimalist decor create a clean, contemporary feel, perfect for relaxing or entertaining.",
-    "bathroom": "Bathroom",
-    "bathroomDescr": "The bathroom is a sleek, modern space with a monochromatic color scheme. The walk-in shower is lined with subway tiles, and a floating vanity provides a clean, uncluttered look. The space is illuminated by recessed lighting, creating a calm and relaxing atmosphere."
+    "bathroom": "More photos",
+    "bathroomDescr": ""
   },
   "penthousevalencia": {
+    "name": "Penthouse Valencia",
     "location": "Location: Valencia, Spain",
     "designStyle": "Design Style: Modern Luxury",
     "architecturalFusion": "Architectural Fusion: Seamlessly blends indoor and outdoor living",
@@ -407,6 +412,7 @@
     "bathroomDescr": "The bathroom is a sanctuary of luxury, featuring a freestanding bathtub with views of the city. Marble floors and walls add a touch of elegance, while modern fixtures and a walk-in rain shower complete the spa-like atmosphere. A double vanity with backlit mirrors provides ample space for two."
   },
   "obolonapartment": {
+    "name": "Obolon Apartment",
     "location": "Location: Kyiv, Ukraine",
     "designStyle": "Design Style: Modern Minimalism",
     "architecturalFusion": "Architectural Fusion: Blends modern design with river views",
@@ -420,6 +426,7 @@
     "bathroomDescr": "The bathroom features a modern, minimalist design with clean lines and a monochromatic color scheme. A walk-in shower with a glass enclosure, along with sleek fixtures and a floating vanity, creates a sense of luxury. The large mirror and recessed lighting add to the bright and airy feel of the space."
   },
   "mynystercki": {
+    "name": "Mynystercki",
     "location": "Location: Kyiv, Ukraine",
     "designStyle": "Design Style: Urban Contemporary",
     "architecturalFusion": "Architectural Fusion: Combines industrial elements with modern design",
@@ -433,6 +440,7 @@
     "bathroomDescr": ""
   },
   "kyivlakehouse": {
+    "name": "Kyiv Lake House",
     "location": "Location: Kyiv, Ukraine",
     "designStyle": "Design Style: Modern Natural",
     "architecturalFusion": "Architectural Fusion: Merges modern architecture with natural surroundings",
@@ -446,6 +454,7 @@
     "bathroomDescr": ""
   },
   "eliteresidentialcomplexinkyiv": {
+    "name": "Elite Residential Complex in Kyiv",
     "location": "Location: Kyiv, Ukraine",
     "designStyle": "Design Style: Urban Luxury",
     "architecturalFusion": "Architectural Fusion: Combines modern amenities with classic elegance",

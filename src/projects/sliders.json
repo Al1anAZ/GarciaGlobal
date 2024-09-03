@@ -1,7 +1,7 @@
 [
   {
     "id": "penthouseValencia",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/penthouseValencia/main.webp",
       "/assets/projects/penthouseValencia/terrace/slider_2.webp",
@@ -69,7 +69,7 @@
   },
   {
     "id": "tranquilModernity",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/tranquilModernity/main.webp",
       "/assets/projects/tranquilModernity/terrace/slider_2.webp",
@@ -127,7 +127,7 @@
   },
   {
     "id": "projectLoftLivingRoom",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/projectLoftLivingRoom/main.webp",
       "/assets/projects/projectLoftLivingRoom/theUrbanLounge/slider_3.webp",
@@ -195,7 +195,7 @@
   },
   {
     "id": "NTR2",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/NTR2/main.webp",
       "/assets/projects/NTR2/terrace/slider_2.webp",
@@ -263,7 +263,7 @@
   },
   {
     "id": "NTR1",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/NTR1/main.webp",
       "/assets/projects/NTR1/terrace/slider_2.webp",
@@ -331,7 +331,7 @@
   },
   {
     "id": "TRN32",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/TRN32/main.webp",
       "/assets/projects/TRN32/terrace/slider_2.webp",
@@ -399,7 +399,7 @@
   },
   {
     "id": "TRN3",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/TRN3/main.webp",
       "/assets/projects/TRN3/terrace/slider_2.webp",
@@ -467,7 +467,7 @@
   },
   {
     "id": "ATR2",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/ATR2/main.webp",
       "/assets/projects/ATR2/terrace/slider_2.webp",
@@ -535,7 +535,7 @@
   },
   {
     "id": "ATR1",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/ATR1/main.webp",
       "/assets/projects/ATR1/terrace/slider_2.webp",
@@ -603,7 +603,7 @@
   },
   {
     "id": "MTH2",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/MTH2/main.webp",
       "/assets/projects/MTH2/terrace/slider_2.webp",
@@ -671,7 +671,7 @@
   },
   {
     "id": "MTH1",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/MTH1/main.webp",
       "/assets/projects/MTH1/terrace/slider_2.webp",
@@ -739,7 +739,7 @@
   },
   {
     "id": "LTH1",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/LTH1/main.webp",
       "/assets/projects/LTH1/terrace/slider_2.webp",
@@ -807,7 +807,7 @@
   },
   {
     "id": "NT1H2",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/NT1H2/main.webp",
       "/assets/projects/NT1H2/terrace/slider_2.webp",
@@ -875,7 +875,7 @@
   },
   {
     "id": "villarenovation",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/villarenovation/main.webp",
       "/assets/projects/villarenovation/terrace/slider_2.webp",
@@ -943,7 +943,7 @@
   },
   {
     "id": "goodlifepark",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/goodlifepark/main.webp",
       "/assets/projects/goodlifepark/terrace/slider_2.webp",
@@ -1011,7 +1011,7 @@
   },
   {
     "id": "villacartagena",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/VillaCartagena/main.webp",
       "/assets/projects/VillaCartagena/terrace/slider_2.webp",
@@ -1021,8 +1021,8 @@
     "mainImg": "/assets/projects/VillaCartagena/main.webp",
     "kitchen": [
       "/assets/projects/VillaCartagena/kitchen/slider_1.webp",
-      "/assets/projects/VillaCartagena/kitchen/slider_2.webp",
-      "/assets/projects/VillaCartagena/kitchen/slider_3.webp"
+      "/assets/projects/VillaCartagena/kitchen/slider_1.webp",
+      "/assets/projects/VillaCartagena/kitchen/slider_1.webp"
     ],
     "livingroom": [
       "/assets/projects/VillaCartagena/living/slider_1.webp",
@@ -1079,7 +1079,7 @@
   },
   {
     "id": "townhousealbacete",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/TownhouseAlbacete/main.webp",
       "/assets/projects/TownhouseAlbacete/terrace/slider_2.webp",
@@ -1147,7 +1147,7 @@
   },
   {
     "id": "penthousevalencia",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/penthouseValencia/main.webp",
       "/assets/projects/penthouseValencia/terrace/slider_2.webp",
@@ -1215,7 +1215,7 @@
   },
   {
     "id": "obolonapartment",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/ObolonApartment/main.webp",
       "/assets/projects/ObolonApartment/terrace/slider_2.webp",
@@ -1283,7 +1283,7 @@
   },
   {
     "id": "mynystercki",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/mynystercki/main.webp",
       "/assets/projects/mynystercki/terrace/slider_2.webp",
@@ -1351,7 +1351,7 @@
   },
   {
     "id": "kyivlakehouse",
-    "name":"Kyiv Lake House",
+    "name": "Kyiv Lake House",
     "previewSlider": [
       "/assets/projects/KyivLakeHouse/main.webp",
       "/assets/projects/KyivLakeHouse/terrace/slider_2.webp",
@@ -1419,7 +1419,7 @@
   },
   {
     "id": "eliteresidentialcomplexinkyiv",
-    "name":"",
+    "name": "",
     "previewSlider": [
       "/assets/projects/EliteResidentialComplexInKyiv/main.webp",
       "/assets/projects/EliteResidentialComplexInKyiv/terrace/slider_2.webp",
