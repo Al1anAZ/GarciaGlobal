@@ -120,16 +120,16 @@ export default async function Home({ params: { locale } }) {
               </div> 
             </div>
             <div className={styles.interiorDesing__contentDesktop}>
-              <ProjectItem id={"projectLoftLivingRoom"} locale={locale} />
-              <ProjectItem id={"tranquilModernity"} locale={locale} />
+              <ProjectItem id={"NTR2"} locale={locale} />
+              <ProjectItem id={"ATR2"} locale={locale} />
             </div>
             <div className={styles.interiorDesing__contentTablet}>
-              <ProjectItemTablet id={"projectLoftLivingRoom"} locale={locale} />
-              <ProjectItemTablet id={"tranquilModernity"} locale={locale} />
+              <ProjectItemTablet id={"ATR1"} locale={locale} />
+              <ProjectItemTablet id={"TRN3"} locale={locale} />
             </div>
             <div className={styles.interiorDesing__contentPhone}>
-              <ProjectItemPhone id={"projectLoftLivingRoom"} locale={locale} />
-              <ProjectItemPhone id={"tranquilModernity"} locale={locale} />
+              <ProjectItemPhone id={"MTH2"} locale={locale} />
+              <ProjectItemPhone id={"LTH1"} locale={locale} />
             </div>
           </Container>
           <Link
