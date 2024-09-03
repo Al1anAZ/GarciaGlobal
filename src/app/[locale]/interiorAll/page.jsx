@@ -21,6 +21,13 @@ export const metadata = {
 
 export default async function InteriorAll({ params: { locale } }) {
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
+
+  // Filter out specific projects by their IDs
+  const filteredSliders = sliders.filter(
+    (item) =>
+      !["penthouseValencia", "tranquilModernity", "projectLoftLivingRoom"].includes(item.id)
+  );
+
   return (
     <TranslationsProvider
       namespaces={i18nNamespaces}
@@ -35,25 +42,25 @@ export default async function InteriorAll({ params: { locale } }) {
               <div className={styles.interiorDesing__textTitleBox}>
                 <h1>{t("interirDesignTitle")}</h1>
                 <p>{t("interirDesignText")}</p>
-              </div> 
+              </div>
             </div>
           </div>
           <div className={styles.interiorDesing__desktopContent}>
-            {sliders.map((item, index) => (
+            {filteredSliders.map((item, index) => (
               <section key={index}>
                 <ProjectItem id={item.id} locale={locale} />
               </section>
             ))}
           </div>
           <div className={styles.interiorDesing__tabletContent}>
-            {sliders.map((item, index) => (
+            {filteredSliders.map((item, index) => (
               <section key={index}>
                 <ProjectItemTablet id={item.id} locale={locale} />
               </section>
             ))}
           </div>
           <div className={styles.interiorDesing__phoneContent}>
-            {sliders.map((item, index) => (
+            {filteredSliders.map((item, index) => (
               <section key={index}>
                 <ProjectItemPhone id={item.id} locale={locale} />
               </section>

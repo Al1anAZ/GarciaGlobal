@@ -30,31 +30,7 @@ export default async function HouseInteriorDesign({ params: { locale } }) {
       <main className={styles.houseInteriorDesign}>
         <section className={styles.topSection}>
           <Container className={styles.topSection__top}>
-            <h1>{t("title")}</h1>
-            <div className={styles.topSection__projectsContainer}>
-              <Link href={"/interiorAll/penthouseValencia"}>
-                <div className={styles.topSection__projectItem}>
-                  <span>Penthouse Valencia</span>
-                  <ArrowPrjct color="black" width={20} height={20} />
-                </div>
-              </Link>
-              <div className="">
-                <Link href={"/interiorAll/tranquilModernity"}>
-                  <div className={styles.topSection__projectItem}>
-                    <span>Tranquil Modernity</span>
-                    <ArrowPrjct color="black" width={20} height={20} />
-                  </div>
-                </Link>
-                <Link href={"/interiorAll/projectLoftLivingRoom"}>
-                  <div className={styles.topSection__projectItem}>
-                    <span>Project Loft Living Room</span>
-                    <ArrowPrjct color="black" width={20} height={20} />
-                  </div>
-                </Link>
-
-                
-              </div>
-            </div>
+            <h1>{t("title")}</h1> 
           </Container>
           <div className={styles.topSection__bottom}>
             <p>{t("text")}</p>

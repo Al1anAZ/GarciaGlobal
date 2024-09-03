@@ -119,6 +119,38 @@ export default async function Home({ params: { locale } }) {
           <Container className={styles.interiorDesing__container}>
             <div className={styles.interiorDesing__titleContainer}>
               <div className={styles.interiorDesing__textTitleBox}>
+<<<<<<< HEAD
+=======
+                <h2>{t("interirDesignTitle")}</h2>
+                <p>{t("interirDesignText")}</p>
+              </div> 
+            </div>
+            <div className={styles.interiorDesing__contentDesktop}>
+              <ProjectItem id={"NTR2"} locale={locale} />
+              <ProjectItem id={"ATR2"} locale={locale} />
+            </div>
+            <div className={styles.interiorDesing__contentTablet}>
+              <ProjectItemTablet id={"ATR1"} locale={locale} />
+              <ProjectItemTablet id={"TRN3"} locale={locale} />
+            </div>
+            <div className={styles.interiorDesing__contentPhone}>
+              <ProjectItemPhone id={"MTH2"} locale={locale} />
+              <ProjectItemPhone id={"LTH1"} locale={locale} />
+            </div>
+          </Container>
+          <Link
+            className={styles.interiorDesing__seeMore}
+            href={"/interiorAll"}
+          >
+            {t("seeMore")}
+          </Link>
+          <div className={styles.interiorDesing__imgBg} />
+        </section>
+        <section className={styles.interiorDesing} id="interiorDesing">
+          <Container className={styles.interiorDesing__container}>
+            <div className={styles.interiorDesing__titleContainer}>
+              <div className={styles.interiorDesing__textTitleBox}>
+>>>>>>> 64a3325d98217f087b18ff456201620dd574b6a6
                 <h2>{t("ProjectTitle")}</h2>
                 <p>{t("interirDesignText")}</p>
               </div>
