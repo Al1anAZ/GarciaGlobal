@@ -1285,67 +1285,67 @@
     "id": "mynystercki",
     "name": "",
     "previewSlider": [
-      "/assets/projects/mynystercki/main.webp",
-      "/assets/projects/mynystercki/terrace/slider_2.webp",
-      "/assets/projects/mynystercki/living/slider_1.webp"
+      "/assets/projects/Mynystercki/main.webp",
+      "/assets/projects/Mynystercki/terrace/slider_2.webp",
+      "/assets/projects/Mynystercki/living/slider_1.webp"
     ],
-    "smallImg": "/assets/projects/mynystercki/living/slider_2.webp",
-    "mainImg": "/assets/projects/mynystercki/main.webp",
+    "smallImg": "/assets/projects/Mynystercki/living/slider_2.webp",
+    "mainImg": "/assets/projects/Mynystercki/main.webp",
     "kitchen": [
-      "/assets/projects/mynystercki/kitchen/slider_1.webp",
-      "/assets/projects/mynystercki/kitchen/slider_2.webp",
-      "/assets/projects/mynystercki/kitchen/slider_3.webp"
+      "/assets/projects/Mynystercki/kitchen/slider_1.webp",
+      "/assets/projects/Mynystercki/kitchen/slider_2.webp",
+      "/assets/projects/Mynystercki/kitchen/slider_3.webp"
     ],
     "livingroom": [
-      "/assets/projects/mynystercki/living/slider_1.webp",
-      "/assets/projects/mynystercki/living/slider_2.webp",
-      "/assets/projects/mynystercki/living/slider_3.webp"
+      "/assets/projects/Mynystercki/living/slider_1.webp",
+      "/assets/projects/Mynystercki/living/slider_2.webp",
+      "/assets/projects/Mynystercki/living/slider_3.webp"
     ],
     "bathroom": [
-      "/assets/projects/mynystercki/terrace/slider_1.webp",
-      "/assets/projects/mynystercki/terrace/slider_2.webp",
-      "/assets/projects/mynystercki/terrace/slider_3.webp"
+      "/assets/projects/Mynystercki/terrace/slider_1.webp",
+      "/assets/projects/Mynystercki/terrace/slider_2.webp",
+      "/assets/projects/Mynystercki/terrace/slider_3.webp"
     ],
     "allImgs": [
       {
         "id": 1,
-        "src": "/assets/projects/mynystercki/main.webp"
+        "src": "/assets/projects/Mynystercki/main.webp"
       },
       {
         "id": 2,
-        "src": "/assets/projects/mynystercki/kitchen/slider_1.webp"
+        "src": "/assets/projects/Mynystercki/kitchen/slider_1.webp"
       },
       {
         "id": 3,
-        "src": "/assets/projects/mynystercki/kitchen/slider_2.webp"
+        "src": "/assets/projects/Mynystercki/kitchen/slider_2.webp"
       },
       {
         "id": 4,
-        "src": "/assets/projects/mynystercki/kitchen/slider_3.webp"
+        "src": "/assets/projects/Mynystercki/kitchen/slider_3.webp"
       },
       {
         "id": 5,
-        "src": "/assets/projects/mynystercki/living/slider_1.webp"
+        "src": "/assets/projects/Mynystercki/living/slider_1.webp"
       },
       {
         "id": 6,
-        "src": "/assets/projects/mynystercki/living/slider_2.webp"
+        "src": "/assets/projects/Mynystercki/living/slider_2.webp"
       },
       {
         "id": 7,
-        "src": "/assets/projects/mynystercki/living/slider_3.webp"
+        "src": "/assets/projects/Mynystercki/living/slider_3.webp"
       },
       {
         "id": 8,
-        "src": "/assets/projects/mynystercki/terrace/slider_1.webp"
+        "src": "/assets/projects/Mynystercki/terrace/slider_1.webp"
       },
       {
         "id": 9,
-        "src": "/assets/projects/mynystercki/terrace/slider_2.webp"
+        "src": "/assets/projects/Mynystercki/terrace/slider_2.webp"
       },
       {
         "id": 10,
-        "src": "/assets/projects/mynystercki/terrace/slider_3.webp"
+        "src": "/assets/projects/Mynystercki/terrace/slider_3.webp"
       }
     ]
   },
