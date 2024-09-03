@@ -109,7 +109,7 @@
       "title": "NT1H2",
       "underTitle": "Monochrome Minimalism: A Futuristic and Geometric Interior Design",
       "text": "The room has a modern minimalist design with a monochrome color scheme that includes shades of black, white and gray. The main emphasis is on clean lines and geometric shapes. Lighting plays an important role in the design, with LED strips outlining the perimeter of the ceiling and floor, creating a futuristic atmosphere. A large window provides natural light, which is complemented by artificial light."
-    }, 
+    },
     "villarenovation": {
       "title": "Villa Renovation",
       "underTitle": "Space, light and luxury in every detail",
@@ -119,6 +119,41 @@
       "title": " GoodLife Park",
       "underTitle": "Harmonia Moderna na Floresta",
       "text": "This modern house seamlessly integrates with its forested surroundings while maintaining a distinct contemporary aesthetic. The structure features a mix of warm wood tones and cool gray metal, creating visual interest through contrasting materials and colors. A simple concrete path leads to the entrance, emphasizing the clean lines of the overall design. Large windows allow ample natural light and provide views of the surrounding greenery, blurring the line between indoor and outdoor spaces."
+    },
+    "villacartagena": {
+      "title": "Villa Cartagena",
+      "underTitle": "A Blend of Tradition and Modernity",
+      "text": "This villa embodies a harmonious fusion of traditional Spanish architecture and contemporary design. The facade features classic stonework, while large glass windows offer a modern touch, providing a panoramic view of the surrounding landscape. Inside, the villa boasts a spacious open-plan layout, with natural light flooding through the large windows. The use of wood and stone in the interior finishes reflects the rustic charm of the region, complemented by modern furnishings and fixtures."
+    },
+    "townhousealbacete": {
+      "title": "Townhouse Albacete",
+      "underTitle": "Urban Elegance with a Touch of Serenity",
+      "text": "Located in the heart of Albacete, this townhouse is a perfect blend of urban sophistication and peaceful retreat. The exterior showcases clean lines and neutral tones, with large windows that invite natural light into every room. Inside, the modern interior design is highlighted by high ceilings, polished concrete floors, and minimalist decor. A private garden offers a serene escape from the hustle and bustle of city life, creating a perfect balance between modern living and tranquility."
+    },
+    "penthousevalencia": {
+      "title": "Penthouse Valencia",
+      "underTitle": "Sky-High Luxury with Panoramic Views",
+      "text": "Perched atop a high-rise in the heart of Valencia, this penthouse offers unparalleled views of the city and the Mediterranean Sea. The open-concept living area is flooded with natural light, thanks to floor-to-ceiling windows that surround the space. The interior design is sleek and modern, with high-end finishes and state-of-the-art appliances. The outdoor terrace provides an ideal space for entertaining, complete with a plunge pool and lounge area to enjoy the stunning sunsets over the city."
+    },
+    "obolonapartment": {
+      "title": "Obolon Apartment",
+      "underTitle": "Modern Living on the Banks of the Dnieper",
+      "text": "Situated in the vibrant Obolon district of Kyiv, this apartment offers a stylish and comfortable living space with breathtaking views of the Dnieper River. The interior is designed with a modern aesthetic, featuring open spaces, high ceilings, and large windows that allow natural light to pour in. The color palette is dominated by soft neutrals, creating a calm and inviting atmosphere. The apartment's location provides easy access to local amenities while offering a peaceful retreat from the busy city."
+    },
+    "mynystercki": {
+      "title": "Mynystercki",
+      "underTitle": "A Modern Sanctuary in the Heart of the City",
+      "text": "This contemporary residence in Mynystercki combines modern design with a touch of nature. The sleek exterior is characterized by sharp angles and large glass panels, which blur the line between indoor and outdoor spaces. Inside, the open-plan layout features minimalist decor with high-end finishes, creating a luxurious yet comfortable living environment. The use of natural materials such as wood and stone adds warmth and texture, making the home a perfect urban sanctuary."
+    },
+    "kyivlakehouse": {
+      "title": "Kyiv Lake House",
+      "underTitle": "Tranquility by the Water",
+      "text": "Nestled by the shores of a tranquil lake, this modern house offers a perfect escape from the hustle and bustle of Kyiv. The design emphasizes connection with nature, with large windows and open spaces that provide stunning views of the water. The interior is decorated in a minimalist style, with a focus on natural materials and neutral colors. The outdoor living area, complete with a deck and private dock, allows residents to fully embrace the serene surroundings."
+    },
+    "eliteresidentialcomplexinkyiv": {
+      "title": "Elite Residential Complex in Kyiv",
+      "underTitle": "Luxury Living in the Heart of the Capital",
+      "text": "Located in a prestigious area of Kyiv, this elite residential complex offers the pinnacle of luxury living. The modern architecture is characterized by sleek lines and premium materials, with each apartment offering expansive views of the city. The interiors are designed with the utmost attention to detail, featuring high ceilings, custom finishes, and top-of-the-line appliances. Residents can enjoy a range of amenities, including a rooftop terrace, fitness center, and private parking, all designed to provide a lifestyle of unparalleled comfort and convenience."
     }
   },
   "individualProjecting": {
@@ -156,12 +191,12 @@
     "videoText3": "This apartment in 'Tetris Hall' is the epicenter of modern city life. The interior is a sophisticated combination of modern design elements with an emphasis on functionality and comfort. Large panoramic windows offer breathtaking views of the cityscape, filling the space with natural light during the day. Expensive materials and custom finishes add luxury to every corner, while an open floor plan makes the most of space and movement. Whether you are looking for a place to relax or entertain, this apartment will provide the perfect environment for stylish and comfortable living.",
     "videoTitle4": "Kiev, distrito de Obolon",
     "videoSubTitle4": "A review of an elegant two-bedroom apartment",
-    "videoText4":"Step into this stylish two-bedroom apartment in Kiev's vibrant Obolon district. With its modern design, spacious layout, and luxurious amenities, this home offers the perfect blend of comfort and elegance. Ideal for anyone looking to experience the best of city living."
+    "videoText4": "Step into this stylish two-bedroom apartment in Kiev's vibrant Obolon district. With its modern design, spacious layout, and luxurious amenities, this home offers the perfect blend of comfort and elegance. Ideal for anyone looking to experience the best of city living."
   },
   "projectItemAdv": {
-    "kitchen": "Kitchen", 
+    "kitchen": "Kitchen",
     "livingroom": "Living Room",
-    "bathroom": "Bathroom" 
+    "bathroom": "Bathroom"
   },
   "penthouseValencia": {
     "location": "Location: Valencia, Spain",
@@ -314,12 +349,11 @@
     "descr": "The image shows the interior of a modern house, made in the style of minimalism with elements of modern architecture. The space is characterized by clear lines, minimalist shapes and a predominance of light colors. The white color of the walls and furniture creates the effect of space and light, emphasizing the cleanliness and simplicity of the interior. The glass balustrade of the stairs adds transparency and lightness, while the use of dark marble on the stairs adds luxury and contrast.",
     "kitchen": "Kitchen",
     "kitchenDescr": "This kitchen has a modern design with a clean, minimalist aesthetic. The main color scheme is white, with white cabinets, countertops and walls. The marble back panel adds luxury. The kitchen is equipped with stainless appliances, including an oven, microwave and built-in stove in the island. The island also has a stainless steel sink with a tall faucet. Natural light pours in through large glass doors leading to the street, accentuating the light and airy feel of the space.",
-    "livingroom": "livingroom Room",
+    "livingroom": "living Room",
     "livingroomDescr": "This living room has a contemporary design leading to an outside dining area. The living room is equipped with large floor-to-ceiling windows with sheer white curtains that allow plenty of natural light to enter the space. The floor is made of light gray tiles, which smoothly transitions from the interior to the exterior, emphasizing the connection between interior and exterior space.",
     "bathroom": "Bathroom ",
     "bathroomDescr": "This bathroom design combines clean lines, contrasting colors and different textures to create a modern and aesthetically pleasing atmosphere. The glass walls of the shower cabin create a sense of space and modernity. Gray tiles on the walls and floor add elegance and restraint. A large mirror above the table visually increases the space and adds light."
   },
-
   "goodlifepark": {
     "location": "Location: Spain",
     "designStyle": "Design Style:  Contemporary Modern",
@@ -332,6 +366,97 @@
     "livingroomDescr": "",
     "bathroom": "Bathroom ",
     "bathroomDescr": ""
+  },
+  "villacartagena": {
+    "location": "Location: Spain",
+    "designStyle": "Design Style: Traditional Spanish with Modern Touches",
+    "architecturalFusion": "Architectural Fusion: Merges classic stonework with contemporary glass elements",
+    "ambience": "Blend Ambience: Warm, inviting, with a mix of rustic charm and modern elegance",
+    "descr": "This villa embodies a harmonious fusion of traditional Spanish architecture and contemporary design. The facade features classic stonework, while large glass windows offer a modern touch, providing a panoramic view of the surrounding landscape. Inside, the villa boasts a spacious open-plan layout, with natural light flooding through the large windows. The use of wood and stone in the interior finishes reflects the rustic charm of the region, complemented by modern furnishings and fixtures.",
+    "kitchen": "Kitchen",
+    "kitchenDescr": "The kitchen in Villa Cartagena combines traditional elements with modern functionality. Wooden cabinets and stone countertops evoke a sense of rustic warmth, while stainless steel appliances and sleek fixtures add a contemporary touch. A large window above the sink offers views of the surrounding landscape, bringing natural light into the space.",
+    "livingroom": "Living Room",
+    "livingroomDescr": "The living room features a blend of traditional and modern elements, with a cozy fireplace as the centerpiece. Exposed wooden beams on the ceiling add character, while large glass doors open up to a terrace, creating a seamless transition between indoor and outdoor spaces. The decor is simple yet elegant, with a neutral color palette that enhances the sense of space and light.",
+    "bathroom": "Bathroom",
+    "bathroomDescr": "The bathroom is designed with a mix of rustic and modern elements. A stone sink sits atop a wooden vanity, while the walk-in shower features glass walls and modern fixtures. Natural stone tiles on the floor and walls add texture and warmth, creating a spa-like atmosphere."
+  },
+  "townhousealbacete": {
+    "location": "Location: Albacete, Spain",
+    "designStyle": "Design Style: Urban Contemporary",
+    "architecturalFusion": "Architectural Fusion: Combines modern lines with traditional urban materials",
+    "ambience": "Blend Ambience: Stylish, serene, with an urban edge",
+    "descr": "Located in the heart of Albacete, this townhouse is a perfect blend of urban sophistication and peaceful retreat. The exterior showcases clean lines and neutral tones, with large windows that invite natural light into every room. Inside, the modern interior design is highlighted by high ceilings, polished concrete floors, and minimalist decor. A private garden offers a serene escape from the hustle and bustle of city life, creating a perfect balance between modern living and tranquility.",
+    "kitchen": "Kitchen",
+    "kitchenDescr": "The kitchen in this townhouse is designed with an urban chic aesthetic. Sleek black cabinets are paired with white countertops, creating a striking contrast. Stainless steel appliances are integrated seamlessly into the design, and a large island provides ample workspace and storage. The kitchen opens up to the living area, enhancing the open-plan layout.",
+    "livingroom": "Living Room",
+    "livingroomDescr": "The living room is a cozy yet stylish space, featuring modern furniture and a neutral color palette. Large windows allow natural light to flood the room, while sliding doors open to a private garden. The polished concrete floor and minimalist decor create a clean, contemporary feel, perfect for relaxing or entertaining.",
+    "bathroom": "Bathroom",
+    "bathroomDescr": "The bathroom is a sleek, modern space with a monochromatic color scheme. The walk-in shower is lined with subway tiles, and a floating vanity provides a clean, uncluttered look. The space is illuminated by recessed lighting, creating a calm and relaxing atmosphere."
+  },
+  "penthousevalencia": {
+    "location": "Location: Valencia, Spain",
+    "designStyle": "Design Style: Modern Luxury",
+    "architecturalFusion": "Architectural Fusion: Seamlessly blends indoor and outdoor living",
+    "ambience": "Blend Ambience: Light, airy, with breathtaking views",
+    "descr": "Perched atop a high-rise in the heart of Valencia, this penthouse offers unparalleled views of the city and the Mediterranean Sea. The open-concept living area is flooded with natural light, thanks to floor-to-ceiling windows that surround the space. The interior design is sleek and modern, with high-end finishes and state-of-the-art appliances. The outdoor terrace provides an ideal space for entertaining, complete with a plunge pool and lounge area to enjoy the stunning sunsets over the city.",
+    "kitchen": "Kitchen",
+    "kitchenDescr": "The kitchen is a masterpiece of modern design, featuring high-gloss cabinets and a marble countertop that extends into a breakfast bar. Top-of-the-line appliances are seamlessly integrated, and the open layout allows for easy interaction with the living and dining areas. Large windows provide a panoramic view of the city, making cooking and dining a visual experience.",
+    "livingroom": "Living Room",
+    "livingroomDescr": "The living room is designed for luxury and comfort, with plush seating and a neutral color palette. Floor-to-ceiling windows provide stunning views of the cityscape, while the open layout enhances the sense of space. Modern art and designer lighting add a touch of sophistication, creating a perfect space for relaxation or entertaining guests.",
+    "bathroom": "Bathroom",
+    "bathroomDescr": "The bathroom is a sanctuary of luxury, featuring a freestanding bathtub with views of the city. Marble floors and walls add a touch of elegance, while modern fixtures and a walk-in rain shower complete the spa-like atmosphere. A double vanity with backlit mirrors provides ample space for two."
+  },
+  "obolonapartment": {
+    "location": "Location: Kyiv, Ukraine",
+    "designStyle": "Design Style: Modern Minimalism",
+    "architecturalFusion": "Architectural Fusion: Blends modern design with river views",
+    "ambience": "Blend Ambience: Bright, open, and connected to nature",
+    "descr": "Situated in the vibrant Obolon district of Kyiv, this apartment offers a stylish and comfortable living space with breathtaking views of the Dnieper River. The interior is designed with a modern aesthetic, featuring open spaces, high ceilings, and large windows that allow natural light to pour in. The color palette is dominated by soft neutrals, creating a calm and inviting atmosphere. The apartment's location provides easy access to local amenities while offering a peaceful retreat from the busy city.",
+    "kitchen": "Kitchen",
+    "kitchenDescr": "The kitchen in the Obolon Apartment is designed for modern living, with sleek white cabinets and black countertops creating a striking contrast. Stainless steel appliances, including a built-in oven and refrigerator, add to the modern aesthetic. The open-plan design allows for easy interaction with the dining and living areas, while large windows offer views of the Dnieper River, bringing the beauty of nature into the space.",
+    "livingroom": "Living Room",
+    "livingroomDescr": "The living room is a bright, open space with large windows that offer stunning views of the river. The minimalist design is enhanced by a neutral color palette, with comfortable seating and modern furnishings creating a relaxing atmosphere. A large area rug adds warmth to the space, while the open layout provides a seamless flow between the living, dining, and kitchen areas.",
+    "bathroom": "Bathroom",
+    "bathroomDescr": "The bathroom features a modern, minimalist design with clean lines and a monochromatic color scheme. A walk-in shower with a glass enclosure, along with sleek fixtures and a floating vanity, creates a sense of luxury. The large mirror and recessed lighting add to the bright and airy feel of the space."
+  },
+  "mynystercki": {
+    "location": "Location: Kyiv, Ukraine",
+    "designStyle": "Design Style: Urban Contemporary",
+    "architecturalFusion": "Architectural Fusion: Combines industrial elements with modern design",
+    "ambience": "Blend Ambience: Sleek, stylish, with a touch of urban edge",
+    "descr": "This contemporary residence in Mynystercki combines modern design with a touch of nature. The sleek exterior is characterized by sharp angles and large glass panels, which blur the line between indoor and outdoor spaces. Inside, the open-plan layout features minimalist decor with high-end finishes, creating a luxurious yet comfortable living environment. The use of natural materials such as wood and stone adds warmth and texture, making the home a perfect urban sanctuary.",
+    "kitchen": "More photos",
+    "kitchenDescr": "",
+    "livingroom": "",
+    "livingroomDescr": "",
+    "bathroom": "",
+    "bathroomDescr": ""
+  },
+  "kyivlakehouse": {
+    "location": "Location: Kyiv, Ukraine",
+    "designStyle": "Design Style: Modern Natural",
+    "architecturalFusion": "Architectural Fusion: Merges modern architecture with natural surroundings",
+    "ambience": "Blend Ambience: Serene, tranquil, with a connection to nature",
+    "descr": "Located on the outskirts of Kyiv, this lakehouse offers a peaceful retreat surrounded by nature. The modern architecture is characterized by large glass panels and clean lines, which seamlessly blend with the natural landscape. Inside, the open-plan living spaces are designed with comfort and relaxation in mind, featuring natural materials and a soft, neutral color palette. The connection to the outdoors is emphasized by large windows and sliding doors that open onto a deck overlooking the lake, creating a harmonious blend of indoor and outdoor living.",
+    "kitchen": "More photos",
+    "kitchenDescr": "",
+    "livingroom": "",
+    "livingroomDescr": "",
+    "bathroom": "",
+    "bathroomDescr": ""
+  },
+  "eliteresidentialcomplexinkyiv": {
+    "location": "Location: Kyiv, Ukraine",
+    "designStyle": "Design Style: Urban Luxury",
+    "architecturalFusion": "Architectural Fusion: Combines modern amenities with classic elegance",
+    "ambience": "Blend Ambience: Luxurious, sophisticated, with a cosmopolitan flair",
+    "descr": "Situated in one of Kyiv's most prestigious areas, this elite residential complex offers a luxurious lifestyle with modern amenities and classic elegance. The architecture is a blend of contemporary design and timeless sophistication, featuring high-end finishes and state-of-the-art facilities. Inside, the apartments are designed with luxury and comfort in mind, offering spacious living areas, large windows with city views, and premium materials throughout. The complex also includes exclusive amenities such as a private gym, spa, and concierge services, catering to the needs of its residents.",
+    "kitchen": "Kitchen",
+    "kitchenDescr": "The kitchen in this elite residential complex is designed with luxury and functionality in mind. High-end appliances, including a built-in oven, refrigerator, and induction cooktop, are seamlessly integrated into the sleek cabinetry. The marble countertops and backsplash add a touch of elegance, while the open layout allows for easy interaction with the living and dining areas. Large windows provide ample natural light, creating a bright and inviting space.",
+    "livingroom": "Living Room",
+    "livingroomDescr": "The living room is a sophisticated space with a cosmopolitan feel, featuring modern furniture and luxurious finishes. Floor-to-ceiling windows offer stunning views of the city, while the open layout enhances the sense of space. A neutral color palette is complemented by rich textures and designer lighting, creating a perfect setting for entertaining or relaxing in style.",
+    "bathroom": "Bathroom",
+    "bathroomDescr": "The bathroom is a luxurious retreat with high-end finishes and modern amenities. A freestanding bathtub, marble floors, and a walk-in rain shower create a spa-like atmosphere, while the double vanity with sleek fixtures adds a touch of elegance. Recessed lighting and large mirrors enhance the sense of space and luxury."
   },
   "tranquilModernity": {
     "location": "Location: Spain",
@@ -378,11 +503,11 @@
     "yourName": "Your name",
     "phoneNumber": "Phone number",
     "getInTouchNow": "Get in touch now",
-     "getHelp": "Get Help"
+    "getHelp": "Get Help"
   },
   "constructionOfCottagesAndVillas": {
     "title": "CONSTRUCTION COTTAGES AND VILLAS",
-    "text": "“Good buildings come from good people, and all problems are solved by good design.” – Stephen Gardiner",  
+    "text": "“Good buildings come from good people, and all problems are solved by good design.” – Stephen Gardiner",
     "generalContractor": {
       "title": "General contractor",
       "text": "As a general contractor, we manage construction projects from inception to completion, handling technical documentation, budgeting, scheduling, and subcontractor coordination. Our expertise ensures efficient project execution while prioritizing budget optimization, work safety, and client satisfaction.",
@@ -398,7 +523,7 @@
       "item10": "Preparation of estimates and financing plan",
       "item11": "Optimising project solutions to budget",
       "item12": "Integrated project management"
-    },  
+    },
     "geodeticWorks": {
       "title": "Geodetic works",
       "item1": "Development of technical documentation and budgeting",
@@ -473,6 +598,6 @@
       "item4": "Car parks, Lighting",
       "item5": "Fences, swimming pools",
       "item6": "Leisure areas"
-    } 
+    }
   }
 }

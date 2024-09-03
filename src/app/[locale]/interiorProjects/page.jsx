@@ -6,7 +6,7 @@ import {
   ProjectItemPhone,
 } from "../../../components/projectItem/index";
 import { Container } from "../../../components/ui/container/index";
-import styles from "../interiorAll/style.module.scss"; 
+import styles from "../interiorAll/style.module.scss";
 import { BackToHome } from "../../../components/backToHome/index";
 import sliders from "../../../projects/sliders.json";
 
@@ -20,9 +20,18 @@ export const metadata = {
 export default async function InteriorProject({ params: { locale } }) {
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
 
- 
-  const filteredSliders = sliders.filter(item =>
-    ["villarenovation", "goodlifepark"].includes(item.id)
+  const filteredSliders = sliders.filter((item) =>
+    [
+      "villarenovation",
+      "goodlifepark",
+      "villacartagena",
+      "townhousealbacete",
+      "penthousevalencia",
+      "obolonapartment",
+      "mynystercki",
+      "kyivlakehouse",
+      "eliteresidentialcomplexinkyiv",
+    ].includes(item.id)
   );
 
   return (

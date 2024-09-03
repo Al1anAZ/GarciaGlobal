@@ -1,6 +1,7 @@
 [
   {
     "id": "penthouseValencia",
+    "name":"",
     "previewSlider": [
       "/assets/projects/penthouseValencia/main.webp",
       "/assets/projects/penthouseValencia/terrace/slider_2.webp",
@@ -24,8 +25,14 @@
       "/assets/projects/penthouseValencia/terrace/slider_3.webp"
     ],
     "allImgs": [
-      { "id": 1, "src": "/assets/projects/penthouseValencia/main.webp" },
-      { "id": 2, "src": "/assets/projects/penthouseValencia/kitchen/slider_1.webp" },
+      {
+        "id": 1,
+        "src": "/assets/projects/penthouseValencia/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/penthouseValencia/kitchen/slider_1.webp"
+      },
       {
         "id": 3,
         "src": "/assets/projects/penthouseValencia/kitchen/slider_2.webp"
@@ -54,11 +61,15 @@
         "id": 9,
         "src": "/assets/projects/penthouseValencia/terrace/slider_2.webp"
       },
-      { "id": 10, "src": "/assets/projects/penthouseValencia/terrace/slider_3.webp" }
+      {
+        "id": 10,
+        "src": "/assets/projects/penthouseValencia/terrace/slider_3.webp"
+      }
     ]
   },
   {
     "id": "tranquilModernity",
+    "name":"",
     "previewSlider": [
       "/assets/projects/tranquilModernity/main.webp",
       "/assets/projects/tranquilModernity/terrace/slider_2.webp",
@@ -80,7 +91,10 @@
       "/assets/projects/tranquilModernity/terrace/slider_2.webp"
     ],
     "allImgs": [
-      { "id": 1, "src": "/assets/projects/tranquilModernity/main.webp" },
+      {
+        "id": 1,
+        "src": "/assets/projects/tranquilModernity/main.webp"
+      },
       {
         "id": 2,
         "src": "/assets/projects/tranquilModernity/kitchen/slider_1.webp"
@@ -113,6 +127,7 @@
   },
   {
     "id": "projectLoftLivingRoom",
+    "name":"",
     "previewSlider": [
       "/assets/projects/projectLoftLivingRoom/main.webp",
       "/assets/projects/projectLoftLivingRoom/theUrbanLounge/slider_3.webp",
@@ -136,7 +151,10 @@
       "/assets/projects/projectLoftLivingRoom/theContemporaryCommons/slider_3.webp"
     ],
     "allImgs": [
-      { "id": 1, "src": "/assets/projects/projectLoftLivingRoom/main.webp" },
+      {
+        "id": 1,
+        "src": "/assets/projects/projectLoftLivingRoom/main.webp"
+      },
       {
         "id": 2,
         "src": "/assets/projects/projectLoftLivingRoom/theUrbanLounge/slider_1.webp"
@@ -177,6 +195,7 @@
   },
   {
     "id": "NTR2",
+    "name":"",
     "previewSlider": [
       "/assets/projects/NTR2/main.webp",
       "/assets/projects/NTR2/terrace/slider_2.webp",
@@ -200,8 +219,14 @@
       "/assets/projects/NTR2/terrace/slider_3.webp"
     ],
     "allImgs": [
-      { "id": 1, "src": "/assets/projects/NTR2/main.webp" },
-      { "id": 2, "src": "/assets/projects/NTR2/kitchen/slider_1.webp" },
+      {
+        "id": 1,
+        "src": "/assets/projects/NTR2/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/NTR2/kitchen/slider_1.webp"
+      },
       {
         "id": 3,
         "src": "/assets/projects/NTR2/kitchen/slider_2.webp"
@@ -230,11 +255,15 @@
         "id": 9,
         "src": "/assets/projects/NTR2/terrace/slider_2.webp"
       },
-      { "id": 10, "src": "/assets/projects/NTR2/terrace/slider_3.webp" }
+      {
+        "id": 10,
+        "src": "/assets/projects/NTR2/terrace/slider_3.webp"
+      }
     ]
   },
   {
     "id": "NTR1",
+    "name":"",
     "previewSlider": [
       "/assets/projects/NTR1/main.webp",
       "/assets/projects/NTR1/terrace/slider_2.webp",
@@ -258,8 +287,14 @@
       "/assets/projects/NTR1/terrace/slider_3.webp"
     ],
     "allImgs": [
-      { "id": 1, "src": "/assets/projects/NTR1/main.webp" },
-      { "id": 2, "src": "/assets/projects/NTR1/kitchen/slider_1.webp" },
+      {
+        "id": 1,
+        "src": "/assets/projects/NTR1/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/NTR1/kitchen/slider_1.webp"
+      },
       {
         "id": 3,
         "src": "/assets/projects/NTR1/kitchen/slider_2.webp"
@@ -288,11 +323,15 @@
         "id": 9,
         "src": "/assets/projects/NTR1/terrace/slider_2.webp"
       },
-      { "id": 10, "src": "/assets/projects/NTR1/terrace/slider_3.webp" }
-    ] 
+      {
+        "id": 10,
+        "src": "/assets/projects/NTR1/terrace/slider_3.webp"
+      }
+    ]
   },
   {
     "id": "TRN32",
+    "name":"",
     "previewSlider": [
       "/assets/projects/TRN32/main.webp",
       "/assets/projects/TRN32/terrace/slider_2.webp",
@@ -316,8 +355,14 @@
       "/assets/projects/TRN32/terrace/slider_3.webp"
     ],
     "allImgs": [
-      { "id": 1, "src": "/assets/projects/TRN32/main.webp" },
-      { "id": 2, "src": "/assets/projects/TRN32/kitchen/slider_1.webp" },
+      {
+        "id": 1,
+        "src": "/assets/projects/TRN32/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/TRN32/kitchen/slider_1.webp"
+      },
       {
         "id": 3,
         "src": "/assets/projects/TRN32/kitchen/slider_2.webp"
@@ -346,11 +391,15 @@
         "id": 9,
         "src": "/assets/projects/TRN32/terrace/slider_2.webp"
       },
-      { "id": 10, "src": "/assets/projects/TRN32/terrace/slider_3.webp" }
-    ] 
+      {
+        "id": 10,
+        "src": "/assets/projects/TRN32/terrace/slider_3.webp"
+      }
+    ]
   },
   {
     "id": "TRN3",
+    "name":"",
     "previewSlider": [
       "/assets/projects/TRN3/main.webp",
       "/assets/projects/TRN3/terrace/slider_2.webp",
@@ -374,8 +423,14 @@
       "/assets/projects/TRN3/terrace/slider_3.webp"
     ],
     "allImgs": [
-      { "id": 1, "src": "/assets/projects/TRN3/main.webp" },
-      { "id": 2, "src": "/assets/projects/TRN3/kitchen/slider_1.webp" },
+      {
+        "id": 1,
+        "src": "/assets/projects/TRN3/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/TRN3/kitchen/slider_1.webp"
+      },
       {
         "id": 3,
         "src": "/assets/projects/TRN3/kitchen/slider_2.webp"
@@ -404,11 +459,15 @@
         "id": 9,
         "src": "/assets/projects/TRN3/terrace/slider_2.webp"
       },
-      { "id": 10, "src": "/assets/projects/TRN3/terrace/slider_3.webp" }
-    ] 
+      {
+        "id": 10,
+        "src": "/assets/projects/TRN3/terrace/slider_3.webp"
+      }
+    ]
   },
   {
     "id": "ATR2",
+    "name":"",
     "previewSlider": [
       "/assets/projects/ATR2/main.webp",
       "/assets/projects/ATR2/terrace/slider_2.webp",
@@ -432,8 +491,14 @@
       "/assets/projects/ATR2/terrace/slider_3.webp"
     ],
     "allImgs": [
-      { "id": 1, "src": "/assets/projects/ATR2/main.webp" },
-      { "id": 2, "src": "/assets/projects/ATR2/kitchen/slider_1.webp" },
+      {
+        "id": 1,
+        "src": "/assets/projects/ATR2/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/ATR2/kitchen/slider_1.webp"
+      },
       {
         "id": 3,
         "src": "/assets/projects/ATR2/kitchen/slider_2.webp"
@@ -462,11 +527,15 @@
         "id": 9,
         "src": "/assets/projects/ATR2/terrace/slider_2.webp"
       },
-      { "id": 10, "src": "/assets/projects/ATR2/terrace/slider_3.webp" }
-    ] 
+      {
+        "id": 10,
+        "src": "/assets/projects/ATR2/terrace/slider_3.webp"
+      }
+    ]
   },
   {
     "id": "ATR1",
+    "name":"",
     "previewSlider": [
       "/assets/projects/ATR1/main.webp",
       "/assets/projects/ATR1/terrace/slider_2.webp",
@@ -490,8 +559,14 @@
       "/assets/projects/ATR1/terrace/slider_3.webp"
     ],
     "allImgs": [
-      { "id": 1, "src": "/assets/projects/ATR1/main.webp" },
-      { "id": 2, "src": "/assets/projects/ATR1/kitchen/slider_1.webp" },
+      {
+        "id": 1,
+        "src": "/assets/projects/ATR1/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/ATR1/kitchen/slider_1.webp"
+      },
       {
         "id": 3,
         "src": "/assets/projects/ATR1/kitchen/slider_2.webp"
@@ -520,11 +595,15 @@
         "id": 9,
         "src": "/assets/projects/ATR1/terrace/slider_2.webp"
       },
-      { "id": 10, "src": "/assets/projects/ATR1/terrace/slider_3.webp" }
-    ] 
+      {
+        "id": 10,
+        "src": "/assets/projects/ATR1/terrace/slider_3.webp"
+      }
+    ]
   },
   {
     "id": "MTH2",
+    "name":"",
     "previewSlider": [
       "/assets/projects/MTH2/main.webp",
       "/assets/projects/MTH2/terrace/slider_2.webp",
@@ -548,8 +627,14 @@
       "/assets/projects/MTH2/terrace/slider_3.webp"
     ],
     "allImgs": [
-      { "id": 1, "src": "/assets/projects/MTH2/main.webp" },
-      { "id": 2, "src": "/assets/projects/MTH2/kitchen/slider_1.webp" },
+      {
+        "id": 1,
+        "src": "/assets/projects/MTH2/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/MTH2/kitchen/slider_1.webp"
+      },
       {
         "id": 3,
         "src": "/assets/projects/MTH2/kitchen/slider_2.webp"
@@ -578,11 +663,15 @@
         "id": 9,
         "src": "/assets/projects/MTH2/terrace/slider_2.webp"
       },
-      { "id": 10, "src": "/assets/projects/MTH2/terrace/slider_3.webp" }
-    ] 
-  } ,
+      {
+        "id": 10,
+        "src": "/assets/projects/MTH2/terrace/slider_3.webp"
+      }
+    ]
+  },
   {
     "id": "MTH1",
+    "name":"",
     "previewSlider": [
       "/assets/projects/MTH1/main.webp",
       "/assets/projects/MTH1/terrace/slider_2.webp",
@@ -606,8 +695,14 @@
       "/assets/projects/MTH1/terrace/slider_3.webp"
     ],
     "allImgs": [
-      { "id": 1, "src": "/assets/projects/MTH1/main.webp" },
-      { "id": 2, "src": "/assets/projects/MTH1/kitchen/slider_1.webp" },
+      {
+        "id": 1,
+        "src": "/assets/projects/MTH1/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/MTH1/kitchen/slider_1.webp"
+      },
       {
         "id": 3,
         "src": "/assets/projects/MTH1/kitchen/slider_2.webp"
@@ -636,11 +731,15 @@
         "id": 9,
         "src": "/assets/projects/MTH1/terrace/slider_2.webp"
       },
-      { "id": 10, "src": "/assets/projects/MTH1/terrace/slider_3.webp" }
-    ] 
+      {
+        "id": 10,
+        "src": "/assets/projects/MTH1/terrace/slider_3.webp"
+      }
+    ]
   },
   {
     "id": "LTH1",
+    "name":"",
     "previewSlider": [
       "/assets/projects/LTH1/main.webp",
       "/assets/projects/LTH1/terrace/slider_2.webp",
@@ -664,8 +763,14 @@
       "/assets/projects/LTH1/terrace/slider_3.webp"
     ],
     "allImgs": [
-      { "id": 1, "src": "/assets/projects/LTH1/main.webp" },
-      { "id": 2, "src": "/assets/projects/LTH1/kitchen/slider_1.webp" },
+      {
+        "id": 1,
+        "src": "/assets/projects/LTH1/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/LTH1/kitchen/slider_1.webp"
+      },
       {
         "id": 3,
         "src": "/assets/projects/LTH1/kitchen/slider_2.webp"
@@ -694,11 +799,15 @@
         "id": 9,
         "src": "/assets/projects/LTH1/terrace/slider_2.webp"
       },
-      { "id": 10, "src": "/assets/projects/LTH1/terrace/slider_3.webp" }
-    ] 
+      {
+        "id": 10,
+        "src": "/assets/projects/LTH1/terrace/slider_3.webp"
+      }
+    ]
   },
   {
     "id": "NT1H2",
+    "name":"",
     "previewSlider": [
       "/assets/projects/NT1H2/main.webp",
       "/assets/projects/NT1H2/terrace/slider_2.webp",
@@ -722,8 +831,14 @@
       "/assets/projects/NT1H2/terrace/slider_3.webp"
     ],
     "allImgs": [
-      { "id": 1, "src": "/assets/projects/NT1H2/main.webp" },
-      { "id": 2, "src": "/assets/projects/NT1H2/kitchen/slider_1.webp" },
+      {
+        "id": 1,
+        "src": "/assets/projects/NT1H2/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/NT1H2/kitchen/slider_1.webp"
+      },
       {
         "id": 3,
         "src": "/assets/projects/NT1H2/kitchen/slider_2.webp"
@@ -752,11 +867,15 @@
         "id": 9,
         "src": "/assets/projects/NT1H2/terrace/slider_2.webp"
       },
-      { "id": 10, "src": "/assets/projects/NT1H2/terrace/slider_3.webp" }
-    ] 
+      {
+        "id": 10,
+        "src": "/assets/projects/NT1H2/terrace/slider_3.webp"
+      }
+    ]
   },
   {
     "id": "villarenovation",
+    "name":"",
     "previewSlider": [
       "/assets/projects/villarenovation/main.webp",
       "/assets/projects/villarenovation/terrace/slider_2.webp",
@@ -780,8 +899,14 @@
       "/assets/projects/villarenovation/terrace/slider_3.webp"
     ],
     "allImgs": [
-      { "id": 1, "src": "/assets/projects/villarenovation/main.webp" },
-      { "id": 2, "src": "/assets/projects/villarenovation/kitchen/slider_1.webp" },
+      {
+        "id": 1,
+        "src": "/assets/projects/villarenovation/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/villarenovation/kitchen/slider_1.webp"
+      },
       {
         "id": 3,
         "src": "/assets/projects/villarenovation/kitchen/slider_2.webp"
@@ -810,11 +935,15 @@
         "id": 9,
         "src": "/assets/projects/villarenovation/terrace/slider_2.webp"
       },
-      { "id": 10, "src": "/assets/projects/villarenovation/terrace/slider_3.webp" }
-    ] 
+      {
+        "id": 10,
+        "src": "/assets/projects/villarenovation/terrace/slider_3.webp"
+      }
+    ]
   },
   {
     "id": "goodlifepark",
+    "name":"",
     "previewSlider": [
       "/assets/projects/goodlifepark/main.webp",
       "/assets/projects/goodlifepark/terrace/slider_2.webp",
@@ -838,8 +967,14 @@
       "/assets/projects/goodlifepark/terrace/slider_3.webp"
     ],
     "allImgs": [
-      { "id": 1, "src": "/assets/projects/goodlifepark/main.webp" },
-      { "id": 2, "src": "/assets/projects/goodlifepark/kitchen/slider_1.webp" },
+      {
+        "id": 1,
+        "src": "/assets/projects/goodlifepark/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/goodlifepark/kitchen/slider_1.webp"
+      },
       {
         "id": 3,
         "src": "/assets/projects/goodlifepark/kitchen/slider_2.webp"
@@ -868,7 +1003,486 @@
         "id": 9,
         "src": "/assets/projects/goodlifepark/terrace/slider_2.webp"
       },
-      { "id": 10, "src": "/assets/projects/goodlifepark/terrace/slider_3.webp" }
-    ] 
-  }   
+      {
+        "id": 10,
+        "src": "/assets/projects/goodlifepark/terrace/slider_3.webp"
+      }
+    ]
+  },
+  {
+    "id": "villacartagena",
+    "name":"",
+    "previewSlider": [
+      "/assets/projects/VillaCartagena/main.webp",
+      "/assets/projects/VillaCartagena/terrace/slider_2.webp",
+      "/assets/projects/VillaCartagena/living/slider_1.webp"
+    ],
+    "smallImg": "/assets/projects/VillaCartagena/living/slider_2.webp",
+    "mainImg": "/assets/projects/VillaCartagena/main.webp",
+    "kitchen": [
+      "/assets/projects/VillaCartagena/kitchen/slider_1.webp",
+      "/assets/projects/VillaCartagena/kitchen/slider_2.webp",
+      "/assets/projects/VillaCartagena/kitchen/slider_3.webp"
+    ],
+    "livingroom": [
+      "/assets/projects/VillaCartagena/living/slider_1.webp",
+      "/assets/projects/VillaCartagena/living/slider_2.webp",
+      "/assets/projects/VillaCartagena/living/slider_3.webp"
+    ],
+    "bathroom": [
+      "/assets/projects/VillaCartagena/terrace/slider_1.webp",
+      "/assets/projects/VillaCartagena/terrace/slider_2.webp",
+      "/assets/projects/VillaCartagena/terrace/slider_3.webp"
+    ],
+    "allImgs": [
+      {
+        "id": 1,
+        "src": "/assets/projects/VillaCartagena/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/VillaCartagena/kitchen/slider_1.webp"
+      },
+      {
+        "id": 3,
+        "src": "/assets/projects/VillaCartagena/kitchen/slider_2.webp"
+      },
+      {
+        "id": 4,
+        "src": "/assets/projects/VillaCartagena/kitchen/slider_3.webp"
+      },
+      {
+        "id": 5,
+        "src": "/assets/projects/VillaCartagena/living/slider_1.webp"
+      },
+      {
+        "id": 6,
+        "src": "/assets/projects/VillaCartagena/living/slider_2.webp"
+      },
+      {
+        "id": 7,
+        "src": "/assets/projects/VillaCartagena/living/slider_3.webp"
+      },
+      {
+        "id": 8,
+        "src": "/assets/projects/VillaCartagena/terrace/slider_1.webp"
+      },
+      {
+        "id": 9,
+        "src": "/assets/projects/VillaCartagena/terrace/slider_2.webp"
+      },
+      {
+        "id": 10,
+        "src": "/assets/projects/VillaCartagena/terrace/slider_3.webp"
+      }
+    ]
+  },
+  {
+    "id": "townhousealbacete",
+    "name":"",
+    "previewSlider": [
+      "/assets/projects/TownhouseAlbacete/main.webp",
+      "/assets/projects/TownhouseAlbacete/terrace/slider_2.webp",
+      "/assets/projects/TownhouseAlbacete/living/slider_1.webp"
+    ],
+    "smallImg": "/assets/projects/TownhouseAlbacete/living/slider_2.webp",
+    "mainImg": "/assets/projects/TownhouseAlbacete/main.webp",
+    "kitchen": [
+      "/assets/projects/TownhouseAlbacete/kitchen/slider_1.webp",
+      "/assets/projects/TownhouseAlbacete/kitchen/slider_2.webp",
+      "/assets/projects/TownhouseAlbacete/kitchen/slider_3.webp"
+    ],
+    "livingroom": [
+      "/assets/projects/TownhouseAlbacete/living/slider_1.webp",
+      "/assets/projects/TownhouseAlbacete/living/slider_2.webp",
+      "/assets/projects/TownhouseAlbacete/living/slider_3.webp"
+    ],
+    "bathroom": [
+      "/assets/projects/TownhouseAlbacete/terrace/slider_1.webp",
+      "/assets/projects/TownhouseAlbacete/terrace/slider_2.webp",
+      "/assets/projects/TownhouseAlbacete/terrace/slider_3.webp"
+    ],
+    "allImgs": [
+      {
+        "id": 1,
+        "src": "/assets/projects/TownhouseAlbacete/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/TownhouseAlbacete/kitchen/slider_1.webp"
+      },
+      {
+        "id": 3,
+        "src": "/assets/projects/TownhouseAlbacete/kitchen/slider_2.webp"
+      },
+      {
+        "id": 4,
+        "src": "/assets/projects/TownhouseAlbacete/kitchen/slider_3.webp"
+      },
+      {
+        "id": 5,
+        "src": "/assets/projects/TownhouseAlbacete/living/slider_1.webp"
+      },
+      {
+        "id": 6,
+        "src": "/assets/projects/TownhouseAlbacete/living/slider_2.webp"
+      },
+      {
+        "id": 7,
+        "src": "/assets/projects/TownhouseAlbacete/living/slider_3.webp"
+      },
+      {
+        "id": 8,
+        "src": "/assets/projects/TownhouseAlbacete/terrace/slider_1.webp"
+      },
+      {
+        "id": 9,
+        "src": "/assets/projects/TownhouseAlbacete/terrace/slider_2.webp"
+      },
+      {
+        "id": 10,
+        "src": "/assets/projects/TownhouseAlbacete/terrace/slider_3.webp"
+      }
+    ]
+  },
+  {
+    "id": "penthousevalencia",
+    "name":"",
+    "previewSlider": [
+      "/assets/projects/penthouseValencia/main.webp",
+      "/assets/projects/penthouseValencia/terrace/slider_2.webp",
+      "/assets/projects/penthouseValencia/living/slider_1.webp"
+    ],
+    "smallImg": "/assets/projects/penthouseValencia/living/slider_2.webp",
+    "mainImg": "/assets/projects/penthouseValencia/main.webp",
+    "kitchen": [
+      "/assets/projects/penthouseValencia/kitchen/slider_1.webp",
+      "/assets/projects/penthouseValencia/kitchen/slider_2.webp",
+      "/assets/projects/penthouseValencia/kitchen/slider_3.webp"
+    ],
+    "livingroom": [
+      "/assets/projects/penthouseValencia/living/slider_1.webp",
+      "/assets/projects/penthouseValencia/living/slider_2.webp",
+      "/assets/projects/penthouseValencia/living/slider_3.webp"
+    ],
+    "bathroom": [
+      "/assets/projects/penthouseValencia/terrace/slider_1.webp",
+      "/assets/projects/penthouseValencia/terrace/slider_2.webp",
+      "/assets/projects/penthouseValencia/terrace/slider_3.webp"
+    ],
+    "allImgs": [
+      {
+        "id": 1,
+        "src": "/assets/projects/penthouseValencia/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/penthouseValencia/kitchen/slider_1.webp"
+      },
+      {
+        "id": 3,
+        "src": "/assets/projects/penthouseValencia/kitchen/slider_2.webp"
+      },
+      {
+        "id": 4,
+        "src": "/assets/projects/penthouseValencia/kitchen/slider_3.webp"
+      },
+      {
+        "id": 5,
+        "src": "/assets/projects/penthouseValencia/living/slider_1.webp"
+      },
+      {
+        "id": 6,
+        "src": "/assets/projects/penthouseValencia/living/slider_2.webp"
+      },
+      {
+        "id": 7,
+        "src": "/assets/projects/penthouseValencia/living/slider_3.webp"
+      },
+      {
+        "id": 8,
+        "src": "/assets/projects/penthouseValencia/terrace/slider_1.webp"
+      },
+      {
+        "id": 9,
+        "src": "/assets/projects/penthouseValencia/terrace/slider_2.webp"
+      },
+      {
+        "id": 10,
+        "src": "/assets/projects/penthouseValencia/terrace/slider_3.webp"
+      }
+    ]
+  },
+  {
+    "id": "obolonapartment",
+    "name":"",
+    "previewSlider": [
+      "/assets/projects/ObolonApartment/main.webp",
+      "/assets/projects/ObolonApartment/terrace/slider_2.webp",
+      "/assets/projects/ObolonApartment/living/slider_1.webp"
+    ],
+    "smallImg": "/assets/projects/ObolonApartment/living/slider_2.webp",
+    "mainImg": "/assets/projects/ObolonApartment/main.webp",
+    "kitchen": [
+      "/assets/projects/ObolonApartment/kitchen/slider_1.webp",
+      "/assets/projects/ObolonApartment/kitchen/slider_2.webp",
+      "/assets/projects/ObolonApartment/kitchen/slider_3.webp"
+    ],
+    "livingroom": [
+      "/assets/projects/ObolonApartment/living/slider_1.webp",
+      "/assets/projects/ObolonApartment/living/slider_2.webp",
+      "/assets/projects/ObolonApartment/living/slider_3.webp"
+    ],
+    "bathroom": [
+      "/assets/projects/ObolonApartment/terrace/slider_1.webp",
+      "/assets/projects/ObolonApartment/terrace/slider_2.webp",
+      "/assets/projects/ObolonApartment/terrace/slider_3.webp"
+    ],
+    "allImgs": [
+      {
+        "id": 1,
+        "src": "/assets/projects/ObolonApartment/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/ObolonApartment/kitchen/slider_1.webp"
+      },
+      {
+        "id": 3,
+        "src": "/assets/projects/ObolonApartment/kitchen/slider_2.webp"
+      },
+      {
+        "id": 4,
+        "src": "/assets/projects/ObolonApartment/kitchen/slider_3.webp"
+      },
+      {
+        "id": 5,
+        "src": "/assets/projects/ObolonApartment/living/slider_1.webp"
+      },
+      {
+        "id": 6,
+        "src": "/assets/projects/ObolonApartment/living/slider_2.webp"
+      },
+      {
+        "id": 7,
+        "src": "/assets/projects/ObolonApartment/living/slider_3.webp"
+      },
+      {
+        "id": 8,
+        "src": "/assets/projects/ObolonApartment/terrace/slider_1.webp"
+      },
+      {
+        "id": 9,
+        "src": "/assets/projects/ObolonApartment/terrace/slider_2.webp"
+      },
+      {
+        "id": 10,
+        "src": "/assets/projects/ObolonApartment/terrace/slider_3.webp"
+      }
+    ]
+  },
+  {
+    "id": "mynystercki",
+    "name":"",
+    "previewSlider": [
+      "/assets/projects/mynystercki/main.webp",
+      "/assets/projects/mynystercki/terrace/slider_2.webp",
+      "/assets/projects/mynystercki/living/slider_1.webp"
+    ],
+    "smallImg": "/assets/projects/mynystercki/living/slider_2.webp",
+    "mainImg": "/assets/projects/mynystercki/main.webp",
+    "kitchen": [
+      "/assets/projects/mynystercki/kitchen/slider_1.webp",
+      "/assets/projects/mynystercki/kitchen/slider_2.webp",
+      "/assets/projects/mynystercki/kitchen/slider_3.webp"
+    ],
+    "livingroom": [
+      "/assets/projects/mynystercki/living/slider_1.webp",
+      "/assets/projects/mynystercki/living/slider_2.webp",
+      "/assets/projects/mynystercki/living/slider_3.webp"
+    ],
+    "bathroom": [
+      "/assets/projects/mynystercki/terrace/slider_1.webp",
+      "/assets/projects/mynystercki/terrace/slider_2.webp",
+      "/assets/projects/mynystercki/terrace/slider_3.webp"
+    ],
+    "allImgs": [
+      {
+        "id": 1,
+        "src": "/assets/projects/mynystercki/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/mynystercki/kitchen/slider_1.webp"
+      },
+      {
+        "id": 3,
+        "src": "/assets/projects/mynystercki/kitchen/slider_2.webp"
+      },
+      {
+        "id": 4,
+        "src": "/assets/projects/mynystercki/kitchen/slider_3.webp"
+      },
+      {
+        "id": 5,
+        "src": "/assets/projects/mynystercki/living/slider_1.webp"
+      },
+      {
+        "id": 6,
+        "src": "/assets/projects/mynystercki/living/slider_2.webp"
+      },
+      {
+        "id": 7,
+        "src": "/assets/projects/mynystercki/living/slider_3.webp"
+      },
+      {
+        "id": 8,
+        "src": "/assets/projects/mynystercki/terrace/slider_1.webp"
+      },
+      {
+        "id": 9,
+        "src": "/assets/projects/mynystercki/terrace/slider_2.webp"
+      },
+      {
+        "id": 10,
+        "src": "/assets/projects/mynystercki/terrace/slider_3.webp"
+      }
+    ]
+  },
+  {
+    "id": "kyivlakehouse",
+    "name":"Kyiv Lake House",
+    "previewSlider": [
+      "/assets/projects/KyivLakeHouse/main.webp",
+      "/assets/projects/KyivLakeHouse/terrace/slider_2.webp",
+      "/assets/projects/KyivLakeHouse/living/slider_1.webp"
+    ],
+    "smallImg": "/assets/projects/KyivLakeHouse/living/slider_2.webp",
+    "mainImg": "/assets/projects/KyivLakeHouse/main.webp",
+    "kitchen": [
+      "/assets/projects/KyivLakeHouse/kitchen/slider_1.webp",
+      "/assets/projects/KyivLakeHouse/kitchen/slider_2.webp",
+      "/assets/projects/KyivLakeHouse/kitchen/slider_3.webp"
+    ],
+    "livingroom": [
+      "/assets/projects/KyivLakeHouse/living/slider_1.webp",
+      "/assets/projects/KyivLakeHouse/living/slider_2.webp",
+      "/assets/projects/KyivLakeHouse/living/slider_3.webp"
+    ],
+    "bathroom": [
+      "/assets/projects/KyivLakeHouse/terrace/slider_1.webp",
+      "/assets/projects/KyivLakeHouse/terrace/slider_2.webp",
+      "/assets/projects/KyivLakeHouse/terrace/slider_3.webp"
+    ],
+    "allImgs": [
+      {
+        "id": 1,
+        "src": "/assets/projects/KyivLakeHouse/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/KyivLakeHouse/kitchen/slider_1.webp"
+      },
+      {
+        "id": 3,
+        "src": "/assets/projects/KyivLakeHouse/kitchen/slider_2.webp"
+      },
+      {
+        "id": 4,
+        "src": "/assets/projects/KyivLakeHouse/kitchen/slider_3.webp"
+      },
+      {
+        "id": 5,
+        "src": "/assets/projects/KyivLakeHouse/living/slider_1.webp"
+      },
+      {
+        "id": 6,
+        "src": "/assets/projects/KyivLakeHouse/living/slider_2.webp"
+      },
+      {
+        "id": 7,
+        "src": "/assets/projects/KyivLakeHouse/living/slider_3.webp"
+      },
+      {
+        "id": 8,
+        "src": "/assets/projects/KyivLakeHouse/terrace/slider_1.webp"
+      },
+      {
+        "id": 9,
+        "src": "/assets/projects/KyivLakeHouse/terrace/slider_2.webp"
+      },
+      {
+        "id": 10,
+        "src": "/assets/projects/KyivLakeHouse/terrace/slider_3.webp"
+      }
+    ]
+  },
+  {
+    "id": "eliteresidentialcomplexinkyiv",
+    "name":"",
+    "previewSlider": [
+      "/assets/projects/EliteResidentialComplexInKyiv/main.webp",
+      "/assets/projects/EliteResidentialComplexInKyiv/terrace/slider_2.webp",
+      "/assets/projects/EliteResidentialComplexInKyiv/living/slider_1.webp"
+    ],
+    "smallImg": "/assets/projects/EliteResidentialComplexInKyiv/living/slider_2.webp",
+    "mainImg": "/assets/projects/EliteResidentialComplexInKyiv/main.webp",
+    "kitchen": [
+      "/assets/projects/EliteResidentialComplexInKyiv/kitchen/slider_1.webp",
+      "/assets/projects/EliteResidentialComplexInKyiv/kitchen/slider_2.webp",
+      "/assets/projects/EliteResidentialComplexInKyiv/kitchen/slider_3.webp"
+    ],
+    "livingroom": [
+      "/assets/projects/EliteResidentialComplexInKyiv/living/slider_1.webp",
+      "/assets/projects/EliteResidentialComplexInKyiv/living/slider_2.webp",
+      "/assets/projects/EliteResidentialComplexInKyiv/living/slider_3.webp"
+    ],
+    "bathroom": [
+      "/assets/projects/EliteResidentialComplexInKyiv/terrace/slider_1.webp",
+      "/assets/projects/EliteResidentialComplexInKyiv/terrace/slider_2.webp",
+      "/assets/projects/EliteResidentialComplexInKyiv/terrace/slider_3.webp"
+    ],
+    "allImgs": [
+      {
+        "id": 1,
+        "src": "/assets/projects/EliteResidentialComplexInKyiv/main.webp"
+      },
+      {
+        "id": 2,
+        "src": "/assets/projects/EliteResidentialComplexInKyiv/kitchen/slider_1.webp"
+      },
+      {
+        "id": 3,
+        "src": "/assets/projects/EliteResidentialComplexInKyiv/kitchen/slider_2.webp"
+      },
+      {
+        "id": 4,
+        "src": "/assets/projects/EliteResidentialComplexInKyiv/kitchen/slider_3.webp"
+      },
+      {
+        "id": 5,
+        "src": "/assets/projects/EliteResidentialComplexInKyiv/living/slider_1.webp"
+      },
+      {
+        "id": 6,
+        "src": "/assets/projects/EliteResidentialComplexInKyiv/living/slider_2.webp"
+      },
+      {
+        "id": 7,
+        "src": "/assets/projects/EliteResidentialComplexInKyiv/living/slider_3.webp"
+      },
+      {
+        "id": 8,
+        "src": "/assets/projects/EliteResidentialComplexInKyiv/terrace/slider_1.webp"
+      },
+      {
+        "id": 9,
+        "src": "/assets/projects/EliteResidentialComplexInKyiv/terrace/slider_2.webp"
+      },
+      {
+        "id": 10,
+        "src": "/assets/projects/EliteResidentialComplexInKyiv/terrace/slider_3.webp"
+      }
+    ]
+  }
 ]

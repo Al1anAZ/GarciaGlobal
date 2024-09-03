@@ -7,12 +7,10 @@ import { Container } from "../../components/ui/container/index";
 import { squarePeg } from "../../fonts/index";
 import { OurServiceItem } from "../../components/home/ourServiceItem/index";
 
- 
-
-import { MapBox } from "../../components/mapBox/index"; 
+import { MapBox } from "../../components/mapBox/index";
 import { WatsApp } from "../../components/ui/icons/watsApp";
-import { Telegram } from "../../components/ui/icons/telegram"; 
-import Link from "next/link"; 
+import { Telegram } from "../../components/ui/icons/telegram";
+import Link from "next/link";
 import {
   ProjectItem,
   ProjectItemPhone,
@@ -40,16 +38,22 @@ export default async function Home({ params: { locale } }) {
                 <p className={squarePeg.className}>{t("landingTitleP")}</p>
               </div>
               <div className={styles.landingSection__consNdesignContainer}>
-                <p> 
-              <Link  href={"/constructionOfCottagesAndVillas"} className={styles.landingSection__link}>
-            <span>{t("landingConstruction")}</span>
-          </Link>
-          </p>
-          <p>  
-          <Link href={"/interiorAll"} className={styles.landingSection__link}>
-            <span>{t("landingInteriorDesign")}</span>
-          </Link>
-          </p>
+                <p>
+                  <Link
+                    href={"/constructionOfCottagesAndVillas"}
+                    className={styles.landingSection__link}
+                  >
+                    <span>{t("landingConstruction")}</span>
+                  </Link>
+                </p>
+                <p>
+                  <Link
+                    href={"/interiorAll"}
+                    className={styles.landingSection__link}
+                  >
+                    <span>{t("landingInteriorDesign")}</span>
+                  </Link>
+                </p>
               </div>
             </div>
             <p className={styles.landingSection__bottomText}>
@@ -82,7 +86,7 @@ export default async function Home({ params: { locale } }) {
             className={styles.ourServices__bearImg}
           />
         </section>
-        <section className={styles.aboutUs}>
+        <section className={styles.aboutUs} id="aboutUs">
           <Container className={styles.aboutUs__container}>
             <div className={styles.aboutUs__top}>
               <div className={styles.aboutUs__titleContainer}>
@@ -115,38 +119,9 @@ export default async function Home({ params: { locale } }) {
           <Container className={styles.interiorDesing__container}>
             <div className={styles.interiorDesing__titleContainer}>
               <div className={styles.interiorDesing__textTitleBox}>
-                <h2>{t("interirDesignTitle")}</h2>
-                <p>{t("interirDesignText")}</p>
-              </div> 
-            </div>
-            <div className={styles.interiorDesing__contentDesktop}>
-              <ProjectItem id={"projectLoftLivingRoom"} locale={locale} />
-              <ProjectItem id={"tranquilModernity"} locale={locale} />
-            </div>
-            <div className={styles.interiorDesing__contentTablet}>
-              <ProjectItemTablet id={"projectLoftLivingRoom"} locale={locale} />
-              <ProjectItemTablet id={"tranquilModernity"} locale={locale} />
-            </div>
-            <div className={styles.interiorDesing__contentPhone}>
-              <ProjectItemPhone id={"projectLoftLivingRoom"} locale={locale} />
-              <ProjectItemPhone id={"tranquilModernity"} locale={locale} />
-            </div>
-          </Container>
-          <Link
-            className={styles.interiorDesing__seeMore}
-            href={"/interiorAll"}
-          >
-            {t("seeMore")}
-          </Link>
-          <div className={styles.interiorDesing__imgBg} />
-        </section>
-        <section className={styles.interiorDesing} id="interiorDesing">
-          <Container className={styles.interiorDesing__container}>
-            <div className={styles.interiorDesing__titleContainer}>
-              <div className={styles.interiorDesing__textTitleBox}>
                 <h2>{t("ProjectTitle")}</h2>
                 <p>{t("interirDesignText")}</p>
-              </div> 
+              </div>
             </div>
             <div className={styles.interiorDesing__contentDesktop}>
               <ProjectItem id={"villarenovation"} locale={locale} />
@@ -169,8 +144,38 @@ export default async function Home({ params: { locale } }) {
           </Link>
           <div className={styles.interiorDesing__imgBg} />
         </section>
+        <section className={styles.interiorDesing} id="interiorDesing">
+          <Container className={styles.interiorDesing__container}>
+            <div className={styles.interiorDesing__titleContainer}>
+              <div className={styles.interiorDesing__textTitleBox}>
+                <h2>{t("interirDesignTitle")}</h2>
+                <p>{t("interirDesignText")}</p>
+              </div>
+            </div>
+            <div className={styles.interiorDesing__contentDesktop}>
+              <ProjectItem id={"projectLoftLivingRoom"} locale={locale} />
+              <ProjectItem id={"tranquilModernity"} locale={locale} />
+            </div>
+            <div className={styles.interiorDesing__contentTablet}>
+              <ProjectItemTablet id={"projectLoftLivingRoom"} locale={locale} />
+              <ProjectItemTablet id={"tranquilModernity"} locale={locale} />
+            </div>
+            <div className={styles.interiorDesing__contentPhone}>
+              <ProjectItemPhone id={"projectLoftLivingRoom"} locale={locale} />
+              <ProjectItemPhone id={"tranquilModernity"} locale={locale} />
+            </div>
+          </Container>
+          <Link
+            className={styles.interiorDesing__seeMore}
+            href={"/interiorAll"}
+          >
+            {t("seeMore")}
+          </Link>
+          <div className={styles.interiorDesing__imgBg} />
+        </section>
+
         <Videos locale={locale} />
-        <section className={styles.findUs} id="aboutUs">
+        <section className={styles.findUs}>
           <Container className={styles.findUs__container}>
             <div className={styles.findUs__textBlock}>
               <span className={styles.findUs__titleContainer}>
