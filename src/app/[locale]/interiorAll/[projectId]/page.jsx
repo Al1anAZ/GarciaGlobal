@@ -54,7 +54,11 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
                       <p>{t("ambience")}</p>
                     </div>
                   </div>
-                  <ProjectItemAdv locale={locale} flex="start" projectId={projectId} />
+                  <ProjectItemAdv
+                    locale={locale}
+                    flex="start"
+                    projectId={projectId}
+                  />
                   <p>{t("descr")}</p>
                 </div>
                 <Gallery img={project["allImgs"]} />
@@ -69,13 +73,17 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
             </div>
             <div className={styles.project__topContentPhone}>
               <div className={styles.project__topTextContainerPhone}>
-                <div className={styles.project__topTextPhone}> 
-                  <p>Location: Valencia, Spain Design Style: Contemporary</p>
-                  <p>Minimalism Architectural Fusion: Industrial-Traditional</p>
-                  <p>Blend Ambience: Biophilic Light-Filled Spaces</p> 
+                <div className={styles.project__topTextPhone}>
+                  <p>{t("location")}</p>
+                  <p>{t("designStyle")}</p>
+                  <p>{t("architecturalFusion")}</p>
                 </div>
                 <div className={styles.project__topImgNAdvContainerPhone}>
-                <ProjectItemAdv locale={locale} flex="start" projectId={projectId} />
+                  <ProjectItemAdv
+                    locale={locale}
+                    flex="start"
+                    projectId={projectId}
+                  />
                   <img
                     src={project.mainImg}
                     alt="mainImg"
@@ -86,16 +94,8 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
                 </div>
               </div>
               <div className={styles.project__topGalleryNTextContainerPhone}>
-                <p>
-                  This space is characterized by its clean, modern design, which
-                  seamlessly integrates elements of historical architecture. The
-                  emphasis is on simplicity and openness, with large windows
-                  inviting ample natural light that enhances the fusion of
-                  industrial and traditional materials. The overall feel is one
-                  of calm and clarity, offering a tranquil environment for
-                  living and working.
-                </p>
-                <Gallery img={project["allImgs"]} /> 
+                <p>{t("descr")}</p>
+                <Gallery img={project["allImgs"]} />
               </div>
             </div>
           </div>
