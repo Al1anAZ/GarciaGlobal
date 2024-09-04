@@ -199,6 +199,7 @@
     "bathroom": "Bathroom"
   },
   "penthouseValencia": {
+    "name": "Penthouse Valencia",
     "location": "Location: Valencia, Spain",
     "designStyle": "Design Style: Contemporary Minimalism",
     "architecturalFusion": "Architectural Fusion: Architectural Fusion",
@@ -212,6 +213,7 @@
     "bathroomDescr": "This terrace is a personal oasis, with a wooden screen providing a natural texture that complements the modern outdoor furnishings. It's an intimate corner for relaxation, illuminated by a soft glow that enhances the ambiance of peaceful solitude."
   },
   "NTR2": {
+    "name": "NTR2",
     "location": "Location: Spain",
     "designStyle": "Design Style: Minimalist and modern",
     "architecturalFusion": "Architectural Fusion: Contemporary elements with subtle warmth",
@@ -225,6 +227,7 @@
     "bathroomDescr": "Elegance meets minimalism in this bathroom, where simplicity and serenity converge. Smooth surfaces and soft lighting create a calming atmosphere, while the subtle tones of the tiles and fixtures offer a soothing backdrop."
   },
   "NTR1": {
+    "name": "NTR1",
     "location": "Location: Spain",
     "designStyle": "Design Style: Minimalist and modern",
     "architecturalFusion": "Architectural Fusion: The space integrates minimalist",
@@ -238,6 +241,7 @@
     "bathroomDescr": "The overall impression is an elegant, restrained and functional space with an emphasis on simplicity and clean lines. The monochrome color scheme with shades of gray and white creates a calm and relaxing atmosphere."
   },
   "TRN32": {
+    "name": "TRN32",
     "location": "Location: Spain",
     "designStyle": "Design Style: Modern Minimalism.",
     "architecturalFusion": "Architectural Fusion: The space exhibits an Industrial-Modern Fusion",
@@ -251,6 +255,7 @@
     "bathroomDescr": "The bathroom is made in the style of Modern minimalism, where the main emphasis is on simplicity of forms, clean lines and functionality. The use of natural materials such as stone and wood creates a feeling of unity with nature."
   },
   "TRN3": {
+    "name": "TRN3",
     "location": "Location: Spain",
     "designStyle": "Design Style: Minimalist and modern",
     "architecturalFusion": "Architectural Fusion: The space seamlessly blends contemporary",
@@ -264,6 +269,7 @@
     "bathroomDescr": "The bathroom embodies a minimalist design ethos, emphasizing simplicity, functionality, and the use of natural materials. The walls and floors are likely covered in light wood or tiles that mimic the warm, organic tones of natural wood, creating a cohesive flow with the rest of the home. This choice of material adds warmth and texture, fostering a sense of tranquility and spa-like calmness."
   },
   "ATR2": {
+    "name": "ATR2",
     "location": "Location: Spain",
     "designStyle": "Design Style: contemporary and minimalist",
     "architecturalFusion": "Architectural Fusion: integration of lighting within the shelving units",
@@ -277,6 +283,7 @@
     "bathroomDescr": "This bathroom impresses with its simplicity and style. Main features: In the center of the bathroom is a built-in white bathtub with a sleek design. The absence of visible classic faucets or handles gives it a modern look. On the left side there is a narrow shelf on which two dark bottles are placed - it is not only functional, but also adds a spectacular accent."
   },
   "ATR1": {
+    "name": "ATR1",
     "location": "Location: Spain",
     "designStyle": "Design Style: Minimalism",
     "architecturalFusion": "Architectural Fusion: combination of straight lines and color palette",
@@ -290,6 +297,7 @@
     "bathroomDescr": "The design of the bathroom is made in a modern minimalist style, which emphasizes elegance and functionality. The main element of the room is a rectangular bath, built into a raised platform, which creates an integrated look with the surrounding floor."
   },
   "MTH2": {
+    "name": "MTH2",
     "location": "Location: Spain",
     "designStyle": "Design Style: modern minimalism",
     "architecturalFusion": "Architectural Fusion: blending industrial and contemporary elements",
@@ -303,6 +311,7 @@
     "bathroomDescr": "The bathroom is made in a modern minimalist style. The color scheme is monochrome, with different shades of gray, which creates an elegant and sophisticated look. A thin light source adds warmth to the space, emphasizing a calm atmosphere. The shower area includes a wall shower and an additional hand shower located lower on the wall. The overall atmosphere of the bathroom is calm and cozy, with an emphasis on functionality and aesthetics."
   },
   "MTH1": {
+    "name": "MTH1",
     "location": "Location: Spain",
     "designStyle": "Design Style: Modern and minimalist",
     "architecturalFusion": "Architectural Fusion: Clean lines, palette with bold accents",
@@ -316,6 +325,7 @@
     "bathroomDescr": "The photo shows a modern bathroom with a minimalist design. The color scheme is monochrome, with different shades of gray dominating the space. The lighting is hidden and unobtrusive, which enhances the elegant and modern look of the design."
   },
   "LTH1": {
+    "name": "LTH1",
     "location": "Location: Spain",
     "designStyle": "Design Style: Modern Minimalism",
     "architecturalFusion": "Architectural Fusion: Contemporary with subtle geometric accents",
@@ -329,6 +339,7 @@
     "bathroomDescr": "Bathroom has a modern minimalist design with neutral tones, mostly white and gray. It looks very clean and spacious thanks to clear lines and the absence of unnecessary details. There is a large mirror on the wall that reflects light and visually increases the space."
   },
   "NT1H2": {
+    "name": "NT1H2",
     "location": "Location: Spain",
     "designStyle": "Design Style:  Modern Minimalism",
     "architecturalFusion": "Architectural Fusion: blends contemporary elements with futuristic touches",
