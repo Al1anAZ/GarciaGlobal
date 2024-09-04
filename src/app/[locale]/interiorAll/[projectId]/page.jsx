@@ -22,10 +22,27 @@ export async function generateMetadata({ params: { locale, projectId } }) {
 
 export default async function ProjectPage({ params: { locale, projectId } }) {
   const project = sliders.find((item) => item.id === projectId);
-  let advantages = ["kitchen", "livingroom", "bathroom"];
+  // List of project IDs where advantages and ProjectItemAdv should not appear
+  const excludedProjects = [
+    "villarenovation",
+    "goodlifepark",
+    "villacartagena",
+    "townhousealbacete",
+    "penthousevalencia",
+    "obolonapartment",
+    "mynystercki",
+    "kyivlakehouse",
+    "eliteresidentialcomplexinkyiv",
+  ];
+
+  // Only include advantages if the project ID is not in the excluded list
+  const showAdvantages = !excludedProjects.includes(projectId);
+  const advantages = showAdvantages ? ["kitchen", "livingroom", "bathroom"] : [];
+  
   if (!project) redirect("/");
   const i18nNamespaces = [projectId];
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
+
   return (
     <TranslationsProvider
       namespaces={i18nNamespaces}
@@ -37,15 +54,11 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
         <Container className={styles.project__container}>
           <div className={styles.project__topContainer}>
             <BackToHome locale={locale} />
-            <h1 className={styles.project__titleTablet}>
-              {/* {camelCaseToWords(projectId)} */}
-              {t("name")}
-            </h1>
+            <h1 className={styles.project__titleTablet}>{t("name")}</h1>
             <div className={styles.project__topContent}>
               <div className={styles.project__leftSide}>
                 <div className={styles.project__leftSideContent}>
                   <div className={styles.project__leftSideTitleContainer}>
-                    {/* <h1>{camelCaseToWords(projectId)}</h1> */}
                     <h1>{t("name")}</h1>
                     <div className="">
                       <p>{t("location")}</p>
@@ -54,11 +67,14 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
                       <p>{t("ambience")}</p>
                     </div>
                   </div>
-                  <ProjectItemAdv
-                    locale={locale}
-                    flex="start"
-                    projectId={projectId}
-                  />
+                  {/* Only render ProjectItemAdv if not in excludedProjects */}
+                  {!excludedProjects.includes(projectId) && (
+                    <ProjectItemAdv
+                      locale={locale}
+                      flex="start"
+                      projectId={projectId}
+                    />
+                  )}
                   <p>{t("descr")}</p>
                 </div>
                 <Gallery img={project["allImgs"]} />
@@ -79,11 +95,14 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
                   <p>{t("architecturalFusion")}</p>
                 </div>
                 <div className={styles.project__topImgNAdvContainerPhone}>
-                  <ProjectItemAdv
-                    locale={locale}
-                    flex="start"
-                    projectId={projectId}
-                  />
+                  {/* Only render ProjectItemAdv if not in excludedProjects */}
+                  {!excludedProjects.includes(projectId) && (
+                    <ProjectItemAdv
+                      locale={locale}
+                      flex="start"
+                      projectId={projectId}
+                    />
+                  )}
                   <img
                     src={project.mainImg}
                     alt="mainImg"

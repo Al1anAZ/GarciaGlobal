@@ -8,7 +8,7 @@ import Link from "next/link";
 import sliders from "../../projects/sliders.json";
 
 const i18nNamespaces = ["projectGlobal"];
-export const ProjectItem = async ({ id, locale }) => {
+export const ProjectItem = async ({ id, locale, showAdv = true }) => {
   const { t } = await initTranslations(locale, i18nNamespaces);
   const project = sliders.find((item) => item.id === id);
   if (!project) return <p>Проект не знайдено</p>;
@@ -49,7 +49,7 @@ export const ProjectItem = async ({ id, locale }) => {
               height={328}
               className={styles.projectItem__contentContainer__imgMain}
             />
-            <ProjectItemAdv locale={locale} flex="end" projectId={id} />
+            {showAdv && <ProjectItemAdv locale={locale} flex="end" projectId={id} />}
           </div>
         </div>
         <div className={styles.projectItem__contentContainer__middle}>
@@ -68,7 +68,7 @@ export const ProjectItem = async ({ id, locale }) => {
     </div>
   );
 };
-export const ProjectItemTablet = async ({ id, locale }) => {
+export const ProjectItemTablet = async ({ id, locale, showAdv = true }) => {
   const { t } = await initTranslations(locale, i18nNamespaces);
   const project = sliders.find((item) => item.id === id);
 
@@ -102,7 +102,7 @@ export const ProjectItemTablet = async ({ id, locale }) => {
             <p className={squarePeg.className}>{t("luxuryTailored")}</p>
             <p className={squarePeg.className}>{t("toYou")}</p>
           </div>
-          <ProjectItemAdv locale={locale} flex="end" projectId={id} />
+          {showAdv && <ProjectItemAdv locale={locale} flex="end" projectId={id} />}
         </div>
       </div>
       <div className={styles.projectItem__contentContainer}>
@@ -144,7 +144,7 @@ export const ProjectItemTablet = async ({ id, locale }) => {
 //
 //
 //
-export const ProjectItemPhone = async ({ id, locale }) => {
+export const ProjectItemPhone = async ({ id, locale, showAdv = true }) => {
   const { t } = await initTranslations(locale, i18nNamespaces);
   const project = sliders.find((item) => item.id === id);
   return (
@@ -184,7 +184,7 @@ export const ProjectItemPhone = async ({ id, locale }) => {
             </p>
             <p>{t(`${id}.text`)}</p>
           </div>
-          <ProjectItemAdv locale={locale} flex="end" projectId={id} />
+          {showAdv && <ProjectItemAdv locale={locale} flex="end" projectId={id} />}
         </div>
         <div className={styles.projectItem__contentContainer__middle}>
           <img
