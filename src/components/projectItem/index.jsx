@@ -95,6 +95,7 @@ export const ProjectItemTablet = async ({ id, locale, showAdv = true }) => {
             </VerticalSlide>
           ))}
         </VerticalSlider>
+        
         <div style={{ display: "flex", gap: 90, flexDirection: "column" }}>
           <div
             className={styles.projectItem__contentContainer__topTextContainer}
@@ -103,20 +104,7 @@ export const ProjectItemTablet = async ({ id, locale, showAdv = true }) => {
             <p className={squarePeg.className}>{t("toYou")}</p>
           </div>
           {showAdv && <ProjectItemAdv locale={locale} flex="end" projectId={id} />}
-        </div>
-      </div>
-      <div className={styles.projectItem__contentContainer}>
-        <p className={styles.projectItem__contentContainer__greyPtext}>
-          {t(`${id}.text`)}
-        </p>
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <img
-            src={project.smallImg}
-            alt="smallImg"
-            width={216}
-            height={328}
-            className={styles.projectItem__contentContainer__imgMain}
-          />
+
           <div
             style={{
               display: "flex",
@@ -136,6 +124,21 @@ export const ProjectItemTablet = async ({ id, locale, showAdv = true }) => {
             <h2>{t(`${id}.title`)}</h2>
             <p>{t(`${id}.underTitle`)}</p>
           </div>
+        </div>
+      </div>
+      <div className={styles.projectItem__contentContainer}>
+        <p className={styles.projectItem__contentContainer__greyPtext}>
+          {t(`${id}.text`)}
+        </p>
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <img
+            src={project.smallImg}
+            alt="smallImg"
+            width={216}
+            height={328}
+            className={styles.projectItem__contentContainer__imgMain}
+          />
+ 
         </div>
       </div>
     </div>
