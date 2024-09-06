@@ -115,25 +115,25 @@ export default async function Home({ params: { locale } }) {
           </Container>
         </section>
         {/* <Map locale={locale} /> */}
-        <section className={styles.interiorDesing} id="interiorDesing">
+        <section className={styles.interiorDesing} >
           <Container className={styles.interiorDesing__container}>
             <div className={styles.interiorDesing__titleContainer}>
               <div className={styles.interiorDesing__textTitleBox}>
                 <h2>{t("ProjectTitle")}</h2>
-                <p>{t("interirDesignText")}</p>
+                <p>{t("ProjectText")}</p>
               </div>
             </div>
             <div className={styles.interiorDesing__contentDesktop}>
-              <ProjectItem id={"villarenovation"} locale={locale} />
-              <ProjectItem id={"goodlifepark"} locale={locale} />
+              <ProjectItem id={"villarenovation"} locale={locale} showAdv={false} />
+              <ProjectItem id={"goodlifepark"} locale={locale} showAdv={false}/>
             </div>
             <div className={styles.interiorDesing__contentTablet}>
-              <ProjectItemTablet id={"villarenovation"} locale={locale} />
-              <ProjectItemTablet id={"goodlifepark"} locale={locale} />
+              <ProjectItemTablet id={"villarenovation"} locale={locale}showAdv={false} />
+              <ProjectItemTablet id={"goodlifepark"} locale={locale} showAdv={false}/>
             </div>
             <div className={styles.interiorDesing__contentPhone}>
-              <ProjectItemPhone id={"villarenovation"} locale={locale} />
-              <ProjectItemPhone id={"goodlifepark"} locale={locale} />
+              <ProjectItemPhone id={"villarenovation"} locale={locale} showAdv={false} />
+              <ProjectItemPhone id={"goodlifepark"} locale={locale} showAdv={false} />
             </div>
           </Container>
           <Link

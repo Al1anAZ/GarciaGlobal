@@ -25,7 +25,17 @@ export default async function InteriorAll({ params: { locale } }) {
   // Filter out specific projects by their IDs
   const filteredSliders = sliders.filter(
     (item) =>
-      !["penthouseValencia", "tranquilModernity", "projectLoftLivingRoom"].includes(item.id)
+      ![
+        "villarenovation",
+        "goodlifepark",
+        "villacartagena",
+        "townhousealbacete",
+        "penthousevalencia",
+        "obolonapartment",
+        "mynystercki",
+        "kyivlakehouse",
+        "eliteresidentialcomplexinkyiv",
+      ].includes(item.id)
   );
 
   return (

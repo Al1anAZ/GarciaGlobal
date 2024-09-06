@@ -7,9 +7,8 @@ const serviceSlugs = {
   "Будівництво котеджів і дач": "constructionOfCottagesAndVillas",
   "Дизайн інтерʼєру квартир": "flatInteriorDesign",
   "Індивідуальне проектування": "individualProjecting",
-  "Дизайн інтер'єру будинків": "houseInteriorDesign", 
+  "Дизайн інтер'єру будинків": "houseInteriorDesign",
 
-  
   "Construcción de chalets y villas": "constructionOfCottagesAndVillas",
   "Diseño de interiores de apartamentos": "flatInteriorDesign",
   "Proyectos Individuales": "individualProjecting",

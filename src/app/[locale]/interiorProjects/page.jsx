@@ -47,28 +47,28 @@ export default async function InteriorProject({ params: { locale } }) {
             <div className={styles.interiorDesing__titleContainer}>
               <div className={styles.interiorDesing__textTitleBox}>
                 <h1>{t("ProjectTitle")}</h1>
-                <p>{t("interirDesignText")}</p>
+                <p>{t("ProjectText")}</p>
               </div>
             </div>
           </div>
           <div className={styles.interiorDesing__desktopContent}>
             {filteredSliders.map((item, index) => (
               <section key={index}>
-                <ProjectItem id={item.id} locale={locale} name={item.name} />
+                <ProjectItem id={item.id} locale={locale} showAdv={false} />
               </section>
             ))}
           </div>
           <div className={styles.interiorDesing__tabletContent}>
             {filteredSliders.map((item, index) => (
               <section key={index}>
-                <ProjectItemTablet id={item.id} locale={locale} />
+                <ProjectItemTablet id={item.id} locale={locale} showAdv={false} />
               </section>
             ))}
           </div>
           <div className={styles.interiorDesing__phoneContent}>
             {filteredSliders.map((item, index) => (
               <section key={index}>
-                <ProjectItemPhone id={item.id} locale={locale} />
+                <ProjectItemPhone id={item.id} locale={locale} showAdv={false} />
               </section>
             ))}
           </div>
