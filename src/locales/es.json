@@ -206,10 +206,10 @@
     "descr": "Este espacio se caracteriza por su diseño limpio y moderno, que integra a la perfección elementos de arquitectura histórica. El énfasis está en la simplicidad y la apertura, con grandes ventanas que invitan a una abundante luz natural que realza la fusión de materiales industriales y tradicionales. La sensación general es de calma y claridad, ofreciendo un ambiente tranquilo para vivir y trabajar.",
     "kitchen": "Cocina Comedor Abierto",
     "kitchenDescr": "El área de cocina y comedor de planta abierta combina funcionalidad con un espacio sociable. Las líneas limpias de los gabinetes y las superficies despejadas reflejan un estilo de vida moderno, mientras que la mesa central promete experiencias culinarias comunales.",
-    "living": "Sala de Estar",
-    "livingDescr": "La elegancia se encuentra con el minimalismo en la entrada de esta sala de estar. La puerta abierta extiende una cálida invitación, revelando un espacio de calma neutral, puntuado por una iluminación reflexiva y un vistazo de la naturaleza más allá del umbral.",
-    "terrace": "Terraza",
-    "terraceDescr": "Esta terraza es un oasis personal, con una pantalla de madera que proporciona una textura natural que complementa el mobiliario moderno para exteriores. Es un rincón íntimo para la relajación, iluminado por un suave resplandor que realza el ambiente de soledad pacífica."
+    "livingroom": "Sala de Estar",
+    "livingroomDescr": "La elegancia se encuentra con el minimalismo en la entrada de esta sala de estar. La puerta abierta extiende una cálida invitación, revelando un espacio de calma neutral, puntuado por una iluminación reflexiva y un vistazo de la naturaleza más allá del umbral.",
+    "bathroom": "Terraza",
+    "bathroomDescr": "Esta terraza es un oasis personal, con una pantalla de madera que proporciona una textura natural que complementa el mobiliario moderno para exteriores. Es un rincón íntimo para la relajación, iluminado por un suave resplandor que realza el ambiente de soledad pacífica."
   },
   "NTR2": {
     "location": "Ubicación: España",
@@ -219,10 +219,10 @@
     "descr": "La atmósfera general es tranquila y sofisticada. El enfoque minimalista crea una sensación de amplitud y serenidad, mientras que los tonos cálidos y la iluminación sutil hacen que los espacios se sientan acogedores en lugar de fríos. El diseño equilibra cuidadosamente la simplicidad moderna con toques de calidez y textura para un entorno de vida refinado y cómodo.",
     "kitchen": "Cocina",
     "kitchenDescr": "Esta cocina tiene un diseño moderno y minimalista, donde el enfoque está en la simplicidad y funcionalidad. Una característica del interior es una pared perforada hecha de ladrillo rojo, que añade textura e interés visual al espacio, creando una separación parcial entre diferentes áreas de la habitación.",
-    "living": "Sala de Estar",
-    "livingDescr": "La elegancia se encuentra con el minimalismo en esta sala de estar, donde las líneas limpias y las texturas sutiles crean un espacio de sofisticación discreta. Los tonos suaves y neutrales del mobiliario se mezclan a la perfección con las paredes texturizadas, ofreciendo un fondo sereno para la relajación.",
-    "terrace": "Baño",
-    "terraceDescr": "La elegancia se encuentra con el minimalismo en este baño, donde la simplicidad y la serenidad convergen. Las superficies suaves y la iluminación tenue crean una atmósfera calmante, mientras que los tonos sutiles de los azulejos y accesorios ofrecen un fondo relajante."
+    "livingroom": "Sala de Estar",
+    "livingroomDescr": "La elegancia se encuentra con el minimalismo en esta sala de estar, donde las líneas limpias y las texturas sutiles crean un espacio de sofisticación discreta. Los tonos suaves y neutrales del mobiliario se mezclan a la perfección con las paredes texturizadas, ofreciendo un fondo sereno para la relajación.",
+    "bathroom": "Baño",
+    "bathroomDescr": "La elegancia se encuentra con el minimalismo en este baño, donde la simplicidad y la serenidad convergen. Las superficies suaves y la iluminación tenue crean una atmósfera calmante, mientras que los tonos sutiles de los azulejos y accesorios ofrecen un fondo relajante."
   },
   "NTR1": {
     "location": "Ubicación: España",
@@ -232,10 +232,10 @@
     "descr": "Este diseño encarna un estilo moderno minimalista, caracterizado por una estética elegante y despejada. La arquitectura utiliza formas geométricas simples, superficies lisas y una paleta de colores restringida dominada por tonos neutros. Materiales como acabados mates y texturas suaves se usan de manera medida para añadir calidez y sofisticación sutil.",
     "kitchen": "Cocina",
     "kitchenDescr": "La cocina está realizada en el estilo del minimalismo con elementos modernos. Se caracteriza por líneas estrictas y funcionalidad, lo cual se enfatiza mediante el uso de tonos neutros y superficies lisas.",
-    "living": "Sala de Estar",
-    "livingDescr": "La sala de estar refleja la calma y simplicidad del diseño minimalista. Cada elemento del interior está cuidadosamente seleccionado para crear un espacio donde predominan la armonía y el orden. La ausencia de detalles innecesarios permite enfocarse en lo principal: confort y estética.",
-    "terrace": "Baño",
-    "terraceDescr": "La impresión general es de un espacio elegante, contenido y funcional con un énfasis en la simplicidad y líneas limpias. La paleta de colores monocromática con tonos de gris y blanco crea una atmósfera tranquila y relajante."
+    "livingroom": "Sala de Estar",
+    "livingroomDescr": "La sala de estar refleja la calma y simplicidad del diseño minimalista. Cada elemento del interior está cuidadosamente seleccionado para crear un espacio donde predominan la armonía y el orden. La ausencia de detalles innecesarios permite enfocarse en lo principal: confort y estética.",
+    "bathroom": "Baño",
+    "bathroomDescr": "La impresión general es de un espacio elegante, contenido y funcional con un énfasis en la simplicidad y líneas limpias. La paleta de colores monocromática con tonos de gris y blanco crea una atmósfera tranquila y relajante."
   },
   "TRN32": {
     "location": "Ubicación: España",
@@ -245,10 +245,10 @@
     "descr": "El interior mostrado en la imagen es una cocina y comedor oscuros y melancólicos que emana una vibra minimalista moderna con un toque industrial. El espacio está dominado por tonos de madera profunda y rica y una iluminación sutil, que acentúa las líneas limpias y el mobiliario minimalista. La cocina presenta electrodomésticos integrados elegantes y un diseño sin costuras, con almacenamiento oculto que contribuye al aspecto despejado. El área del comedor, con su mesa simple y sillas, continúa el tema del minimalismo, mientras que todo el espacio está unificado por el uso consistente de tonos oscuros y apagados y la ausencia de decoración innecesaria.",
     "kitchen": "Cocina",
     "kitchenDescr": "La cocina está decorada en el estilo del Minimalismo Moderno. Se caracteriza por líneas limpias, una paleta de colores restringida y un énfasis en la funcionalidad y simplicidad. El uso de materiales de madera oscura y la ausencia de decoraciones innecesarias crean un interior elegante y contenido.",
-    "living": "Sala de Estar",
-    "livingDescr": "La sala de estar está decorada en un estilo moderno minimalista con un énfasis en confort y estética. Superficies lisas, un mínimo de muebles y materiales naturales subrayan la restricción y simplicidad del interior.",
-    "terrace": "Baño",
-    "terraceDescr": "El baño está realizado en el estilo del Minimalismo Moderno, donde el énfasis principal está en la simplicidad de las formas, líneas limpias y funcionalidad. El uso de materiales naturales como piedra y madera crea una sensación de unidad con la naturaleza."
+    "livingroom": "Sala de Estar",
+    "livingroomDescr": "La sala de estar está decorada en un estilo moderno minimalista con un énfasis en confort y estética. Superficies lisas, un mínimo de muebles y materiales naturales subrayan la restricción y simplicidad del interior.",
+    "bathroom": "Baño",
+    "bathroomDescr": "El baño está realizado en el estilo del Minimalismo Moderno, donde el énfasis principal está en la simplicidad de las formas, líneas limpias y funcionalidad. El uso de materiales naturales como piedra y madera crea una sensación de unidad con la naturaleza."
   },
   "TRN3": {
     "location": "Ubicación: España",
@@ -258,10 +258,10 @@
     "descr": "El interior captura un equilibrio perfecto entre el minimalismo y la comodidad. Las grandes ventanas permiten que la luz natural entre, destacando los paneles de madera clara que dominan las paredes, el techo y los gabinetes. La isla de cocina, con su elegante encimera negra y taburetes de bar minimalistas, añade un sutil contraste a los tonos cálidos del espacio. El área de asientos suave y baja invita a la comodidad, mientras que la decoración escasa pero pensada subraya la estética minimalista de la habitación. El diseño general es tanto funcional como estéticamente agradable, ofreciendo un espacio de vida tranquilo y moderno.",
     "kitchen": "Cocina",
     "kitchenDescr": "En el centro de la composición se encuentra una isla de cocina estilizada con una encimera negra que contrasta bellamente con la madera más clara. La encimera negra se extiende ligeramente, ofreciendo un espacio funcional que puede usarse para la preparación de comidas o comedor informal. Tres taburetes de madera con un diseño simple y elegante se colocan frente a la isla, añadiendo al encanto minimalista de la habitación mientras mantienen su tema natural.",
-    "living": "Sala de Estar",
-    "livingDescr": "La sala de estar emana una estética moderna minimalista cálida con un fuerte énfasis en materiales naturales y líneas limpias. El espacio está dominado por una pared impactante hecha de madera clara, con un patrón único tipo rejilla que añade textura e interés visual. Este elemento de diseño no solo sirve como un punto focal, sino que también realza el carácter arquitectónico de la habitación, reflejando un enfoque refinado del minimalismo.",
-    "terrace": "Baño",
-    "terraceDescr": "El baño encarna una ética de diseño minimalista, enfatizando la simplicidad, funcionalidad y el uso de materiales naturales. Las paredes y pisos están probablemente cubiertos con madera clara o azulejos que imitan los tonos cálidos y orgánicos de la madera natural, creando un flujo cohesivo con el resto de la casa. Esta elección de material añade calidez y textura, fomentando una sensación de tranquilidad y calma similar a la de un spa."
+    "livingroom": "Sala de Estar",
+    "livingroomDescr": "La sala de estar emana una estética moderna minimalista cálida con un fuerte énfasis en materiales naturales y líneas limpias. El espacio está dominado por una pared impactante hecha de madera clara, con un patrón único tipo rejilla que añade textura e interés visual. Este elemento de diseño no solo sirve como un punto focal, sino que también realza el carácter arquitectónico de la habitación, reflejando un enfoque refinado del minimalismo.",
+    "bathroom": "Baño",
+    "bathroomDescr": "El baño encarna una ética de diseño minimalista, enfatizando la simplicidad, funcionalidad y el uso de materiales naturales. Las paredes y pisos están probablemente cubiertos con madera clara o azulejos que imitan los tonos cálidos y orgánicos de la madera natural, creando un flujo cohesivo con el resto de la casa. Esta elección de material añade calidez y textura, fomentando una sensación de tranquilidad y calma similar a la de un spa."
   },
   "ATR2": {
     "location": "Ubicación: España",
@@ -271,10 +271,10 @@
     "descr": "Este interior moderno presenta un diseño minimalista que enfatiza la elegancia y la comodidad. El espacio está decorado en tonos azules oscuros y grises, lo que crea una atmósfera tranquila y elegante.",
     "kitchen": "Cocina",
     "kitchenDescr": "Este interior de cocina moderna es ideal para quienes valoran el minimalismo y las líneas limpias. La paleta de colores exclusivamente en tonos grises medios crea una impresión de paz y armonía.",
-    "living": "Sala de Estar",
-    "livingDescr": "Esta sala de estar es un verdadero lugar para relajarse y reunirse con seres queridos. El diseño impresiona con su simplicidad y elegancia, y cada detalle está bien pensado. Un estilo minimalista con líneas limpias y una paleta de colores monocromática le da a la sala de estar un aspecto moderno.",
-    "terrace": "Baño",
-    "terraceDescr": "Este baño impresiona con su simplicidad y estilo. Características principales: En el centro del baño hay una bañera blanca empotrada con un diseño elegante. La ausencia de grifos o manijas visibles le da un aspecto moderno. En el lado izquierdo hay una estantería estrecha en la que están colocadas dos botellas oscuras, lo que no solo es funcional, sino que también añade un acento espectacular."
+    "livingroom": "Sala de Estar",
+    "livingroomDescr": "Esta sala de estar es un verdadero lugar para relajarse y reunirse con seres queridos. El diseño impresiona con su simplicidad y elegancia, y cada detalle está bien pensado. Un estilo minimalista con líneas limpias y una paleta de colores monocromática le da a la sala de estar un aspecto moderno.",
+    "bathroom": "Baño",
+    "bathroomDescr": "Este baño impresiona con su simplicidad y estilo. Características principales: En el centro del baño hay una bañera blanca empotrada con un diseño elegante. La ausencia de grifos o manijas visibles le da un aspecto moderno. En el lado izquierdo hay una estantería estrecha en la que están colocadas dos botellas oscuras, lo que no solo es funcional, sino que también añade un acento espectacular."
   },
   "ATR1": {
     "location": "Ubicación: España",
@@ -284,10 +284,10 @@
     "descr": "Este apartamento impresiona con su simplicidad y elegancia. Cada elemento del diseño está bien pensado, y cada rincón refleja un estilo de vida moderno. Todas las formas están marcadas por líneas rectas, y la paleta de colores está marcada por tonos de gris y blanco. Crea una impresión de espacio y ligereza.",
     "kitchen": "Cocina",
     "kitchenDescr": "En el centro de la habitación hay una isla de cocina amarilla, que actúa como un acento expresivo entre el fondo monocromático. No solo es funcional, sino que también añade calidez y sofisticación. Las líneas limpias y el enfoque minimalista en el diseño de paredes y muebles crean una impresión de espacio y ligereza. La luz natural que entra a través de la gran ventana hace que la habitación sea más brillante y acogedora. Todos los detalles están pensados hasta el mínimo detalle para asegurar comodidad y practicidad.",
-    "living": "Sala de Estar",
-    "livingDescr": "El diseño de la sala de estar está hecho en un estilo moderno y minimalista, que enfatiza la simplicidad y funcionalidad. El acento principal de color está en tonos neutros de gris que crean una atmósfera tranquila y elegante. El elemento central de la habitación es un gran sofá gris texturizado con numerosos cojines, que proporciona comodidad y calidez. Hay una partición de vidrio frente al sofá, que añade ligereza y transparencia al espacio.",
-    "terrace": "Baño",
-    "terraceDescr": "El diseño del baño está hecho en un estilo moderno y minimalista, que enfatiza la elegancia y funcionalidad. El elemento principal de la habitación es una bañera rectangular, empotrada en una plataforma elevada, que crea un aspecto integrado con el suelo circundante."
+    "livingroom": "Sala de Estar",
+    "livingroomDescr": "El diseño de la sala de estar está hecho en un estilo moderno y minimalista, que enfatiza la simplicidad y funcionalidad. El acento principal de color está en tonos neutros de gris que crean una atmósfera tranquila y elegante. El elemento central de la habitación es un gran sofá gris texturizado con numerosos cojines, que proporciona comodidad y calidez. Hay una partición de vidrio frente al sofá, que añade ligereza y transparencia al espacio.",
+    "bathroom": "Baño",
+    "bathroomDescr": "El diseño del baño está hecho en un estilo moderno y minimalista, que enfatiza la elegancia y funcionalidad. El elemento principal de la habitación es una bañera rectangular, empotrada en una plataforma elevada, que crea un aspecto integrado con el suelo circundante."
   },
   "MTH2": {
     "location": "Ubicación: España",
@@ -297,10 +297,10 @@
     "descr": "La paleta de colores principal consiste en tonos de gris, lo que crea una atmósfera tranquila y contenida. Los acentos de madera natural añaden calidez y comodidad al espacio. El techo de concreto crudo da al interior un aspecto industrial, que se combina armoniosamente con las líneas limpias y claras del diseño.",
     "kitchen": "Cocina",
     "kitchenDescr": "La cocina está hecha en un estilo minimalista moderno que enfatiza la simplicidad y funcionalidad. La paleta de colores principal consiste en tonos fríos, con texturas similares al concreto en las paredes y el suelo. Los gabinetes de madera añaden calidez natural al espacio, creando una atmósfera acogedora.",
-    "living": "Sala de Estar",
-    "livingDescr": "La sala de estar está hecha en un estilo minimalista moderno. En el centro de la habitación hay un gran sofá gris, que es muy cómodo. Detrás del sofá hay una pequeña zona de comedor con una mesa blanca y dos sillas altas. La paleta de colores de la habitación es neutral, con predominancia de tonos grises, complementados por acentos en blanco y madera clara. Las grandes ventanas permiten la entrada de mucha luz natural.",
-    "terrace": "Baño",
-    "terraceDescr": "El baño está hecho en un estilo minimalista moderno. La paleta de colores es monocromática, con diferentes tonos de gris, lo que crea un aspecto elegante y sofisticado. Una fuente de luz delgada añade calidez al espacio, resaltando una atmósfera tranquila. El área de ducha incluye una ducha de pared y una ducha de mano adicional ubicada más abajo en la pared. La atmósfera general del baño es tranquila y acogedora, con un énfasis en la funcionalidad y la estética."
+    "livingroom": "Sala de Estar",
+    "livingroomDescr": "La sala de estar está hecha en un estilo minimalista moderno. En el centro de la habitación hay un gran sofá gris, que es muy cómodo. Detrás del sofá hay una pequeña zona de comedor con una mesa blanca y dos sillas altas. La paleta de colores de la habitación es neutral, con predominancia de tonos grises, complementados por acentos en blanco y madera clara. Las grandes ventanas permiten la entrada de mucha luz natural.",
+    "bathroom": "Baño",
+    "bathroomDescr": "El baño está hecho en un estilo minimalista moderno. La paleta de colores es monocromática, con diferentes tonos de gris, lo que crea un aspecto elegante y sofisticado. Una fuente de luz delgada añade calidez al espacio, resaltando una atmósfera tranquila. El área de ducha incluye una ducha de pared y una ducha de mano adicional ubicada más abajo en la pared. La atmósfera general del baño es tranquila y acogedora, con un énfasis en la funcionalidad y la estética."
   },
   "MTH1": {
     "location": "Ubicación: España",
@@ -310,10 +310,10 @@
     "descr": "Este diseño moderno se caracteriza por líneas limpias, minimalismo y funcionalidad. La idea principal es crear un espacio que sea tanto estéticamente agradable como práctico. El uso de colores neutros como blanco, gris y negro crea una sensación de espacio y calma. Los colores de acento, como rojo o azul, añaden dinamismo e individualidad al interior.",
     "kitchen": "Cocina",
     "kitchenDescr": "La foto muestra una cocina moderna con un diseño minimalista. Los gabinetes de cocina tienen paneles lisos y planos en gris oscuro o carbón sin manijas visibles, lo que les da un aspecto discreto y elegante. La iluminación está instalada debajo de los gabinetes, lo que añade luz cálida y destaca el área de cocción.",
-    "living": "Sala de Estar",
-    "livingDescr": "La foto muestra una sala de estar con un diseño moderno y minimalista y una paleta de colores monocromática dominada por tonos neutros. El punto focal es un gran sofá seccional burdeos que proporciona mucho espacio para sentarse. En el centro de esta área hay una mesa de café redonda negra con varios libros sobre ella, lo que indica la funcionalidad del espacio para relajación o socialización.",
-    "terrace": "Baño",
-    "terraceDescr": "La foto muestra un baño moderno con un diseño minimalista. La paleta de colores es monocromática, con diferentes tonos de gris dominando el espacio. La iluminación está oculta y es discreta, lo que realza el aspecto elegante y moderno del diseño."
+    "livingroom": "Sala de Estar",
+    "livingroomDescr": "La foto muestra una sala de estar con un diseño moderno y minimalista y una paleta de colores monocromática dominada por tonos neutros. El punto focal es un gran sofá seccional burdeos que proporciona mucho espacio para sentarse. En el centro de esta área hay una mesa de café redonda negra con varios libros sobre ella, lo que indica la funcionalidad del espacio para relajación o socialización.",
+    "bathroom": "Baño",
+    "bathroomDescr": "La foto muestra un baño moderno con un diseño minimalista. La paleta de colores es monocromática, con diferentes tonos de gris dominando el espacio. La iluminación está oculta y es discreta, lo que realza el aspecto elegante y moderno del diseño."
   },
   "LTH1": {
     "location": "Ubicación: España",
@@ -323,10 +323,10 @@
     "descr": "La habitación está hecha en un estilo moderno con énfasis en el minimalismo. Los colores principales son neutros, como blanco, gris y beige, lo que crea una atmósfera tranquila y armoniosa. Los muebles tienen líneas simples y limpias y un diseño funcional. En general, el diseño de la habitación enfatiza la simplicidad, la funcionalidad y la elegancia, creando un lugar agradable para relajarse y pasar el tiempo.",
     "kitchen": "Cocina",
     "kitchenDescr": "Esta cocina está hecha en un estilo minimalista. Una encimera larga con un fregadero y superficie de cocción empotrados crea un espacio funcional para cocinar. La paleta de colores consiste en tonos neutros: los gabinetes y cajones son blancos, y la encimera es negra, lo que crea un contraste.",
-    "living": "Sala de Estar",
-    "livingDescr": "Esta sala de estar está hecha en un estilo minimalista con una paleta de colores neutros, principalmente tonos de gris y blanco. Una gran ventana abre una vista de un paisaje natural tranquilo, lo que crea una sensación de comodidad y armonía.",
-    "terrace": "Baño",
-    "terraceDescr": "El baño tiene un diseño moderno y minimalista con tonos neutros, principalmente blanco y gris. Se ve muy limpio y espacioso gracias a las líneas claras y la ausencia de detalles innecesarios. Hay un gran espejo en la pared que refleja la luz y aumenta visualmente el espacio."
+    "livingroom": "Sala de Estar",
+    "livingroomDescr": "Esta sala de estar está hecha en un estilo minimalista con una paleta de colores neutros, principalmente tonos de gris y blanco. Una gran ventana abre una vista de un paisaje natural tranquilo, lo que crea una sensación de comodidad y armonía.",
+    "bathroom": "Baño",
+    "bathroomDescr": "El baño tiene un diseño moderno y minimalista con tonos neutros, principalmente blanco y gris. Se ve muy limpio y espacioso gracias a las líneas claras y la ausencia de detalles innecesarios. Hay un gran espejo en la pared que refleja la luz y aumenta visualmente el espacio."
   },
   "NT1H2": {
     "location": "Ubicación: España",
@@ -336,10 +336,10 @@
     "descr": "La habitación tiene un diseño minimalista moderno con una paleta de colores monocromática que incluye tonos de negro, blanco y gris. El énfasis principal está en las líneas limpias y las formas geométricas. La iluminación juega un papel importante en el diseño, con tiras de LED que delinean el perímetro del techo y el suelo, creando una atmósfera futurista. Una gran ventana proporciona luz natural, que se complementa con la luz artificial.",
     "kitchen": "Cocina",
     "kitchenDescr": "La cocina tiene un diseño minimalista moderno con tonos dominantes en blanco y negro. Los armarios de la cocina tienen fachadas lisas sin manijas visibles, lo que destaca las líneas limpias del espacio. El techo está equipado con iluminación empotrada que complementa la luz natural, creando una atmósfera luminosa y aireada.",
-    "living": "Sala de Estar",
-    "livingDescr": "La sala de estar tiene un diseño minimalista moderno con una paleta de colores monocromática que incluye varios tonos de gris y negro. La iluminación en rieles está instalada en el techo, proporcionando iluminación direccional en áreas individuales de la habitación. El diseño general exuda minimalismo y líneas limpias, creando un espacio elegante y moderno.",
-    "terrace": "Baño",
-    "terraceDescr": "El baño tiene un diseño moderno con una cabina de ducha con puerta de vidrio transparente, azulejos de pared beige y un elegante lavabo blanco. El techo y el área de la ducha están iluminados con tiras de LED cálidas, lo que agrega elegancia al espacio. Un gran espejo se encuentra sobre el lavabo, lo que aumenta la luminosidad y la sensación de espacio en la habitación. El diseño general es minimalista y limpio, con un énfasis en las líneas rectas y las superficies despejadas."
+    "livingroom": "Sala de Estar",
+    "livingroomDescr": "La sala de estar tiene un diseño minimalista moderno con una paleta de colores monocromática que incluye varios tonos de gris y negro. La iluminación en rieles está instalada en el techo, proporcionando iluminación direccional en áreas individuales de la habitación. El diseño general exuda minimalismo y líneas limpias, creando un espacio elegante y moderno.",
+    "bathroom": "Baño",
+    "bathroomDescr": "El baño tiene un diseño moderno con una cabina de ducha con puerta de vidrio transparente, azulejos de pared beige y un elegante lavabo blanco. El techo y el área de la ducha están iluminados con tiras de LED cálidas, lo que agrega elegancia al espacio. Un gran espejo se encuentra sobre el lavabo, lo que aumenta la luminosidad y la sensación de espacio en la habitación. El diseño general es minimalista y limpio, con un énfasis en las líneas rectas y las superficies despejadas."
   },
   "villarenovation": {
     "location": "Ubicación: Marbella, España",
@@ -349,10 +349,10 @@
     "descr": "La imagen muestra el interior de una casa moderna, realizada en el estilo del minimalismo con elementos de arquitectura moderna. El espacio se caracteriza por líneas claras, formas minimalistas y una predominancia de colores claros. El color blanco de las paredes y los muebles crea un efecto de espacio y luz, destacando la limpieza y la simplicidad del interior. La barandilla de vidrio de la escalera añade transparencia y ligereza, mientras que el uso de mármol oscuro en las escaleras añade lujo y contraste.",
     "kitchen": "Cocina",
     "kitchenDescr": "Esta cocina tiene un diseño moderno con una estética limpia y minimalista. La paleta de colores principal es blanca, con armarios, encimeras y paredes blancas. El panel de mármol añade lujo. La cocina está equipada con electrodomésticos de acero inoxidable, incluyendo un horno, un microondas y una estufa empotrada en la isla. La isla también tiene un fregadero de acero inoxidable con un grifo alto. La luz natural entra a través de grandes puertas de vidrio que dan a la calle, acentuando la sensación de ligereza y aireada del espacio.",
-    "living": "Sala de Estar",
-    "livingDescr": "Esta sala de estar tiene un diseño contemporáneo que se abre a un área de comedor exterior. La sala está equipada con grandes ventanas de piso a techo con cortinas blancas translúcidas que permiten la entrada de mucha luz natural al espacio. El suelo está hecho de baldosas de gris claro, que transiciona suavemente del interior al exterior, enfatizando la conexión entre el espacio interior y exterior.",
-    "terrace": "Baño",
-    "terraceDescr": "Este diseño de baño combina líneas limpias, colores contrastantes y diferentes texturas para crear una atmósfera moderna y estéticamente agradable. Las paredes de vidrio de la cabina de ducha crean una sensación de espacio y modernidad. Los azulejos grises en las paredes y el suelo añaden elegancia y sobriedad. Un gran espejo sobre el lavabo aumenta visualmente el espacio y añade luz."
+    "livingroom": "Sala de Estar",
+    "livingroomDescr": "Esta sala de estar tiene un diseño contemporáneo que se abre a un área de comedor exterior. La sala está equipada con grandes ventanas de piso a techo con cortinas blancas translúcidas que permiten la entrada de mucha luz natural al espacio. El suelo está hecho de baldosas de gris claro, que transiciona suavemente del interior al exterior, enfatizando la conexión entre el espacio interior y exterior.",
+    "bathroom": "Baño",
+    "bathroomDescr": "Este diseño de baño combina líneas limpias, colores contrastantes y diferentes texturas para crear una atmósfera moderna y estéticamente agradable. Las paredes de vidrio de la cabina de ducha crean una sensación de espacio y modernidad. Los azulejos grises en las paredes y el suelo añaden elegancia y sobriedad. Un gran espejo sobre el lavabo aumenta visualmente el espacio y añade luz."
   },
   "goodlifepark": {
     "location": "Ubicación: España",
@@ -362,10 +362,10 @@
     "descr": "Esta casa moderna se integra perfectamente con su entorno boscoso mientras mantiene una estética contemporánea distintiva. La estructura presenta una mezcla de tonos cálidos de madera y metal gris frío, creando un interés visual a través de materiales y colores contrastantes. Un simple camino de concreto conduce a la entrada, enfatizando las líneas limpias del diseño general. Las grandes ventanas permiten abundante luz natural y ofrecen vistas de la vegetación circundante, difuminando la línea entre los espacios interiores y exteriores.",
     "kitchen": "Cocina",
     "kitchenDescr": "",
-    "living": "Sala de Estar",
-    "livingDescr": "",
-    "terrace": "Baño",
-    "terraceDescr": ""
+    "livingroom": "Sala de Estar",
+    "livingroomDescr": "",
+    "bathroom": "Baño",
+    "bathroomDescr": ""
   },
   "villacartagena": {
     "name": "Villa Cartagena",
@@ -473,10 +473,10 @@
     "descr": "Esta sala de estar combina elementos de diseño moderno con tecnología funcional, mostrando una integración sin costuras de medios y confort. El uso estratégico del espacio y las soluciones de almacenamiento empotradas enfatizan un ambiente libre de desorden que promueve la vida moderna. Ambiente: El ambiente es de sofisticación calmada y serena, con iluminación suave y colores neutros que promueven un espacio relajante e invitante que fomenta el ocio y la conversación.",
     "kitchen": "Cocina",
     "kitchenDescr": "La cocina está diseñada con un enfoque en la funcionalidad y el estilo, con una distribución limpia y abierta. Cuenta con electrodomésticos de última generación integrados a la perfección en los gabinetes, manteniendo la apariencia simplificada del espacio. La larga isla de la cocina sirve tanto como área de preparación como un lugar informal para comer, completa con taburetes elegantes tapizados. Encima, elegantes luces colgantes iluminan el área de trabajo, mientras que los tonos sutiles de los gabinetes y las encimeras crean una atmósfera calmada y acogedora.",
-    "living": "Sala de Estar",
-    "livingDescr": "La sala de estar exuda una estética moderna y elegante caracterizada por su diseño minimalista y paleta de colores neutros. Anclada por un sofá seccional de gris claro y suave, el espacio invita a la relajación y a socializar. La iluminación estratégica resalta características arquitectónicas y obras de arte, añadiendo profundidad y calidez. Un gran televisor montado en la pared sirve como punto focal, mientras que los muebles contemporáneos, incluyendo una silla blanca elegante y una mesa de café compacta, complementan la atmósfera sofisticada de la sala.",
-    "terrace": "Terraza",
-    "terraceDescr": "Este baño combina lujo y simplicidad, creando un retiro sereno. El mueble es moderno y minimalista, con iluminación bajo el gabinete que proporciona un suave resplandor, realzando la sensación tranquila de la habitación. Sobre el lavabo rectangular y elegante, un gran espejo cubre el ancho del mueble, reflejando la luz y expandiendo visualmente el espacio. Estantes empotrados ofrecen soluciones de almacenamiento prácticas sin interrumpir las líneas limpias del baño, haciéndolo no solo hermoso, sino también altamente funcional."
+    "livingroom": "Sala de Estar",
+    "livingroomDescr": "La sala de estar exuda una estética moderna y elegante caracterizada por su diseño minimalista y paleta de colores neutros. Anclada por un sofá seccional de gris claro y suave, el espacio invita a la relajación y a socializar. La iluminación estratégica resalta características arquitectónicas y obras de arte, añadiendo profundidad y calidez. Un gran televisor montado en la pared sirve como punto focal, mientras que los muebles contemporáneos, incluyendo una silla blanca elegante y una mesa de café compacta, complementan la atmósfera sofisticada de la sala.",
+    "bathroom": "Terraza",
+    "bathroomDescr": "Este baño combina lujo y simplicidad, creando un retiro sereno. El mueble es moderno y minimalista, con iluminación bajo el gabinete que proporciona un suave resplandor, realzando la sensación tranquila de la habitación. Sobre el lavabo rectangular y elegante, un gran espejo cubre el ancho del mueble, reflejando la luz y expandiendo visualmente el espacio. Estantes empotrados ofrecen soluciones de almacenamiento prácticas sin interrumpir las líneas limpias del baño, haciéndolo no solo hermoso, sino también altamente funcional."
   },
   "projectLoftLivingRoom": {
     "location": "Ubicación: España",
@@ -486,10 +486,10 @@
     "descr": "Desde los rincones acogedores del Lounge Urbano hasta el bullicio animado del Bar Industrial Chic, y la disposición adaptable de los Espacios Contemporáneos, cada área está diseñada cuidadosamente para mejorar tu experiencia. Explora la mezcla dinámica de encanto rústico y elegancia moderna en nuestro establecimiento, donde cada rincón es un testimonio de un diseño innovador y una meticulosa atención al detalle. Entra y descubre un lugar donde cada momento vale la pena saborear.",
     "kitchen": "Lounge Urbano",
     "kitchenDescr": "El Lounge Urbano combina el encanto rústico de las paredes de ladrillo expuesto con elementos de diseño moderno para crear un espacio acogedor. Sofás azules cómodos y plantas verdes exuberantes hacen de este un lugar ideal para reuniones casuales o relajarse después del trabajo. La incorporación de grandes ventanas inunda el área con luz natural, realzando la cálida atmósfera.",
-    "living": "Bar Industrial Chic",
-    "livingDescr": "Este módulo presenta un bar elegante con un fondo de exhibición de licores luminoso y ladrillo expuesto, encarnando una estética industrial chic. La larga mesa comunal, acentuada con modernos taburetes de bar, invita a la interacción social y sirve como el corazón social del espacio. La iluminación estratégica sobre el bar resalta su diseño elegante y crea una atmósfera vibrante perfecta para reuniones nocturnas.",
-    "terrace": "Espacios Contemporáneos",
-    "terraceDescr": "El área de Espacios Contemporáneos se caracteriza por su estilo minimalista y disposiciones de asientos versátiles, adecuadas tanto para el trabajo como para el ocio. El espacio está definido por líneas limpias, colores apagados y muebles funcionales que promueven la adaptabilidad. Grandes ventanales permiten que la luz natural inunde el área, mientras que los acabados en tonos neutros refuerzan la sensación de amplitud y flexibilidad."
+    "livingroom": "Bar Industrial Chic",
+    "livingroomDescr": "Este módulo presenta un bar elegante con un fondo de exhibición de licores luminoso y ladrillo expuesto, encarnando una estética industrial chic. La larga mesa comunal, acentuada con modernos taburetes de bar, invita a la interacción social y sirve como el corazón social del espacio. La iluminación estratégica sobre el bar resalta su diseño elegante y crea una atmósfera vibrante perfecta para reuniones nocturnas.",
+    "bathroom": "Espacios Contemporáneos",
+    "bathroomDescr": "El área de Espacios Contemporáneos se caracteriza por su estilo minimalista y disposiciones de asientos versátiles, adecuadas tanto para el trabajo como para el ocio. El espacio está definido por líneas limpias, colores apagados y muebles funcionales que promueven la adaptabilidad. Grandes ventanales permiten que la luz natural inunde el área, mientras que los acabados en tonos neutros refuerzan la sensación de amplitud y flexibilidad."
   },
   "flatInteriorDesign": {
     "title": "DISEÑO DE INTERIORES MODERNO",
