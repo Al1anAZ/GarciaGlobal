@@ -480,6 +480,7 @@
     "bathroomDescr": "The bathroom is a luxurious retreat with high-end finishes and modern amenities. A freestanding bathtub, marble floors, and a walk-in rain shower create a spa-like atmosphere, while the double vanity with sleek fixtures adds a touch of elegance. Recessed lighting and large mirrors enhance the sense of space and luxury."
   },
   "tranquilModernity": {
+    "name": "Tranquil Modernity",
     "location": "Location: Spain",
     "designStyle": "Design Style: Contemporary Minimalism",
     "architecturalFusion": "Architectural Fusion: Industrial-Traditional Blend",
@@ -493,6 +494,7 @@
     "bathroomDescr": "This bathroom combines luxury and simplicity, creating a serene retreat. The vanity is modern and minimalistic, with under-cabinet lighting that provides a soft glow, enhancing the room’s tranquil feel. Above the sleek, rectangular sink, a large mirror spans the width of the vanity, reflecting light and visually expanding the space. Recessed shelves offer practical storage solutions without disrupting the bathroom's clean lines, making it not only beautiful but also highly functional."
   },
   "projectLoftLivingRoom": {
+    "name": "Project Loft Living Room",
     "location": "Location: Spain",
     "designStyle": "Design Style: Industrial Modern",
     "architecturalFusion": "Architectural Fusion: historical textures intertwined & comfort.",

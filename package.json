@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "garciaglobal": "file:",
     "i18next": "^23.11.2",
     "i18next-resources-to-backend": "^1.2.1",
     "lightgallery": "^2.7.2",
