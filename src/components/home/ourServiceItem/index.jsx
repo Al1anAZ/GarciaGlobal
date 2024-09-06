@@ -5,7 +5,7 @@ import styles from "./style.module.scss";
 
 const serviceSlugs = {
   "Будівництво котеджів і дач": "constructionOfCottagesAndVillas",
-  "Плоский дизайн інтер'єру": "flatInteriorDesign",
+  "Дизайн інтерʼєру квартир": "flatInteriorDesign",
   "Індивідуальне проектування": "individualProjecting",
   "Дизайн інтер'єру будинків": "houseInteriorDesign", 
 
