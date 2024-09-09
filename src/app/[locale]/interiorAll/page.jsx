@@ -11,6 +11,7 @@ import Link from "next/link";
 import { ArrowPrjct } from "../../../components/ui/icons/arrowPrjct";
 import { BackToHome } from "../../../components/backToHome/index";
 import sliders from "../../../projects/sliders.json";
+import { Instagram } from "../../../components/ui/icons/instagram";
 
 const i18nNamespaces = ["home"];
 
@@ -77,6 +78,19 @@ export default async function InteriorAll({ params: { locale } }) {
               </section>
             ))}
           </div>
+
+
+          <div className={styles.interiorDesing__titleContainer}>
+              <div className={styles.interiorDesing__textTitleBox}> 
+                <p>{t("interirDesignTextEnd")}</p>
+              </div> 
+              <div className="">
+              <Link href={"https://www.instagram.com/zubromanarchitects/?locale=en-us"} target="__blank">
+                <Instagram width={24} height={24} color="white" />
+              </Link> 
+            </div>
+            </div>
+ 
         </Container>
         <div className={styles.interiorDesing__imgBg} />
       </main>
