@@ -31,6 +31,7 @@ export default async function InteriorAll({ params: { locale } }) {
         "villacartagena",
         "townhousealbacete",
         "penthousevalencia",
+        "penthouseValencia",
         "obolonapartment",
         "mynystercki",
         "kyivlakehouse",

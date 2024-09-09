@@ -29,7 +29,7 @@ export default async function InteriorProject({ params: { locale } }) {
       "penthousevalencia",
       "obolonapartment",
       "mynystercki",
-      "kyivlakehouse",
+      "kyivlakehouse", 
       "eliteresidentialcomplexinkyiv",
     ].includes(item.id)
   );
