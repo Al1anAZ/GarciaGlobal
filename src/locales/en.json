@@ -64,52 +64,52 @@
       "text": "This living room blends modern design elements with functional technology, showcasing a seamless integration of media and comfort. The strategic use of space and built-in storage solutions emphasizes a clutter-free environment that champions modern living.Ambience: The ambience is one of calm and collected sophistication, with soft lighting and neutral colors promoting a relaxing and inviting space that encourages leisure and conversation"
     },
     "NTR2": {
-      "title": "NTR2",
+      "title": "Modern Minimalism",
       "underTitle": "Modern Minimalism Meets Cozy Sophistication",
       "text": "The overall atmosphere is calm and sophisticated. The minimalist approach creates a sense of spaciousness and serenity, while the warm tones and subtle lighting make the spaces feel inviting rather than stark. The design carefully balances modern simplicity with touches of warmth and texture for a refined, comfortable living environment."
     },
     "NTR1": {
-      "title": "NTR1",
+      "title": "Silent elegance",
       "underTitle": "Silent elegance: where simplicity meets luxury",
       "text": "This design embodies a minimalist modern style, characterized by a sleek, uncluttered aesthetic. The architecture uses simple geometric forms, smooth surfaces, and a restrained color palette dominated by neutral tones. Materials such as matte finishes and soft textures are used sparingly to add warmth and subtle sophistication."
     },
     "TRN32": {
-      "title": "TRN32",
+      "title": "Minimalism and Industrial style",
       "underTitle": "Minimalism and industrial style in harmony",
       "text": "The interior shown in the image is a dark, moody kitchen and dining area that exudes a modern minimalist vibe with an industrial touch. The space is dominated by deep, rich wood tones and subtle lighting, which accentuates the clean lines and minimalistic furniture. The kitchen features sleek, integrated appliances and a seamless design, with hidden storage adding to the uncluttered look. The dining area, with its simple table and chairs, continues the theme of minimalism, while the entire space is unified by the consistent use of dark, muted tones and the absence of unnecessary decoration."
     },
     "TRN3": {
-      "title": "TRN3",
+      "title": "Modern Minimalism style",
       "underTitle": "Modern Minimalism Meets Natural Elegance",
       "text": "The interior captures a perfect balance between minimalism and coziness. The large windows allow natural light to filter in, highlighting the light wooden panels that dominate the walls, ceiling, and cabinetry. The kitchen island, with its sleek black countertop and minimalist bar stools, adds a subtle contrast to the otherwise warm tones of the space. The soft, low-slung seating area invites comfort, while the sparse yet thoughtful decor underscores the room’s minimalist aesthetic. The overall design is both functional and aesthetically pleasing, offering a tranquil and modern living space."
     },
     "ATR2": {
-      "title": "ATR2",
+      "title": "Elegance and Comfort",
       "underTitle": "Elegance and comfort in minimalism",
       "text": "This modern interior features a minimalist design that emphasizes elegance and comfort. The space is decorated in dark blue and gray shades, which creates a calm and stylish atmosphere."
     },
     "ATR1": {
-      "title": "ATR1",
+      "title": "Modern elegance",
       "underTitle": "Modern elegance in every detail",
       "text": "This apartment impresses with its simplicity and elegance. Every design element is thought out, and every corner reflects a modern lifestyle. All forms are marked by straight lines, and the color scheme is marked by shades of gray and white. It creates an impression of space and lightness."
     },
     "MTH2": {
-      "title": "MTH2",
+      "title": "Modern style with minimalist design",
       "underTitle": "A Harmonious Blend of Industrial and Cozy Elements",
       "text": "This room is made in a modern style with a minimalist design. The main color scheme consists of shades of gray, which creates a calm and restrained atmosphere. Natural wooden accents add warmth and coziness to the space. The raw concrete ceiling gives the interior an industrial look, which is harmoniously combined with the clean and clear lines of the design."
     },
     "MTH1": {
-      "title": "MTH1",
+      "title": "Minimalism and functionality",
       "underTitle": "Sleek Simplicity: The Essence of Modern Design",
       "text": "This modern design is characterized by clean lines, minimalism and functionality. The main idea is to create a space that is both aesthetically pleasing and practical. Using neutral colors such as white, gray and black creates a sense of space and calm. Accent colors such as red or blueadd dynamics and individuality to the interior."
     },
     "LTH1": {
-      "title": "LTH1",
+      "title": "Modern style with emphasis on minimalism",
       "underTitle": "A Calm and Elegant Space for Relaxation",
       "text": "The room is made in a modern style with an emphasis on minimalism. The main colors are neutral, such as white, gray and beige, which creates a calm and harmonious atmosphere. The furniture has simple, clean lines and a functional design. In general, the design of the room emphasizes simplicity, functionality and elegance, creating a pleasant place to relax and spend time."
     },
     "NT1H2": {
-      "title": "NT1H2",
+      "title": "Modern minimalist design",
       "underTitle": "Monochrome Minimalism: A Futuristic and Geometric Interior Design",
       "text": "The room has a modern minimalist design with a monochrome color scheme that includes shades of black, white and gray. The main emphasis is on clean lines and geometric shapes. Lighting plays an important role in the design, with LED strips outlining the perimeter of the ceiling and floor, creating a futuristic atmosphere. A large window provides natural light, which is complemented by artificial light."
     },
@@ -216,7 +216,7 @@
     "bathroomDescr": "This terrace is a personal oasis, with a wooden screen providing a natural texture that complements the modern outdoor furnishings. It's an intimate corner for relaxation, illuminated by a soft glow that enhances the ambiance of peaceful solitude."
   },
   "NTR2": {
-    "name": "NTR2",
+    "name": "Modern Minimalism",
     "location": "Location: Spain",
     "designStyle": "Design Style: Minimalist and modern",
     "architecturalFusion": "Architectural Fusion: Contemporary elements with subtle warmth",
@@ -230,7 +230,7 @@
     "bathroomDescr": "Elegance meets minimalism in this bathroom, where simplicity and serenity converge. Smooth surfaces and soft lighting create a calming atmosphere, while the subtle tones of the tiles and fixtures offer a soothing backdrop."
   },
   "NTR1": {
-    "name": "NTR1",
+    "name": "Silent elegance",
     "location": "Location: Spain",
     "designStyle": "Design Style: Minimalist and modern",
     "architecturalFusion": "Architectural Fusion: The space integrates minimalist",
@@ -244,7 +244,7 @@
     "bathroomDescr": "The overall impression is an elegant, restrained and functional space with an emphasis on simplicity and clean lines. The monochrome color scheme with shades of gray and white creates a calm and relaxing atmosphere."
   },
   "TRN32": {
-    "name": "TRN32",
+    "name": "Minimalism and Industrial style",
     "location": "Location: Spain",
     "designStyle": "Design Style: Modern Minimalism.",
     "architecturalFusion": "Architectural Fusion: The space exhibits an Industrial-Modern Fusion",
@@ -258,7 +258,7 @@
     "bathroomDescr": "The bathroom is made in the style of Modern minimalism, where the main emphasis is on simplicity of forms, clean lines and functionality. The use of natural materials such as stone and wood creates a feeling of unity with nature."
   },
   "TRN3": {
-    "name": "TRN3",
+    "name": "Modern Minimalism style",
     "location": "Location: Spain",
     "designStyle": "Design Style: Minimalist and modern",
     "architecturalFusion": "Architectural Fusion: The space seamlessly blends contemporary",
@@ -272,7 +272,7 @@
     "bathroomDescr": "The bathroom embodies a minimalist design ethos, emphasizing simplicity, functionality, and the use of natural materials. The walls and floors are likely covered in light wood or tiles that mimic the warm, organic tones of natural wood, creating a cohesive flow with the rest of the home. This choice of material adds warmth and texture, fostering a sense of tranquility and spa-like calmness."
   },
   "ATR2": {
-    "name": "ATR2",
+    "name": "Elegance and Comfort",
     "location": "Location: Spain",
     "designStyle": "Design Style: contemporary and minimalist",
     "architecturalFusion": "Architectural Fusion: integration of lighting within the shelving units",
@@ -286,7 +286,7 @@
     "bathroomDescr": "This bathroom impresses with its simplicity and style. Main features: In the center of the bathroom is a built-in white bathtub with a sleek design. The absence of visible classic faucets or handles gives it a modern look. On the left side there is a narrow shelf on which two dark bottles are placed - it is not only functional, but also adds a spectacular accent."
   },
   "ATR1": {
-    "name": "ATR1",
+    "name": "Modern elegance",
     "location": "Location: Spain",
     "designStyle": "Design Style: Minimalism",
     "architecturalFusion": "Architectural Fusion: combination of straight lines and color palette",
@@ -300,7 +300,7 @@
     "bathroomDescr": "The design of the bathroom is made in a modern minimalist style, which emphasizes elegance and functionality. The main element of the room is a rectangular bath, built into a raised platform, which creates an integrated look with the surrounding floor."
   },
   "MTH2": {
-    "name": "MTH2",
+    "name": "Modern style with minimalist design",
     "location": "Location: Spain",
     "designStyle": "Design Style: modern minimalism",
     "architecturalFusion": "Architectural Fusion: blending industrial and contemporary elements",
@@ -314,7 +314,7 @@
     "bathroomDescr": "The bathroom is made in a modern minimalist style. The color scheme is monochrome, with different shades of gray, which creates an elegant and sophisticated look. A thin light source adds warmth to the space, emphasizing a calm atmosphere. The shower area includes a wall shower and an additional hand shower located lower on the wall. The overall atmosphere of the bathroom is calm and cozy, with an emphasis on functionality and aesthetics."
   },
   "MTH1": {
-    "name": "MTH1",
+    "name": "Minimalism and functionality",
     "location": "Location: Spain",
     "designStyle": "Design Style: Modern and minimalist",
     "architecturalFusion": "Architectural Fusion: Clean lines, palette with bold accents",
@@ -328,7 +328,7 @@
     "bathroomDescr": "The photo shows a modern bathroom with a minimalist design. The color scheme is monochrome, with different shades of gray dominating the space. The lighting is hidden and unobtrusive, which enhances the elegant and modern look of the design."
   },
   "LTH1": {
-    "name": "LTH1",
+    "name": "Modern style with emphasis on minimalism",
     "location": "Location: Spain",
     "designStyle": "Design Style: Modern Minimalism",
     "architecturalFusion": "Architectural Fusion: Contemporary with subtle geometric accents",
@@ -342,7 +342,7 @@
     "bathroomDescr": "Bathroom has a modern minimalist design with neutral tones, mostly white and gray. It looks very clean and spacious thanks to clear lines and the absence of unnecessary details. There is a large mirror on the wall that reflects light and visually increases the space."
   },
   "NT1H2": {
-    "name": "NT1H2",
+    "name": "Modern minimalist design",
     "location": "Location: Spain",
     "designStyle": "Design Style:  Modern Minimalism",
     "architecturalFusion": "Architectural Fusion: blends contemporary elements with futuristic touches",
