@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import initTranslations from "../../app/i18n";
 import { Container } from "../ui/container";
 import { LangChange } from "../ui/langChange";
 import styles from "./style.module.scss";
 import { Phone } from "../ui/icons/phone";
-import { ClientSideNav } from './clientSideNav';
+import { ClientSideNav } from "./clientSideNav";
 
 const i18nNamespaces = ["footer"];
 
@@ -43,7 +43,9 @@ export const HeaderMain = async ({ locale }) => {
           </ul>
         </nav>
         <div className={styles.header__right}>
-          <p>+34 695 049 104</p>
+          <p className={styles.header__phone}>
+            <a href="tel:34695049104">+34 695 049 104</a>
+          </p>
           <Phone color="white" width={24} height={24} />
           <LangChange padding="6px 8px 6px 12px" gap={3} />
         </div>
