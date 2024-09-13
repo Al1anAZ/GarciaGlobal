@@ -3,7 +3,7 @@ stages:
   - deploy
 
 variables:
-  IMAGE_NAME: garciaGlobal
+  IMAGE_NAME: garciaglobal
 
 build:
   stage: build
