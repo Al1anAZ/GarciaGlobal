@@ -25,7 +25,7 @@ export const MapBox = () => {
     const directions = new MapboxDirections({
       accessToken: process.env.NEXT_PUBLIC_MAPBOX_TOKEN,
       unit: "metric",
-      profile: "mapbox/driving",  
+      profile: "mapbox/driving",
     });
 
     mapboxMap.addControl(directions, "top-left");

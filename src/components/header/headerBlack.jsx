@@ -1,7 +1,7 @@
 import React from "react";
 import initTranslations from "../../app/i18n";
 import { Container } from "../ui/container";
-import { LangChange } from "../ui/langChange";
+import { LangChangeBlack } from "../ui/langChangeBlack";
 import styles from "./header.black.style.module.scss";
 import { Phone } from "../ui/icons/phone";
 import { ClientSideNavBlack } from "./clientSideNavBlack";
@@ -55,7 +55,7 @@ export const HeaderBlack = async ({ locale }) => {
           </p>
 
           <Phone color="black" width={24} height={24} />
-          <LangChange padding="6px 8px 6px 12px" gap={3} />
+          <LangChangeBlack padding="6px 8px 6px 12px" gap={3} />
         </div>
         <ClientSideNavBlack translations={translations} />
       </Container>
