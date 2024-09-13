@@ -115,7 +115,7 @@ export default async function Home({ params: { locale } }) {
           </Container>
         </section>
         {/* <Map locale={locale} /> */}
-        <section className={styles.interiorDesing} >
+        <section className={styles.interiorDesing}>
           <Container className={styles.interiorDesing__container}>
             <div className={styles.interiorDesing__titleContainer}>
               <div className={styles.interiorDesing__textTitleBox}>
@@ -124,16 +124,40 @@ export default async function Home({ params: { locale } }) {
               </div>
             </div>
             <div className={styles.interiorDesing__contentDesktop}>
-              <ProjectItem id={"villarenovation"} locale={locale} showAdv={false} />
-              <ProjectItem id={"goodlifepark"} locale={locale} showAdv={false}/>
+              <ProjectItem
+                id={"villarenovation"}
+                locale={locale}
+                showAdv={false}
+              />
+              <ProjectItem
+                id={"goodlifepark"}
+                locale={locale}
+                showAdv={false}
+              />
             </div>
             <div className={styles.interiorDesing__contentTablet}>
-              <ProjectItemTablet id={"villarenovation"} locale={locale}showAdv={false} />
-              <ProjectItemTablet id={"goodlifepark"} locale={locale} showAdv={false}/>
+              <ProjectItemTablet
+                id={"villarenovation"}
+                locale={locale}
+                showAdv={false}
+              />
+              <ProjectItemTablet
+                id={"goodlifepark"}
+                locale={locale}
+                showAdv={false}
+              />
             </div>
             <div className={styles.interiorDesing__contentPhone}>
-              <ProjectItemPhone id={"villarenovation"} locale={locale} showAdv={false} />
-              <ProjectItemPhone id={"goodlifepark"} locale={locale} showAdv={false} />
+              <ProjectItemPhone
+                id={"villarenovation"}
+                locale={locale}
+                showAdv={false}
+              />
+              <ProjectItemPhone
+                id={"goodlifepark"}
+                locale={locale}
+                showAdv={false}
+              />
             </div>
           </Container>
           <Link
@@ -182,11 +206,22 @@ export default async function Home({ params: { locale } }) {
                 <h2>{t("findUs")}</h2>
               </span>
               <span className={styles.findUs__textContainer}>
-                <p>+34 695-049-104</p>
-                <p>hello@garcia-global.com</p>
                 <p>
-                  Pl. de la Iglesia, 3, office 1-D, 29670, San Pedro de
-                  Alcantara, Malaga
+                  <a href="tel:34695049104">+34 695-049-104</a>
+                </p>
+                <p>
+                  <a href="mailto:hello@garcia-global.com">
+                    hello@garcia-global.com
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=Pl.+de+la+Iglesia,+3,+office+1-D,+29670,+San+Pedro+de+Alcantara,+Malaga"
+                    target="_blank"
+                  >
+                    Pl. de la Iglesia, 3, office 1-D, 29670, San Pedro de
+                    Alcantara, Malaga
+                  </a>
                 </p>
                 <div>
                   <Link href={"https://wa.me/34695049104"} target="__blank">
