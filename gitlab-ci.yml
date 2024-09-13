@@ -1,0 +1,22 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  IMAGE_NAME: GarciaGlobal
+
+build:
+  stage: build
+  tags:
+    - harbourtech-fe-server
+  script:
+    - docker build -t $IMAGE_NAME .
+
+deploy:
+  stage: deploy
+  tags:
+    - harbourtech-fe-server
+  script:
+    - docker stop $IMAGE_NAME || true
+    - docker rm $IMAGE_NAME || true
+    - docker run -d --name $IMAGE_NAME -p 4000:4000 --restart always $IMAGE_NAME
