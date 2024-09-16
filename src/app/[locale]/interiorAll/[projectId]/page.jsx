@@ -55,8 +55,7 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
       <ProjectItemAdv
         locale={locale}
         flex="start"
-        projectId={projectId}
-        loading="lazy"
+        projectId={projectId} 
       />
     )
   );
@@ -95,8 +94,7 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
                 alt="mainImg"
                 height={773}
                 width={512}
-                className={styles.project__mainImg}
-                loading="lazy"
+                className={styles.project__mainImg} 
               />
             </div>
             <div className={styles.project__topContentPhone}>
@@ -113,8 +111,7 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
                     alt="mainImg"
                     height={773}
                     width={512}
-                    className={styles.project__mainImg}
-                    loading="lazy"
+                    className={styles.project__mainImg} 
                   />
                 </div>
               </div>
@@ -132,8 +129,7 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
               text={t(item + "Descr")}
               imgs={project[item]}
               textColor="white"
-              arrowColor="white"
-              loading="lazy"
+              arrowColor="white" 
             />
           ))}
         </Container>

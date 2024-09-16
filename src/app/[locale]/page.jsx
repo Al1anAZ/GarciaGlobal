@@ -78,13 +78,12 @@ export default async function Home({ params: { locale } }) {
               ))}
             </div>
           </Container>
-          <img
+          <svg
             src="/assets/ui/bearBg.svg"
             alt="bearImg"
             width={300}
             height={350}
-            className={styles.ourServices__bearImg}
-            loading="lazy"
+            className={styles.ourServices__bearImg} 
           />
         </section>
         <section className={styles.aboutUs} id="aboutUs">
@@ -237,13 +236,12 @@ export default async function Home({ params: { locale } }) {
               <MapBox />
             </div>
           </Container>
-          <img
+          <svg
             src="/assets/ui/bearBg.svg"
             alt="bear"
             width={430}
             height={520}
-            className={styles.findUs__bearImg}
-            loading="lazy"
+            className={styles.findUs__bearImg} 
           />
         </section>
       </main>
