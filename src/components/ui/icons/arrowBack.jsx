@@ -13,7 +13,7 @@ export const ArrowBack = ({ color, width, height, rotation }) => {
       <path
         d="M5 1L1.35355 4.64645C1.15829 4.84171 1.15829 5.15829 1.35355 5.35355L5 9"
         stroke={color}
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

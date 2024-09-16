@@ -44,8 +44,8 @@ export const MapItem = ({
           <path
             d="M152 1L0.999995 0.999993"
             stroke="url(#paint0_linear_3550_4240)"
-            strokewidth="0.5"
-            stroke-linecap="round"
+            strokeWidth="0.5"
+            strokeLinecap="round"
             stroke-dasharray="3 3"
           />
           <defs>

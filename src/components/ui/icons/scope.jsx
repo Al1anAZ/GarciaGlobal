@@ -14,7 +14,7 @@ export const Scope = ({ color, width, height }) => {
         clip-rule="evenodd"
         d="M7.46094 13.9992C7.4615 10.9692 9.54883 8.36149 12.4465 7.77089C15.344 7.18028 18.2449 8.77122 19.3751 11.5708C20.5051 14.3703 19.5497 17.5989 17.0932 19.2819C14.6365 20.9649 11.3628 20.6337 9.27411 18.4909C8.11286 17.2995 7.46063 15.6838 7.46094 13.9992Z"
         stroke={color}
-        stroke-linecap="round"
+        strokeLinecap="round"
         stroke-linejoin="round"
       />
       <path
@@ -22,7 +22,7 @@ export const Scope = ({ color, width, height }) => {
         clip-rule="evenodd"
         d="M11 14.0026C11.0004 12.7041 11.895 11.5867 13.1367 11.3337C14.3785 11.0807 15.6216 11.7626 16.1059 12.9624C16.59 14.1621 16.1805 15.5456 15.1277 16.2667C14.0748 16.988 12.672 16.846 11.7769 15.9276C11.2793 15.4171 10.9998 14.7245 11 14.0026Z"
         stroke={color}
-        stroke-linecap="round"
+        strokeLinecap="round"
         stroke-linejoin="round"
       />
       <path

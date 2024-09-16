@@ -107,13 +107,13 @@ const ContactUsModal = ({ isOpen, onClose, locale }) => {
                 <path
                   d="M13.5 1L0.5 15"
                   stroke="white"
-                  stroke-linecap="round"
+                  strokeLinecap="round"
                 />
-                <path d="M14 1V14" stroke="white" stroke-linecap="round" />
+                <path d="M14 1V14" stroke="white" strokeLinecap="round" />
                 <path
                   d="M0.5 1L13.5 0.999999"
                   stroke="white"
-                  stroke-linecap="round"
+                  strokeLinecap="round"
                 />
                 <svg
                   width="15"
