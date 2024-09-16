@@ -79,18 +79,21 @@ export default async function InteriorAll({ params: { locale } }) {
             ))}
           </div>
 
-
           <div className={styles.interiorDesing__titleContainer}>
-              <div className={styles.interiorDesing__textTitleBox}> 
-                <p>{t("interirDesignTextEnd")}</p>
-              </div> 
-              <div className="">
-              <Link href={"https://www.instagram.com/zubromanarchitects/?locale=en-us"} target="__blank">
+            <div className={styles.interiorDesing__textTitleBox}>
+              <p>{t("interirDesignTextEnd")}</p>
+            </div>
+            <div className="">
+              <Link
+                href={
+                  "https://www.instagram.com/zubromanarchitects/?locale=en-us"
+                }
+                target="__blank"
+              >
                 <Instagram width={24} height={24} color="white" />
-              </Link> 
+              </Link>
             </div>
-            </div>
- 
+          </div>
         </Container>
         <div className={styles.interiorDesing__imgBg} />
       </main>

@@ -4,11 +4,9 @@ import { squarePeg } from "../../../fonts/index";
 import styles from "./style.module.scss";
 import { HeaderBlack } from "../../../components/header/headerBlack";
 import { Footer } from "../../../components/footer/index";
-import GetHelpButton from '../../../components/сontactUsModal/GetHelpButton'; 
-
+import GetHelpButton from "../../../components/сontactUsModal/GetHelpButton";
 
 const i18nNamespaces = ["constructionOfCottagesAndVillas"];
- 
 
 export const metadata = {
   title: "Construction of Cottages and Villas - Garcia Global",
@@ -17,12 +15,11 @@ export const metadata = {
 
 export default async function ConstructionOfCottagesAndVillas({
   params: { locale },
-}) { 
+}) {
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
- 
 
   const translations = {};
-  Object.keys(resources[locale][i18nNamespaces[0]]).forEach(key => {
+  Object.keys(resources[locale][i18nNamespaces[0]]).forEach((key) => {
     translations[key] = t(key);
   });
   return (
@@ -30,17 +27,14 @@ export default async function ConstructionOfCottagesAndVillas({
       namespaces={i18nNamespaces}
       locale={locale}
       resources={resources}
-      
     >
-    <div className={styles.constructionOfCottagesAndVillas__header}>  
-     <HeaderBlack locale={locale} />
-     </div>
+      <div className={styles.constructionOfCottagesAndVillas__header}>
+        <HeaderBlack locale={locale} />
+      </div>
       <main className={styles.constructionOfCottagesAndVillas}>
-        
         <div
           className={styles.constructionOfCottagesAndVillas__contentContainer}
         >
-          
           <section
             className={styles.constructionOfCottagesAndVillas__titleContainer}
           >
@@ -80,10 +74,9 @@ export default async function ConstructionOfCottagesAndVillas({
               ))}
             </div>
             <div
-              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-             <GetHelpButton locale={locale} />
+              <GetHelpButton locale={locale} />
             </div>
           </section>
           <section
@@ -118,10 +111,9 @@ export default async function ConstructionOfCottagesAndVillas({
               ))}
             </div>
             <div
-              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-             <GetHelpButton locale={locale} />
+              <GetHelpButton locale={locale} />
             </div>
             <img
               src="/assets/ui/bearBg.svg"
@@ -163,10 +155,9 @@ export default async function ConstructionOfCottagesAndVillas({
               ))}
             </div>
             <div
-              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-             <GetHelpButton locale={locale} />
+              <GetHelpButton locale={locale} />
             </div>
           </section>
           <section
@@ -201,10 +192,9 @@ export default async function ConstructionOfCottagesAndVillas({
               ))}
             </div>
             <div
-              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-             <GetHelpButton locale={locale} />
+              <GetHelpButton locale={locale} />
             </div>
           </section>
           <section
@@ -242,10 +232,9 @@ export default async function ConstructionOfCottagesAndVillas({
               ))}
             </div>
             <div
-              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-             <GetHelpButton locale={locale} />
+              <GetHelpButton locale={locale} />
             </div>
           </section>
           <section
@@ -280,10 +269,9 @@ export default async function ConstructionOfCottagesAndVillas({
               ))}
             </div>
             <div
-              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-             <GetHelpButton locale={locale} />
+              <GetHelpButton locale={locale} />
             </div>
           </section>
           <section
@@ -384,10 +372,9 @@ export default async function ConstructionOfCottagesAndVillas({
               </div>
             </div>
             <div
-              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-             <GetHelpButton locale={locale} />
+              <GetHelpButton locale={locale} />
             </div>
             <img
               src="/assets/ui/bearBg.svg"
@@ -429,10 +416,9 @@ export default async function ConstructionOfCottagesAndVillas({
               ))}
             </div>
             <div
-              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-             <GetHelpButton locale={locale} />
+              <GetHelpButton locale={locale} />
             </div>
           </section>
           <section
@@ -467,10 +453,9 @@ export default async function ConstructionOfCottagesAndVillas({
               ))}
             </div>
             <div
-              
               className={styles.constructionOfCottagesAndVillas__itemGetHelp}
             >
-             <GetHelpButton locale={locale} />
+              <GetHelpButton locale={locale} />
             </div>
           </section>
         </div>
@@ -483,10 +468,10 @@ export default async function ConstructionOfCottagesAndVillas({
               height={691}
               key={index}
             />
-          ))} 
+          ))}
         </div>
       </main>
-      <Footer locale={locale} /> 
+      <Footer locale={locale} />
     </TranslationsProvider>
   );
 }

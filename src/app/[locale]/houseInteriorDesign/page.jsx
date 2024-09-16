@@ -2,7 +2,7 @@ import styles from "./style.module.scss";
 import { Footer } from "../../../components/footer/index";
 import { HeaderBlack } from "../../../components/header/headerBlack";
 import initTranslations from "../../i18n";
-import { TranslationsProvider } from "../../../helper/translationProvider/index"; 
+import { TranslationsProvider } from "../../../helper/translationProvider/index";
 import { Videos } from "../../../components/videos";
 import { Container } from "../../../components/ui/container/index";
 import Link from "next/link";
@@ -23,14 +23,14 @@ export default async function HouseInteriorDesign({ params: { locale } }) {
       locale={locale}
       resources={resources}
     >
-         <div className={styles.houseInteriorDesign__header}>  
-     <HeaderBlack locale={locale} />
-     </div>
+      <div className={styles.houseInteriorDesign__header}>
+        <HeaderBlack locale={locale} />
+      </div>
 
       <main className={styles.houseInteriorDesign}>
         <section className={styles.topSection}>
           <Container className={styles.topSection__top}>
-            <h1>{t("title")}</h1> 
+            <h1>{t("title")}</h1>
           </Container>
           <div className={styles.topSection__bottom}>
             <p>{t("text")}</p>
@@ -40,7 +40,6 @@ export default async function HouseInteriorDesign({ params: { locale } }) {
           </div>
         </section>
         <Videos locale={locale} />
-        {/* <Map locale={locale} /> */}
       </main>
       <Footer locale={locale} />
     </TranslationsProvider>

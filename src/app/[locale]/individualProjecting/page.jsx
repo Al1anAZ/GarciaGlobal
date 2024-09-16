@@ -23,9 +23,9 @@ export default async function IndividualProjecting({ params: { locale } }) {
       locale={locale}
       resources={resources}
     >
-     <div className={styles.individualProjecting__header}>  
-     <HeaderBlack locale={locale} />
-     </div>
+      <div className={styles.individualProjecting__header}>
+        <HeaderBlack locale={locale} />
+      </div>
       <main className={styles.individualProjecting}>
         <Container className={styles.individualProjecting__container}>
           <h1>{t("title")}</h1>
