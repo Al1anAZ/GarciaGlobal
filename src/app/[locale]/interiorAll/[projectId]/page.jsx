@@ -14,34 +14,48 @@ import { Gallery } from "../../../../components/gallery/index";
 
 export async function generateMetadata({ params: { locale, projectId } }) {
   const project = sliders.find((item) => item.id === projectId);
-  if (project)
+  if (project) {
     return {
       title: camelCaseToWords(project.id) + " - Garcia Global",
     };
+  }
 }
+
+const excludedProjects = [
+  "villarenovation",
+  "goodlifepark",
+  "villacartagena",
+  "townhousealbacete",
+  "penthousevalencia",
+  "obolonapartment",
+  "mynystercki",
+  "kyivlakehouse",
+  "eliteresidentialcomplexinkyiv",
+];
 
 export default async function ProjectPage({ params: { locale, projectId } }) {
   const project = sliders.find((item) => item.id === projectId);
-  // List of project IDs where advantages and ProjectItemAdv should not appear
-  const excludedProjects = [
-    "villarenovation",
-    "goodlifepark",
-    "villacartagena",
-    "townhousealbacete",
-    "penthousevalencia",
-    "obolonapartment",
-    "mynystercki",
-    "kyivlakehouse",
-    "eliteresidentialcomplexinkyiv",
-  ];
-
-  // Only include advantages if the project ID is not in the excluded list
+  
+  if (!project) {
+    redirect("/");
+    return null;
+  }
+  
   const showAdvantages = !excludedProjects.includes(projectId);
   const advantages = showAdvantages ? ["kitchen", "livingroom", "bathroom"] : [];
-  
-  if (!project) redirect("/");
   const i18nNamespaces = [projectId];
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
+
+  const ProjectAdv = () => (
+    !excludedProjects.includes(projectId) && (
+      <ProjectItemAdv
+        locale={locale}
+        flex="start"
+        projectId={projectId}
+        loading="lazy"
+      />
+    )
+  );
 
   return (
     <TranslationsProvider
@@ -60,21 +74,14 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
                 <div className={styles.project__leftSideContent}>
                   <div className={styles.project__leftSideTitleContainer}>
                     <h1>{t("name")}</h1>
-                    <div className="">
+                    <div>
                       <p>{t("location")}</p>
                       <p>{t("designStyle")}</p>
                       <p>{t("architecturalFusion")}</p>
                       <p>{t("ambience")}</p>
                     </div>
                   </div>
-                  {/* Only render ProjectItemAdv if not in excludedProjects */}
-                  {!excludedProjects.includes(projectId) && (
-                    <ProjectItemAdv
-                      locale={locale}
-                      flex="start"
-                      projectId={projectId}
-                    />
-                  )}
+                  <ProjectAdv />
                   <p>{t("descr")}</p>
                 </div>
                 <Gallery img={project["allImgs"]} />
@@ -85,6 +92,7 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
                 height={773}
                 width={512}
                 className={styles.project__mainImg}
+                loading="lazy"
               />
             </div>
             <div className={styles.project__topContentPhone}>
@@ -95,20 +103,14 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
                   <p>{t("architecturalFusion")}</p>
                 </div>
                 <div className={styles.project__topImgNAdvContainerPhone}>
-                  {/* Only render ProjectItemAdv if not in excludedProjects */}
-                  {!excludedProjects.includes(projectId) && (
-                    <ProjectItemAdv
-                      locale={locale}
-                      flex="start"
-                      projectId={projectId}
-                    />
-                  )}
+                  <ProjectAdv />
                   <img
                     src={project.mainImg}
                     alt="mainImg"
                     height={773}
                     width={512}
                     className={styles.project__mainImg}
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -127,6 +129,7 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
               imgs={project[item]}
               textColor="white"
               arrowColor="white"
+              loading="lazy"
             />
           ))}
         </Container>

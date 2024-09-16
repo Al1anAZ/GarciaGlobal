@@ -12,13 +12,13 @@ export const Phone = ({ color, width, height }) => {
       <path
         d="M13 6C13 6 14.4689 6.21885 16.125 7.875C17.7811 9.53115 18 11 18 11"
         stroke={color}
-        stroke-width="1.5"
+        strokewidth="1.5"
         stroke-linecap="round"
       />
       <path
         d="M13 3C13 3 15.3502 3.35016 18 6C20.6498 8.64984 21 11 21 11"
         stroke={color}
-        stroke-width="1.5"
+        strokewidth="1.5"
         stroke-linecap="round"
       />
       <path

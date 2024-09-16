@@ -84,6 +84,7 @@ export default async function Home({ params: { locale } }) {
             width={300}
             height={350}
             className={styles.ourServices__bearImg}
+            loading="lazy"
           />
         </section>
         <section className={styles.aboutUs} id="aboutUs">
@@ -113,8 +114,7 @@ export default async function Home({ params: { locale } }) {
               </div>
             </div>
           </Container>
-        </section>
-        {/* <Map locale={locale} /> */}
+        </section> 
         <section className={styles.interiorDesing}>
           <Container className={styles.interiorDesing__container}>
             <div className={styles.interiorDesing__titleContainer}>
@@ -243,6 +243,7 @@ export default async function Home({ params: { locale } }) {
             width={430}
             height={520}
             className={styles.findUs__bearImg}
+            loading="lazy"
           />
         </section>
       </main>
