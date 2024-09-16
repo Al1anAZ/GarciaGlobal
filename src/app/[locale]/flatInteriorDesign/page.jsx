@@ -33,9 +33,9 @@ export default async function FlatInteriorDesign({ params: { locale } }) {
       locale={locale}
       resources={resources}
     >
-       <div className={styles.flat__header}>  
-     <HeaderBlack locale={locale} />
-     </div>
+      <div className={styles.flat__header}>
+        <HeaderBlack locale={locale} />
+      </div>
 
       <main className={styles.flat}>
         <Container className={styles.flat__container}>
@@ -61,7 +61,6 @@ export default async function FlatInteriorDesign({ params: { locale } }) {
                     <ArrowPrjct color="black" width={20} height={20} />
                   </div>
                 </Link>
-                
               </div>
             </div>
           </div>

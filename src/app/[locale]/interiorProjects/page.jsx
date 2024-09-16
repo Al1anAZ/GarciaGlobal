@@ -29,7 +29,7 @@ export default async function InteriorProject({ params: { locale } }) {
       "penthousevalencia",
       "obolonapartment",
       "mynystercki",
-      "kyivlakehouse", 
+      "kyivlakehouse",
       "eliteresidentialcomplexinkyiv",
     ].includes(item.id)
   );
@@ -61,14 +61,22 @@ export default async function InteriorProject({ params: { locale } }) {
           <div className={styles.interiorDesing__tabletContent}>
             {filteredSliders.map((item, index) => (
               <section key={index}>
-                <ProjectItemTablet id={item.id} locale={locale} showAdv={false} />
+                <ProjectItemTablet
+                  id={item.id}
+                  locale={locale}
+                  showAdv={false}
+                />
               </section>
             ))}
           </div>
           <div className={styles.interiorDesing__phoneContent}>
             {filteredSliders.map((item, index) => (
               <section key={index}>
-                <ProjectItemPhone id={item.id} locale={locale} showAdv={false} />
+                <ProjectItemPhone
+                  id={item.id}
+                  locale={locale}
+                  showAdv={false}
+                />
               </section>
             ))}
           </div>

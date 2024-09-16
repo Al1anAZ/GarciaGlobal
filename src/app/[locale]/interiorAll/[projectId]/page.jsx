@@ -37,8 +37,10 @@ export default async function ProjectPage({ params: { locale, projectId } }) {
 
   // Only include advantages if the project ID is not in the excluded list
   const showAdvantages = !excludedProjects.includes(projectId);
-  const advantages = showAdvantages ? ["kitchen", "livingroom", "bathroom"] : [];
-  
+  const advantages = showAdvantages
+    ? ["kitchen", "livingroom", "bathroom"]
+    : [];
+
   if (!project) redirect("/");
   const i18nNamespaces = [projectId];
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
