@@ -608,5 +608,9 @@
       "item5": "Cercas, piscinas",
       "item6": "Áreas de ocio"
     }
-  }
+  },
+  "thankspage": {
+  "thanks.title": "GRACIAS!",
+  "thanks.text": "¡Muchísimas gracias por completar esto! Significa mucho para nosotros, ¡igual que tú! Apreciamos mucho, de verdad, que nos hayas dedicado un momento de tu tiempo hoy. Gracias por ser tú."
+}
 }

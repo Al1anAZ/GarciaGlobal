@@ -1,5 +1,4 @@
 "use client";
-
 import initTranslations from "../../app/i18n";
 import React, { useState, useEffect, useRef } from "react";
 import { TranslationsProvider } from "../../helper/translationProvider/index";
@@ -12,6 +11,7 @@ const ContactUsModal = ({ isOpen, onClose, locale }) => {
   const [phone, setPhone] = useState("");
   const [t, setT] = useState(() => (key) => key);
   const [resources, setResources] = useState({});
+  const [phoneError, setPhoneError] = useState("");
   const modalRef = useRef(null);
 
   useEffect(() => {
@@ -46,9 +46,22 @@ const ContactUsModal = ({ isOpen, onClose, locale }) => {
 
   if (!isOpen) return null;
 
-  const handleSubmit = (e) => {
+  const validatePhoneNumber = (phone) => {
+    const phoneRegex = /^[+]?[1-9]\d{1,14}$/;
+    return phoneRegex.test(phone);
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!validatePhoneNumber(phone)) {
+      setPhoneError(t("invalidPhoneNumber"));
+      return;
+    }
+    setPhoneError("");
     console.log("Submitted:", { name, phone });
+
+    window.location.href = `/thanksPage?locale=${locale}`;
+
     onClose();
   };
 
@@ -80,9 +93,28 @@ const ContactUsModal = ({ isOpen, onClose, locale }) => {
               onChange={(e) => setPhone(e.target.value)}
               className={styles.input}
             />
+            {phoneError && <p className={styles.error}>{phoneError}</p>}
             <button type="submit" className={styles.button}>
               <span>{t("getInTouchNow")}</span>
               <span className={styles.buttonArrow}>
+                <svg
+                  width="15"
+                  height="16"
+                  viewBox="0 0 15 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                />
+                <path
+                  d="M13.5 1L0.5 15"
+                  stroke="white"
+                  stroke-linecap="round"
+                />
+                <path d="M14 1V14" stroke="white" stroke-linecap="round" />
+                <path
+                  d="M0.5 1L13.5 0.999999"
+                  stroke="white"
+                  stroke-linecap="round"
+                />
                 <svg
                   width="15"
                   height="16"
@@ -93,13 +125,13 @@ const ContactUsModal = ({ isOpen, onClose, locale }) => {
                   <path
                     d="M13.5 1L0.5 15"
                     stroke="white"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                   />
-                  <path d="M14 1V14" stroke="white" stroke-linecap="round" />
+                  <path d="M14 1V14" stroke="white" strokeLinecap="round" />
                   <path
                     d="M0.5 1L13.5 0.999999"
                     stroke="white"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                   />
                 </svg>
               </span>
